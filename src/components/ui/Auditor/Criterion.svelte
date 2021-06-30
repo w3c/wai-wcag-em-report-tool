@@ -116,7 +116,7 @@
   export let conformanceLevel;
   export let id;
   export let num;
-  export const version = "";
+  export let version = "";
   export let criterionDetailsOpen = false;
   let criterionDetails;
 
