@@ -59,8 +59,11 @@ export class TestSubject extends partsMixin(Base) {
         return href;
       }
 
-      const newURL = getURL(value);
-
+      let newURL;
+      if(value != undefined){
+        newURL = getURL(value);
+      }
+      
       return newURL ? newURL.href : '';
     }, '');
     

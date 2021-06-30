@@ -6,7 +6,7 @@
   on:DELETE
 >
   <fieldset>
-    <legend>{$translate('PAGES.SAMPLE.SAMPLE_PAGE')} {data.title || id}</legend>
+    <legend>{$translate('PAGES.SAMPLE.SAMPLE_PAGE')} {data.title || count}</legend>
     <div class="sample-input">
       <Input
         id="{id}--title"
@@ -42,6 +42,7 @@
 
   export let id;
   export let data;
+  export let count;
 
   const { translate } = getContext('app');
 </script>

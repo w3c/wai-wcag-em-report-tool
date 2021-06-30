@@ -15,7 +15,7 @@
         />
         <label
           for="sample__{sampleID(index)}"
-        >{sample.title || sample.description || `Sample ${sampleID(index)}`}
+        >{sample.title || sample.description || $translate('PAGES.SAMPLE.SAMPLE_PAGE') + " " + sampleID(index)}
           {#if sample.completed}
             <span
               class="visuallyhidden"
