@@ -1,4 +1,5 @@
-<div class="Field">
+<div class={`${className} Field`}>
+  <slot />
   {#if helptext}
     <HelpText
       labelHTML="{label && `<label for="${id}">${label}</label>`}"
@@ -7,17 +8,22 @@
       {@html helptext}
     </HelpText>
   {:else if label}<label for="{id}">{label}:</label>{/if}
-
-  <slot />
 </div>
 
 <style>
   .Field {
     padding: 0;
     margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
   .Field label {
     display: block;
+  }
+  .Field label,
+  :global(.Field .HelpText) {
+    order: -1;
   }
   :global(.Field input) {
     width: 100%;
@@ -33,4 +39,5 @@
   export let id;
   export let label;
   export let helptext = "";
+  export let className = "";
 </script>
