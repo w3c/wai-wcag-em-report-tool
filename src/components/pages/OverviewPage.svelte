@@ -56,6 +56,7 @@
 
   import { routes } from '@app/stores/appStore.js';
   import evaluationStore from '@app/stores/evaluationStore.js';
+  import { interacted } from '@app/stores/interactedStore.js';
 
   const { translate } = getContext('app');
   const navigate = useNavigate();
@@ -88,12 +89,22 @@
     CHOICES_DT4: $translate('PAGES.START.CHOICES_DT4'),
     CHOICES_DD4: $translate('PAGES.START.CHOICES_DD4'),
     CHOICES_DT5: $translate('PAGES.START.CHOICES_DT5'),
-    CHOICES_DD5: $translate('PAGES.START.CHOICES_DD5')
+    CHOICES_DD5: $translate('PAGES.START.CHOICES_DD5'),
+    CLEAR_WARNING: $translate('UI.NAV.CLEARWARNING')
   };
 
   function handleNewEvaluationClick() {
-    $evaluationStore.reset();
-    navigate($routes.SCOPE.path, { replace: true });
+    if($interacted == true){
+      var clearResult = window.confirm(TRANSLATED.CLEAR_WARNING);
+      if(clearResult){
+        $evaluationStore.reset();
+        $interacted = false;
+        navigate($routes.SCOPE.path, { replace: true });
+      }
+    }else{
+      $evaluationStore.reset();
+      navigate($routes.SCOPE.path, { replace: true });
+    }
   }
 </script>
 
