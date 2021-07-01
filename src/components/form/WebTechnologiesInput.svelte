@@ -6,20 +6,44 @@
   bind:value
 />
 
-<AddOther
-  label="Add other {TECHNOLOGY_NAME_LABEL}"
-  on:ADD="{handleTechnologyAdd}"
->
-  <Input
-    id="technologies_relied_upon__other--name"
-    label="{TECHNOLOGY_NAME_LABEL}"
-    helptext="{TECHNOLOGY_HELPTEXT}"
-  />
-  <Input
-    id="technologies_relied_upon__other--url"
-    label="{TECHNOLOGY_URL_LABEL}"
-  />
-</AddOther>
+<div class="add-tech">
+  <legend>{BTN_ADD_TECH}</legend>
+  <AddOther
+    label="{ADD_TECH}"
+    on:ADD="{handleTechnologyAdd}">
+    <div class="tech-input">
+      <Input
+        id="technologies_relied_upon__other--name"
+        label="{TECHNOLOGY_NAME_LABEL}"
+      />
+      <Input
+        id="technologies_relied_upon__other--url"
+        label="{TECHNOLOGY_URL_LABEL}"
+      />
+    </div>
+  </AddOther>
+</div>
+
+<style>
+  .add-tech {
+    background: var(--trans-line-grey);
+    padding: 1em;   
+  }
+
+  .add-tech legend {
+    font-size: 1em;
+    padding: 0;
+    margin-bottom: .25em;
+  }
+
+  @media (min-width: 40em) {
+    .tech-input {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 1em;
+    }
+  }
+</style>
 
 <script>
   import { getContext } from 'svelte';
@@ -38,6 +62,8 @@
   $: TECHNOLOGY_HELPTEXT = $translate('PAGES.EXPLORE.PLH_TECH');
   $: TECHNOLOGY_NAME_LABEL = $translate('PAGES.EXPLORE.LABEL_TECH');
   $: TECHNOLOGY_URL_LABEL = $translate('PAGES.EXPLORE.LABEL_TECH_SPEC');
+  $: BTN_ADD_TECH = $translate('PAGES.EXPLORE.BTN_ADD_TECH');
+  $: ADD_TECH = $translate('PAGES.EXPLORE.ADD_TECH');
 
   function handleTechnologyAdd(event) {
     const { detail } = event;
@@ -48,7 +74,7 @@
         return true;
       }
 
-      return value.length > 0;
+      return value.trim().length > 0;
     }, false);
 
     function exists(tech) {

@@ -165,9 +165,11 @@
   onMount(() => {
     window.addEventListener("input", setInteracted);
   });
-  function setInteracted(){
-      window.removeEventListener("input", setInteracted);
-      $interacted = true;
+  function setInteracted(e){
+      if(e.target.type != "file"){
+        window.removeEventListener("input", setInteracted);
+        $interacted = true;
+      }
   }
 
   $: isOverview = $location.pathname === $routes.OVERVIEW.path; 
