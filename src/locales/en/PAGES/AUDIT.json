@@ -36,5 +36,6 @@
     "UNTESTED": "{{critCount}} untested",
     "VIEW_IN_REPORT": "View in report",
     "LABEL_VERSION": "WCAG version",
-    "LABEL_LEVEL": "Conformance level"
+    "LABEL_LEVEL": "Conformance level",
+    "ADDED_IN": "Added in"
 }
