@@ -50,7 +50,9 @@
 
   <details>
     <summary><h2>{TRANSLATED.AUDIT_RESULTS_HEADING}</h2></summary>
+    <h3>{TRANSLATED.SUMMARY}</h3>
     <ReportSummary />
+    <h3>{TRANSLATED.ALL_RESULTS}</h3>
     <ReportAllResults criteria="{$tests}" />
   </details>
 </Page>
@@ -84,6 +86,8 @@
     EXECUTIVE_SUMMARY_HELPTEXT: $translate('PAGES.SUMMARY.INF_SUMMARY'),
     EVALUATION_SPECIFICS_LABEL: $translate('PAGES.SUMMARY.LABEL_SPECIFICS'),
     EVALUATION_SPECIFICS_HELPTEXT: $translate('PAGES.SUMMARY.INF_SPECIFICS'),
-    AUDIT_RESULTS_HEADING: $translate('PAGES.SUMMARY.HD_CRITERIA_REPORT')
+    AUDIT_RESULTS_HEADING: $translate('PAGES.SUMMARY.HD_CRITERIA_REPORT'),
+    SUMMARY: $translate('UI.REPORT.SUMMARY'),
+    ALL_RESULTS: $translate('UI.REPORT.ALL_RESULTS')
   };
 </script>

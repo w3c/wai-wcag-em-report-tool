@@ -153,10 +153,10 @@
 
 <h2>{TRANSLATED.HEADING_AUDIT_RESULTS_DETAIL}</h2>
 
-<h3>Summary</h3>
+<h3>{TRANSLATED.SUMMARY}</h3>
 <ReportSummary />
 
-<h3>All results</h3>
+<h3>{TRANSLATED.ALL_RESULTS}</h3>
 <ReportAllResults criteria="{$wcag}" />
 
 <h2>{TRANSLATED.HEADING_SAMPLE}</h2>
@@ -275,7 +275,9 @@
     HEADING_SPECIFICS: $translate('UI.REPORT.HD_SPECIFICS'),
     HEADING_RESOURCES: $translate('UI.REPORT.HD_DOCS'),
     CONFORMANCE_LEVEL: $translate('WCAG.COMMON.CONFORMANCE_LEVEL'),
-    TEXT_NO_SAMPLE: $translate('PAGES.AUDIT.NO_SAMPLE')
+    TEXT_NO_SAMPLE: $translate('PAGES.AUDIT.NO_SAMPLE'),
+    SUMMARY: $translate('UI.REPORT.SUMMARY'),
+    ALL_RESULTS: $translate('UI.REPORT.ALL_RESULTS')
   };
 
   $: report = {
