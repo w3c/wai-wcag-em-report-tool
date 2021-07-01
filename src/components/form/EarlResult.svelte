@@ -34,8 +34,9 @@
       label="{$translate('PAGES.AUDIT.ASSERTION_RESULT_DESCRIPTION_LABEL')}"
       bind:value="{_assertion.result.description}"
       on:change="{handleResultChange}"
+      className="Criterion__Observation"
     >
-      <span slot="before-textarea" class="view-in-report">
+      <span slot="after-textarea" class="view-in-report">
       <Link to={`/evaluation/view-report#criterion-${_assertion.test.num.replaceAll('.', '')}`}>{TRANSLATED.VIEW_IN_REPORT}</Link>
       </span>
     </Textarea>
@@ -56,15 +57,22 @@
   .Criterion__Fields {
     display: flex;
     gap: 2rem;
+    align-items: flex-start;
   }
+  .view-in-report {
+    order: -1;
+    text-align: right;
+  }
+  /* the following selectors are overly specific for cascading reasons */
   :global(.Criterion__Fields :last-child) {
     flex: 2;
   }
-  :global(.Criterion__Fields :last-child label) {
-    float: left;
+  :global(div.Criterion__Fields .Field:last-child label) {
+    order: -2;
   }
-  .view-in-report {
-    float: right;
+  :global(div.Criterion__Fields div.Field.Criterion__Observation) {
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 </style>
 
