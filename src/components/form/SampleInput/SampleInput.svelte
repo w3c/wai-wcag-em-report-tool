@@ -30,6 +30,7 @@
         <li>
           <Sample
             id="{id}__{index + 1}"
+            count={index + 1}
             bind:data="{sample}"
             on:DELETE="{handleSampleDelete}"
           />
