@@ -25,7 +25,6 @@
   function handleOpenChange(event) {
     var clearResult = true;
 
-    console.log($interacted);
     if($interacted == true){
       var clearResult = window.confirm(TRANSLATED.CLEAR_WARNING);
     }
