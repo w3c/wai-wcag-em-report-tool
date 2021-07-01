@@ -6,20 +6,59 @@
   bind:value
 />
 
-<AddOther
-  label="Add other {TECHNOLOGY_NAME_LABEL}"
-  on:ADD="{handleTechnologyAdd}"
->
-  <Input
-    id="technologies_relied_upon__other--name"
-    label="{TECHNOLOGY_NAME_LABEL}"
-    helptext="{TECHNOLOGY_HELPTEXT}"
-  />
-  <Input
-    id="technologies_relied_upon__other--url"
-    label="{TECHNOLOGY_URL_LABEL}"
-  />
-</AddOther>
+<div class="Editable">
+  <legend>{BTN_ADD_TECH}</legend>
+  <AddOther
+    label="{ADD_TECH}"
+    on:ADD="{handleTechnologyAdd}">
+    <div class="tech-input">
+      <Input
+        id="technologies_relied_upon__other--name"
+        label="{TECHNOLOGY_NAME_LABEL}"
+      />
+      <Input
+        id="technologies_relied_upon__other--url"
+        label="{TECHNOLOGY_URL_LABEL}"
+      />
+    </div>
+  </AddOther>
+</div>
+
+<style>
+  .Editable__Control--delete {
+    font-size: 1em;;
+    float: right;
+    margin-left: 1em;
+    margin-top: .25em;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    color: currentColor;
+  }
+  .Editable {
+    background: var(--trans-line-grey);
+    padding: 1em;   
+  }
+  :global(.Editable .Editable__Contents .sample-input .Field) {
+    margin-bottom: .5em;
+  }
+  :global(.Editable legend) {
+    font-size: 1em;
+    padding: 0; 
+    margin-bottom: .25em;
+  }
+  :global(.Editable fieldset) {
+    margin-bottom: 0;
+  }
+
+  @media (min-width: 40em) {
+    .tech-input {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 1em;
+    }
+  }
+</style>
 
 <script>
   import { getContext } from 'svelte';
@@ -38,6 +77,8 @@
   $: TECHNOLOGY_HELPTEXT = $translate('PAGES.EXPLORE.PLH_TECH');
   $: TECHNOLOGY_NAME_LABEL = $translate('PAGES.EXPLORE.LABEL_TECH');
   $: TECHNOLOGY_URL_LABEL = $translate('PAGES.EXPLORE.LABEL_TECH_SPEC');
+  $: BTN_ADD_TECH = $translate('PAGES.EXPLORE.BTN_ADD_TECH');
+  $: ADD_TECH = $translate('PAGES.EXPLORE.ADD_TECH');
 
   function handleTechnologyAdd(event) {
     const { detail } = event;
