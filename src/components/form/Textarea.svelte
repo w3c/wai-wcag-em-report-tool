@@ -1,6 +1,6 @@
-<Field {id} {label} {helptext}>
-  <slot name="before-textarea"></slot>
+<Field {id} {label} {helptext} {className}>
   <textarea id="{id}" rows="5" bind:value on:change></textarea>
+  <slot name="after-textarea"></slot>
 </Field>
 
 <style>
@@ -17,4 +17,5 @@
   export let label;
   export let helptext = "";
   export let value = "";
+  export let className = "";
 </script>
