@@ -30,6 +30,12 @@
     padding: 1em;   
   }
 
+  .add-tech legend {
+    font-size: 1em;
+    padding: 0;
+    margin-bottom: .25em;
+  }
+
   @media (min-width: 40em) {
     .tech-input {
       display: grid;
