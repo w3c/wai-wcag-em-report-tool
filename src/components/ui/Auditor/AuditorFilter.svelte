@@ -48,7 +48,7 @@
 
   const wcagVersions = [...$scopedWcagVersions].reverse();
 
-  let versionFilterOptions = wcagVersions.reduce((result, version, index) => {
+  $: versionFilterOptions = wcagVersions.reduce((result, version, index) => {
     const newFilter = {
       title: `WCAG ${version}`,
       value: wcagVersions.filter((VERSION) => {
@@ -64,7 +64,7 @@
     // Add a version added filter
     // Last index excluded, it is the first version.
     result.push({
-      title: `Added in WCAG ${version}`,
+      title: TRANSLATED['ADDED_IN'] + " WCAG "  + version,
       value: version
     });
 
@@ -73,10 +73,11 @@
 
   $: TRANSLATED = {
     LABEL_VERSION: $translate('PAGES.AUDIT.LABEL_VERSION'),
-    LABEL_LEVEL: $translate('PAGES.AUDIT.LABEL_LEVEL')
+    LABEL_LEVEL: $translate('PAGES.AUDIT.LABEL_LEVEL'),
+    ADDED_IN: $translate('PAGES.AUDIT.ADDED_IN')
   }
 
-  let conformanceLevels = CONFORMANCE_LEVELS.reduce((result, level, index) => {
+  $: conformanceLevels = CONFORMANCE_LEVELS.reduce((result, level, index) => {
     if($scopeStore['CONFORMANCE_TARGET'].startsWith(level)){
       const newFilter = {
         title: `${$translate('WCAG.COMMON.CONFORMANCE_LEVEL')} ${level}`,

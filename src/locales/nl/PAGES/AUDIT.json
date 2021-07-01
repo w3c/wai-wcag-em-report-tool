@@ -36,5 +36,6 @@
     "UNTESTED": "{{critCount}} niet getest",
     "VIEW_IN_REPORT": "In rapport",
     "LABEL_VERSION": "Versie van WCAG",
-    "LABEL_LEVEL": "Conformanceniveau"
+    "LABEL_LEVEL": "Conformanceniveau",
+    "ADDED_IN": "Toegevoegd in"
 }
