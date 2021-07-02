@@ -2,8 +2,8 @@
   <h4>{principle} {TRANSLATED.PRINCIPLES[principle].TITLE}</h4>
 
   {#each guidelines.filter((g) => g.indexOf(principle) === 0) as guideline}
-    <table class="Auditor__ResultsTable">
-      <caption><h5>{guideline} {TRANSLATED.GUIDELINES[guideline].TITLE}</h5></caption>
+    <h5 id={`guideline-${guideline.replace('.', '')}`}>{guideline} {TRANSLATED.GUIDELINES[guideline].TITLE}</h5>
+    <table class="Auditor__ResultsTable" aria-labelledby={`guideline-${guideline.replace('.', '')}`}>
       <tbody>
           <tr class="Auditor__ResultsTableHeader">
             <th>{TRANSLATED.HEADER_SUCCESS_CRITERION}</th>
@@ -90,6 +90,10 @@
 <style>
   .Auditor__ResultsTable {
     width: 100%;
+  }
+  h5 {
+    color: var(--wai-green);
+    margin: 1.5em 0 1em;
   }
   .Auditor__ResultsTable th {
     width: 30%;
