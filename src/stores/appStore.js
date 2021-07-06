@@ -30,6 +30,10 @@ export const routes = derived([translate], ([$translate]) => {
     VIEW_REPORT: {
       title: $translate('UI.NAV.STEP_VIEWREPORT'),
       path: '/evaluation/view-report'
+    },
+    ACKNOWLEDGEMENTS: {
+      title: "Acknowledgements",
+      path: "/acknowledgements"
     }
   };
 });

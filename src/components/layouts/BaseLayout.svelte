@@ -27,8 +27,9 @@
 
 <slot />
 
+{#if !isAcknowledgements}
 <Pager label="{TRANSLATED.STEP}" context="{pagerContext}" />
-
+{/if}
 
 <!-- /@Layout -->
 
@@ -56,6 +57,7 @@
 
 <script>
   import { getContext } from 'svelte';
+  import { useLocation } from 'svelte-navigator';
 
   import { routes } from '@app/stores/appStore.js';
   import locales from '@app/locales/index.json';
@@ -65,11 +67,13 @@
   import Pager from '@app/components/ui/Pager.svelte';
 
   const { translate } = getContext('app');
+  const location = useLocation();
 
   $: TRANSLATED = {
     STEP: $translate('UI.NAV.STEP', { default: 'step' }),
   };
 
+  $: isAcknowledgements = $location.pathname === $routes.ACKNOWLEDGEMENTS.path;
 
   $: pagerContext = Object.keys($routes).map((key) => {
     return $routes[key];
