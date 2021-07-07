@@ -22,7 +22,7 @@
 
   <h3>Version 1</h3>
   <ul>
-    <li>Wilco Fiers</li>
+    <li>Wilco Fiers, while at accessibility.nl</li>
   </ul>
 
   <h3>Version 2</h3>
@@ -38,9 +38,9 @@
 
   <h2>Contributors</h2> 
   <ul>
+    <li><a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a></li>
     <li><a href="https://www.w3.org/groups/wg/eowg/participants">EOWG Participants</a></li>
     <li>Jules Ernst</li>
-    <li><a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a></li>
   </ul>
 </Page>
 <!-- /component -->
