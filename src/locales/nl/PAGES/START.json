@@ -5,7 +5,7 @@
     "INTRO_1": "Deze tool maakt een rapport op basis van uw bevindingen in toegankelijkheidsonderzoek. Het is gebaseerd op de [Web Content Accessibility Guidelines Evaluation Methodology (WCAG-EM)](https://www.w3.org/TR/WCAG-EM/).",
     "TIPS_HD": "Tips voor het gebruik van deze tool",
     "TIPS_1": "Onder “Bekijk Report”, kunt u uw rapport downloaden als HTML (webpagina) of als JSON (gestructureerde data).",
-    "TIPS_2": "U kunt bevindingen beschrijven in  <a href='https://en.wikipedia.org/wiki/Markdown'>Markdown</a>, zodat u bijvoorbeeld lijsten, links en codevoorbeelden kunt toevoegen..",
+    "TIPS_2": "U kunt bevindingen beschrijven in  <a href='https://en.wikipedia.org/wiki/Markdown'>Markdown</a>, zodat u bijvoorbeeld lijsten, links en codevoorbeelden kunt toevoegen. Dit werkt ook op de velden 'managementsamenvatting' en 'onderbouwing van de evaluatie'.",
     "TIPS_3": "Deze tool slaat de informatie die u toevoegt niet automatsch op. OM data op te slaan, gebruik de  Windows sneltoets *ctrl+s* of de Mac sneltoets *cmd+s*. (U kunt het rapport ook opslaan met de knoppen op de 'Bekijk rapport' pagina)",
     "ABOUT_HEADING": "Over deze tool",
     "ABOUT_1": "<p>De WCAG-EM Report Tool is er om een <a href='https://www.w3.org/WAI/eval/report-tool/#!/view_report'>gestructureerd rapport</a> te maken van de bevindingen uit een toegankelijkheidsonderzoek. De tool onderzoekt zelf niets en bevat ook geen automatische tests.</p>",
