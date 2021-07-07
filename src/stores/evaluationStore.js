@@ -93,7 +93,7 @@ class EvaluationModel {
       // First subject === scope / website
       scope: {
         // WEBSITE_NAME
-        name: '',
+        title: '',
 
         // WEBSITE_SCOPE
         description: ''
@@ -131,8 +131,7 @@ class EvaluationModel {
       evaluator: '',
       evaluationSpecifics: '',
       summary: '',
-      title: '',
-      creator: ''
+      title: ''
     };
   }
 
