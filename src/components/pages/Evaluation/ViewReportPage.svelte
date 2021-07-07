@@ -16,6 +16,8 @@
   import evaluationStore from '@app/stores/evaluationStore.js';
   import summaryStore from '@app/stores/summaryStore.js';
   import scopeStore from '@app/stores/scopeStore.js';
+  import sampleStore from '@app/stores/sampleStore.js';
+  import exploreStore from '@app/stores/exploreStore.js';
   import subjects, {
   initialSubjectStore,
   TestSubjectTypes
@@ -56,6 +58,13 @@
     $evaluationStore.defineScope.additionalEvaluationRequirements = $scopeStore.ADDITIONAL_REQUIREMENTS;
 
     $evaluationStore.auditSample = $assertions;
+
+    $evaluationStore.selectSample.structuredSample = $sampleStore['STRUCTURED_SAMPLE'];
+    $evaluationStore.selectSample.randomSample = $sampleStore['RANDOM_SAMPLE'];
+    $evaluationStore.exploreTarget.technologiesReliedUpon = $exploreStore['TECHNOLOGIES_RELIED_UPON'];
+    $evaluationStore.exploreTarget.essentialFunctionality = $exploreStore['ESSENTIAL_FUNCTIONALITY'];
+    $evaluationStore.exploreTarget.pageTypeVariety = $exploreStore['PAGE_TYPES'];
+
   }
 
 </script>

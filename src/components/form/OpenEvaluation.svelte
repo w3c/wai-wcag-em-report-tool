@@ -8,7 +8,7 @@
   import { getContext } from 'svelte';
   import { useNavigate } from 'svelte-navigator';
   import evaluationStore from '@app/stores/evaluationStore.js';
-  import { interacted } from '@app/stores/interactedStore.js';
+  import { interacted, interactedOpenEvaluation } from '@app/stores/interactedStore.js';
 
   import File, { readFile } from './File.svelte';
 
@@ -24,7 +24,6 @@
 
   function handleOpenChange(event) {
     var clearResult = true;
-
     if($interacted == true){
       var clearResult = window.confirm(TRANSLATED.CLEAR_WARNING);
     }
@@ -41,6 +40,7 @@
         $evaluationStore
           .open(json)
           .then(() => {
+            $interactedOpenEvaluation = true;
             navigate('/evaluation/define-scope');
             $interacted = true;
           })
@@ -49,6 +49,8 @@
             loading = false;
           });
       });
+    }else{
+      event.target.value = ''
     }
   }
 </script>
