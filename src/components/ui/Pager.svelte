@@ -2,8 +2,6 @@
  * @component
  *   Pager
  *
- * @todo
- *   - Icons/svgs should get componentized for better readability
  * -->
 <div class="default-grid">
   <aside class="Pager pager" aria-label={TRANSLATED.PREVIOUSNEXT}>

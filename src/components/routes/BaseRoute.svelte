@@ -13,7 +13,6 @@
 <!-- /@Route -->
 
 <script>
-  // Refactor to `import ... Routes.svelte` See @todo
   import { Router, Route } from 'svelte-navigator';
 
   import BaseLayout from '@app/components/layouts/BaseLayout.svelte';
