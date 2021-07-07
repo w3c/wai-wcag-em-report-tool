@@ -5,7 +5,7 @@
  <Page title="Acknowledgements">
 
   <p>
-    The WCAG-EM Report Tool was initially developed with support from the <a href="https://www.w3.org/WAI/ACT/">WAI-ACT Project</a>, and updated with support of the <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>, co-funded by the European Commission (EC). 
+    The WCAG-EM Report Tool is developed by the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO">EOWG</a>. It was initially developed with support from the <a href="https://www.w3.org/WAI/ACT/">WAI-ACT Project</a>, and updated with support of the <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>, co-funded by the European Commission (EC). 
   </p> 
   
   <h2>Project Leadership</h2> 
@@ -17,23 +17,30 @@
     <li><strong>EOWG Co-Chairs:</strong> Brent Bakken, Pearson and Sharron Rush, Knowbility</li> 
     <li><strong>EOWG Staff Contact:</strong> Shawn Lawton Henry, W3C WAI</li>
   </ul> 
-   
-  <h2>Contributing EOWG Participants</h2> 
+  
+  <h2>Design and Development</h2>
+
+  <h3>Version 1</h3>
   <ul>
-    <li>Billie Johnston, Siteimprove</li>
-    <li>Brent Bakken, Pearson plc</li> 
-    <li>Carlos Duarte, University of Lisbon</li>
-    <li>Daniel Montalvo, W3C WAI</li>
-    <li>Howard Kramer, University of Colorado Boulder</li> 
-    <li>Kevin White, The Scottish Government</li>
-    <li>Kris Anne Kinney, ETS</li>
-    <li>Laura Keen, Library of Congress</li> 
-    <li>Sylvie Duchateau, Access42</li>
+    <li>Wilco Fiers</li>
   </ul>
 
-  <h2>Other contributors</h2>
+  <h3>Version 2</h3>
   <ul>
-    <li>Jules Ernst, 200 OK</li>
+    <li>Roel Antonisse, accessibility.nl</li>
+  </ul>
+
+  <h3>Version 3</h3>
+  <ul>
+    <li>Michel Hansma, HAN University</li>
+    <li><a href="https://www.w3.org/People/hidde">Hidde de Vries</a>, W3C WAI</li>
+  </ul>
+
+  <h2>Contributors</h2> 
+  <ul>
+    <li><a href="https://www.w3.org/groups/wg/eowg/participants">EOWG Participants</a></li>
+    <li>Jules Ernst</li>
+    <li><a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a></li>
   </ul>
 </Page>
 <!-- /component -->
