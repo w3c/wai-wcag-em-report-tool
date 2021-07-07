@@ -2,7 +2,6 @@ import alias from '@rollup/plugin-alias';
 import babel from '@rollup/plugin-babel';
 import commonjs from '@rollup/plugin-commonjs';
 import copy from 'rollup-plugin-copy';
-// import dynamicImportVars from '@rollup/plugin-dynamic-import-vars';
 import json from '@rollup/plugin-json';
 import livereload from 'rollup-plugin-livereload';
 import mergeJson from './rollup/rollup-plugin-merge-json/index.js';
@@ -50,8 +49,6 @@ export default {
         '@app': './src'
       }
     }),
-
-    // dynamicImportVars(),
 
     copy({
       targets: [
