@@ -31,10 +31,6 @@
 {#if $isLoading}
   <p>Loading WCAG Report Tool</p>
 {:else}
-  <!--
-    * @todo:
-    * - Pass settings / configuration / routes
-    * -->
   <BaseRoute basepath="{basepath}" />
 {/if}
 <!-- /Component -->

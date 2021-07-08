@@ -30,8 +30,6 @@ const initialTestStore = wcagCriteriaDictionary[LATEST_WCAG_VERSION].map(
  *
  * Set of earl.TestCriterion,
  * - TestRequirement
- * @todo
- * - TestCase
  *
  * @type {Array[TestCriterion]}
  */

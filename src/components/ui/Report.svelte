@@ -173,7 +173,7 @@
 {/if}
 
 <h2>{TRANSLATED.HEADING_SPECIFICS}</h2>
-<p>{report.specifics || TRANSLATED.LABEL_NOT_PROVIDED}</p>
+<p>{@html marked(report.specifics) || TRANSLATED.LABEL_NOT_PROVIDED}</p>
 
 <h2>{TRANSLATED.HEADING_RESOURCES}</h2>
 <ul>

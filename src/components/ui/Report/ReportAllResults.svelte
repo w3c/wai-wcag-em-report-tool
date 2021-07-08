@@ -44,7 +44,7 @@
                   {#if sampleAssertions(criterion).length}
                   <h6>{TRANSLATED.HEADING_SCOPE_RESULTS}</h6>
                   {/if}
-                  {@html marked(assertion.result.description)}
+                  {@html marked(assertion.result.description, {"sanitize": true})}
                 {/if}
               {/each}
               {#if sampleAssertions(criterion).length}
@@ -52,7 +52,7 @@
                 {#if assertionHasContents(assertion)}
                   <h6>{assertion.subject.title || `Sample ${assertion.subject.ID}`}</h6>
                   {#if assertion.result.description}
-                    {@html marked(assertion.result.description)}
+                    {@html marked(assertion.result.description, {"sanitize": true})}
                   {:else}
                     <p>{TRANSLATED.NO_OBSERVATIONS_FOUND}</p>
                   {/if}
@@ -121,6 +121,10 @@
   export let criteria = [];
 
   const { translate, translateToObject } = getContext('app');
+  
+  // marked.setOptions({
+  //   sanitize: true
+  // });
 
   $: TRANSLATED = {
     PRINCIPLES: $translateToObject('WCAG.PRINCIPLE'),

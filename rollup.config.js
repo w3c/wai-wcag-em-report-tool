@@ -2,7 +2,6 @@ import alias from '@rollup/plugin-alias';
 import babel from '@rollup/plugin-babel';
 import commonjs from '@rollup/plugin-commonjs';
 import copy from 'rollup-plugin-copy';
-// import dynamicImportVars from '@rollup/plugin-dynamic-import-vars';
 import json from '@rollup/plugin-json';
 import livereload from 'rollup-plugin-livereload';
 import mergeJson from './rollup/rollup-plugin-merge-json/index.js';
@@ -51,8 +50,6 @@ export default {
       }
     }),
 
-    // dynamicImportVars(),
-
     copy({
       targets: [
         {
@@ -71,9 +68,11 @@ export default {
           dest: production ? PATHS.BUILD : PATHS.DEV,
           transform: (contents) => {
             let contentsString = contents.toString();
+            const buildDate = new Date();
+            const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
             const replacement = {
-              __APP_BUILD_DATE__: new Date().toISOString(),
+              __APP_BUILD_DATE__: `${buildDate.getDate()} ${months[buildDate.getMonth()]} ${buildDate.getFullYear()}`,
               __APP_VERSION__: production ? pkg.version : 'DEVELOPMENT',
               __BASEPATH__: BASEPATH,
               __TITLE__: pkg.name

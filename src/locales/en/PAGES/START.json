@@ -5,7 +5,7 @@
     "INTRO_1": "WCAG-EM Report Tool turns your accessibility evaluation findings into a report. It is based on the Web Content Accessibility Guidelines Evaluation Methodology ([WCAG-EM](https://www.w3.org/TR/WCAG-EM/)).",
     "TIPS_HD": "Tips for using this tool",
     "TIPS_1": "Under “View Report”, you can download your report as HTML (web page) or as JSON (structured data).",
-    "TIPS_2": "You can format your findings with <a href='https://en.wikipedia.org/wiki/Markdown'>Markdown</a>, to add lists, links and code examples and more.",
+    "TIPS_2": "You can format your findings with <a href='https://en.wikipedia.org/wiki/Markdown'>Markdown</a>, to add lists, links and code examples and more. This also works on the 'Executive summary' and 'Evaluation specifics' fields.",
     "TIPS_3": "This tool does not automatically save the information that you enter. To save your data in a file locally on your computer, use Windows shortcut keys *ctrl+s* or Mac shortcut keys *cmd+s* to open the Save dialog. (Or the ‘Save’ link at the top of the page will open the Save Evaluation Report page and from there the 'Save data file locally to your computer' link will open the Save dialog.)",
     "ABOUT_HEADING": "About this tool",
     "ABOUT_1": "<p>The WCAG-EM Report Tool can be used to create a <a href='https://www.w3.org/WAI/eval/report-tool/#!/view_report'>structured report</a> of accessibility evaluation findings. It does not perform (automated) checks.</p>",

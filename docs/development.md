@@ -55,20 +55,6 @@ See `.prettierrc.js` for prettier configuration for Svelte (3).
     > Component context should decide spacing between children
 
 
-
-### HTML
-
-- Attribute priority: role, for, id, element specific attributes, global attributes, class, data-attributes, aria-attributes.
-
-  This way we can write consistent elements and know what to expect where.
-
-- html id naming:
-
-  - `Component`
-  - `Component__property`
-  - `Component--SubComponent`
-  - `hash` or `a-very-long-hash` intended for document section identification / url hashes.
-
 ### JavaScript
 
 - Variable naming:
