@@ -13,7 +13,7 @@ import { downloadFileJSON } from '@app/scripts/files.js';
 import { TestResult } from '@app/stores/earl/resultStore/models.js';
 import { outcomeValueStore as outcomeValues } from '@app/stores/earl/resultStore/index.js';
 import scopeStore, { initialScopeStore } from '@app/stores/scopeStore.js';
-import exploreStore, { initialExploreStore } from '@app/stores/exploreStore.js';
+import exploreStore, { initialExploreStore, webTechnologyStore } from '@app/stores/exploreStore.js';
 import sampleStore, { initialSampleStore } from '@app/stores/sampleStore.js';
 import summaryStore, { initialSummaryStore } from '@app/stores/summaryStore.js';
 import {
@@ -148,6 +148,8 @@ class EvaluationModel {
       return { ...initialExploreStore };
     });
 
+    webTechnologyStore.reset();
+
     assertions.reset();
 
     subjects.reset();
@@ -213,7 +215,6 @@ class EvaluationModel {
         '@type': evaluationTypes
       })
       .then(async (framedEvaluation) => {
-
         let $assertions;
         let $outcomeValues;
         let $subjects;
@@ -274,16 +275,23 @@ class EvaluationModel {
         if (!selectSample) {
           selectSample = {};
         }
-
-        let altVersion = "";
-        if(framedEvaluation["dcterms:publisher"]){
-          altVersion = framedEvaluation["dcterms:publisher"].id;
-          altVersion = altVersion.substr(altVersion.lastIndexOf("/")+1, 3);
-        }
   
         language = framedEvaluation.language || 'en';
         locale.set(language);
-        wcagVersion = defineScope.wcagVersion || altVersion || DEFAULT_WCAG_VERSION;
+        wcagVersion = defineScope.wcagVersion || DEFAULT_WCAG_VERSION;
+
+        //Improved compatibility for older reports
+        if(defineScope.step1b){
+          if(defineScope.step1b == "WAI:WCAG2A-Conformance"){
+            defineScope.step1b = "A";
+          }else if(defineScope.step1b == "WAI:WCAG2AA-Conformance"){
+            defineScope.step1b = "AA";
+          }else if(defineScope.step1b == "WAI:WCAG2AAA-Conformance"){
+            defineScope.step1b = "AAA";
+          }else{
+            defineScope.step1b = "AA";
+          }
+        }
 
         /**
          * Start setting values from the imported json-ld.
@@ -330,7 +338,7 @@ class EvaluationModel {
           }
 
           return Object.assign(value, {
-            TECHNOLOGIES_RELIED_UPON: technologies.map((tech) => tech.title),
+            TECHNOLOGIES_RELIED_UPON: technologies.map((tech) => tech.title || tech),
             ESSENTIAL_FUNCTIONALITY:
               exploreTarget.essentialFunctionality ||
               framedEvaluation.essentialFunctionality ||
@@ -375,7 +383,18 @@ class EvaluationModel {
             importRandomSample = [importRandomSample];
           }
 
-          if(structuredSample != undefined){
+          importStructuredSample.forEach((sample) => {
+            if(Array.isArray(sample.title)){
+              sample.title = sample.title[0];
+            }
+          });
+          importRandomSample.forEach((sample) => {
+            if(Array.isArray(sample.title)){
+              sample.title = sample.title[0];
+            }
+          });
+          
+          if(importStructuredSample != undefined && importRandomSample != undefined){
             return {
               STRUCTURED_SAMPLE: importStructuredSample.map((sample) => {
                 sample.type = TestSubjectTypes.WEBPAGE;
@@ -395,8 +414,17 @@ class EvaluationModel {
             };
           }
           
-          
         });
+
+        //Improved compatibility for older reports
+        let altCreator = "";
+        if(framedEvaluation["dcterms:creator"]){
+          altCreator = framedEvaluation["dcterms:creator"]["http://xmlns.com/foaf/0.1/name"];
+        }
+        let altDate = "";
+        if(reportFindings.date){
+          altDate = reportFindings.date['@value'];
+        }
 
         summaryStore.update((value) => {
           return Object.assign(value, {
@@ -406,8 +434,8 @@ class EvaluationModel {
               reportFindings.commissioner ||
               framedEvaluation.commissioner ||
               '',
-            EVALUATION_CREATOR: reportFindings.evaluator || '',
-            EVALUATION_DATE: reportFindings.date || '',
+            EVALUATION_CREATOR: reportFindings.evaluator || altCreator || '',
+            EVALUATION_DATE: altDate || framedEvaluation.date || '',
             EVALUATION_SUMMARY:
               reportFindings.summary || framedEvaluation.summary || '',
             EVALUATION_SPECIFICS:

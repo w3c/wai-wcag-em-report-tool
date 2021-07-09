@@ -77,6 +77,7 @@
   import subjects, {
     TestSubjectTypes
   } from '@app/stores/earl/subjectStore/index.js';
+  import { interactedOpenEvaluation } from '@app/stores/interactedStore.js';
 
   import Page from '@app/components/ui/Page.svelte';
   import Input from '@app/components/form/Input.svelte';
@@ -182,7 +183,11 @@
       });
 
       if(answeredCount > 0){
-        if (confirm(TRANSLATED.DATA_LOSS_WARNING)) {
+        var allowDataLoss = true;
+        if($interactedOpenEvaluation != true){
+          allowDataLoss = window.confirm(TRANSLATED.DATA_LOSS_WARNING)
+        }
+        if (allowDataLoss) {
           assertionsToRemove.forEach((assertion) => {
             assertions.remove(assertion);
           });
@@ -196,6 +201,7 @@
         });
       }
     }
+    $interactedOpenEvaluation = false;
   }  
 
 </script>

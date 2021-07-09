@@ -46,9 +46,10 @@
 </style>
 
 <script>
-  import { getContext } from 'svelte';
+  import { getContext, onMount } from 'svelte';
 
   import { webTechnologyStore } from '@app/stores/exploreStore.js';
+  import exploreStore from '@app/stores/exploreStore.js';
 
   import AddOther from './AddOther.svelte';
   import Input from './Input.svelte';
@@ -100,4 +101,27 @@
       value = [...value, title];
     }
   }
+
+  function updateTech() {
+    $exploreStore["TECHNOLOGIES_RELIED_UPON"].forEach((tech) => {
+      const currentTechnologies = $webTechnologyStore;
+      let exists = currentTechnologies.filter((currentTech) => {
+        return currentTech.title == tech;
+      });
+
+      if(exists.length == 0){
+        let title = tech;
+        let description = "";
+        webTechnologyStore.create({
+          title,
+          description
+        });
+      }
+    });
+  }
+
+  onMount(() => {
+    updateTech();
+  });
+
 </script>
