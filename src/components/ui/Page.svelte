@@ -2,7 +2,7 @@
   <title>{title} | WCAG-EM Report Tool</title>
 </svelte:head>
 
-<div class="page-content">
+<div class="page-content" id="{pageid}">
 {#if needsPanelSpace}
   <div class="default-grid">
     <main class="main-with-panel">
@@ -49,6 +49,8 @@
   import YourReport from '@app/components/ui/YourReport.svelte';
 
   const location = useLocation();
+
+  export let pageid;
 
   $: isViewReport = $location.pathname === $routes.VIEW_REPORT.path;
   $: isOverview = $location.pathname === $routes.OVERVIEW.path;

@@ -1,4 +1,4 @@
-<Page title="{TRANSLATED.PAGE_TITLE}">
+<Page title="{TRANSLATED.PAGE_TITLE}" pageid="audit-sample">
   <AuditorImport />
   <p>{@html TRANSLATED.INTRODUCTION}</p>
   <ResourceLink href="https://www.w3.org/TR/WCAG-EM/#step4">{TRANSLATED.RESOURCE_LINK_NAME}</ResourceLink>

@@ -1,4 +1,4 @@
-<Page title="{$summaryStore['EVALUATION_TITLE'] ? $summaryStore['EVALUATION_TITLE'] : TRANSLATED.PAGE_TITLE}">
+<Page title="{$summaryStore['EVALUATION_TITLE'] ? $summaryStore['EVALUATION_TITLE'] : TRANSLATED.PAGE_TITLE}" pageid="view-report">
 
     <Button on:click="{handleHTMLDownloadClick}">
       <span>{TRANSLATED.BUTTON_SAVE_HTML}</span>
