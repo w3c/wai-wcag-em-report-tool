@@ -11,16 +11,20 @@ export default function collectionStore(Item, initialCollection = []) {
   };
 
   collection.create = function create(value) {
-
     if (typeof value !== 'object') {
       value = { value };
     }
     const newItem = Item ? new Item(value) : { ...value };
 
+    if(newItem.result && value.result){
+      newItem.result.outcome = value.result.outcome;
+    }
+    
     collection.update((value) => {
       return [...value, newItem];
     });
-
+    
+    
     return newItem;
   };
 

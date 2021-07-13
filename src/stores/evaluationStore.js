@@ -3,6 +3,8 @@ import jsonld from '@app/scripts/jsonld.js';
 import { derived, writable } from 'svelte/store';
 import { locale } from 'svelte-i18n';
 
+import {version} from '../../package.json';
+
 import appJsonLdContext, {
   importContext
 } from '@app/data/jsonld/appContext.js';
@@ -51,6 +53,7 @@ const evaluationContext = {
   WCAG20: 'http://www.w3.org/TR/WCAG20/#',
   WCAG21: 'http://www.w3.org/TR/WCAG21/#',
   wcagVersion: 'WAI:standards-guidelines/wcag/#versions',
+  reportToolVersion: 'wcagem:reportToolVersion',
 
   // WCAG-EM Context
   wcagem: 'http://www.w3.org/TR/WCAG-EM/#',
@@ -87,6 +90,8 @@ class EvaluationModel {
     this['@context'] = evaluationContext;
     this['@type'] = evaluationTypes[0];
     this['@language'] = 'en';
+
+    this.reportToolVersion = version;
 
     this.defineScope = {
       '@id': '_:defineScope',

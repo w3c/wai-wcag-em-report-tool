@@ -115,6 +115,8 @@
   import { Link } from 'svelte-navigator';
   import marked from 'marked';
 
+  import { WCAG_VERSIONS } from '@app/stores/wcagStore.js';
+  import scopeStore from '@app/stores/scopeStore.js';
   import assertions from '@app/stores/earl/assertionStore/index.js';
   import { TestSubjectTypes } from '@app/stores/earl/subjectStore/index.js';
 
@@ -154,7 +156,7 @@
   ];
 
   function guidelineCriteria(guideline) {
-    return criteria.filter(
+    return filterAssertions().filter(
       (criterion) => criterion.num.indexOf(guideline) === 0
     );
   }
@@ -163,6 +165,29 @@
     return $assertions.filter((assertion) => {
       return assertion.test.num === criterion.num;
     });
+  }
+
+  function filterAssertions(){
+    return criteria.filter((criterion) => {
+      const filterVersions = WCAG_VERSIONS;
+
+      // Pass filtering if not enabled
+      if (filterVersions.length === 0) {
+        return true;
+      }
+
+      return filterVersions.indexOf(criterion.version) >= 0;
+    })
+    // Filter by conformance level
+    .filter((criterion) => {
+      const filterLevels = $scopeStore['CONFORMANCE_TARGET'];
+
+      // Pass filtering if not enabled
+      if (filterLevels.length === 0) {
+        return true;
+      }
+      return filterLevels.indexOf(criterion.conformanceLevel) >= 0;
+      });
   }
 
   function scopeAssertion(criterion) {

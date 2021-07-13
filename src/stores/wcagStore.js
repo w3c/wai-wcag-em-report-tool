@@ -10,7 +10,7 @@ export const WCAG_VERSIONS = Object.keys(wcagCriteriaData);
 export const DEFAULT_WCAG_VERSION = WCAG_VERSIONS.slice(-1)[0];
 
 export const scopedWcagVersions = derived([scopeStore], ([$scopeStore]) => {
-  const { WCAG_VERSION } = $scopeStore;
+  const { WCAG_VERSION, CONFOMANCE_TARGET } = $scopeStore;
 
   return WCAG_VERSIONS.filter((version) => {
     return version <= WCAG_VERSION;

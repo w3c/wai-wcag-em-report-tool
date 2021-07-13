@@ -53,7 +53,7 @@
     <h3>{TRANSLATED.SUMMARY}</h3>
     <ReportSummary />
     <h3>{TRANSLATED.ALL_RESULTS}</h3>
-    <ReportAllResults criteria="{$tests}" />
+    <ReportAllResults criteria="{$wcag}" />
   </details>
 </Page>
 
@@ -68,6 +68,8 @@
   import Input from '@app/components/form/Input.svelte';
   import ResourceLink from '@app/components/ui/ResourceLink.svelte';
   import Textarea from '@app/components/form/Textarea.svelte';
+
+  import wcag from '@app/stores/wcagStore.js';
 
   const { summaryStore, translate, scopeStore } = getContext('app');
   $: TRANSLATED = {

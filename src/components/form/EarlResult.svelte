@@ -53,6 +53,7 @@
   .Criterion__Subject {
     padding: 0;
     font-size: 1em;
+    overflow-wrap: anywhere;
   }
   .Criterion__Fields {
     display: flex;

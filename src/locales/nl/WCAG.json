@@ -24,7 +24,7 @@
             "DESCRIPTION": "Lever tekstalternatieven voor alle niet-tekstuele content, zodat die veranderd kan worden in andere vormen die mensen nodig hebben, zoals grote letters, braille, spraak, symbolen of eenvoudigere taal."
         },
         "1.2": {
-            "TITLE": "Op tijd gebaseerde",
+            "TITLE": "Op tijd gebaseerde media",
             "DESCRIPTION": "Lever alternatieven voor op tijd gebaseerde media."
         },
         "1.3": {
@@ -44,7 +44,7 @@
             "DESCRIPTION": "Geef gebruikers genoeg tijd om content te lezen en te gebruiken."
         },
         "2.3": {
-            "TITLE": "Toevallen en",
+            "TITLE": "Toevallen en fysieke reacties",
             "DESCRIPTION": "Ontwerp content niet op een manier waarvan bekend is dat die toevallen of fysieke reacties veroorzaakt."
         },
         "2.4": {
@@ -52,7 +52,7 @@
             "DESCRIPTION": "Lever manieren om gebruikers te helpen navigeren, content te vinden en te bepalen waar ze zijn."
         },
         "2.5": {
-            "TITLE": "Input",
+            "TITLE": "Input Modaliteiten",
             "DESCRIPTION": "Maak het eenvoudiger voor gebruikers om de functionaliteit te bedienen met andere vormen van invoer dan alleen het toetsenbord."
         },
         "3.1": {
@@ -64,7 +64,7 @@
             "DESCRIPTION": "Maak het uiterlijk en de bediening van webpagina's voorspelbaar."
         },
         "3.3": {
-            "TITLE": "Assistentie bij",
+            "TITLE": "Assistentie bij invoer",
             "DESCRIPTION": "Help gebruikers om fouten te vermijden en ze te verbeteren."
         },
         "4.1": {
@@ -104,7 +104,7 @@
             }
         },
         "1.2.1": {
-            "TITLE": "Louter-geluid en louter-videobeeld",
+            "TITLE": "Louter-geluid en louter-videobeeld (vooraf opgenomen)",
             "DESCRIPTION": "Voor media met vooraf opgenomen louter-geluid en vooraf opgenomen louter-videobeeld is het volgende waar, behalve als de audio of video een media-alternatief voor tekst is en duidelijk als zodanig is gelabeld:",
             "DETAILS": {
                 "1": {
@@ -118,17 +118,17 @@
             }
         },
         "1.2.2": {
-            "TITLE": "Ondertitels voor doven en",
+            "TITLE": "Ondertitels voor doven en slechthorenden (vooraf opgenomen)",
             "DESCRIPTION": "Er worden ondertitels voor doven en slechthorenden geleverd voor alle vooraf opgenomen audiocontent in gesynchroniseerde media, behalve als het mediabestand een media-alternatief voor tekst is en duidelijk als zodanig is gelabeld.",
             "DETAILS": {}
         },
         "1.2.3": {
-            "TITLE": "Audiodescriptie of media-alternatief",
+            "TITLE": "Audiodescriptie of media-alternatief (vooraf opgenomen)",
             "DESCRIPTION": "Er wordt een alternatief geleverd voor op tijd gebaseerde media of audiodescriptie van de vooraf opgenomen videocontent geleverd voor gesynchroniseerde media, behalve als het mediabestand een media-alternatief voor tekst is en duidelijk als zodanig is gelabeld.",
             "DETAILS": {}
         },
         "1.2.4": {
-            "TITLE": "Ondertitels voor doven en",
+            "TITLE": "Ondertitels voor doven en slechthorenden (live)",
             "DESCRIPTION": "Er worden ondertitels voor doven en slechthorenden geleverd voor alle live audiocontent in gesynchroniseerde media.",
             "DETAILS": {}
         },
@@ -143,12 +143,12 @@
             "DETAILS": {}
         },
         "1.2.7": {
-            "TITLE": "Verlengde",
+            "TITLE": "Verlengde audiodescriptie (vooraf opgenomen)",
             "DESCRIPTION": "Waar pauzes in voorgrondgeluid onvoldoende zijn om audiodescripties toe te passen om de boodschap van de video over te brengen, wordt een verlengde audiodescriptie geleverd voor alle vooraf opgenomen videocontent in gesynchroniseerde media.",
             "DETAILS": {}
         },
         "1.2.8": {
-            "TITLE": "Media-alternatief (vooraf",
+            "TITLE": "Media-alternatief (vooraf opgenomen)",
             "DESCRIPTION": "Er wordt een alternatief geleverd voor op tijd gebaseerde media voor alle vooraf opgenomen gesynchroniseerde media en voor alle vooraf opgenomen louter-videobeeld media.",
             "DETAILS": {}
         },
@@ -158,7 +158,7 @@
             "DETAILS": {}
         },
         "1.3.1": {
-            "TITLE": "Info en",
+            "TITLE": "Info en relaties",
             "DESCRIPTION": "Informatie, structuur en relaties overgebracht door presentatie kunnen door software bepaald worden of zijn beschikbaar in tekst.",
             "DETAILS": {}
         },
@@ -195,7 +195,7 @@
             "DETAILS": {}
         },
         "1.4.1": {
-            "TITLE": "Gebruik",
+            "TITLE": "Gebruik van kleur",
             "DESCRIPTION": "Kleur wordt niet als het enige visuele middel gebruikt om informatie over te brengen, een actie aan te geven, tot een reactie op te roepen of een visueel element te onderscheiden.",
             "DETAILS": {}
         },
@@ -205,7 +205,7 @@
             "DETAILS": {}
         },
         "1.4.3": {
-            "TITLE": "Contrast",
+            "TITLE": "Contrast (minimum)",
             "DESCRIPTION": "De visuele weergave van tekst en afbeeldingen van tekst heeft een contrastverhouding van ten minste 4,5:1, behalve in de volgende gevallen:",
             "DETAILS": {
                 "1": {
@@ -242,7 +242,7 @@
             }
         },
         "1.4.6": {
-            "TITLE": "Contrast",
+            "TITLE": "Contrast (versterkt)",
             "DESCRIPTION": "De visuele weergave van tekst en afbeeldingen van tekst heeft een contrastverhouding van ten minste 7:1, behalve in de volgende gevallen:",
             "DETAILS": {
                 "1": {
@@ -260,7 +260,7 @@
             }
         },
         "1.4.7": {
-            "TITLE": "Weinig of",
+            "TITLE": "Weinig of geen achtergrondgeluid",
             "DESCRIPTION": "Voor vooraf opgenomen louter-geluidcontent die (1) voornamelijk spraak op de voorgrond bevat, (2) geen geluids-CAPTCHA of audiologo is, en (3) geen vocalisatie is die primair bedoeld is als muzikale expressie zoals zingen of rappen, is ten minste één van de volgende zaken waar:",
             "DETAILS": {
                 "1": {
@@ -278,7 +278,7 @@
             }
         },
         "1.4.8": {
-            "TITLE": "Visuele",
+            "TITLE": "Visuele weergave",
             "DESCRIPTION": "Voor de visuele weergave van tekstblokken is een mechanisme beschikbaar om het volgende te realiseren:",
             "DETAILS": {
                 "1": {
@@ -299,7 +299,7 @@
             }
         },
         "1.4.9": {
-            "TITLE": "Afbeeldingen van tekst (geen",
+            "TITLE": "Afbeeldingen van tekst (geen uitzondering)",
             "DESCRIPTION": "Afbeeldingen van tekst worden alleen puur decoratief gebruikt, of daar waar een specifieke weergave van tekst essentieel is voor de informatie die wordt overgebracht.",
             "DETAILS": {}
         },
@@ -316,7 +316,7 @@
             }
         },
         "1.4.11": {
-            "TITLE": "Contrast",
+            "TITLE": "Contrast van niet-tekstuele content",
             "DESCRIPTION": "De visuele weergave van het volgende heeft een contrastverhouding van ten minste 3:1 ten opzichte van aangrenzende kleuren:",
             "DETAILS": {
                 "1": {
@@ -348,7 +348,7 @@
             }
         },
         "1.4.13": {
-            "TITLE": "Content",
+            "TITLE": "Content bij hover of focus",
             "DESCRIPTION": "Wanneer aanvullende content zichtbaar wordt en daarna weer verborgen, door het gebruik van hover met de aanwijzer of focus met het toetsenbord, gelden de volgende zaken:",
             "DETAILS": {
                 "1": {
@@ -371,7 +371,7 @@
             "DETAILS": {}
         },
         "2.1.2": {
-            "TITLE": "Geen",
+            "TITLE": "Geen toetsenbordval",
             "DESCRIPTION": "Als de toetsenbordfocus met de toetsenbordinterface verplaatst kan worden naar een component van de pagina, dan kan de focus ook met alleen de toetsenbordinterface weer van dat component weg worden bewogen. En, als er meer nodig is dan de standaard pijl- of tabtoetsen of andere standaard methoden om de focus te verplaatsen, dan wordt de gebruiker geïnformeerd over de manier waarop de focus kan worden verplaatst.",
             "DETAILS": {}
         },
@@ -381,7 +381,7 @@
             "DETAILS": {}
         },
         "2.1.4": {
-            "TITLE": "Enkel",
+            "TITLE": "Enkel teken sneltoetsen",
             "DESCRIPTION": "Wanneer een sneltoets in content wordt geïmplementeerd door alleen letters (inclusief hoofdletters en kleine letters), leestekens, cijfers of symbolen te gebruiken, geldt ten minste één van de volgende zaken:",
             "DETAILS": {
                 "1": {
@@ -399,7 +399,7 @@
             }
         },
         "2.2.1": {
-            "TITLE": "Timing",
+            "TITLE": "Timing aanpasbaar",
             "DESCRIPTION": "Voor elke tijdslimiet die door de content wordt ingesteld, geldt ten minste één van de volgende zaken:",
             "DETAILS": {
                 "1": {
@@ -429,7 +429,7 @@
             }
         },
         "2.2.2": {
-            "TITLE": "Pauzeren,",
+            "TITLE": "Pauzeren, stoppen, verbergen",
             "DESCRIPTION": "Voor alle bewegende, knipperende, scrollende of automatisch actualiserende informatie gelden alle volgende zaken:",
             "DETAILS": {
                 "1": {
@@ -443,7 +443,7 @@
             }
         },
         "2.2.3": {
-            "TITLE": "Geen",
+            "TITLE": "Geen timing",
             "DESCRIPTION": "Timing is geen essentieel onderdeel van de gebeurtenis of activiteit die door de content wordt weergegeven, behalve voor niet-interactieve gesynchroniseerde media en real-time gebeurtenissen.",
             "DETAILS": {}
         },
@@ -463,22 +463,22 @@
             "DETAILS": {}
         },
         "2.3.1": {
-            "TITLE": "Drie",
+            "TITLE": "Drie flitsen of beneden drempelwaarde",
             "DESCRIPTION": "Webpagina's bevatten niets wat meer dan drie keer flitst in enige periode van één seconde of de flits is beneden de algemene flits- en rodeflitsdrempelwaarden.",
             "DETAILS": {}
         },
         "2.3.2": {
-            "TITLE": "Drie",
+            "TITLE": "Drie flitsen",
             "DESCRIPTION": "Webpagina's bevatten niets wat meer dan drie keer flitst in enige periode van één seconde.",
             "DETAILS": {}
         },
         "2.3.3": {
-            "TITLE": "Animatie",
+            "TITLE": "Animatie uit interacties",
             "DESCRIPTION": "Bewegingsanimatie die door interactie wordt geactiveerd, kan worden uitgeschakeld, behalve als de animatie essentieel is voor de functionaliteit of voor de informatie die wordt overgebracht.",
             "DETAILS": {}
         },
         "2.4.1": {
-            "TITLE": "Blokken",
+            "TITLE": "Blokken omzeilen",
             "DESCRIPTION": "Er is een mechanisme beschikbaar om blokken content die op meerdere webpagina's worden herhaald te omzeilen.",
             "DETAILS": {}
         },
@@ -488,27 +488,27 @@
             "DETAILS": {}
         },
         "2.4.3": {
-            "TITLE": "Focus",
+            "TITLE": "Focus volgorde",
             "DESCRIPTION": "Als in webpagina's sequentieel genavigeerd kan worden en de navigatiesequenties hebben invloed op de betekenis of het gebruik, dan krijgen focusbare componenten de focus in de juiste volgorde waardoor betekenis en bedienbaarheid behouden blijft.",
             "DETAILS": {}
         },
         "2.4.4": {
-            "TITLE": "Linkdoel",
+            "TITLE": "Linkdoel (in context)",
             "DESCRIPTION": "Het linkdoel kan bepaald worden uit enkel de linktekst of uit de linktekst samen met zijn door software bepaalde linkcontext, behalve daar waar het doel van de link een dubbelzinnige betekenis kan hebben voor gebruikers in het algemeen.",
             "DETAILS": {}
         },
         "2.4.5": {
-            "TITLE": "Meerdere",
+            "TITLE": "Meerdere manieren",
             "DESCRIPTION": "Er is meer dan één manier beschikbaar om een webpagina binnen een verzameling webpagina's te vinden, behalve wanneer de webpagina het resultaat is van, of een stap in, een proces.",
             "DETAILS": {}
         },
         "2.4.6": {
-            "TITLE": "Koppen en",
+            "TITLE": "Koppen en labels",
             "DESCRIPTION": "Koppen en labels beschrijven het onderwerp of doel.",
             "DETAILS": {}
         },
         "2.4.7": {
-            "TITLE": "Focus",
+            "TITLE": "Focus zichtbaar",
             "DESCRIPTION": "Elke gebruikersinterface die met een toetsenbord te bedienen is, heeft een bedieningswijze waarbij de indicator van de toetsenbordfocus zichtbaar is.",
             "DETAILS": {}
         },
@@ -518,7 +518,7 @@
             "DETAILS": {}
         },
         "2.4.9": {
-            "TITLE": "Linkdoel",
+            "TITLE": "Linkdoel (alleen link)",
             "DESCRIPTION": "Er is een mechanisme beschikbaar waarmee het doel van elke link bepaald kan worden op basis van alleen de linktekst, behalve waar het doel van de link dubbelzinnig voor gebruikers in het algemeen zou zijn.",
             "DETAILS": {}
         },
@@ -555,7 +555,7 @@
             }
         },
         "2.5.3": {
-            "TITLE": "Label in",
+            "TITLE": "Label in naam",
             "DESCRIPTION": "Bij componenten van de gebruikersinterface met labels die tekst of afbeeldingen van tekst bevatten, bevat de naam de tekst die visueel wordt weergegeven.",
             "DETAILS": {}
         },
@@ -574,7 +574,7 @@
             }
         },
         "2.5.5": {
-            "TITLE": "Grootte",
+            "TITLE": "Grootte van het aanwijsgebied",
             "DESCRIPTION": "De grootte van het doelgebied voor aanwijzerinvoer is ten minste 44 bij 44 CSS-pixels, behalve in de volgende gevallen:",
             "DETAILS": {
                 "1": {
@@ -596,17 +596,17 @@
             }
         },
         "2.5.6": {
-            "TITLE": "Input",
+            "TITLE": "Input gelijktijdige invoermechanismen",
             "DESCRIPTION": "Webcontent beperkt niet het gebruik van de invoermanieren die op een platform beschikbaar zijn, behalve wanneer de beperking essentieel is, deze vereist is om de beveiliging van de content te garanderen of deze vereist is om gebruikersinstellingen te beschermen.",
             "DETAILS": {}
         },
         "3.1.1": {
-            "TITLE": "Taal van",
+            "TITLE": "Taal van de pagina",
             "DESCRIPTION": "De standaard menselijke taal van diverse webpagina's kan door software bepaald worden.",
             "DETAILS": {}
         },
         "3.1.2": {
-            "TITLE": "Taal van",
+            "TITLE": "Taal van onderdelen",
             "DESCRIPTION": "De menselijke taal van elke passage of zin in de content kan door software bepaald worden, behalve waar het gaat om eigennamen, technische termen, woorden uit een onbepaalde taal en woorden of zinsdelen die deel zijn gaan uitmaken van het jargon van de onmiddellijk omringende tekst.",
             "DETAILS": {}
         },
@@ -631,12 +631,12 @@
             "DETAILS": {}
         },
         "3.2.1": {
-            "TITLE": "Bij",
+            "TITLE": "Bij focus",
             "DESCRIPTION": "Als een component van de gebruikersinterface de focus krijgt, dan veroorzaakt dat geen contextwijziging.",
             "DETAILS": {}
         },
         "3.2.2": {
-            "TITLE": "Bij",
+            "TITLE": "Bij input",
             "DESCRIPTION": "Verandering van de instelling van een component van de gebruikersinterface veroorzaakt niet automatisch een contextwijziging, tenzij de gebruiker geïnformeerd is over het gedrag vóór het gebruik van de component.",
             "DETAILS": {}
         },
@@ -661,7 +661,7 @@
             "DETAILS": {}
         },
         "3.3.2": {
-            "TITLE": "Labels of",
+            "TITLE": "Labels of instructies",
             "DESCRIPTION": "Als de content gebruikersinvoer vereist, dan worden labels of instructies geleverd.",
             "DETAILS": {}
         },
@@ -671,7 +671,7 @@
             "DETAILS": {}
         },
         "3.3.4": {
-            "TITLE": "Foutpreventie (wettelijk,",
+            "TITLE": "Foutpreventie (wettelijk, financieel, gegevens",
             "DESCRIPTION": "Voor webpagina's die wettelijke verplichtingen of financiële transacties voor de gebruiker uitvoeren, die, door gebruikers bedienbaar gegevens in gegevensopslagplaatsen verwijderen of wijzigen, of die antwoorden van de gebruiker verzenden, geldt ten minste één van de volgende zaken:",
             "DETAILS": {
                 "1": {
@@ -717,7 +717,7 @@
             "DETAILS": {}
         },
         "4.1.2": {
-            "TITLE": "Naam,",
+            "TITLE": "Naam, rol, waarde",
             "DESCRIPTION": "Voor alle componenten van de gebruikersinterface (inclusief, maar niet uitsluitend voor formulierelementen, links en door scripts gegenereerde componenten), kunnen de naam (name) en rol (role) door software bepaald worden; toestanden (states), eigenschappen (properties) en waarden (values) die door de gebruiker ingesteld kunnen worden, kunnen door software ingesteld worden; en kennisgeving van veranderingen in deze items is beschikbaar voor user agents, met inbegrip van hulptechnologieën.",
             "DETAILS": {}
         },
