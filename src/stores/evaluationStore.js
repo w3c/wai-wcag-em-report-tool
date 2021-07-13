@@ -53,7 +53,7 @@ const evaluationContext = {
   WCAG20: 'http://www.w3.org/TR/WCAG20/#',
   WCAG21: 'http://www.w3.org/TR/WCAG21/#',
   wcagVersion: 'WAI:standards-guidelines/wcag/#versions',
-  version: 'wcagem:version',
+  reportToolVersion: 'wcagem:reportToolVersion',
 
   // WCAG-EM Context
   wcagem: 'http://www.w3.org/TR/WCAG-EM/#',
@@ -91,7 +91,7 @@ class EvaluationModel {
     this['@type'] = evaluationTypes[0];
     this['@language'] = 'en';
 
-    this.version = version;
+    this.reportToolVersion = version;
 
     this.defineScope = {
       '@id': '_:defineScope',

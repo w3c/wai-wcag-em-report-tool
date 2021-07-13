@@ -77,7 +77,7 @@ export const exportContext = {
   AA: 'WAI:WCAG2AA-Conformance',
   AAA: 'WAI:WCAG2AAA-Conformance',
   wcagVersion: 'WAI:standards-guidelines/wcag/#versions',
-  version: 'wcagem:version',
+  reportToolVersion: 'wcagem:reportToolVersion',
 
   // EARL
   earl: 'http://www.w3.org/ns/earl#',

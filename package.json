@@ -1,6 +1,6 @@
 {
     "name": "WCAG-EM-Report-Tool",
-    "version": "3.0.1",
+    "version": "3.0.0",
     "repository": {
         "type": "git",
         "url": "git://github.com/w3c/wcag-em-report-tool.git"

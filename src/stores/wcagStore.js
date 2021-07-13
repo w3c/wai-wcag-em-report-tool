@@ -77,8 +77,6 @@ export const wcagCriteriaDictionary = WCAG_VERSIONS.reduce((result, version, ind
     return -1;
   });
 
-  console.log(versionedCriteria);
-
   result.push({
     version,
     criteria: [...versionedCriteria]
