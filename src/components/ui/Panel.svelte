@@ -47,7 +47,7 @@
   grid-row-start: 1;
 }
 :global(#report-findings .your-report {
-  position: initial;
+  position: static;
 })
 .your-report__heading-pre {
   font-size: smaller;
