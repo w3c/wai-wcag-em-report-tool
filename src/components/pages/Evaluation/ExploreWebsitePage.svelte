@@ -1,4 +1,4 @@
-<Page title="{TRANSLATED.PAGE_TITLE}">
+<Page title="{TRANSLATED.PAGE_TITLE}" pageid="explore-website">
   <p>
     {@html TRANSLATED.INTRODUCTION}
   </p>

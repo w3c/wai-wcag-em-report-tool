@@ -2,7 +2,7 @@
  * @component
  *   OverviewPage
  * -->
-<Page title="{TRANSLATED.PAGE_TITLE}">
+<Page title="{TRANSLATED.PAGE_TITLE}" pageid="overview">
   <div class="getting-started">
     <p class="getting-started__intro">
       {@html TRANSLATED.INTRODUCTION_P1}

@@ -42,10 +42,13 @@
 
 <style>
 .your-report {
-  position: sticky; 
+  position: sticky;
   top: 1em;
   grid-row-start: 1;
 }
+:global(#report-findings .your-report {
+  position: static;
+})
 .your-report__heading-pre {
   font-size: smaller;
   display: block;
