@@ -74,6 +74,7 @@
   }
   .AuditorSamples__item label {
     margin-left: .5em;
+    overflow-wrap: anywhere;
   }
   .AuditorSamples__item input {
     width: 1em;
