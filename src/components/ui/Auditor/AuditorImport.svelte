@@ -1,6 +1,15 @@
 <div class="AuditorImport">
   <span class="AuditorImport__beta">Beta</span>
-  <p>{@html TRANSLATED.IMPORT_DATA_INTRO}</p>
+  <p>{@html TRANSLATED.IMPORT_DATA_INTRO}
+    <a href="https://github.com/w3c/wai-wcag-em-report-tool/wiki/Import-Function" class="more-info" title={TRANSLATED.MORE_INFO}>
+      <span aria-hidden="true" class="more-info__icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450">
+<path fill="currentColor" d="M256 344v-40c0-4.5-3.5-8-8-8h-24v-128c0-4.5-3.5-8-8-8h-80c-4.5 0-8 3.5-8 8v40c0 4.5 3.5 8 8 8h24v80h-24c-4.5 0-8 3.5-8 8v40c0 4.5 3.5 8 8 8h112c4.5 0 8-3.5 8-8zM224 120v-40c0-4.5-3.5-8-8-8h-48c-4.5 0-8 3.5-8 8v40c0 4.5 3.5 8 8 8h48c4.5 0 8-3.5 8-8zM384 224c0 106-86 192-192 192s-192-86-192-192 86-192 192-192 192 86 192 192z"></path>
+        </svg>
+     </span>
+     <span class="visuallyhidden">{TRANSLATED.MORE_INFO}</span>
+    </a>
+  </p>
   <File
     id="import__assertions"
     label="{TRANSLATED.BUTTON}"
@@ -11,6 +20,22 @@
 </div>
 
 <style>
+  a.more-info,
+  a.more-info:visited {
+    color: var(--light-blue);
+    margin-left: .25em;
+    font-size: .8rem;
+  }
+  a.more-info:hover {
+    color: var(--ocean);
+  }
+  .more-info__icon {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .more-info__icon svg {
+    height: 1.5em;
+  }
   .AuditorImport {
     margin: 1em 0 1em;
     border: 1px solid var(--line-grey);
@@ -62,7 +87,8 @@
     NO_COMPATIBLE_ASSERTIONS: $translate('UI.IMPORT.ERROR.NO_COMPATIBLE_ASSERTIONS'),
     ERROR_DEFAULT: $translate('UI.COMMON.ERROR.DEFAULT'),
     IMPORT_SUCCESSFUL: $translate('UI.IMPORT.SUCCESSFUL'),
-    FILE_ERROR: $translate('UI.IMPORT.ERROR.FILE_ERROR')
+    FILE_ERROR: $translate('UI.IMPORT.ERROR.FILE_ERROR'),
+    MORE_INFO: $translate('UI.IMPORT.MORE_INFO')
   };
 
   function handleClick (event) {

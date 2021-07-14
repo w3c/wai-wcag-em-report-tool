@@ -12,5 +12,6 @@
     	"NO_COMPATIBLE_ASSERTIONS": "None of the assertions in this file matched the selected sample.",
     	"FILE_ERROR": "Incorrect file format or damaged file."
     },
-    "SUCCESSFUL": "Assertions were added to the observations on this page."
+    "SUCCESSFUL": "Assertions were added to the observations on this page.",
+    "MORE_INFO": "More info on importing EARL as JSON"
 }

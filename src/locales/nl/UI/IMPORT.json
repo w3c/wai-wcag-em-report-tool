@@ -12,5 +12,6 @@
         "NO_COMPATIBLE_ASSERTIONS": "Geen van de criteria in dit bestand komt overeen met het geselecteerde sample.",
         "FILE_ERROR": "Incorrect bestandstype of beschadigd bestand."
     },
-    "SUCCESSFUL": "De criteria zijn toegevoegd aan de bevindingen op deze pagina."
+    "SUCCESSFUL": "De criteria zijn toegevoegd aan de bevindingen op deze pagina.",
+    "MORE_INFO": "Meer informatie over het importeren van EARL als JSON"
 }
