@@ -462,7 +462,7 @@ class EvaluationModel {
               const { assertedBy, mode, result, subject, test } = assertion;
               const newSubject = $subjects.find(($subject) => {
                 if (
-                  jsonld.hasType(subject, [TestSubjectTypes.WEBSITE, 'WebSite'])
+                  jsonld.hasType($subject, [TestSubjectTypes.WEBSITE, 'WebSite'])
                 ) {
                   return jsonld.hasType($subject, TestSubjectTypes.WEBSITE);
                 }
@@ -513,7 +513,10 @@ class EvaluationModel {
                   });
 
                   if (foundAssertion) {
-                    foundAssertion.result = newAssertion.result;
+                    // foundAssertion.result = newAssertion.result;
+                    // foundAssertion.subject = assertion.subject;
+                    assertion.test = newTest;
+                    assertions.create(assertion);
                   } else {
                     assertions.create(newAssertion);
                   }

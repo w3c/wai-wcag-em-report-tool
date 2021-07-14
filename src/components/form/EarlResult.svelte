@@ -124,7 +124,7 @@
   $: _assertion =
     $assertions.find(($assertion) => {
       const matchedTest = $assertion.test === test;
-      const matchedSubject = $assertion.subject === subject;
+      const matchedSubject = $assertion.subject.title === subject.title;
 
       return matchedTest && matchedSubject;
     }) || assertions.create({ subject, test });

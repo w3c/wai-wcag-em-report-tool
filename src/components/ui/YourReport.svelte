@@ -66,6 +66,7 @@
   import assertions from '@app/stores/earl/assertionStore/index.js';
   import evaluationStore from '@app/stores/evaluationStore.js';
 
+  import subjects, { TestSubjectTypes } from '@app/stores/earl/subjectStore/index.js';
   import { CriteriaSelected } from '@app/stores/selectedCriteriaStore.js';
   let criteriaCount = 0;
   $: criteriaCount = $CriteriaSelected.length;
@@ -99,7 +100,7 @@
   };
 
   $: conformanceTarget = $scopeStore['CONFORMANCE_TARGET'];
-  $: percentageTotalEvaluated = 100 / $assertions.length * totalEvaluated;
+  $: percentageTotalEvaluated = 100 / $CriteriaSelected.length * totalEvaluated;
 
   $: principles = [...new Set($wcag.map((a) => a.num.split('.')[0]))];
 
@@ -145,7 +146,7 @@
   };
 
   function isEvaluated(assertion) {
-    return assertion.result.outcome.id !== "earl:untested"
+    return assertion.result.outcome.id !== "earl:untested" && assertion.subject.type.indexOf(TestSubjectTypes.WEBSITE) >= 0
   }
 
   function handleNewEvaluationClick() {
@@ -178,5 +179,5 @@
   $: totalToEvaluate = $assertions.filter(assertion => 
     assertion.result.outcome.id == "earl:untested").length;
   $: totalEvaluated = $assertions.filter(assertion => 
-   assertion.result.outcome.id !== "earl:untested").length;
+    assertion.result.outcome.id !== "earl:untested" && assertion.subject.type.indexOf(TestSubjectTypes.WEBSITE) >= 0).length;
 </script>
