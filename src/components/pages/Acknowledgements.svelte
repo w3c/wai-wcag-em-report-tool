@@ -5,7 +5,7 @@
  <Page title="Acknowledgements" pageid="acknowledgements">
 
   <p>
-    The WCAG-EM Report Tool is developed by the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO">EOWG</a>. It was initially developed with support from the <a href="https://www.w3.org/WAI/ACT/">WAI-ACT Project</a>, and updated with support of the <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>, co-funded by the European Commission (EC). 
+    The WCAG-EM Report Tool is developed by the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO">EOWG</a>). It was initially developed with support from the <a href="https://www.w3.org/WAI/ACT/">WAI-ACT Project</a>, and updated with support of the <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>, co-funded by the European Commission (EC). 
   </p> 
   
   <h2>Project Leadership</h2> 
