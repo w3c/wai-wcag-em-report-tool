@@ -22,6 +22,7 @@ jobs:
       with:
         node-version: '12.x'
     - run: npm install
+    - run: npm install --global rollup
     - run: export BASEPATH='/wai-wcag-em-report-tool' && npm run clean:build && rollup -c
     - run: cd public && ln -s index.html 404.html # symlink for GH pages fallback
     - name: Install SSH Client 🔑
