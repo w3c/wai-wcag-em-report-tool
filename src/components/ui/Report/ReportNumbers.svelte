@@ -12,6 +12,7 @@
 
   import assertions from '@app/stores/earl/assertionStore/index.js';
   import { CriteriaSelected } from '@app/stores/selectedCriteriaStore.js';
+  import subjects, { TestSubjectTypes } from '@app/stores/earl/subjectStore/index.js';
 
   const { translate, scopeStore } = getContext('app');
 
@@ -26,6 +27,6 @@
   };
 
   $: totalEvaluated = $assertions.filter(assertion => 
-   assertion.result.outcome.id !== "earl:untested").length;
+   assertion.result.outcome.id !== "earl:untested" && assertion.subject.type.indexOf(TestSubjectTypes.WEBSITE) >= 0).length;
 
 </script>

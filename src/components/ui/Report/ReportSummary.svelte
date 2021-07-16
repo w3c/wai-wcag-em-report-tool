@@ -48,6 +48,7 @@
   import ResultCard from './ResultCard.svelte';
 
   import assertions from '@app/stores/earl/assertionStore/index.js';
+  import subjects, { TestSubjectTypes } from '@app/stores/earl/subjectStore/index.js';
   import { CriteriaSelected } from '@app/stores/selectedCriteriaStore.js';
   let criteriaCount = 0;
   $: criteriaCount = $CriteriaSelected.length;
@@ -72,7 +73,8 @@
           name: outcomeValue.title,
           id: outcomeValue.id,
           items: $assertions.filter(assertion => 
-            assertion.result.outcome.id === outcomeValue.id)
+            assertion.result.outcome.id === outcomeValue.id && 
+            assertion.subject.type.indexOf(TestSubjectTypes.WEBSITE) >= 0)
         };
         final.push(value);
     }else{
@@ -80,7 +82,8 @@
           name: outcomeValue.title,
           id: outcomeValue.id,
           items: $assertions.filter(assertion => 
-            assertion.result.outcome.id === outcomeValue.id)
+            assertion.result.outcome.id === outcomeValue.id && 
+            assertion.subject.type.indexOf(TestSubjectTypes.WEBSITE) >= 0)
         };
         final.push(value);
     }

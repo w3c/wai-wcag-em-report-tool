@@ -118,7 +118,9 @@
   import { WCAG_VERSIONS } from '@app/stores/wcagStore.js';
   import scopeStore from '@app/stores/scopeStore.js';
   import assertions from '@app/stores/earl/assertionStore/index.js';
-  import { TestSubjectTypes } from '@app/stores/earl/subjectStore/index.js';
+  import subjects, {
+    TestSubjectTypes
+  } from '@app/stores/earl/subjectStore/index.js';
 
   export let criteria = [];
 
@@ -197,9 +199,19 @@
   }
 
   function sampleAssertions(criterion) {
-    return criterionAssertions(criterion).filter((assertion) => {
+    let sampleAssertions = criterionAssertions(criterion).filter((assertion) => {
       return assertion.subject.type.indexOf(TestSubjectTypes.WEBPAGE) >= 0;
     });
+    sampleAssertions.sort(sortSubjectOrder);
+    return sampleAssertions;
+  }
+
+  function sortSubjectOrder(a, b) {
+    let sortingArray = [];
+    $subjects.forEach((subject) => {
+      sortingArray.push(subject.title)
+    });
+    return sortingArray.indexOf(a.subject.title) - sortingArray.indexOf(b.subject.title);
   }
 
   function assertionHasContents(assertion) {
