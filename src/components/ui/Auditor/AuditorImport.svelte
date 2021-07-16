@@ -1,7 +1,7 @@
 <div class="AuditorImport">
   <span class="AuditorImport__beta">Beta</span>
   <p>{@html TRANSLATED.IMPORT_DATA_INTRO}
-    <a href="https://github.com/w3c/wai-wcag-em-report-tool/wiki/Import-Function" class="more-info" title={TRANSLATED.MORE_INFO}>
+    <a href="https://github.com/w3c/wai-wcag-em-report-tool/wiki/How-to-use-the-%E2%80%9CAdd-data-from-other-(automated)-tests%E2%80%9D-functionality" class="more-info" title={TRANSLATED.MORE_INFO}>
       <span aria-hidden="true" class="more-info__icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450">
 <path fill="currentColor" d="M256 344v-40c0-4.5-3.5-8-8-8h-24v-128c0-4.5-3.5-8-8-8h-80c-4.5 0-8 3.5-8 8v40c0 4.5 3.5 8 8 8h24v80h-24c-4.5 0-8 3.5-8 8v40c0 4.5 3.5 8 8 8h112c4.5 0 8-3.5 8-8zM224 120v-40c0-4.5-3.5-8-8-8h-48c-4.5 0-8 3.5-8 8v40c0 4.5 3.5 8 8 8h48c4.5 0 8-3.5 8-8zM384 224c0 106-86 192-192 192s-192-86-192-192 86-192 192-192 192 86 192 192z"></path>
