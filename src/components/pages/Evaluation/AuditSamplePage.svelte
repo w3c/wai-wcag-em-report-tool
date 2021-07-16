@@ -12,6 +12,7 @@
   import AuditorImport from '@app/components/ui/Auditor/AuditorImport.svelte';
   import ResourceLink from '@app/components/ui/ResourceLink.svelte';
   import Page from '@app/components/ui/Page.svelte';
+  import assertions from '@app/stores/earl/assertionStore/index.js';
 
   const { translate } = getContext('app');
 

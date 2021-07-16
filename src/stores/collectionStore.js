@@ -24,7 +24,6 @@ export default function collectionStore(Item, initialCollection = []) {
       return [...value, newItem];
     });
     
-    
     return newItem;
   };
 
