@@ -15,8 +15,6 @@ import locales from './src/locales/index.json';
 
 const production = !process.env.ROLLUP_WATCH;
 
-// You can add this env by using rollup's --environment cli flag;
-// Like: npm run dev -- --environment BASEPATH:"/some-server-subdir"
 const BASEPATH = process.env.BASEPATH || '';
 const PATHS = {
   BUILD: `_site/build${BASEPATH}`,
