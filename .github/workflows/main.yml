@@ -28,6 +28,6 @@ jobs:
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
-        BRANCH: gh-pages
+        BRANCH: main
         FOLDER: _site/build
  
