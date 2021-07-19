@@ -26,7 +26,7 @@ jobs:
     - run: export BASEPATH='/wai-wcag-em-report-tool' && npm run clean:build && rollup -c
     - run: cd _site/build && ln -s index.html 404.html # symlink for GH pages fallback
     - name: Deploy 🚀
-      uses: JamesIves/github-pages-deploy-action@releases/v3
+      uses: JamesIves/github-pages-deploy-action@4.1.4
       with:
         BRANCH: main
         FOLDER: _site/build
