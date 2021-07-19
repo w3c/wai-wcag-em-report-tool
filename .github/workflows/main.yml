@@ -25,13 +25,9 @@ jobs:
     - run: npm install --global rollup
     - run: export BASEPATH='/wai-wcag-em-report-tool' && npm run clean:build && rollup -c
     - run: cd _site/build && ln -s index.html 404.html # symlink for GH pages fallback
-    - name: Install SSH Client 🔑
-      uses: webfactory/ssh-agent@v0.2.0
-      with:
-        ssh-private-key: ${{ secrets.DEPLOY_KEY }}
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
         BRANCH: gh-pages
         FOLDER: public
-        SSH: true
+ 
