@@ -29,5 +29,5 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
         BRANCH: gh-pages
-        FOLDER: public
+        FOLDER: _site/build
  
