@@ -1,0 +1,81 @@
+/**
+ * Device display helper class
+ * If text just does not fit, visually hide it!
+ * It will still be accessible to
+ * assistive technology, like screenreaders.
+ */
+.visually-hidden,
+.display-phablet,
+.display-tablet,
+.display-desktop {
+  position: absolute;
+  right: 99999px;
+  bottom: 99999px;
+  width: 1px;
+  height: 1px;
+}
+
+/**
+ *  PHABLETS;
+ *  to big to be a phone,
+ *  to small to be a tablet...🤷‍♂️
+ */
+@media (min-width: 30em) {
+  .display-phablet {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+  }
+}
+
+/* TABLETS */
+@media (min-width: 40em) {
+  .display-tablet {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+  }
+}
+
+/* DESKTOP */
+@media (min-width: 60em) {
+  .display-desktop {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+  }
+  .default-grid {
+    grid-template-columns: [complete-start] minmax(16px, 1fr) [navigation-start] repeat( 2, minmax(0, 50px) ) [navigation-end content-start] repeat(6, minmax(0, 110px)) [content-end] minmax(16px, 1fr) [complete-end];
+  }
+}
+
+.app-container {
+  background-color: white;
+}
+
+textarea {
+  font-family: 'Noto Sans Mono', monospace;
+}
+
+.your-report {
+  padding: 0.9em; /* to fit WCAG EM Report Tool View + Clear buttons */
+}
+
+/*
+ * Remove default focus styles from elements that
+ * otherwise should not receive focus.
+*/
+[tabindex]:focus {
+  outline: none;
+}
+
+:target {
+  scroll-margin-top: 5rem;
+}
+
