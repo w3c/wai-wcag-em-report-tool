@@ -73,11 +73,6 @@
 
   onMount(() => {
     window.addEventListener("input", setInteracted);
-      console.log(basepath);
-    setContext('app', {
-        basepath
-      }
-    );
   });
   function setInteracted(){
       window.removeEventListener("input", setInteracted);
