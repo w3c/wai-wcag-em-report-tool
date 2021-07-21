@@ -2,7 +2,7 @@
  * @component
  * Criterion
  * -->
-<div class="criterion" id={`criterion-${normaliseId(test)}`}>
+<div class="criterion" id={`criterion-${normaliseId(test)}`} data-version={version}>
   <header class="criterion-header">
     <h3>{num}: {TRANSLATED.CRITERION.TITLE}</h3>
     <em class="criterion-header__level">Level {conformanceLevel}</em>
@@ -116,6 +116,7 @@
   export let conformanceLevel;
   export let id;
   export let num;
+  export let version = "";
   export let criterionDetailsOpen = false;
   let criterionDetails;
 
