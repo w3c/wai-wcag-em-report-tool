@@ -18,10 +18,11 @@
   import summaryStore from '@app/stores/summaryStore.js';
   import wcagStore from '@app/stores/wcagStore.js';
   import { outcomeValueStore } from '@app/stores/earl/resultStore/index.js';
+  import { basepath as storedBasepath } from '@app/stores/appStore.js';
 
   import BaseRoute from '@app/components/routes/BaseRoute.svelte';
 
-  export let basepath = '/';
+  export let basepath = '';
 
   setContext('app', {
     translate,
@@ -73,6 +74,7 @@
 
   onMount(() => {
     window.addEventListener("input", setInteracted);
+    storedBasepath.set(basepath);
   });
   function setInteracted(){
       window.removeEventListener("input", setInteracted);

@@ -5,7 +5,7 @@
   rel="noopener roreferrer"
 >
   <svg aria-hidden="true" class="icon-info"><use
-      xlink:href="images/icons.svg#icon-info"
+      xlink:href={`${$basepath}/images/icons.svg#icon-info`}
     ></use></svg>
   <span>
     <slot />
@@ -35,5 +35,9 @@
 </style>
 
 <script>
+  import { basepath } from '@app/stores/appStore.js';
+
+  console.log($basepath);
+
   export let href;
 </script>

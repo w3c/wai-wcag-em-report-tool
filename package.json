@@ -9,7 +9,7 @@
         "build": "npm run clean:build & rollup -c",
         "build-production": "export BASEPATH='/WAI/eval/report-tool' && npm run clean:build && rollup -c",
         "build-ghpages": "export BASEPATH='/wai-wcag-em-report-tool' && npm run clean:build && rollup -c",
-        "dev": "npm run clean:dev & rollup -c -w",
+        "dev": "export BASEPATH='' && npm run clean:dev & rollup -c -w",
         "start": "sirv ./build -s",
         "clean": "rimraf ./build ./node_modules",
         "clean:build": "rimraf ./build",

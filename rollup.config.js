@@ -92,12 +92,12 @@ export default {
         {
           // Styles
           src: 'src/static/css/**/*.css',
-          dest: `${BASEPATH ? BASEPATH + '/' : ''}build/bundles`
+          dest: `${BASEPATH}build/bundles`
         },
         {
           // Images
           src: 'src/static/**/*.{svg,png,jpeg,jpg}',
-          dest: `${BASEPATH ? BASEPATH + '/' : ''}build/images`
+          dest: `${BASEPATH}build/images`
         },
         {
           // index.html

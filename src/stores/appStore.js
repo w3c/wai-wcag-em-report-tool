@@ -39,3 +39,5 @@ export const routes = derived([translate], ([$translate]) => {
 });
 
 export const yourReportPanelOpen = writable(true);
+
+export const basepath = writable(true);

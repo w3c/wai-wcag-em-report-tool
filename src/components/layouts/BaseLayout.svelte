@@ -12,11 +12,11 @@
       <div class="tool-header-logo">
         <a href="http://w3.org/"><img
             alt="W3C"
-            src="images/w3c.svg"
+            src={`${$basepath}/images/w3c.svg`}
           /></a>
         <a href="http://w3.org/WAI/"><img
             alt="Web Accessibility Initiative"
-            src="images/wai.svg"
+            src={`${$basepath}/images/wai.svg`}
           /></a>
       </div>
     </div>
@@ -59,7 +59,7 @@
   import { getContext } from 'svelte';
   import { useLocation } from 'svelte-navigator';
 
-  import { routes } from '@app/stores/appStore.js';
+  import { routes, basepath } from '@app/stores/appStore.js';
   import locales from '@app/locales/index.json';
 
   import LanguageSelect from '@app/components/ui/LanguageSelect.svelte';
