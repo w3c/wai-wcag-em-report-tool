@@ -16,10 +16,6 @@ import locales from './src/locales/index.json';
 const production = !process.env.ROLLUP_WATCH;
 
 const BASEPATH = process.env.BASEPATH || '';
-const PATHS = {
-  BUILD: `_site/build${BASEPATH}`,
-  DEV: `_site/development${BASEPATH}`
-};
 
 export default {
   input: pkg.main,
@@ -27,9 +23,52 @@ export default {
     sourcemap: true,
     format: 'esm',
     name: pkg.name,
-    dir: `${production ? PATHS.BUILD : PATHS.DEV}/bundles`
+    dir: `build${BASEPATH}/bundles`
   },
   plugins: [
+    svelte({
+      // enable run-time checks when not in production
+      dev: !production,
+      // we'll extract any component CSS out into
+      // a separate file - better for performance
+      css: (css) => {
+        css.write('main.css');
+      }
+    }),
+
+    resolve({
+      browser: true,
+      dedupe: ['svelte']
+    }),
+    commonjs(),
+
+    json({
+      compact: production
+    }),
+
+    babel({
+      extensions: ['.js', '.mjs', '.html', '.svelte'],
+      babelHelpers: 'runtime',
+      exclude: ['node_modules/@babel/**'],
+      presets: [
+        [
+          '@babel/preset-env',
+          {
+            targets: '> 0.25%, not dead, ie 11'
+          }
+        ]
+      ],
+      plugins: [
+        '@babel/plugin-syntax-dynamic-import',
+        [
+          '@babel/plugin-transform-runtime',
+          {
+            useESModules: true
+          }
+        ]
+      ]
+    }),
+
     mergeJson({
       targets: locales.map((locale) => {
         return {
@@ -53,17 +92,17 @@ export default {
         {
           // Styles
           src: 'src/static/css/**/*.css',
-          dest: `${production ? PATHS.BUILD : PATHS.DEV}/css`
+          dest: `${BASEPATH ? BASEPATH + '/' : ''}build/bundles`
         },
         {
           // Images
           src: 'src/static/**/*.{svg,png,jpeg,jpg}',
-          dest: `${production ? PATHS.BUILD : PATHS.DEV}/images`
+          dest: `${BASEPATH ? BASEPATH + '/' : ''}build/images`
         },
         {
           // index.html
           src: 'src/index.html',
-          dest: production ? PATHS.BUILD : PATHS.DEV,
+          dest: 'build',
           transform: (contents) => {
             let contentsString = contents.toString();
             const buildDate = new Date();
@@ -93,81 +132,22 @@ export default {
             return contentsString;
           }
         }
-      ],
+    ],
       verbose: false
-    }),
-
-    svelte({
-      // enable run-time checks when not in production
-      dev: !production,
-      // we'll extract any component CSS out into
-      // a separate file - better for performance
-      css: (css) => {
-        css.write('app.css');
-      }
     }),
 
     replace({
       __BASEPATH__: BASEPATH
     }),
 
-    // If you have external dependencies installed from
-    // npm, you'll most likely need these plugins. In
-    // some cases you'll need additional configuration -
-    // consult the documentation for details:
-    // https://github.com/rollup/plugins/tree/master/packages/commonjs
-    resolve({
-      browser: true,
-      dedupe: ['svelte']
-    }),
-    commonjs(),
 
-    // Babel used to provide legacy (IE 11) support
-    babel({
-      extensions: ['.js', '.mjs', '.html', '.svelte'],
-      babelHelpers: 'runtime',
-      exclude: ['node_modules/@babel/**'],
-      presets: [
-        [
-          '@babel/preset-env',
-          {
-            targets: '> 0.25%, not dead, ie 11'
-          }
-        ]
-      ],
-      plugins: [
-        '@babel/plugin-syntax-dynamic-import',
-        [
-          '@babel/plugin-transform-runtime',
-          {
-            useESModules: true
-          }
-        ]
-      ]
-    }),
-    json({
-      compact: production
-    }),
-
-    // In dev mode, call `npm run start` once
-    // the bundle has been generated
     !production &&
       serve({
-        contentBase: '_site/development',
-
-        // Automaticly start your default browser
-        // with serve url; http://localhost:10001<BASEPATH>/
-        open: true,
-        openPage: `${BASEPATH}/`,
+        contentBase: 'build',
         historyApiFallback: true
       }),
 
-    // Watch the `public` directory and refresh the
-    // browser on changes when not in production
-    !production && livereload(PATHS.DEV),
-
-    // If we're building for production (npm run build
-    // instead of npm run dev), minify
+    !production && livereload('build'),
     production && terser()
   ],
   watch: {
@@ -176,6 +156,5 @@ export default {
       // Exclude _underscore-prefixed.files
       'src/locales/translations_*.json'
     ],
-    clearScreen: false
   }
 };

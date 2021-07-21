@@ -10,10 +10,10 @@
         "build-production": "export BASEPATH='/WAI/eval/report-tool' && npm run clean:build && rollup -c",
         "build-ghpages": "export BASEPATH='/wai-wcag-em-report-tool' && npm run clean:build && rollup -c",
         "dev": "npm run clean:dev & rollup -c -w",
-        "start": "sirv ./_site/build -s",
-        "clean": "rimraf ./_site ./node_modules",
-        "clean:build": "rimraf ./site/build",
-        "clean:dev": "rimraf ./site/development"
+        "start": "sirv ./build -s",
+        "clean": "rimraf ./build ./node_modules",
+        "clean:build": "rimraf ./build",
+        "clean:dev": "rimraf ./build"
     },
     "main": "src/main.js",
     "dependencies": {

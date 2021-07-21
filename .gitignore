@@ -2,7 +2,7 @@
 node_modules
 
 # App specific
-_site
+build
 
 # The translations are build from
 # locales/<LOCALE> files.
