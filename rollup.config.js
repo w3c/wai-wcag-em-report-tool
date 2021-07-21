@@ -23,7 +23,7 @@ export default {
     sourcemap: true,
     format: 'esm',
     name: pkg.name,
-    dir: `build${BASEPATH}/bundles`
+    dir: `build/bundles`
   },
   plugins: [
     svelte({
@@ -92,12 +92,12 @@ export default {
         {
           // Styles
           src: 'src/static/css/**/*.css',
-          dest: `${BASEPATH}build/bundles`
+          dest: `build/bundles`
         },
         {
           // Images
           src: 'src/static/**/*.{svg,png,jpeg,jpg}',
-          dest: `${BASEPATH}build/images`
+          dest: `build/images`
         },
         {
           // index.html
