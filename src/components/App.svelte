@@ -1,32 +1,3 @@
-<!--
-  * This file should be used to arange the base of the App.
-  * If the app needs configuration, this can be passed on
-  * from the main file '@app/main.js' and passed as props.
-  * e.g.:
-  *   new App({
-  *     ...
-  *     props: {
-  *       settings,
-  *       theme,
-  *       hacks,
-  *       etc
-  *     }
-  *     ...
-  *   });
-  *
-  * In here, App.svelte, they would then be accessed like props:
-  * e.g.:
-  *   export let settings;
-  *   export let theme;
-  *   export let hacks;
-  *   export let etc;
-  *
-  *   or $$otherProps
-  *
-  *   and passed on to the app context; setContext('app', {...})
-  *   where components can access them with: const {...} = getContext('app');
-  * -->
-
 <!-- @Component:App -->
 {#if $isLoading}
   <p>Loading WCAG Report Tool</p>
@@ -102,6 +73,11 @@
 
   onMount(() => {
     window.addEventListener("input", setInteracted);
+      console.log(basepath);
+    setContext('app', {
+        basepath
+      }
+    );
   });
   function setInteracted(){
       window.removeEventListener("input", setInteracted);
