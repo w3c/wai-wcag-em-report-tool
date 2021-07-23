@@ -10,7 +10,7 @@
  * }>
  * -->
 <Field id="{id}" {...$$restProps}>
-  <select id="{id}" disabled="{options.length === 0}" bind:value on:blur>
+  <select id="{id}" disabled="{options.length === 0}" bind:value on:change>
     {#each options as option}
       <option
         value="{option.value || option.title || option}"
