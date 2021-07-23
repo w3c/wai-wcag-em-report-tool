@@ -9,9 +9,11 @@
       {#if previousPage}
         <li class="Pager__Item pager--item previous">
           <Link to="{previousPage.path}">
-            <svg aria-hidden="true" class="pager--item-icon icon-arrow-left"><use
-                xlink:href="images/icons.svg#icon-arrow-left"
-              ></use></svg>
+            <svg aria-hidden="true" class="pager--item-icon icon-arrow-left">
+              <use
+                xlink:href={`${$basepath}/images/icons.svg#icon-arrow-left`}
+              ></use>
+            </svg>
             <span class="pager--item-text">
               <span
                 class="pager--item-text-direction"
@@ -25,8 +27,10 @@
       {#if nextPage}
         <li class="Pager__Item pager--item next">
           <Link to="{nextPage.path}">
-            <svg aria-hidden="true" class="pager--item-icon icon-arrow-right"><use
-                xlink:href="images/icons.svg#icon-arrow-right"
+            <svg aria-hidden="true" class="pager--item-icon icon-arrow-right">
+              <use
+                xlink:href=
+                {`${$basepath}/images/icons.svg#icon-arrow-right`}
               ></use></svg>
             <span class="pager--item-text">
               <span class="pager--item-text-direction">{TRANSLATED.NEXT}</span>
@@ -49,6 +53,7 @@
 <script>
   import { getContext } from 'svelte';
   import { Link, useLocation } from 'svelte-navigator';
+  import { basepath } from '@app/stores/appStore.js';
 
   export let label = 'page';
   export let context = [];

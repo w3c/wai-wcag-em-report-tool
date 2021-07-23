@@ -37,7 +37,5 @@
 <script>
   import { basepath } from '@app/stores/appStore.js';
 
-  console.log($basepath);
-
   export let href;
 </script>

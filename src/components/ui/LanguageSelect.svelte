@@ -36,7 +36,7 @@
       aria-expanded="{!collapsed}"
     >
       <svg aria-hidden="true" class="icon-languages"><use
-          xlink:href="images/icons.svg#icon-languages"
+          xlink:href={`${$basepath}images/icons.svg#icon-languages`}
         ></use></svg>
       <span>
         {#if collapsed}
@@ -70,6 +70,7 @@
 
 <script>
   import { t as translate, locale } from 'svelte-i18n';
+  import { basepath } from '@app/stores/appStore.js';
 
   export let locales = [];
 
