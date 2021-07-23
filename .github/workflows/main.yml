@@ -23,7 +23,7 @@ jobs:
         node-version: '12.x'
     - run: npm install
     - run: npm install --global rollup
-    - run: export BASEPATH='/wai-wcag-em-report-tool' && npm run clean:build && rollup -c
+    - run: export BASEPATH='/WAI/eval/report-tool-test' && npm run clean:build && rollup -c
     - run: cd build && ln -s index.html 404.html # symlink for GH pages fallback
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@4.1.4
