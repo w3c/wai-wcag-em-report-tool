@@ -10,6 +10,7 @@
  * }>
  * -->
 <Field id="{id}" {...$$restProps}>
+  <!-- svelte-ignore a11y-no-onchange -->
   <select id="{id}" disabled="{options.length === 0}" bind:value on:change>
     {#each options as option}
       <option

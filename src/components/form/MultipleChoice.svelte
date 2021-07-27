@@ -5,6 +5,7 @@
       <li class="MultipleChoice__option">
         <!-- type attribute cant be dynamic with bind:group -->
         {#if type === CHECKBOX}
+          <!-- svelte-ignore a11y-no-onchange -->
           <input
             id="{`${id}_${index}`}"
             class="MultipleChoice__option__input"
