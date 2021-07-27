@@ -21,8 +21,14 @@
   </header>
 
     {TRANSLATED.CRITERION.DESCRIPTION}
-
-    {#if TRANSLATED.CRITERION.DETAILS}
+    <!-- 
+        not all criteria have 'details'; in the data,
+        all SCs have a DETAILS object. Only the ones that
+        have details will contain one or more objects,
+        so if there is DETAILS[1], there are details 
+        to display
+    -->
+    {#if TRANSLATED.CRITERION.DETAILS[1]}
       <button 
         type="button" 
         class="showhidebutton button button-small"
@@ -112,6 +118,7 @@
 
   import EarlResult from '@app/components/form/EarlResult.svelte';
   import ResourceLink from '@app/components/ui/ResourceLink.svelte';
+import Acknowledgements from '../../pages/Acknowledgements.svelte';
 
   export let conformanceLevel;
   export let id;
