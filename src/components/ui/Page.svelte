@@ -58,7 +58,7 @@
   $: needsPanelSpace = !isViewReport && !isOverview && !isAcknowledgements && $yourReportPanelOpen;
 
   onMount(() => {
-    honourFragmentIdLinks($location);
+    setTimeout(honourFragmentIdLinks($location), 100);
   });
 
   export let title;
