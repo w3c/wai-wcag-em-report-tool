@@ -92,6 +92,9 @@
 <!-- /component -->
 
 <style>  
+.criterion {
+  margin-bottom: 1em;
+}
 :global(.criterion:target) {
   outline: 2px solid var(--gold);
 }

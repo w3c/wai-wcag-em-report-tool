@@ -57,8 +57,8 @@
   }
   .Criterion__Fields {
     display: flex;
-    gap: 2rem;
     align-items: flex-start;
+    flex-direction: column;
   }
   .view-in-report {
     order: -1;
@@ -74,6 +74,12 @@
   :global(div.Criterion__Fields div.Field.Criterion__Observation) {
     flex-direction: row;
     flex-wrap: wrap;
+  }
+  @media (min-width: 60em) {
+    .Criterion__Fields {
+      flex-direction: row;
+      gap: 2rem;
+    }
   }
 </style>
 

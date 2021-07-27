@@ -19,21 +19,29 @@
         * -->
         {#each guidelineCriteria(guideline) as criterion (criterion.num)}
           <tr class="Auditor__Assertion">
-            <td id={`criterion-${criterion.num.replaceAll('.', '')}`}>{criterion.num}: {TRANSLATED.CRITERIA[criterion.num].TITLE}</td>
+            <td class="Auditor__Assertion-SC" id={`criterion-${criterion.num.replaceAll('.', '')}`}>{criterion.num}: {TRANSLATED.CRITERIA[criterion.num].TITLE}</td>
             <td>
                 {#each scopeAssertion(criterion) as assertion}
                   {#if sampleAssertions(criterion).length}
                   <h6>{TRANSLATED.HEADING_SCOPE_RESULTS}</h6>
                   {/if}
-                  <p>{assertion.result.outcome.title || TRANSLATED.TEXT_NOT_CHECKED}</p>
+                  <p>        
+                    <span class="results-label-mobile">{TRANSLATED.HEADER_RESULT}:</span>
+                    {assertion.result.outcome.title || TRANSLATED.TEXT_NOT_CHECKED}</p>
                 {:else}
-                  <p>{TRANSLATED.TEXT_NOT_CHECKED}</p>
+                  <p>
+                    <span class="results-label-mobile">{TRANSLATED.HEADER_RESULT}:</span>
+                    {TRANSLATED.TEXT_NOT_CHECKED}
+                  </p>
                 {/each}
                 {#if sampleAssertions(criterion).length}
                   {#each sampleAssertions(criterion) as assertion}
                     {#if assertionHasContents(assertion)}
                     <h6>{assertion.subject.title || `Sample ${assertion.subject.ID}`}</h6>
-                    <p>{assertion.result.outcome.title || TRANSLATED.TEXT_NOT_CHECKED}</p>
+                    <p>
+                      <span class="results-label-mobile">{TRANSLATED.HEADER_RESULT}:</span>
+                      {assertion.result.outcome.title || TRANSLATED.TEXT_NOT_CHECKED}
+                    </p>
                     {/if}
                   {/each}
                 {/if}
@@ -97,6 +105,9 @@
   }
   .Auditor__ResultsTable th {
     width: 30%;
+    position: absolute;
+    left: -9999em;
+    top: -9999em;
   }
   .Auditor__ResultsTable th:nth-child(2) {
     width: 25%;
@@ -107,6 +118,36 @@
   .Auditor__ResultsTableHeader {
     position: sticky;
     top: 0;
+  }
+  .Auditor__Assertion {
+    margin-bottom: 1em;
+    border-bottom: 1px solid var(--cloudy);
+  }
+  .Auditor__Assertion-SC {
+    font-weight: bold;
+  }
+  .Auditor__ResultsTable td {
+    display: block;
+    position: relative;
+    border-style: none;
+  }
+  @media (min-width: 60em) {
+    .Auditor__Assertion {
+      border-bottom: 0;
+    }
+    .Auditor__Assertion-SC {
+      font-weight: normal;
+    }
+    .Auditor__ResultsTable td {
+      display: table-cell;
+      border: 1px solid var(--cloudy);
+    }
+    .Auditor__ResultsTable th {
+      position: static;
+    }
+    .results-label-mobile {
+      display: none;
+    }
   }
 </style>
 
