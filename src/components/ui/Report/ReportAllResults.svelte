@@ -19,7 +19,7 @@
         * -->
         {#each guidelineCriteria(guideline) as criterion (criterion.num)}
           <tr class="Auditor__Assertion">
-            <td class="Auditor__Assertion-SC" id={`criterion-${criterion.num.replaceAll('.', '')}`}>{criterion.num}: {TRANSLATED.CRITERIA[criterion.num].TITLE}</td>
+            <th scope="row" class="Auditor__Assertion-SC" id={`criterion-${criterion.num.replaceAll('.', '')}`}>{criterion.num}: {TRANSLATED.CRITERIA[criterion.num].TITLE}</th>
             <td>
                 {#each scopeAssertion(criterion) as assertion}
                   {#if sampleAssertions(criterion).length}
@@ -52,6 +52,7 @@
                   {#if sampleAssertions(criterion).length}
                   <h6>{TRANSLATED.HEADING_SCOPE_RESULTS}</h6>
                   {/if}
+                  <p>{TRANSLATED.LABEL_OBSERVATION}:</p>
                   {@html marked(assertion.result.description, {"sanitize": true})}
                 {/if}
               {/each}
@@ -125,6 +126,8 @@
   }
   .Auditor__Assertion-SC {
     font-weight: bold;
+    color: inherit;
+    background-color: inherit;
   }
   .Auditor__ResultsTable td {
     display: block;
