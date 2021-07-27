@@ -6,10 +6,10 @@
     <table class="Auditor__ResultsTable" aria-labelledby={`guideline-${guideline.replace('.', '')}`}>
       <tbody>
           <tr class="Auditor__ResultsTableHeader">
-            <th>{TRANSLATED.HEADER_SUCCESS_CRITERION}</th>
-            <th>{TRANSLATED.HEADER_RESULT}</th>
-            <th>{TRANSLATED.HEADER_OBSERVATIONS}</th>
-            <th></th><!-- cell for edit button -->
+            <th scope="col">{TRANSLATED.HEADER_SUCCESS_CRITERION}</th>
+            <th scope="col">{TRANSLATED.HEADER_RESULT}</th>
+            <th scope="col">{TRANSLATED.HEADER_OBSERVATIONS}</th>
+            <th scope="col">{TRANSLATED.EDIT}</th>
           </tr>
         <!--
         * Should filter assertions based on test prop;
@@ -183,7 +183,8 @@
     HEADER_SUCCESS_CRITERION: $translate('PAGES.REPORT.HEADER_SUCCESS_CRITERION'),
     HEADER_RESULT: $translate('PAGES.REPORT.HEADER_RESULT'),
     HEADER_OBSERVATIONS: $translate('PAGES.REPORT.HEADER_OBSERVATIONS'),
-    NO_OBSERVATIONS_FOUND: $translate('PAGES.REPORT.NO_OBSERVATIONS_FOUND')
+    NO_OBSERVATIONS_FOUND: $translate('PAGES.REPORT.NO_OBSERVATIONS_FOUND'),
+    EDIT: $translate('UI.REPORT.EDIT')
   };
 
   // Sets are unique values
