@@ -52,7 +52,7 @@
                   {#if sampleAssertions(criterion).length}
                   <h6>{TRANSLATED.HEADING_SCOPE_RESULTS}</h6>
                   {/if}
-                  <p>{TRANSLATED.LABEL_OBSERVATION}:</p>
+                  <p class="results-label-mobile">{TRANSLATED.LABEL_OBSERVATION}:</p>
                   {@html marked(assertion.result.description, {"sanitize": true})}
                 {/if}
               {/each}
