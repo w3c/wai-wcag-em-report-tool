@@ -19,6 +19,8 @@
   import wcagStore from '@app/stores/wcagStore.js';
   import { outcomeValueStore } from '@app/stores/earl/resultStore/index.js';
   import { basepath as storedBasepath } from '@app/stores/appStore.js';
+  import evaluationStore from '@app/stores/evaluationStore.js';
+  import assertions from '@app/stores/earl/assertionStore/index.js';
 
   import BaseRoute from '@app/components/routes/BaseRoute.svelte';
 
@@ -75,16 +77,40 @@
   onMount(() => {
     window.addEventListener("input", setInteracted);
     storedBasepath.set(basepath);
+    document.addEventListener("keydown", saveReportJSON);
   });
+
   function setInteracted(){
       window.removeEventListener("input", setInteracted);
       //set some var to notify us of user changes
       window.onbeforeunload = closeEditorWarning;
   }
+
   function closeEditorWarning(){
     return 'Are you sure?'
   }
 
-
+  function saveReportJSON(e){
+    if (e.keyCode === 83 && (e.ctrlKey || e.metaKey)) {
+      e.preventDefault();
+      handleJSONDownloadClick();
+    }
+  }
+  function handleJSONDownloadClick() {
+    forceEvaluationUpdate();
+    $evaluationStore.save();
+  }
+  function forceEvaluationUpdate() {
+    $evaluationStore.reportFindings.evaluator = $summaryStore.EVALUATION_CREATOR;
+    $evaluationStore.reportFindings.commissioner = $summaryStore.EVALUATION_COMMISSIONER;
+    $evaluationStore.reportFindings.date = $summaryStore.EVALUATION_DATE;
+    $evaluationStore.reportFindings.summary = $summaryStore.EVALUATION_SUMMARY;
+    $evaluationStore.defineScope.scope = {description: $scopeStore.WEBSITE_SCOPE, title: $scopeStore.SITE_NAME}
+    $evaluationStore.defineScope.wcagVersion = $scopeStore.WCAG_VERSION;
+    $evaluationStore.defineScope.conformanceTarget = $scopeStore.CONFORMANCE_TARGET;
+    $evaluationStore.defineScope.accessibilitySupportBaseline = $scopeStore.AS_BASELINE;
+    $evaluationStore.defineScope.additionalEvaluationRequirements = $scopeStore.ADDITIONAL_REQUIREMENTS;
+    $evaluationStore.auditSample = $assertions;
+  }
 
 </script>
