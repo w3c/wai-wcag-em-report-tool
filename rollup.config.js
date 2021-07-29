@@ -110,6 +110,7 @@ export default {
 
             const replacement = {
               __APP_BUILD_DATE__: `${buildDate.getDate()} ${months[buildDate.getMonth()]} ${buildDate.getFullYear()}`,
+              __APP_BUILD_YEAR__: buildDate.getFullYear(),
               __APP_VERSION__: production ? pkg.version : 'DEVELOPMENT',
               __BASEPATH__: BASEPATH,
               __TITLE__: pkg.name
