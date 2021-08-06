@@ -3,6 +3,15 @@
  *   OverviewPage
  * -->
 <Page title="{TRANSLATED.PAGE_TITLE}" pageid="overview">
+  {#if !$previousVersionMsgDismissed}
+  <div class="doc-note-box" lang="en">
+    <p>
+      The previous version of this tool is at <a href="https://w3c.github.io/wcag-em-report-tool/">w3c.github.io/wcag-em-report-tool</a> (<a href="https://github.com/w3c/wai-wcag-em-report-tool/wiki/Changelog:-What's-new-in-the-2021-redesign-of-the-WCAG-EM-Report-Tool">changelog of revisions</a>).
+      <button style="margin-left: 1em;" type="button" class="button-secondary" on:click={dismissPreviousVersionMessage}>Dismiss</button>
+    </p>
+  </div>
+  {/if}
+
   <div class="getting-started">
     <p class="getting-started__intro">
       {@html TRANSLATED.INTRODUCTION_P1}
@@ -54,7 +63,7 @@
   import OpenEvaluation from '@app/components/form/OpenEvaluation.svelte';
   import Button from '@app/components/ui/Button.svelte';
 
-  import { routes } from '@app/stores/appStore.js';
+  import { routes, previousVersionMsgDismissed } from '@app/stores/appStore.js';
   import evaluationStore from '@app/stores/evaluationStore.js';
   import { interacted } from '@app/stores/interactedStore.js';
 
@@ -94,17 +103,27 @@
   };
 
   function handleNewEvaluationClick() {
-    if($interacted == true){
+    if ($interacted == true){
       var clearResult = window.confirm(TRANSLATED.CLEAR_WARNING);
-      if(clearResult){
+      if (clearResult){
         $evaluationStore.reset();
         $interacted = false;
         navigate($routes.SCOPE.path, { replace: true });
       }
-    }else{
+     } else{
       $evaluationStore.reset();
       navigate($routes.SCOPE.path, { replace: true });
     }
+  }
+
+  $: console.log($dismissPreviousVersionMessage);
+
+  function dismissPreviousVersionMessage() {
+    console.log('fooo');
+    console.log($previousVersionMsgDismissed);
+    previousVersionMsgDismissed.update(() => true);
+    console.log($previousVersionMsgDismissed);
+    localStorage.setItem('previousVersionMsgDismissed', 'true');
   }
 </script>
 
