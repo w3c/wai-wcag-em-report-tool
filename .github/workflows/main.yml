@@ -30,4 +30,8 @@ jobs:
       with:
         BRANCH: gh-pages
         FOLDER: build
- 
+    - name: Create zip file 🗂
+      uses: papeloto/action-zip@v1
+        with:
+          files: build/
+          dest: result.zip 
