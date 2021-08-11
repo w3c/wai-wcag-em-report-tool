@@ -1,9 +1,10 @@
 import jsonld from '@app/scripts/jsonld.js';
 
-import { derived, writable } from 'svelte/store';
+import { writable } from 'svelte/store';
 import { locale } from 'svelte-i18n';
 
-import {version} from '../../package.json';
+import { version } from '../../package.json';
+import { slugify } from '../scripts/slugify.js';
 
 import appJsonLdContext, {
   importContext
@@ -577,7 +578,7 @@ class EvaluationModel {
       .compact(this, appJsonLdContext)
       .then((compacted) => {
         downloadFileJSON({
-          name: 'evaluation.json',
+          name: `${compacted.defineScope.scope.title ? slugify(compacted.defineScope.scope.title) + '-': ""}evaluation.json`,
           type: 'application/json',
           contents: JSON.stringify(compacted)
         });

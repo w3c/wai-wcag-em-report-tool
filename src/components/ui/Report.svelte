@@ -187,10 +187,10 @@
 
   let Report = document.documentElement;
 
-  export function downloadReport() {
+  export function downloadReport(filename) {
     downloadFileHTML({
       contents: Report,
-      name: 'report.html',
+      name: filename,
       type: 'text/html'
     });
   }
@@ -240,8 +240,9 @@
   import ReportHeaderValue from '@app/components/ui/Report/ReportHeaderValue.svelte';
   import ReportHeaderMultiValue from '@app/components/ui/Report/ReportHeaderMultiValue.svelte';
   import ReportSummary from './Report/ReportSummary.svelte';
+  import evaluationStore from '@app/stores/evaluationStore.js';
 
-  const { sampleStore, scopeStore, summaryStore, translate } = getContext(
+  const { sampleStore, summaryStore, translate } = getContext(
     'app'
   );
 

@@ -23,6 +23,7 @@
   TestSubjectTypes
   } from '@app/stores/earl/subjectStore/index.js';
   import assertions from '@app/stores/earl/assertionStore/index.js';
+  import { slugify } from '@app/scripts/slugify.js';
 
   import Button from '@app/components/ui/Button.svelte';
   import Page from '@app/components/ui/Page.svelte';
@@ -36,10 +37,11 @@
     BUTTON_SAVE_JSON: $translate('PAGES.REPORT.BTN_SAVE_JSON')
   };
 
-  function handleHTMLDownloadClick() {
-    downloadReport();
-  }
+  $: htmlFilename = $scopeStore.SITE_NAME ? `${slugify($scopeStore.SITE_NAME)}-report.html` : 'report.html';
 
+  function handleHTMLDownloadClick() {
+    downloadReport(htmlFilename);
+  }  
 
   function handleJSONDownloadClick() {
     forceEvaluationUpdate();
