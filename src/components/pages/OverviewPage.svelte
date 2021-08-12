@@ -130,7 +130,7 @@
 <style>
   .getting-started__intro {
     font-size: 130%;
-    max-width: 30em;
+    max-width: 42em;
     margin: 0;
   }
   .getting-started__buttons {

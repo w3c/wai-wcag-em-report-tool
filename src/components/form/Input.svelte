@@ -24,3 +24,9 @@
     }
   });
 </script>
+
+<style>
+  input {
+    max-width: 40em;;
+  }
+</style>
