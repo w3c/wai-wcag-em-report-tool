@@ -59,6 +59,7 @@
 }
 .your-report--collapsed {
   float: right;
+  position: static;
 }
 </style>
 
