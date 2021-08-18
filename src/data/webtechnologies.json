@@ -18,5 +18,9 @@
     {
         "title": "SVG",
         "description": "http://www.w3.org/TR/SVG/"
+    },
+    {
+        "title": "PDF",
+        "description": "https://www.iso.org/standard/51502.html"
     }
 ]
