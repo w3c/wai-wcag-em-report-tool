@@ -4,10 +4,8 @@
  * -->
 <Page title="{TRANSLATED.PAGE_TITLE}" pageid="overview">
   {#if !$previousVersionMsgDismissed}
-  <div class="doc-note-box" lang="en">
-    <p>
-      The previous version of this tool is at <a href="https://w3c.github.io/wcag-em-report-tool/">w3c.github.io/wcag-em-report-tool</a> (<a href="https://github.com/w3c/wai-wcag-em-report-tool/wiki/Changelog:-What's-new-in-the-2021-redesign-of-the-WCAG-EM-Report-Tool">changelog of revisions</a>).
-      <button style="margin-left: 1em;" type="button" class="button-secondary" on:click={dismissPreviousVersionMessage}>Dismiss</button>
+  <div style="background: var(--footer-grey); border: 0; padding: 1em; display: flex;" lang="en">
+    <p style="max-width: none; margin: 0;">Welcome to the new WCAG-EM Tool. You can access the <a href="https://w3c.github.io/wcag-em-report-tool/">old version</a> until November 27, 2021. <button style="margin-left: 1em;" type="button" class="button-secondary">Dismiss</button>
     </p>
   </div>
   {/if}
