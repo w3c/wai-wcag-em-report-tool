@@ -169,11 +169,18 @@
   <p>{TRANSLATED.TEXT_NO_SAMPLE}</p>
 {/if}
 
+<h2>{TRANSLATED.LABEL_TECH}</h2>
+{#if report.tech != ""}
+  <p>{report.tech}</p>
+{:else}
+  <p>{TRANSLATED.LABEL_NOT_PROVIDED}</p>
+{/if}
+
 <h2>{TRANSLATED.HEADING_SPECIFICS}</h2>
 <p>{@html marked(report.specifics) || TRANSLATED.LABEL_NOT_PROVIDED}</p>
 
-<h2>{TRANSLATED.HEADING_RESOURCES}</h2>
-<ul>
+<h2 class='strip'>{TRANSLATED.HEADING_RESOURCES}</h2>
+<ul class='strip'>
   <li><a href="https://www.w3.org/WAI/intro/wcag">Web Content Accessibility Guidelines (WCAG)
     Overview</a></li>
   <li><a href="https://www.w3.org/WAI/WCAG21/quickref/">How to Meet WCAG 2.1 Quick Reference</a></li>
@@ -242,7 +249,7 @@
   import ReportSummary from './Report/ReportSummary.svelte';
   import evaluationStore from '@app/stores/evaluationStore.js';
 
-  const { sampleStore, summaryStore, translate } = getContext(
+  const { sampleStore, summaryStore, exploreStore, translate } = getContext(
     'app'
   );
 
@@ -275,7 +282,8 @@
     CONFORMANCE_LEVEL: $translate('WCAG.COMMON.CONFORMANCE_LEVEL'),
     TEXT_NO_SAMPLE: $translate('PAGES.AUDIT.NO_SAMPLE'),
     SUMMARY: $translate('UI.REPORT.SUMMARY'),
-    ALL_RESULTS: $translate('UI.REPORT.ALL_RESULTS')
+    ALL_RESULTS: $translate('UI.REPORT.ALL_RESULTS'),
+    LABEL_TECH: $translate('PAGES.EXPLORE.LABEL_TECH')
   };
 
   $: report = {
@@ -288,7 +296,8 @@
     ],
     specifics: $summaryStore['EVALUATION_SPECIFICS'],
     summary: $summaryStore['EVALUATION_SUMMARY'],
-    title: $summaryStore['EVALUATION_TITLE'] || $translate('PAGES.REPORT.TITLE')
+    title: $summaryStore['EVALUATION_TITLE'] || $translate('PAGES.REPORT.TITLE'),
+    tech: $exploreStore['TECHNOLOGIES_RELIED_UPON']
   };
 
   let wcagVersions = [...WCAG_VERSIONS].reverse().map((version) => {
