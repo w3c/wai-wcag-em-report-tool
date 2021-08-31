@@ -37,7 +37,7 @@ const deprecatedContext = {
 };
 
 export const exportContext = {
-  reporter: 'http://github.com/w3c/wcag-em-report-tool/',
+  reporter: 'http://github.com/w3c/wai-wcag-em-report-tool/',
 
   // WCAG-EM
   wcagem: 'http://www.w3.org/TR/WCAG-EM/#',
