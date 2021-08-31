@@ -9,7 +9,7 @@
             <th scope="col">{TRANSLATED.HEADER_SUCCESS_CRITERION}</th>
             <th scope="col">{TRANSLATED.HEADER_RESULT}</th>
             <th scope="col">{TRANSLATED.HEADER_OBSERVATIONS}</th>
-            <th scope="col">{TRANSLATED.EDIT}</th>
+            <th scope="col" class="strip">{TRANSLATED.EDIT}</th>
           </tr>
         <!--
         * Should filter assertions based on test prop;
@@ -69,7 +69,7 @@
               {/each}
             {/if}
             </td>
-            <td>
+            <td class="strip">
               <Link to={`/evaluation/audit-sample#criterion-${criterion.num.replaceAll('.','')}`}>
                 <span class="visuallyhidden">Edit {criterion.num}</span>
                 <svg
