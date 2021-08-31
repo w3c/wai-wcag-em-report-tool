@@ -170,14 +170,14 @@
 {/if}
 
 <h2>{TRANSLATED.LABEL_TECH}</h2>
-<p>{@html marked(report.specifics) || TRANSLATED.LABEL_NOT_PROVIDED}</p>
-
-<h2>{TRANSLATED.HEADING_SPECIFICS}</h2>
-{#if true}
+{#if report.tech != ""}
   <p>{report.tech}</p>
 {:else}
   <p>{TRANSLATED.LABEL_NOT_PROVIDED}</p>
 {/if}
+
+<h2>{TRANSLATED.HEADING_SPECIFICS}</h2>
+<p>{@html marked(report.specifics) || TRANSLATED.LABEL_NOT_PROVIDED}</p>
 
 <h2 class='strip'>{TRANSLATED.HEADING_RESOURCES}</h2>
 <ul class='strip'>
