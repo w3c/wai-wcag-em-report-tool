@@ -68,6 +68,8 @@
     $evaluationStore.exploreTarget.essentialFunctionality = $exploreStore['ESSENTIAL_FUNCTIONALITY'];
     $evaluationStore.exploreTarget.pageTypeVariety = $exploreStore['PAGE_TYPES'];
 
+    $evaluationStore.reportFindings.evaluationSpecifics = $summaryStore.EVALUATION_SPECIFICS;
+
   }
 
 </script>
