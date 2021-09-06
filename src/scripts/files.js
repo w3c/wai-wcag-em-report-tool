@@ -18,7 +18,7 @@ export function downloadFileHTML({ contents, name = 'download.txt', type = 'text
     htmlDocument.querySelectorAll("button, input, aside, footer, .Controls, #site-header, .Nav, .strip")
   ).forEach((el) => {
     el.parentNode.removeChild(el);
-  });;
+  });
 
   // remove certain attributes
   Array.from(

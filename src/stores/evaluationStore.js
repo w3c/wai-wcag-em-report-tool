@@ -458,7 +458,6 @@ class EvaluationModel {
             '@type': AssertionTypes
           })
           .then((framedAssertions) => {
-            console.log(framedAssertions);
             jsonld.getItems(framedAssertions).forEach((assertion) => {
               const { assertedBy, mode, result, subject, test } = assertion;
               const newSubject = $subjects.find(($subject) => {

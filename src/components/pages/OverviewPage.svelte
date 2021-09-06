@@ -114,13 +114,8 @@
     }
   }
 
-  $: console.log($dismissPreviousVersionMessage);
-
   function dismissPreviousVersionMessage() {
-    console.log('fooo');
-    console.log($previousVersionMsgDismissed);
     previousVersionMsgDismissed.update(() => true);
-    console.log($previousVersionMsgDismissed);
     localStorage.setItem('previousVersionMsgDismissed', 'true');
   }
 </script>
