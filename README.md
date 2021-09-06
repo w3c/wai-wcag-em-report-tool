@@ -16,7 +16,7 @@ This tool is available on:
 
 | Environment | URL(s) | Hosted at |
 |:--|:--|:--|
-| production (TBD*) | w3.org/WAI/eval/report-tool (or w3.org/WAI/wcag/report-tool ?)  | GitHub Pages of this repository |
+| production (*) | w3.org/WAI/eval/report-tool | GitHub Pages of this repository |
 | preview of `main` branch | https://wcag-em-report-tool-2021-redesign.netlify.app/ | Netlify |
 | previews of Pull Requests |  see comment at individual Pull Request | Netlify |
 
