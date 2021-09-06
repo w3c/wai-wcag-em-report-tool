@@ -189,20 +189,6 @@
 </ul>
 <!-- /component -->
 
-<script context="module">
-  import { downloadFileHTML } from '@app/scripts/files.js';
-
-  let Report = document.documentElement;
-
-  export function downloadReport(filename) {
-    downloadFileHTML({
-      contents: Report,
-      name: filename,
-      type: 'text/html'
-    });
-  }
-</script>
-
 <style>
   dt {
     grid-column: 1 / 2;

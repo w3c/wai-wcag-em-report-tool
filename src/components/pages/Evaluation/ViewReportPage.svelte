@@ -24,10 +24,12 @@
   } from '@app/stores/earl/subjectStore/index.js';
   import assertions from '@app/stores/earl/assertionStore/index.js';
   import { slugify } from '@app/scripts/slugify.js';
+  import { t as t, locale } from 'svelte-i18n';  
+  import { downloadFileHTML } from '@app/scripts/files.js';
 
   import Button from '@app/components/ui/Button.svelte';
   import Page from '@app/components/ui/Page.svelte';
-  import Report, { downloadReport } from '@app/components/ui/Report.svelte';
+  import Report from '@app/components/ui/Report.svelte';
 
   const { translate } = getContext('app');
 
@@ -40,7 +42,14 @@
   $: htmlFilename = $scopeStore.SITE_NAME ? `${slugify($scopeStore.SITE_NAME)}-report.html` : 'report.html';
 
   function handleHTMLDownloadClick() {
-    downloadReport(htmlFilename);
+    let reportContents = document.getElementById("view-report");
+    
+    downloadFileHTML({
+      contents: reportContents,
+      name: htmlFilename,
+      type: 'text/html',
+      lang: $locale
+    });
   }  
 
   function handleJSONDownloadClick() {
