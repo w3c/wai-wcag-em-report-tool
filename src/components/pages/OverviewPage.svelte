@@ -4,10 +4,11 @@
  * -->
 <Page title="{TRANSLATED.PAGE_TITLE}" pageid="overview">
   {#if !$previousVersionMsgDismissed}
-  <div style="background: var(--footer-grey); border: 0; padding: 1em; display: flex;" lang="en">
-    <p style="max-width: none; margin: 0;">Welcome to the new WCAG-EM Tool. You can access the <a href="https://w3c.github.io/wcag-em-report-tool/">old version</a> until November 27, 2021. <button style="margin-left: 1em;" type="button" class="button-secondary">Dismiss</button>
+  <div style="background: var(--footer-grey); border: 0; padding: 1em; display: flex; align-items: center" lang="en">
+    <p style="max-width: none; margin: 0;">
+      Welcome to the updated WCAG-EM Report Tool. You can open your existing reports with this tool. The <a href="https://w3c.github.io/wcag-em-report-tool/">previous version</a> is no longer supported. 
     </p>
-  </div>
+    <button style="margin-left: 1em;" type="button" class="button-secondary">Dismiss</button>  </div>
   {/if}
 
   <div class="getting-started">
