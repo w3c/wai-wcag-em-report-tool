@@ -13,7 +13,7 @@
     "USAGE_HD": "Hoe deze tool werkt",
     "USAGE_LI1": "Alle functionaliteit is direct in uw webbrowser beschikbaar. U heeft geen internetverbinding nodig vanaf dit punt. Wanneer u het venster van de webbrowser sluit, raken gegevens die u niet heeft bewaard verloren.",
     "USAGE_LI2": "Alle gegevens die u invult worden als JSON data op de achtergrond bewaard (in uw webbrowser, niet op een server). U kunt periodiek opslaan terwijl u werkt, om te voorkomen dat u data verliest mocht uw webbrowser sluiten.",
-    "USAGE_LI3": "U kunt tussentijdse rapporten bewaren en er later aan verder werken. Klik op de ‘Open Rapport’ knop op de eerste pagina en laad daar het bestand dat u eerder hebt opgeslagen.",
+    "USAGE_LI3": "U kunt tussentijdse rapporten bewaren en er later aan verder werken. Gebruik de ‘Open Rapport’ knop op de eerste pagina en laad daar het bestand dat u eerder hebt opgeslagen.",
     "USAGE_LI4": "Links naar externe pagina’s (buiten de tool) openen in een nieuw browser venster.",
     "TIPS_HD": "Tips om de tool te gebruiken",
     "TIPS_LI3": "De tool creëert uw rapport als HTML en CSS bestanden. U kunt deze bestanden downloaden op de ‘Bekijk rapport’-pagina. Daarna kunt u de presentatie en de inhoud van het rapport verder bewerken."

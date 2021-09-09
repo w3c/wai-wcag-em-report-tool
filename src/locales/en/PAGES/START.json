@@ -13,7 +13,7 @@
     "USAGE_HD": "How this tool works",
     "USAGE_LI1": "All functionality provided by this tool is now loaded. It runs locally in your web browser. You don’t need an Internet connection beyond this point. When you close your web browser window, any unsaved data is lost.",
     "USAGE_LI2": "All input is recorded as JSON data in the background (in your web browser, not on any server). You can download your report periodically as you work to avoid losing data if your web browser closes.",
-    "USAGE_LI3": "You can save partially-complete reports and work on them later. To reload a saved file, use the ‘Open’ link at the top and find the file that you previously saved.",
+    "USAGE_LI3": "You can save partially-complete reports and work on them later. To reload a saved file, use the ‘Open Report’ button on this page.",
     "CHOICES_HEADING": "Result Choices",
     "CHOICES_INTRO": " As you go through and evaluate your tool, you will select a “result” for each criterion. Here is the legend of what those selections mean:",
     "CHOICES_DT1": "Not checked",
