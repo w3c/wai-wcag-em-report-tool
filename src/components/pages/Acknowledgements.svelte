@@ -11,7 +11,7 @@
   <h2>Project Leadership</h2> 
   
   <ul>
-    <li><strong>Project Lead:</strong> Shadi Abou-Zahra, W3C WAI</li> 
+    <li><strong>Project Leads:</strong> Shadi Abou-Zahra, W3C WAI and Eric Velleman, HAN University</li> 
     <li><strong>Developer and Designer:</strong> Hidde de Vries, W3C WAI</li> 
     <li><strong>Developer:</strong> Michel Hansma, HAN University</li>
     <li><strong>EOWG Co-Chairs:</strong> Brent Bakken, Pearson and Sharron Rush, Knowbility</li> 
