@@ -13,10 +13,14 @@
         <a href="http://w3.org/"><img
             alt="W3C"
             src={`${$basepath}/images/w3c.svg`}
+            width="50"
+            height="24"
           /></a>
         <a href="http://w3.org/WAI/"><img
             alt="Web Accessibility Initiative"
             src={`${$basepath}/images/wai.svg`}
+            width="90"
+            height="24"
           /></a>
       </div>
     </div>
