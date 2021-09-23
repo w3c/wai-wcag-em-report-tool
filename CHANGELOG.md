@@ -5,6 +5,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Note: this changelog starts from 3.0.0, as it is built from scratch and therefore the code has no meaningful shared history with the 2.0.0 version. The 2.0.0 version of this tool lives in [w3c/wcag-em-report-tool](https://github.com/w3c/wcag-em-report-tool/) and has its own changelog there.
 
+## 3.0.1
+
+### Fixed
+
+* Pager was oddly aligned on page 1, because of max-width on list items
+
 ## 3.0.0
 
 ### Added

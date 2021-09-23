@@ -48,6 +48,9 @@
   .Pager {
     grid-column: 2 / 10;
   }
+  :global(.app-container .pager--item) {
+    max-width: none;
+  }
 </style>
 
 <script>
