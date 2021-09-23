@@ -55,7 +55,11 @@
 .app-container {
   background-color: white;
 }
-.app-container p {
+.app-container p,
+.app-container li,
+.app-container dt,
+.app-container dd,
+.app-container blockquote {
   max-width: 40em;
 }
 
