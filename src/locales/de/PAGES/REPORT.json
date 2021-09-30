@@ -1,0 +1,9 @@
+{
+    "TITLE": "Bericht",
+    "BTN_SAVE_HTML": "Bericht herunterladen (HTML)",
+    "BTN_SAVE_JSON": "Bericht herunterladen (JSON)",
+    "HEADER_SUCCESS_CRITERION": "Erfolgskriterium",
+    "HEADER_RESULT": "Ergebnis",
+    "HEADER_OBSERVATIONS": "Notizen",
+    "NO_OBSERVATIONS_FOUND": "Keine Notizen hinzugefügt"
+}
