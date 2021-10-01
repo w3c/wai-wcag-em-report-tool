@@ -1,7 +1,7 @@
 {
     "TITLE": "Schritt 2: Die zu prüfende Website erkunden",
     "INTRO": "Erkunden Sie die Website, um ihren Zweck, ihre Funktionen und Benutzung zu verstehen. Dieser Schritt hilft Ihnen, Seiten auszuwählen für die Prüfung in den folgenden Schritten. Identifizieren Sie die Techniken, die auf der Website benutzt werden, und notieren Sie andere Aspekte, falls gewünscht. Normalerweise ist es am Besten, den Besitzer und die Entwickler der Website in diesem Schritt einzubeziehen.",
-    "RESOURCE_LINK_NAME": "Schritt 2: Die zu prüfende Website erkunden (englisch)",
+    "RESOURCE_LINK_NAME": "Step 2: Explore the Target Website",
     "HD_RELIEDUP_TECH": "Benutzte Web-Techniken",
     "INF_RELIEDUP_TECH": "Identifizieren Sie die Web-Techniken, auf die [man sich verlässt im Sinne der WCAG 2](https://www.w3.org/Translations/WCAG20-de/#reliedupondef) um die Website zur Verfügung zu stellen. Für weitere Informationen, siehe <a hreflang='en' lang='en' href='https://www.w3.org/TR/WCAG-EM/#step2d'>WCAG-EM Step 2.d: Identify Web Technologies Relied Upon</a>.",
     "LABEL_TECH": "Web-Technik",

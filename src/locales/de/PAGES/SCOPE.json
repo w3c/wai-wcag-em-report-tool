@@ -1,7 +1,7 @@
 {
     "TITLE": "Schritt 1: Umfang der Prüfung definieren",
     "INTRO": "Legen Sie die allgemeinen Rahmenbedingungen und den Umfang der Prüfung fest. Idealerweise wird dies zusammen mit der Person gemacht, die die Prüfung beauftragt (das muss nicht der Eigentümer der Website sein), um gleiche Erwartungen in Bezug auf den Prüfungsumfang sicher zu stellen. ",
-    "RESOURCE_LINK_NAME": "Schritt 1: Umfang der Prüfung definieren (englisch)",
+    "RESOURCE_LINK_NAME": "Step 1: Define the Evaluation Scope",
     "LABEL_SITE_NAME": "Name der Website",
     "INF_SITE_NAME": "Geben Sie der Website, die Sie prüfen möchten, einen Namen. Beispiele:<ul><li>„Online-Shop von Beispielfirma“</li><li>„Offizielle Website von Beispielorganisation”</li><li>„Intranet der Universität Buxtehude”</li></ul>",
     "LABEL_SITE_SCOPE": "Umfang der Website",
