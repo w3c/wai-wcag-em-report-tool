@@ -3,7 +3,7 @@
     "ASSERTION_RESULT_DESCRIPTION_PLACEHOLDER": "Notizen, die während der Prüfung gemacht wurden",
     "BTN_EXPAND_PAGES": "Seiten anzeigen, um individuelle Ergebnisse zu notieren",
     "BTN_OPEN_SELECTED": "Ausgewählte Seiten öffnen",
-    "FILTER_NEW_IN_WCAG21": "In WCAG 2.1 hinzugefügt",
+    "FILTER_NEW_IN_WCAG21": "In WCAG 2.1 hinzugefügt",
     "HOW_TO": "Erfüllen von",
     "INTRO": "Notieren Sie das Ergebnis der Prüfung der Seiten, die Sie im vorigen Schritt ausgewählt haben. Vergleichen Sie die Ergebnisse zwischen den strukturiert und den willkürlich ausgewählten Seiten. Falls nötig, korrigieren Sie die Seitenauswahl im vorigen Schritt.",
     "IMPORT_DATA_INTRO": "Ergebnisse von anderen (automatisierten) Tests hinzufügen",
