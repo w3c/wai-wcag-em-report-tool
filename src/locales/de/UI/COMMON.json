@@ -8,7 +8,7 @@
     },
     "YES": "Ja",
     "NO": "Nein",
-    "NEXT": "Nächtes {label}",
+    "NEXT": "Nächstes {label}",
     "PREVIOUS": "Voriges {label}",
     "CLICK_EXPAND": "Klicken, um den Abschnitt anzuzeigen",
     "CLICK_COLLAPSE": "Klicken, um den Abschnitt zu verstecken",

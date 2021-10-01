@@ -5,7 +5,7 @@
     "BTN_OPEN_SELECTED": "Ausgewählte Seiten öffnen",
     "FILTER_NEW_IN_WCAG21": "In WCAG 2.1 hinzugefügt",
     "HOW_TO": "Erfüllen von",
-    "INTRO": "Notieren Sie das Ergebniss der Prüfung der Seiten, die Sie im vorigen Schritt ausgewählt haben. Vergleichen Sie die Ergebnisse zwischen den strukturiert und den willkürlich ausgewählten Seiten. Falls nötig, korrigieren Sie die Seitenauswahl im vorigen Schritt.",
+    "INTRO": "Notieren Sie das Ergebnis der Prüfung der Seiten, die Sie im vorigen Schritt ausgewählt haben. Vergleichen Sie die Ergebnisse zwischen den strukturiert und den willkürlich ausgewählten Seiten. Falls nötig, korrigieren Sie die Seitenauswahl im vorigen Schritt.",
     "IMPORT_DATA_INTRO": "Ergebnisse von anderen (automatisierten) Tests hinzufügen",
     "RESOURCE_LINK_NAME": "Step 4: Audit the Selected Sample (Englisch)",
     "LABEL_OUTCOME": "Ergebnis",
@@ -16,7 +16,7 @@
     "TITLE": "Schritt 4: Die ausgewählten Seiten prüfen",
     "UNDERSTAND": "Verstehen von",
     "UNTESTED": "{{critCount}} ungeprüft",
-    "VIEW_IN_REPORT": "Im Bereicht anzeigen",
+    "VIEW_IN_REPORT": "Im Bericht anzeigen",
     "LABEL_VERSION": "Version der WCAG",
     "LABEL_LEVEL": "Stufe(n)",
     "ADDED_IN": "Hinzugefügt in"
