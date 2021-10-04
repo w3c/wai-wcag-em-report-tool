@@ -513,10 +513,10 @@ class EvaluationModel {
                   });
 
                   if (foundAssertion) {
-                    // foundAssertion.result = newAssertion.result;
-                    // foundAssertion.subject = assertion.subject;
-                    assertion.test = newTest;
-                    assertions.create(assertion);
+                    foundAssertion.result = newAssertion.result;
+                    foundAssertion.subject = newAssertion.subject;
+                    // assertion.test = newTest;
+                    // assertions.create(assertion);
                   } else {
                     assertions.create(newAssertion);
                   }
