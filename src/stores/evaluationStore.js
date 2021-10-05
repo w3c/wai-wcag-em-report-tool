@@ -526,9 +526,9 @@ class EvaluationModel {
                   // } else {
                   //   assertions.create(newAssertion);
                   // }
-                  if(assertion.subject.type.indexOf("Website") >= 0){
+                  if(assertion.subject.type.indexOf("Website") >= 0 || newAssertion.subject.type.indexOf("Website") >= 0){
                     assertions.create(newAssertion);
-                  }else{
+                  }else {
                     newSubject = $subjects.find(($subject) => {
                       return $subject.title == assertion.subject.title;
                     });
@@ -547,15 +547,7 @@ class EvaluationModel {
               }
             });
           });
-
-          // for(var i = 0; i < $assertions.length; i++){
-          //     if($assertions[i].test.id == "WCAG21:audio-only-and-video-only-prerecorded"){
-          //     console.log($assertions[i]);
-          //   }
-          // }
-          console.log($assertions);
-
-
+        
         unscribeStores();
       });
 
