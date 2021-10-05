@@ -53,4 +53,33 @@
       event.target.value = ''
     }
   }
+  
+  function loadFromUrl() {
+    var clearResult = true;
+    if($interacted == true){
+      var clearResult = window.confirm(TRANSLATED.CLEAR_WARNING);
+    }
+
+    if(clearResult){
+      loading = true;
+      
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+      const jsonUrl = urlParams.get('jsonUrl').replace(/[^a-z0-9 \.,_-]/gim,"");
+      const json = JSON.parse(jsonUrl);
+      
+      $evaluationStore
+          .open(json)
+          .then(() => {
+            $interactedOpenEvaluation = true;
+            navigate('/evaluation/define-scope');
+            $interacted = true;
+          })
+          .finally(() => {
+            target.value = '';
+            loading = false;
+          });
+
+    }
+  }
 </script>
