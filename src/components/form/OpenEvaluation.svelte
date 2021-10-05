@@ -65,10 +65,11 @@
       
       const queryString = window.location.search;
       const urlParams = new URLSearchParams(queryString);
-      const jsonUrl = urlParams.get('jsonUrl').replace(/[^a-z0-9 \.,_-]/gim,"");
-      const json = JSON.parse(jsonUrl);
+      if(URLSearchParams.has('jsonUrl')) {
+        const jsonUrl = urlParams.get('jsonUrl').replace(/[^a-z0-9 \.,_-]/gim,"");
+        const json = JSON.parse(jsonUrl);
       
-      $evaluationStore
+        $evaluationStore
           .open(json)
           .then(() => {
             $interactedOpenEvaluation = true;
@@ -79,7 +80,8 @@
             target.value = '';
             loading = false;
           });
-
+      }
     }
   }
+  loadFromUrl();
 </script>
