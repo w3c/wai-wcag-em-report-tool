@@ -23,7 +23,6 @@
   const navigate = useNavigate();
 
   function handleOpenChange(event) {
-    
     var clearResult = true;
     if($interacted == true){
       var clearResult = window.confirm(TRANSLATED.CLEAR_WARNING);
