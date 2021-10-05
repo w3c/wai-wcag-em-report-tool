@@ -450,7 +450,6 @@ class EvaluationModel {
               ''
           });
         });
-
         // Frame Assertions within the Evaluation
         await jsonld
           .frame(framedEvaluation, {
@@ -468,12 +467,7 @@ class EvaluationModel {
                 }
 
                 return (
-                  $subject.id === subject.id ||
-                  $subject.id ===
-                    jsonld.setIdFromProperties(subject, [
-                      'description',
-                      'source'
-                    ]).id
+                  $subject.title == subject.title && $subject.id == subject.id
                 );
               });
 
@@ -511,9 +505,8 @@ class EvaluationModel {
                   //     $assertion.subject === newAssertion.subject
                   //   );
                   // });
-                  // console.log(foundAssertion);
+
                   // if (foundAssertion) {
-                  //   console.log("found");
                   //   // foundAssertion.result = newAssertion.result;
                   //   // foundAssertion.subject = assertion.subject;
                   //   if(foundAssertion.subject == newAssertion.subject){
@@ -526,7 +519,8 @@ class EvaluationModel {
                   // } else {
                   //   assertions.create(newAssertion);
                   // }
-                  if(assertion.subject.type.indexOf("Website") >= 0 || newAssertion.subject.type.indexOf("Website") >= 0){
+
+                  if(assertion.subject.type.indexOf("Website") >= 0 || assertion.subject.type.indexOf("WebSite") >= 0){
                     assertions.create(newAssertion);
                   }else {
                     newSubject = $subjects.find(($subject) => {
@@ -536,7 +530,8 @@ class EvaluationModel {
                     assertion.result = newResult;
                     assertion.test = newTest;
                     assertions.create(assertion);
-                  }
+                  
+                }
                 })({
                   assertedBy,
                   mode,
@@ -547,7 +542,9 @@ class EvaluationModel {
               }
             });
           });
-        
+
+          console.log($assertions);
+
         unscribeStores();
       });
 
