@@ -23,6 +23,7 @@
   const navigate = useNavigate();
 
   function handleOpenChange(event) {
+    
     var clearResult = true;
     if($interacted == true){
       var clearResult = window.confirm(TRANSLATED.CLEAR_WARNING);
@@ -55,20 +56,24 @@
   }
   
   function loadFromUrl() {
+    
     var clearResult = true;
-    if($interacted == true){
-      var clearResult = window.confirm(TRANSLATED.CLEAR_WARNING);
-    }
+    var queryString = window.location.search;
+    var urlParams = new URLSearchParams(queryString);
 
-    if(clearResult){
+    /*if($interacted == true){
+      var clearResult = window.confirm(TRANSLATED.CLEAR_WARNING);
+    }*/
+
+    if (urlParams.has("jsonUrl") && clearResult) {
+      
       loading = true;
-      
-      const queryString = window.location.search;
-      const urlParams = new URLSearchParams(queryString);
-      if(URLSearchParams.has('jsonUrl')) {
-        const jsonUrl = urlParams.get('jsonUrl').replace(/[^a-z0-9 \.,_-]/gim,"");
-        const json = JSON.parse(jsonUrl);
-      
+        
+        const jsonUrl = urlParams.get("jsonUrl");
+
+        const result=getJSON(jsonUrl);
+        const json = JSON.parse(result);
+        
         $evaluationStore
           .open(json)
           .then(() => {
@@ -77,11 +82,28 @@
             $interacted = true;
           })
           .finally(() => {
-            target.value = '';
+            //target.value = '';
             loading = false;
           });
       }
-    }
   }
+  
+  function getJSON(url) {
+        var resp ;
+        var xmlHttp ;
+
+        resp  = '' ;
+        xmlHttp = new XMLHttpRequest();
+
+        if(xmlHttp != null)
+        {
+            xmlHttp.open( "GET", url, false );
+            xmlHttp.send( null );
+            resp = xmlHttp.responseText;
+        }
+
+        return resp ;
+    }
+
   loadFromUrl();
 </script>
