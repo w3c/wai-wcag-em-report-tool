@@ -460,7 +460,7 @@ class EvaluationModel {
           .then((framedAssertions) => {
             jsonld.getItems(framedAssertions).forEach((assertion) => {
               const { assertedBy, mode, result, subject, test } = assertion;
-              const newSubject = $subjects.find(($subject) => {
+              let newSubject = $subjects.find(($subject) => {
                 if (
                   jsonld.hasType($subject, [TestSubjectTypes.WEBSITE, 'WebSite'])
                 ) {
@@ -484,7 +484,7 @@ class EvaluationModel {
                 return $outcomeValue.id === newResult.outcome.id;
               });
 
-              const newTest = $tests.find(($test) => {
+              let newTest = $tests.find(($test) => {
                 // In previous versions a testcase was set on Assertions
                 // that was part of the main Assertion
                 // undo this here.
@@ -505,20 +505,37 @@ class EvaluationModel {
 
               if (newSubject && newTest) {
                 (function addAssertion(newAssertion) {
-                  const foundAssertion = $assertions.find(($assertion) => {
-                    return (
-                      $assertion.test === newAssertion.test &&
-                      $assertion.subject === newAssertion.subject
-                    );
-                  });
-
-                  if (foundAssertion) {
-                    foundAssertion.result = newAssertion.result;
-                    foundAssertion.subject = newAssertion.subject;
-                    // assertion.test = newTest;
-                    // assertions.create(assertion);
-                  } else {
+                  // const foundAssertion = $assertions.find(($assertion) => {
+                  //   return (
+                  //     $assertion.test === newAssertion.test &&
+                  //     $assertion.subject === newAssertion.subject
+                  //   );
+                  // });
+                  // console.log(foundAssertion);
+                  // if (foundAssertion) {
+                  //   console.log("found");
+                  //   // foundAssertion.result = newAssertion.result;
+                  //   // foundAssertion.subject = assertion.subject;
+                  //   if(foundAssertion.subject == newAssertion.subject){
+                  //     foundAssertion.result = newAssertion.result;
+                  //     foundAssertion.subject = assertion.subject;
+                  //   }else{
+                  //     assertion.test = newTest;
+                  //     assertions.create(assertion);
+                  //   }
+                  // } else {
+                  //   assertions.create(newAssertion);
+                  // }
+                  if(assertion.subject.type.indexOf("Website") >= 0){
                     assertions.create(newAssertion);
+                  }else{
+                    newSubject = $subjects.find(($subject) => {
+                      return $subject.title == assertion.subject.title;
+                    });
+                    assertion.subject = newSubject;
+                    assertion.result = newResult;
+                    assertion.test = newTest;
+                    assertions.create(assertion);
                   }
                 })({
                   assertedBy,
@@ -530,6 +547,14 @@ class EvaluationModel {
               }
             });
           });
+
+          // for(var i = 0; i < $assertions.length; i++){
+          //     if($assertions[i].test.id == "WCAG21:audio-only-and-video-only-prerecorded"){
+          //     console.log($assertions[i]);
+          //   }
+          // }
+          console.log($assertions);
+
 
         unscribeStores();
       });
