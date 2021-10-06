@@ -392,11 +392,13 @@ class EvaluationModel {
           importStructuredSample.forEach((sample) => {
             if(Array.isArray(sample.title)){
               sample.title = sample.title[0];
+              sample.description = sample.description[0];
             }
           });
           importRandomSample.forEach((sample) => {
             if(Array.isArray(sample.title)){
               sample.title = sample.title[0];
+              sample.description = sample.description[0];
             }
           });
           
