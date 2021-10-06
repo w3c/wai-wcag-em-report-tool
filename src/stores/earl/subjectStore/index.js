@@ -4,7 +4,7 @@ import { TestSubject, TestSubjectTypes } from './models.js';
 
 export const initialSubjectStore = [
   new TestSubject({
-    ID: 1,
+    ID: 0,
     type: TestSubjectTypes.WEBSITE,
     title: '',
     description: ''
