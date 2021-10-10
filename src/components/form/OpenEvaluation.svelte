@@ -61,12 +61,7 @@
     var clearResult = true;
     if (urlParams.has("jsonUrl") && clearResult) {
       const jsonUrl = urlParams.get("jsonUrl");
-      try {
-        getJsonfromUrl(jsonUrl);
-        throw new Error('file invalid');
-      } catch(e) {
-        console.log(e);
-      }
+      getJsonfromUrl(jsonUrl);
     }
   }
 
@@ -89,26 +84,23 @@
     
   function getJsonfromUrl(url) {
     var resp;
-    try {
-      var xhttp = new XMLHttpRequest();
 
-      xhttp.onreadystatechange = function() {
-        if (xhttp.readyState == 4 && xhttp.status == 200) {
-            if(this.getResponseHeader('content-type') == 'application/json; charset=utf-8') {
-              var json_data = xhttp.responseText;
-              openJsonfromUrl(json_data);
-            }
-        } else {
-          openJsonfromUrl('error');
+    var xhttp = new XMLHttpRequest();
+
+    xhttp.onreadystatechange = function() {
+    
+      if (xhttp.readyState == 4 && xhttp.status == 200) {
+        
+        if(this.getResponseHeader('content-type') == 'application/json; charset=utf-8') {
+          var json_data = xhttp.responseText;
+          openJsonfromUrl(json_data);
         }
-      };
-      xhttp.open("GET", url, true);
-      xhttp.send(null);
-      throw new Error('file invalid');
-    } catch(e) {
-      console.log(e);
-    }
-    xhttp.abort();
+      } else {
+        openJsonfromUrl('error');
+      }
+    };
+    xhttp.open("GET", url, false);
+    xhttp.send(null);
   }
 
   loadFilefromUrl();
