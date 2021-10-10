@@ -54,50 +54,62 @@
     }
   }
   
-  function loadFromUrl() {
+  function loadFilefromUrl() {
     
-    var clearResult = true;
     var queryString = window.location.search;
     var urlParams = new URLSearchParams(queryString);
-
+    var clearResult = true;
     if (urlParams.has("jsonUrl") && clearResult) {
-      
-      loading = true;
-        
-        const jsonUrl = urlParams.get("jsonUrl");
-
-        const result=getJSON(jsonUrl);
-        const json = JSON.parse(result);
-        
-        $evaluationStore
-          .open(json)
-          .then(() => {
-            $interactedOpenEvaluation = true;
-            navigate('/evaluation/define-scope');
-            $interacted = true;
-          })
-          .finally(() => {
-            //target.value = '';
-            loading = false;
-          });
+      const jsonUrl = urlParams.get("jsonUrl");
+      try {
+        getJsonfromUrl(jsonUrl);
+        throw new Error('file invalid');
+      } catch(e) {
+        console.log(e);
       }
-  }
-  
-  function getJSON(url) {
-        var resp ;
-        var xmlHttp ;
-
-        resp  = '' ;
-        xmlHttp = new XMLHttpRequest();
-        
-        if(xmlHttp != null)
-        {
-            xmlHttp.open( "GET", url, false );
-            xmlHttp.send( null );
-            resp = xmlHttp.responseText;
-        }
-
-        return resp;
     }
-  loadFromUrl();
+  }
+
+  function openJsonfromUrl(json) {
+    if(json!='error') {
+      json=JSON.parse(json);
+      loading = true;
+      $evaluationStore
+        .open(json)
+        .then(() => {
+          $interactedOpenEvaluation = true;
+          navigate('/evaluation/define-scope');
+          $interacted = true;
+        })
+        .finally(() => {
+          loading = false;
+        });
+    }
+  }
+    
+  function getJsonfromUrl(url) {
+    var resp;
+    try {
+      var xhttp = new XMLHttpRequest();
+
+      xhttp.onreadystatechange = function() {
+        if (xhttp.readyState == 4 && xhttp.status == 200) {
+            if(this.getResponseHeader('content-type') == 'application/json; charset=utf-8') {
+              var json_data = xhttp.responseText;
+              openJsonfromUrl(json_data);
+            }
+        } else {
+          openJsonfromUrl('error');
+        }
+      };
+      xhttp.open("GET", url, true);
+      xhttp.send(null);
+      throw new Error('file invalid');
+    } catch(e) {
+      console.log(e);
+    }
+    xhttp.abort();
+  }
+
+  loadFilefromUrl();
 </script>

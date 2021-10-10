@@ -598,24 +598,23 @@ class EvaluationModel {
           contents: JSON.stringify(compacted)
         });
 
-
-        var xmlhttp;
+        var xmlHttp;
         if (window.XMLHttpRequest){
-            xmlhttp=new XMLHttpRequest();
+            xmlHttp=new XMLHttpRequest();
         }
 
-        xmlhttp.onreadystatechange=function(){
-          if (xmlhttp.readyState==4 && xmlhttp.status==200)
+        xmlHttp.onreadystatechange=function(){
+          if (xmlHttp.readyState==4 && xmlHttp.status==200)
           {
-           console.log(xmlhttp.responseText);
+           console.log(xmlHttp.responseText);
           }
         }
 
-        data="rapportID=&name="+compacted.defineScope.scope.title+"&json="+JSON.stringify(compacted);
+        var data="rapportID=&name="+compacted.defineScope.scope.title+"&json="+JSON.stringify(compacted);
 
-        xmlhttp.open("POST","/savetodb.php",true);
-        xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
-        xmlhttp.send(data);
+        xmlHttp.open("POST","/savetodb.php",true);
+        xmlHttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+        xmlHttp.send(data);
 
       })
       .catch((error) => {
