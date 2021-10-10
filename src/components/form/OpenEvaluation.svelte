@@ -60,10 +60,6 @@
     var queryString = window.location.search;
     var urlParams = new URLSearchParams(queryString);
 
-    /*if($interacted == true){
-      var clearResult = window.confirm(TRANSLATED.CLEAR_WARNING);
-    }*/
-
     if (urlParams.has("jsonUrl") && clearResult) {
       
       loading = true;
@@ -93,7 +89,7 @@
 
         resp  = '' ;
         xmlHttp = new XMLHttpRequest();
-
+        
         if(xmlHttp != null)
         {
             xmlHttp.open( "GET", url, false );
@@ -101,8 +97,7 @@
             resp = xmlHttp.responseText;
         }
 
-        return resp ;
+        return resp;
     }
-
   loadFromUrl();
 </script>
