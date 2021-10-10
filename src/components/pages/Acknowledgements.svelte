@@ -41,6 +41,7 @@
     <li><a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a></li>
     <li><a href="https://www.w3.org/groups/wg/eowg/participants">EOWG Participants</a></li>
     <li>Jules Ernst</li>
+    <li>Bart Pluijms</li>
   </ul>
 </Page>
 <!-- /component -->
