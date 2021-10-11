@@ -105,12 +105,23 @@
     $evaluationStore.reportFindings.commissioner = $summaryStore.EVALUATION_COMMISSIONER;
     $evaluationStore.reportFindings.date = $summaryStore.EVALUATION_DATE;
     $evaluationStore.reportFindings.summary = $summaryStore.EVALUATION_SUMMARY;
+    $evaluationStore.reportFindings.title = $summaryStore.EVALUATION_TITLE;
     $evaluationStore.defineScope.scope = {description: $scopeStore.WEBSITE_SCOPE, title: $scopeStore.SITE_NAME}
     $evaluationStore.defineScope.wcagVersion = $scopeStore.WCAG_VERSION;
     $evaluationStore.defineScope.conformanceTarget = $scopeStore.CONFORMANCE_TARGET;
     $evaluationStore.defineScope.accessibilitySupportBaseline = $scopeStore.AS_BASELINE;
     $evaluationStore.defineScope.additionalEvaluationRequirements = $scopeStore.ADDITIONAL_REQUIREMENTS;
+
     $evaluationStore.auditSample = $assertions;
+
+    $evaluationStore.selectSample.structuredSample = $sampleStore['STRUCTURED_SAMPLE'];
+    $evaluationStore.selectSample.randomSample = $sampleStore['RANDOM_SAMPLE'];
+    $evaluationStore.exploreTarget.technologiesReliedUpon = $exploreStore['TECHNOLOGIES_RELIED_UPON'];
+    $evaluationStore.exploreTarget.essentialFunctionality = $exploreStore['ESSENTIAL_FUNCTIONALITY'];
+    $evaluationStore.exploreTarget.pageTypeVariety = $exploreStore['PAGE_TYPES'];
+
+    $evaluationStore.reportFindings.evaluationSpecifics = $summaryStore.EVALUATION_SPECIFICS;
+
   }
 
 </script>
