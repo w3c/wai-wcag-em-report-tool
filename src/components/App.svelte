@@ -42,6 +42,9 @@
     wcagCriteria: wcagStore
   });
 
+  setContext('updateEvaluation', forceEvaluationUpdate);
+  const updateEvaluation = getContext('updateEvaluation');
+
   const { wcagCriteria } = getContext('Evaluation');
   import { CriteriaSelected } from '@app/stores/selectedCriteriaStore.js';
   import { CriteriaFiltered } from '@app/stores/filteredCriteriaStore.js';
@@ -96,10 +99,12 @@
       handleJSONDownloadClick();
     }
   }
+
   function handleJSONDownloadClick() {
-    forceEvaluationUpdate();
+    updateEvaluation();
     $evaluationStore.save();
   }
+
   function forceEvaluationUpdate() {
     $evaluationStore.reportFindings.evaluator = $summaryStore.EVALUATION_CREATOR;
     $evaluationStore.reportFindings.commissioner = $summaryStore.EVALUATION_COMMISSIONER;
@@ -119,9 +124,7 @@
     $evaluationStore.exploreTarget.technologiesReliedUpon = $exploreStore['TECHNOLOGIES_RELIED_UPON'];
     $evaluationStore.exploreTarget.essentialFunctionality = $exploreStore['ESSENTIAL_FUNCTIONALITY'];
     $evaluationStore.exploreTarget.pageTypeVariety = $exploreStore['PAGE_TYPES'];
-
     $evaluationStore.reportFindings.evaluationSpecifics = $summaryStore.EVALUATION_SPECIFICS;
-
   }
 
 </script>
