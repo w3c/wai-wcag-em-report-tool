@@ -1,0 +1,8 @@
+{
+    "TITLE": "Oups ! Quelque chose n’a pas fonctionné",
+    "INTRO": "Ce n’est pas la page que vous recherchez. Essayer l’une de ces solutions pour remédier à la situation.",
+    "SUGGESTION1": "Si vous avez saisi l’URL manuellement, assurez-vous qu’elle est bien conforme.",
+    "SUGGESTION2": "Allez à <a href={{link_back}}>la page précédente</a>, et essayez de nouveau.",
+    "SUGGESTION3": "Assurez-vous que les fichiers avec lesquels vous travaillez sont conformes au <a href={{link_format}}>format wcag-em</a>.",
+    "BUG_REPORT": "Pour signaler tout problème ou pour suggérer des ameliorations, inscrivez un billet sur la page de <a href={{link_github}}>notre projet Github</a>."
+}

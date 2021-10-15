@@ -1,0 +1,21 @@
+{
+    "TITLE": "Étape 2 : Explorer le site Web cible",
+    "INTRO": "Explorer le site Web pour en comprendre l’objectif, les fonctionnalités, et l’utilité. Cette étape vous aide à définir quelles pages devront être évaluées dans les prochaines étapes. Identifier les technologies Web utilisées et, si vous voulez, prendre des notes quant aux autres aspects du site Web. Habituellement, il est préférable d’avoir l’opinion des propriétaires, ainsi que des développeurs du site à cette étape.",
+    "RESOURCE_LINK_NAME": "Étape 2 : Explorer le site Web cible",
+    "HD_RELIEDUP_TECH": "Technologies Web utilisées",
+    "INF_RELIEDUP_TECH": "Identifier les technologies Web [utilisées, conformément au WCAG 2](https://www.w3.org/TR/WCAG21/#dfn-relied-upon) qui ont servi à générer le site Web. Pour plus d’informations, consulter [WCAG-EM Étape 2.d : Identifier les technologies Web utilisées (en anglais)](https://www.w3.org/TR/WCAG-EM/#step2d).",
+    "LABEL_TECH": "Technologies Web ",
+    "LABEL_TECH_SPEC": "Adresse (URL) des spécifications ",
+    "PLH_TECH": "Par ex. : HTML5, CSS, DOM",
+    "PLH_TECH_SPEC": "Adresse (URL) ou description pour les specifications des technologies Web",
+    "BTN_REMOVE_TECH": "Retirer cette technologie",
+    "BTN_ADD_TECH": "Ajouter une technologie Web",
+    "HD_NOTE_TAKING": "Notes d’exploration (facultatives)",
+    "INF_NOTE_TAKING": "Cette section vous permet de noter des informations au cours de l’exploration du site Web. Ces notes sont ensuite reportées à la prochaine étape pour vous aider à choisir un échantillon des pages à évaluer. <strong>Ces notes ne sont pas reconduites dans le rapport final.</strong> Elles sont enregistrées lorsque vous enregistrez votre fichier, et disponibles lorsque vous récupérer ensuite les données du fichier.",
+    "LABEL_ESSENT_FUNC": "Fonctionnalités essentielles du site Web",
+    "INF_ESSENT_FUNC": "Vous pouvez utiliser ce champ pour prendre des notes sur les fonctionnalités essentielles du site Web. Par exemple, les fonctionnalités essentielles peuvent être :<br> « Sélectionner et acheter un produit de la liste des produits du site Web »<br> « Compléter et soumettre un formulaire disponible sur le site Web » <br> « Inscrire un nouveau compte sur le site Web »<br>Pour plus d’information, consulter [WCAG-EM Étape 2.b : Identifier les fonctionnalités essentielles du site Web (en anglais)](https://www.w3.org/TR/WCAG-EM/#step2b).",
+    "LABEL_VARIETY_PAGE_TYPES": "Variété des types de pages Web",
+    "INF_VARIETY_PAGE_TYPES": "Vous pouvez utiliser ce champ pour prendre des notes sur les types (par opposition aux instances) de pages Web que vous trouvez sur le site. Cela inclut des notes sur les différents styles, dispositions, structures, et fonctionnalités présentés sur le site Web. Pour plus d’information, consulter [WCAG-EM Étape 2.c : Identifier la variété des types de pages Web (en anglais)](https://www.w3.org/TR/WCAG-EM/#step2c).<br> **Note** :  « Pages Web » inclut différents « États des pages Web »; voir la définition des [États des pages Web](https://www.w3.org/TR/WCAG-EM/#states).",
+    "LABEL_OTHER": "Autres...",
+    "ADD_TECH": "Ajouter"
+}
