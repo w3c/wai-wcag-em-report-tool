@@ -1,0 +1,19 @@
+{
+    "TITLE": "Étape 5 : Rapporter les constats de l’évaluation",
+    "INTRO": "Fournir des informations supplémentaires sur l’évaluation que vous voulez voir figurer au rapport. Les constats de l’évaluation que vous avez saisis à l’étape précédente sont inscrits ci-dessous sous « Résultats détaillés de l’audit » pour révision et pour vous aidez à rédiger le résumé.",
+    "RESOURCE_LINK_NAME": "Étape 5 : Rapporter les constats de l’évaluation",
+    "LABEL_TITLE": "Titre du rapport",
+    "TITLE_PREFIX": "Rapport pour",
+    "INF_TITLE": "Donner un titre au rapport d’évaluation du site Web. Par exemple : <br> « Rapport d’évaluation pour Nom d’Organisation »<br> « Analyse d’accessibilité et corrections suggéreés pour la Boutique en ligne »",
+    "LABEL_COMMISSIONER": "Commissaire à l’évaluation",
+    "INF_COMMISSIONER": "La personne, l’équipe, l’organisation, le service interne ou toute autre entité qui a commandé l’évaluation.",
+    "LABEL_CREATOR": "Évaluateur ou évaluatrice",
+    "INF_CREATOR": "La personne, l’équipe, l’organisation, le service interne ou toute autre entité responsible de réaliser l’évaluation.",
+    "LABEL_DATE": "Date de l’évaluation",
+    "INF_DATE": "Indiquer la date d’achèvement ou la période de cette évaluation. Vous pouvez utiliser n’importe quel format de date.",
+    "LABEL_SUMMARY": "Résumé",
+    "INF_SUMMARY": "Inscrire un bref résumé des constats de l’évaluation pour donner un aperçu des résultats. Par exemple, décrivez l’accessibilité globale du site Web et les observations clés que vous avez faites lors de l’évaluation, tels que les problèmes qui se répètent fréquemment.",
+    "LABEL_SPECIFICS": "Registre des détails de l'évaluation (facultatif",
+    "INF_SPECIFICS": "Le WCAG-EM suggère que vous archiviez les pages Web auditées. Pour plus d’information, consulter <a href={{link_em_5b}}>WCAG-EM Étape 5.b : Registre des détails de l’évaluation <i class='fas fa-external-link-alt'></i></a>. Vous pouvez utiliser ce champ pour inscrire les outils d'évaluation, les navigateurs Web, les technologies d'assistance, les autres logiciels et les méthodes utilisés pour l'évaluation. Ce que vous inscrivez ici sera reporté dans le rapport généré. Après avoir téléchargé le rapport, vous pourrez supprimer ou modifier ces informations dans le fichier HTML avant de soumettre le rapport.",
+    "HD_CRITERIA_REPORT": "Résultats détaillés de l’audit"
+}

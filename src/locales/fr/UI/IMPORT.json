@@ -1,0 +1,17 @@
+{
+    "TITLE": "Importer un rapport WCAG EARL",
+    "INTRO": "Si vous avez utilisé une autre application pour générer un rapport WCAG EARL qui correspond à la portée de cette évaluation, vous pourriez être capable de l’importer et de l’ajouter aux résultats de l’audit. Le fichier en soi devrait être conforme au JSON-LD, constitué d’objets au format EARL et les tests d’évaluation devraient être liés au WCAG.",
+    "LABEL_SELECT_FILE": "Sélectionner un fichier JSON-LD",
+    "IMPORT": {
+        "HEADING": "Résultat importé {IMPORT_DATE, date, ::dd MM yyyy} par {AUTHOR}",
+        "TEST_PREFIX": "Test"
+    },
+    "ERROR": {
+    	"JSONLD_SYNTAX": "Le format de fichier n’est pas reconnu.",
+    	"NO_ASSERTIONS": "Le fichier ne contenait aucune affirmation reconnaissable.",
+    	"NO_COMPATIBLE_ASSERTIONS": "Aucune des affirmations de ce fichier ne correspondait à l’échantillon sélectionné.",
+    	"FILE_ERROR": "Format de fichier incorrect ou fichier endommagé."
+    },
+    "SUCCESSFUL": "Les affirmations ont été ajoutées aux observations de cette page.",
+    "MORE_INFO": "Plus d’informations sur l’importation d’EARL en JSON"
+}

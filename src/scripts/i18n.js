@@ -23,6 +23,7 @@ export async function internationalize(locales) {
   // Keep using this until above works... 😭
   register('en', () => import('../locales/translations_en.json'));
   register('nl', () => import('../locales/translations_nl.json'));
+  register('fr', () => import('../locales/translations_fr.json'));
 
   init({
     fallbackLocale: defaultLocale,
