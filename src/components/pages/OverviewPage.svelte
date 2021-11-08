@@ -8,7 +8,7 @@
     <p style="max-width: none; margin: 0;">
       Welcome to the <a href="https://github.com/w3c/wai-wcag-em-report-tool/wiki/Changelog:-What's-new-in-the-2021-redesign-of-the-WCAG-EM-Report-Tool">updated</a> WCAG-EM Report Tool. You can open your existing reports with this tool. The <a href="https://w3c.github.io/wcag-em-report-tool/">previous version</a> is available, and is no longer supported. 
     </p> 
-    <Button on:click="{dismissPreviousVersionMessage}">
+    <Button type="secondary" on:click="{dismissPreviousVersionMessage}">
       Dismiss
     </Button>
   </div>
