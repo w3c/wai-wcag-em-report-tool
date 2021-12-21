@@ -33,7 +33,7 @@ We use [Svelte](https://svelte.dev/) so that we can express the code of this pro
 
 ### After first time
 
-1. For development, run `npm run dev`, this builds the project, serves the application on a local server so that you can look at it and watches for any changes you make to the code
+1. For development, run `npm run dev`, this builds the project, serves the application on a local server ([localhost:10001](http://localhost:10001) per default) so that you can look at it and watches for any changes you make to the code.
 2. To only build the application, run `npm run build`, this builds the project without serving it.
 
 ### Publishing in a sub folder
