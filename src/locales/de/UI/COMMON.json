@@ -8,8 +8,8 @@
     },
     "YES": "Ja",
     "NO": "Nein",
-    "NEXT": "Nächstes {label}",
-    "PREVIOUS": "Voriges {label}",
+    "NEXT": "Nächster {label}", // Only valid for translation of Step (Schritt)
+    "PREVIOUS": "Voriger {label}", // IDEM
     "CLICK_EXPAND": "Klicken, um den Abschnitt anzuzeigen",
     "CLICK_COLLAPSE": "Klicken, um den Abschnitt zu verstecken",
     "TO_TOP": "Zurück zum Anfang",
