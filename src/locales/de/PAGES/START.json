@@ -1,0 +1,17 @@
+{
+    "TITLE": "WCAG-EM Bericht-Tool",
+    "SUBTITLE": "Übersicht",
+    "INTRO_HD": "Was dieses Tool kann",
+    "INTRO_1": "Das WCAG-EM Bericht-Tool erstellt einen Bericht aus den Ergebnissen Ihrer Prüfung bezüglich Barrierefreiheit. Es basiert auf den Prüfmethoden der Richtlinien für barrierefreie Webinhalte <a hreflang='en' href='https://www.w3.org/TR/WCAG-EM/'>WCAG-EM (Englisch)</a>.",
+    "TIPS_HD": "Hinweise zur Benutzung dieses Tools",
+    "TIPS_1": "Unter „Bericht anzeigen” können Sie Ihren Bericht als HTML (Webseite) oder als JSON (Strukturierte Daten) herunterladen.",
+    "TIPS_2": "Sie können Ihre Prüfergebnisse mit <a href='https://de.wikipedia.org/wiki/Markdown'>Markdown</a> formatieren, um zum Beispiel Listen, Codebeispiele oder Links hinzuzufügen. Das funktioniert auch in den Eingabefeldern für die „Zusammenfassung” und die „Notizen zum Ablauf der Prüfung”.",
+    "TIPS_3": "Dieses Tool speichert Ihre Arbeit nicht automatisch. Um Ihre Arbeit in einer Datei auf Ihrem Computer zu speichern, benutzen Sie die Windows-Tastaturkürzel *Strg + s* oder auf dem Mac *⌘ + s*.",
+    "ABOUT_HEADING": "Über dieses Tool",
+    "ABOUT_1": "<p>Das WCAG-EM Bericht-Tool kann benutzt werden um einen <a hreflang='en' href='https://www.w3.org/WAI/eval/report-tool/evaluation/view-report'>strukturierten Bericht von Prüfergebnissen bezüglich Barrierefreiheit (englischer Link)</a> zu erstellen. Es führt keine (automatische) Prüfung durch.</p>",
+    "ABOUT_2": "<p>Dieses Werkzeug ist für erfahrene PrüferInnen von Barrierefreiheit gedacht. Sie benötigen Kenntnisse der WCAG, von barrierefreiem Webdesign, assistierenden Techniken, und davon, wie Menschen mit verschiedenen Behinderungen das Web benutzen (wie im <a hreflang='en' href='https://www.w3.org/TR/WCAG-EM/#expertise'>Abschnitt „Erforderliche Kenntnisse” der WCAG-EM (Englisch)</a> beschrieben).</p>",
+    "USAGE_HD": "Wie dieses Tool funktioniert",
+    "USAGE_LI1": "Die vollständige Funktionalität dieses Tools ist ab sofort auf Ihrem Computer offline verfügbar. Es läuft lokal in Ihrem Webbrowser. Sie benötigen keine Internetverbindung mehr, um es zu nutzen. Allerdings verlieren Sie Ihre Arbeit, wenn Sie dieses Browser-Fenster schließen und vorher nicht speichern.",
+    "USAGE_LI2": "Alle Eingaben werden im JSON-Format im Hintergrund aufgezeichnet (in Ihrem Browser, nicht auf einem Server). Sie können Ihren Bericht regelmäßig herunterladen, oder Ihre Arbeit regelmäßig abspeichern, um zu verhindern dass Sie Ihre Arbeit verlieren, wenn Sie den Browser schließen.",
+    "USAGE_LI3": "Sie können unvollständige Berichte und Notizen abspeichern und später weiter daran arbeiten. Um eine gespeicherte Datei zu öffnen, benutzen Sie den Button „Bericht öffnen” auf dieser Seite."
+}

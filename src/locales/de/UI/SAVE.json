@@ -1,0 +1,6 @@
+{
+    "TITLE": "Prüfbericht speichern",
+    "INTRO": "Benutzen Sie den folgenden Link, um den Prüfbericht in einer JSON-Datei auf Ihrem Computer zu speichern.",
+    "BTN_DOWNLOAD_DATA_FILE": "Datei auf Ihrem Computer speichern",
+    "TIPS": "Sie können unvollständige Berichte und Notizen abspeichern und später weiter daran arbeiten. Sie können Sie in einem beliebigen Webbrowser öffnen und können die Datei auch auf einen anderen Computer kopieren. <br> Sie können Ihre Arbeit regelmäßig abspeichern, um zu verhindern, dass Sie Daten verlieren wenn Sie den Browser schließen. Sie können die Windows-Tastaturkürzel Strg + s oder auf dem Mac ⌘ + s verwenden um den Speichern-Dialog zu öffnen (oder automatisch in Ihrem Downloads-Verzeichnis speichern, abhängig von Ihrer Browser-Einstellung). <br> Wenn Sie Ihren Bericht abgeschlossen haben, können Sie eine HTML Datei herunterladen. Besuchen Sie dafür die Seite <a href={{link_report}}>Bericht anzeigen</a>."
+}

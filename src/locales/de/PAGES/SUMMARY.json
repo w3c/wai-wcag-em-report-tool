@@ -1,0 +1,18 @@
+{
+    "TITLE": "Schritt 5: Prüfergebnisse dokumentieren",
+    "INTRO": "Erläutern Sie weiter die Prüfung, über die Sie berichten. Die Prüfergebnisse, die Sie im vorigen Schritt dokumentiert haben, sind weiter unten unter „Ausführliche Prüfergebnisse” aufgelistet, um Ihnen dabei zu helfen eine Zusammenfassung zu formulieren.",
+    "RESOURCE_LINK_NAME": "Step 5: Report the Evaluation Findings",
+    "LABEL_TITLE": "Titel des Berichts",
+    "INF_TITLE": "Betiteln Sie den Prüfbericht. Beispiel:<br> „Prüfbericht für Beispielorganisation”<br> „Analyse und Empfehlungen zur Barrierefreiheit des Online-Shops“",
+    "LABEL_COMMISSIONER": "AuftraggeberIn der Prüfung",
+    "INF_COMMISSIONER": "Die natürliche oder juristische Person, das Team, die Organisation, die interne Abteilung, die die Prüfung beauftragt hat .",
+    "LABEL_CREATOR": "Prüferin oder Prüfer",
+    "INF_CREATOR": "Die natürliche oder juristische Person, das Team, die Organisation, die interne Abteilung, verantwortlich für die Durchführung der Prüfung.",
+    "LABEL_DATE": "Datum der Prüfung",
+    "INF_DATE": "Geben Sie das Abschlussdatum an, oder eine Folge von Daten zur Durchführung der Prüfung. Sie können ein beliebiges Datumsformat benutzen, wir empfehlen aber den Monat auszuschreiben, um international Missverständnisse zu vermeiden (Das Datum 01-02-2022 ist mehrdeutig — es ist der 2. Januar in manchen Kulturen und 1. Februar in anderen).",
+    "LABEL_SUMMARY": "Zusammenfassung",
+    "INF_SUMMARY": "Schreiben Sie eine kurze Zusammenfassung der Prüfergebnisse, um einen Überblick der Ergebnisse zu geben. Beschreiben Sie zum Beispiel die allgemeine Barrierefreiheit der Website, oder Beobachtungen die Sie während der Prüfung gemacht haben, wie zum Beispiel regelmäßig auftretende Fehler und Muster.",
+    "LABEL_SPECIFICS": "Notizen zum Ablauf der Prüfung (optional)",
+    "INF_SPECIFICS": "WCAG-EM schlägt vor, dass Sie die geprüften Seiten archivieren. Für weitere Informationen, siehe <a hreflang='en' lang='en' href={{link_em_5b}}>WCAG-EM Step 5.b: Record the Evaluation Specifics</a>. You can use this text field to record the evaluation tools, web browsers, assistive technologies, other software, and methods used for the evaluation. What you enter here will be included in the generated report. After you download the report, you could delete or edit this information in the HTML file before submitting the report.",
+    "HD_CRITERIA_REPORT": "Ausführliche Prüfergebnisse"
+}

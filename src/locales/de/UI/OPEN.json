@@ -1,0 +1,7 @@
+{
+    "TITLE": "Prüfbericht öffnen",
+    "INTRO": "Um eine gespeicherte Datei zu öffnen, klicken Sie den Knopf 'Datei suchen und auswählen' und wählen Sie die JSON-Datei aus, die Sie früher gespeichert haben.",
+    "LABEL_SELECT_FILE": "Datei suchen und auswählen",
+    "MSG_LOADING": "Prüfung lädt, bitte warten…",
+    "BTN_LOAD_FILE": "Ausgewählte Datei laden"
+}

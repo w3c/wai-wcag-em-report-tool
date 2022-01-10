@@ -9,7 +9,7 @@
     "TIPS_3": "This tool does not automatically save the information that you enter. To save your data in a file locally on your computer, use Windows shortcut keys *ctrl+s* or Mac shortcut keys *cmd+s* to open the Save dialog.",
     "ABOUT_HEADING": "About this tool",
     "ABOUT_1": "<p>The WCAG-EM Report Tool can be used to create a <a href='https://www.w3.org/WAI/eval/report-tool/evaluation/view-report'>structured report</a> of accessibility evaluation findings. It does not perform (automated) checks.</p>",
-    "ABOUT_2": "<p>This tool is for experienced accessibility evaluators. You will need knowledge of WCAG, accessible web design, assistive technologies, and how people with different disabilities use the Web (as described in the WCAG-EM <a href='http://www.w3.org/TR/WCAG-EM/#expertise'>Required Expertise</a> section).</p>",
+    "ABOUT_2": "<p>This tool is for experienced accessibility evaluators. You will need knowledge of WCAG, accessible web design, assistive technologies, and how people with different disabilities use the Web (as described in the WCAG-EM <a href='https://www.w3.org/TR/WCAG-EM/#expertise'>Required Expertise</a> section).</p>",
     "USAGE_HD": "How this tool works",
     "USAGE_LI1": "All functionality provided by this tool is now loaded. It runs locally in your web browser. You don’t need an Internet connection beyond this point. When you close your web browser window, any unsaved data is lost.",
     "USAGE_LI2": "All input is recorded as JSON data in the background (in your web browser, not on any server). You can download your report periodically as you work to avoid losing data if your web browser closes.",

@@ -1,0 +1,8 @@
+{
+    "TITLE": "Huch! Etwas ist schief gegangen",
+    "INTRO": "Das sind nicht die Inhalte, die Ihr sucht. Versuchen Sie eine der folgenden Lösungen:",
+    "SUGGESTION1": "Falls Sie die URL eingetippt haben, versichern Sie sich dass sie korrekt ist",
+    "SUGGESTION2": "Gehen Sie <a href={{link_back}}>zurück zur vorigen Seite</a> und versuchen Sie es noch einmal",
+    "SUGGESTION3": "Stellen Sie sicher, dass die Dateien an denen Sie arbeiten, dem <a href={{link_format}}>wcag-em Format</a> folgen",
+    "BUG_REPORT": "Um Fehler oder Funktionsvorschläge zu melden, erstellen Sie ein Issue auf unserer <a href={{link_github}}>Github Projektseite</a>."
+}
