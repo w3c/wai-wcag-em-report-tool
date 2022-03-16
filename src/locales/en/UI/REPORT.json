@@ -10,7 +10,7 @@
     "LABEL_EXTRA_REQUIREMENTS": "Additional Evaluation Requirements",
     "LABEL_SUPPORT_BASE": "Accessibility Support Baseline",
     "LABEL_RELIEDUP_TECH": "Relied Upon technologies",
-    "LABEL_NOT_PROVIDED": "Not provided"T
+    "LABEL_NOT_PROVIDED": "Not provided",
     "HD_SCORE": "Overview of audit results",
     "RESULTS_OF": "Results of",
     "PRINCIPLE": "Principle",
