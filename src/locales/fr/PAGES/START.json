@@ -17,7 +17,7 @@
     "CHOICES_HEADING": "Choix des résultats",
     "CHOICES_INTRO": " Au fur et à mesure que vous évaluerez votre outil, vous sélectionnerez un « résultat » pour chaque critère. Voici la signification de ces sélections :",
     "CHOICES_DT1": "Non vérifié",
-    "CHOICES_DD1": "Vous n’avez pas vérifié ce critère réussite.",
+    "CHOICES_DD1": "Vous n’avez pas vérifié ce critère de réussite.",
     "CHOICES_DT2": "Conforme",
     "CHOICES_DD2": "Ce critère de réussite est rempli.",
     "CHOICES_DT3": "Non conforme",
