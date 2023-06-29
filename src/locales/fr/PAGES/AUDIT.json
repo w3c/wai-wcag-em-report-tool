@@ -1,7 +1,7 @@
 {
     "ASSERTION_RESULT_DESCRIPTION_LABEL": "Observations",
     "ASSERTION_RESULT_DESCRIPTION_PLACEHOLDER": "Observations faites lors de l’évaluation",
-    "BTN_COLLAPSE_PAGES": "Masquer les pages web pour saisir des résultats individuels",
+    "BTN_COLLAPSE_PAGES": "Masquer les pages Web pour saisir des résultats individuels",
     "BTN_COMPLETE_SELECTED": "Marquer la sélection comme terminé",
     "BTN_EXPAND_PAGES": "Afficher les pages Web pour saisir des résultats individuels",
     "BTN_OPEN_SELECTED": "Ouvrir les pages sélectionnées",
@@ -17,7 +17,7 @@
     "HOW_TO": "Comment se conformer",
     "INF_AUDIT_CRITERIA": "Cette section répertorie les critères de réussite WCAG 2. Utiliser le filtre pour afficher ou masquer les critères de réussite de différents niveaux (A, AA et AAA). Vous pouvez sélectionner les résultats comme suit : « Non vérifié », « Réussi », « Échoué », « Non présent » et « Impossible de dire »; et vous pouvez fournir des détails, des commentaires ou d’autres observations effectuées lors de l’évaluation dans la zone de texte qui l’accompagne.",
     "INF_AUDIT_SAMPLE": "Cette section répertorie les pages Web que vous avez sélectionnées à l’étape précédente. Les pages Web qui sont vérifiées dans cette section sont répertoriées lorsque l’option « Afficher les pages Web pour saisir des résultats individuels » est activée dans la section « Critères de réussite à évaluer ». Vous pouvez afficher une page web individuelle que vous évaluez, ou afficher plusieurs pages web simultanément. <br> L’icône en forme de « maillon » ouvre la page web dans une fenêtre de navigateur séparée.",
-    "INTRO": "Enregistrer le résultat de l’évaluation des pages web sélectionnées à l’étape précédente. Comparer les résultats entre la page structurée et les pages sélectionnées au hasard, ajuster l’échantillon sélectionné à l’étape précédente si nécessaire.",
+    "INTRO": "Enregistrer le résultat de l’évaluation des pages Web sélectionnées à l’étape précédente. Comparer les résultats entre la page structurée et les pages sélectionnées au hasard, ajuster l’échantillon sélectionné à l’étape précédente si nécessaire.",
     "INTRO_NOTE": "<strong>Note :</strong> Pour chaque critère de réussite WCAG 2, vous pouvez saisir « Résultats pour l’échantillon complet » et vous pouvez saisir les résultats pour les pages Web individuelles. Vous pouvez choisir de saisir l’un ou l’autre, ou les deux. Pour saisir les résultats individuels, sélectionnez la ou les page(s) Web sous « Échantillon à évaluer » (dans la colonne de gauche); puis, sous le critère de réussite spécifique, sélectionner « Afficher les pages Web pour saisir des résultats individuels ».",
     "IMPORT_DATA_INTRO": "Ajouter des données provenant d’autres tests (automatisés)",
     "RESOURCE_LINK_NAME": "Étape 4 : Auditer un échantillon",

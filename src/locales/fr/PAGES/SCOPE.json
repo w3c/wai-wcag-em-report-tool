@@ -8,7 +8,7 @@
     "INF_SITE_SCOPE_0": "Définir la portée du site Web, de manière à ce que les pages Web incluses dans l’évaluation soient claires. Pour plus d’informations, voir [WCAG-EM Étape 1.a : Définir le champ d’application du site Web](https://www.w3.org/TR/WCAG-EM/#step1a). Par exemple :",
     "INF_SITE_SCOPE_LI0": "« Tout le contenu du site Web public de l’organisation d’exemple, situé à l’adresse `http://www.example.org` »",
     "INF_SITE_SCOPE_LI1": "« Tout le contenu Web de la boutique en ligne de l’organisation d’exemple, située à `http://www.example.org/shop/` »",
-    "INF_SITE_SCOPE_LI2": "« Tout le contenu web de la version mobile du site Web public de l’organisation d’exemple. situé à `http://m.example.org` »",
+    "INF_SITE_SCOPE_LI2": "« Tout le contenu Web de la version mobile du site Web public de l’organisation d’exemple. situé à `http://m.example.org` »",
     "INF_SITE_SCOPE_1": "WCAG-EM Étape 1.a : Définir la portée du site Web <i class='fas fa-external-link-alt'></i>",
     "LABEL_WCAG_VERSION": "Version du WCAG",
     "INFO_WCAG_VERSION": "Sélectionner la version du WCAG à utiliser. Version 2.1 (par défaut) ou 2.0",
