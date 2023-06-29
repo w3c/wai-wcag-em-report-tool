@@ -15,7 +15,7 @@
     "USAGE_LI2": "Toutes les données sont enregistrées sous forme de données JSON en arrière-plan (dans votre navigateur Web, et non sur un serveur). Vous pouvez télécharger votre rapport régulièrement pendant que vous travaillez afin d’éviter de perdre des données si votre navigateur Web se ferme.",
     "USAGE_LI3": "Vous pouvez enregistrer des rapports partiellement terminés et les retravailler ultérieurement. Pour recharger un fichier enregistré, utilisez le bouton « Ouvrir un rapport » sur cette page.",
     "CHOICES_HEADING": "Choix des résultats",
-    "CHOICES_INTRO": " Au fur et à mesure que vous évaluerez votre outil, vous sélectionnerez un « résultat » pour chaque critère. Voici la signification de ces sélections :",
+    "CHOICES_INTRO": " Au fur et à mesure que vous évaluerez votre outil, vous sélectionnerez un « résultat » pour chaque critère. Voici la signification de ces sélections :",
     "CHOICES_DT1": "Non vérifié",
     "CHOICES_DD1": "Vous n’avez pas vérifié ce critère de réussite.",
     "CHOICES_DT2": "Conforme",

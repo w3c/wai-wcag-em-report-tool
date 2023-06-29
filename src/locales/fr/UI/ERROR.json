@@ -4,5 +4,5 @@
     "SUGGESTION1": "Si vous avez saisi l’URL manuellement, assurez-vous qu’elle est bien conforme.",
     "SUGGESTION2": "Retournez à <a href={{link_back}}>la page précédente</a> et réessayez.",
     "SUGGESTION3": "Assurez-vous que les fichiers avec lesquels vous travaillez respectent le format <a href={{link_format}}>wcag-em</a>.",
-    "BUG_REPORT": "Pour signaler des bogues ou suggérer des améliorations, ouvrez un problème (en anglais : « Issue ») sur notre <a href={{link_github}}>page de projet Github</a>."
+    "BUG_REPORT": "Pour signaler des bogues ou suggérer des améliorations, ouvrez un problème (en anglais : « Issue ») sur notre <a href={{link_github}}>page de projet Github</a>."
 }
