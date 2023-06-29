@@ -1,6 +1,6 @@
 {
     "TITLE": "Importer un rapport WCAG EARL",
-    "INTRO": "Si vous avez utilisé une autre application pour générer un rapport WCAG EARL qui entre dans le cadre de cette évaluation, vous pouvez l’importer et l’ajouter aux résultats de l’audit d’évaluation. Le fichier lui-même doit être conforme au format JSON-LD et composé d’objets au format EARL ; les tests d’évaluation doivent être liés aux WCAG.",
+    "INTRO": "Si vous avez utilisé une autre application pour générer un rapport WCAG EARL qui entre dans le cadre de cette évaluation, vous pouvez l’importer et l’ajouter aux résultats de l’audit d’évaluation. Le fichier lui-même doit être conforme au format JSON-LD et composé d’objets au format EARL ; les tests d’évaluation doivent être liés aux WCAG.",
     "LABEL_SELECT_FILE": "Sélectionner un fichier JSON-LD",
     "IMPORT": {
         "HEADING": "Résultat de l’importation {IMPORT_DATE, date, ::dd/MM/yyyy} par {AUTHOR}",

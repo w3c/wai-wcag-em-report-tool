@@ -182,7 +182,7 @@
             "DESCRIPTION": "La finalité de chaque champ de saisie recueillant des informations sur l’utilisateur peut être déterminée par un programme informatique lorsque :",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "Le champ de saisie répond à une finalité identifiée dans la section Finalités de saisie des composants d’interface utilisateur ; et"
+                    "DESCRIPTION": "Le champ de saisie répond à une finalité identifiée dans la section Finalités de saisie des composants d’interface utilisateur ; et"
                 },
                 "2": {
                     "DESCRIPTION": "Le contenu est mis en œuvre via des technologies permettant d’identifier la finalité de la saisie attendue pour le champ."
@@ -209,7 +209,7 @@
             "DESCRIPTION": "La présentation visuelle du texte et du texte sous forme d’image a un rapport de contraste d’au moins 4,5:1, sauf dans les cas suivants :",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "Le texte agrandi et le texte agrandi sous forme d’image ont un rapport de contraste d’au moins 3:1 ;",
+                    "DESCRIPTION": "Le texte agrandi et le texte agrandi sous forme d’image ont un rapport de contraste d’au moins 3:1 ;",
                     "TITLE": "Texte agrandi"
                 },
                 "2": {
@@ -232,7 +232,7 @@
             "DESCRIPTION": "Si les technologies utilisées peuvent réaliser la présentation visuelle, du texte est utilisé pour véhiculer l’information plutôt que du texte sous forme d’image sauf dans les cas suivants :",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "Le texte sous forme d’image peut être personnalisé visuellement selon les exigences de l’utilisateur ;",
+                    "DESCRIPTION": "Le texte sous forme d’image peut être personnalisé visuellement selon les exigences de l’utilisateur ;",
                     "TITLE": "Personnalisable"
                 },
                 "2": {
@@ -246,7 +246,7 @@
             "DESCRIPTION": "La présentation visuelle du texte et du texte sous forme d’image a un rapport de contraste d’au moins 7:1, sauf dans les cas suivants :",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "le texte agrandi et le texte agrandi sous forme d’image ont un rapport de contraste d’au moins 4,5:1 ;",
+                    "DESCRIPTION": "le texte agrandi et le texte agrandi sous forme d’image ont un rapport de contraste d’au moins 4,5:1 ;",
                     "TITLE": "Texte agrandi"
                 },
                 "2": {
@@ -308,7 +308,7 @@
             "DESCRIPTION": "Le contenu peut être présenté sans perte d’information ou de fonctionnalité et sans nécessité de défilement dans les deux dimensions pour :",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "Un contenu à défilement vertical avec une largeur équivalente à 320 pixels CSS ;"
+                    "DESCRIPTION": "Un contenu à défilement vertical avec une largeur équivalente à 320 pixels CSS ;"
                 },
                 "2": {
                     "DESCRIPTION": "Un contenu à défilement horizontal avec une hauteur équivalente à 256 pixels CSS."
@@ -385,11 +385,11 @@
             "DESCRIPTION": "Si un raccourci clavier est mis en œuvre dans du contenu en utilisant uniquement des caractères de type lettres (y compris les majuscules et les minuscules), des signes de ponctuation, des chiffres ou des symboles, alors au moins l’une des conditions suivantes est vraie :",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "Un mécanisme est disponible pour désactiver le raccourci ;",
+                    "DESCRIPTION": "Un mécanisme est disponible pour désactiver le raccourci ;",
                     "TITLE": "Désactiver"
                 },
                 "2": {
-                    "DESCRIPTION": "Un mécanisme est disponible pour réassigner le raccourci afin d’utiliser un ou plusieurs caractères non imprimables du clavier (par exemple, Ctrl, Alt, etc.) ;",
+                    "DESCRIPTION": "Un mécanisme est disponible pour réassigner le raccourci afin d’utiliser un ou plusieurs caractères non imprimables du clavier (par exemple, Ctrl, Alt, etc.) ;",
                     "TITLE": "Réassigner"
                 },
                 "3": {
@@ -403,23 +403,23 @@
             "DESCRIPTION": "Pour chaque limite de temps fixée par le contenu, au moins l’un des points suivants est vrai :",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "L’utilisateur a la possibilité de supprimer la limite de temps avant de la rencontrer ; ou ",
+                    "DESCRIPTION": "L’utilisateur a la possibilité de supprimer la limite de temps avant de la rencontrer ; ou ",
                     "TITLE": "Suppression"
                 },
                 "2": {
-                    "DESCRIPTION": "L’utilisateur a la possibilité d’ajuster la limite de temps avant de la rencontrer dans un intervalle d’au moins dix fois la durée paramétrée par défaut ; ou ",
+                    "DESCRIPTION": "L’utilisateur a la possibilité d’ajuster la limite de temps avant de la rencontrer dans un intervalle d’au moins dix fois la durée paramétrée par défaut ; ou ",
                     "TITLE": "Ajustement"
                 },
                 "3": {
-                    "DESCRIPTION": "L’utilisateur est averti avant que la limite de temps n’expire et il lui est accordé au moins 20 secondes pour étendre cette limite par une action simple (par exemple, « appuyer sur la barre d’espace ») et l’utilisateur a la possibilité d’étendre la limite de temps au moins dix fois ; ou ",
+                    "DESCRIPTION": "L’utilisateur est averti avant que la limite de temps n’expire et il lui est accordé au moins 20 secondes pour étendre cette limite par une action simple (par exemple, « appuyer sur la barre d’espace ») et l’utilisateur a la possibilité d’étendre la limite de temps au moins dix fois ; ou ",
                     "TITLE": "Extension"
                 },
                 "4": {
-                    "DESCRIPTION": "La limite de temps est une partie constitutive d’un événement en temps réel (par exemple, une enchère) et aucune alternative n’est possible ; ou ",
+                    "DESCRIPTION": "La limite de temps est une partie constitutive d’un événement en temps réel (par exemple, une enchère) et aucune alternative n’est possible ; ou ",
                     "TITLE": "L’exception du temps réel"
                 },
                 "5": {
-                    "DESCRIPTION": "La limite de temps est essentielle et l’étendre invaliderait alors l’activité ; ou",
+                    "DESCRIPTION": "La limite de temps est essentielle et l’étendre invaliderait alors l’activité ; ou",
                     "TITLE": "L’exception de la limite essentielle"
                 },
                 "6": {
@@ -433,7 +433,7 @@
             "DESCRIPTION": "Pour toute information en mouvement, clignotante, défilante ou mise à jour automatiquement, tous les points suivants sont vrais :",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "Pour toute information en mouvement, clignotante ou défilante qui (1) démarre automatiquement, (2) dure plus de cinq secondes et (3) est présentée conjointement avec un autre contenu, il y a un mécanisme à la disposition de l’utilisateur pour la mettre en pause, l’arrêter ou la masquer, à moins que le mouvement, le clignotement ou le défilement s’avère un élément essentiel au bon déroulement de l’activité ; et ",
+                    "DESCRIPTION": "Pour toute information en mouvement, clignotante ou défilante qui (1) démarre automatiquement, (2) dure plus de cinq secondes et (3) est présentée conjointement avec un autre contenu, il y a un mécanisme à la disposition de l’utilisateur pour la mettre en pause, l’arrêter ou la masquer, à moins que le mouvement, le clignotement ou le défilement s’avère un élément essentiel au bon déroulement de l’activité ; et ",
                     "TITLE": "Déplacement, clignotement, défilement"
                 },
                 "2": {
@@ -537,15 +537,15 @@
             "DESCRIPTION": "Pour une fonctionnalité qui peut être activée avec un dispositif de pointage à contact unique, au moins une des conditions suivantes est vraie :",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "L’événement descendant (down-event) du pointeur n’est pas utilisé pour exécuter une partie ou la totalité de la fonction ;",
+                    "DESCRIPTION": "L’événement descendant (down-event) du pointeur n’est pas utilisé pour exécuter une partie ou la totalité de la fonction ;",
                     "TITLE": "Aucun événement descendant"
                 },
                 "2": {
-                    "DESCRIPTION": "L’achèvement de la fonction se fait sur l’événement ascendant (up-event) et un mécanisme est disponible pour interrompre la fonction avant l’achèvement ou pour annuler la fonction après l’achèvement ;",
+                    "DESCRIPTION": "L’achèvement de la fonction se fait sur l’événement ascendant (up-event) et un mécanisme est disponible pour interrompre la fonction avant l’achèvement ou pour annuler la fonction après l’achèvement ;",
                     "TITLE": "Abandon ou annulation"
                 },
                 "3": {
-                    "DESCRIPTION": "L’événement ascendant inverse tout résultat de l’événement descendant précédent ;",
+                    "DESCRIPTION": "L’événement ascendant inverse tout résultat de l’événement descendant précédent ;",
                     "TITLE": "Inversion sur l’événement ascendant"
                 },
                 "4": {
@@ -564,7 +564,7 @@
             "DESCRIPTION": "Les fonctionnalités qui peuvent être activées par un mouvement de l’appareil ou un mouvement de l’utilisateur peuvent également être activées par des composants d’interface utilisateur et la réponse au mouvement peut être désactivée pour éviter une activation accidentelle, sauf dans les cas suivants :",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "Le mouvement est utilisé pour activer la fonctionnalité par l’intermédiaire d’une interface compatible avec l’accessibilité ;"
+                    "DESCRIPTION": "Le mouvement est utilisé pour activer la fonctionnalité par l’intermédiaire d’une interface compatible avec l’accessibilité ;"
                 },
                 "2": {
                     "DESCRIPTION": "Le mouvement est essentiel à la fonction et le désactiver invaliderait l’activité.",
@@ -577,15 +577,15 @@
             "DESCRIPTION": "La taille de la cible pour les pointeurs d’entrée est d’au moins 44 par 44 pixels CSS, sauf quand :",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "La cible est disponible depuis un lien ou un contrôle équivalent sur la même page qui mesure au moins 44 par 44 pixels CSS ;",
+                    "DESCRIPTION": "La cible est disponible depuis un lien ou un contrôle équivalent sur la même page qui mesure au moins 44 par 44 pixels CSS ;",
                     "TITLE": "Équivalente"
                 },
                 "2": {
-                    "DESCRIPTION": "La cible se trouve dans une phrase ou un bloc de texte ;",
+                    "DESCRIPTION": "La cible se trouve dans une phrase ou un bloc de texte ;",
                     "TITLE": "En ligne"
                 },
                 "3": {
-                    "DESCRIPTION": "La taille de la cible est déterminée par l’agent utilisateur et n’est pas modifiée par l’auteur ;",
+                    "DESCRIPTION": "La taille de la cible est déterminée par l’agent utilisateur et n’est pas modifiée par l’auteur ;",
                     "TITLE": "Contrôlée par l’agent utilisateur"
                 },
                 "4": {
@@ -717,7 +717,7 @@
         },
         "4.1.2": {
             "TITLE": "Nom, rôle et valeur",
-            "DESCRIPTION": "Pour tout composant d’interface utilisateur (comprenant mais n’étant pas limité aux éléments de formulaire, liens et composants générés par des scripts), le nom et le rôle peuvent être déterminés par un programme informatique ; les états, les propriétés et les valeurs qui peuvent être paramétrés par l’utilisateur peuvent être définis par programmation ; la notification des changements de ces éléments est disponible aux agents utilisateurs, incluant les technologies d’assistance.",
+            "DESCRIPTION": "Pour tout composant d’interface utilisateur (comprenant mais n’étant pas limité aux éléments de formulaire, liens et composants générés par des scripts), le nom et le rôle peuvent être déterminés par un programme informatique ; les états, les propriétés et les valeurs qui peuvent être paramétrés par l’utilisateur peuvent être définis par programmation ; la notification des changements de ces éléments est disponible aux agents utilisateurs, incluant les technologies d’assistance.",
             "DETAILS": {}
         },
         "4.1.3": {
