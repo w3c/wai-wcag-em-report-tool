@@ -53,7 +53,7 @@
         },
         "2.5": {
             "TITLE": "Modalités d’entrée",
-            "DESCRIPTION": "Faciliter l’utilisation des fonctionnalités par les utilisateurs au moyen de divers dispositifs d’entrées en plus du clavier."
+            "DESCRIPTION": "Faciliter l’utilisation des fonctionnalités par les utilisateurs au moyen de divers dispositifs d’entrée en plus du clavier."
         },
         "3.1": {
             "TITLE": "Lisible",
@@ -98,7 +98,7 @@
                     "TITLE": "CAPTCHA"
                 },
                 "6": {
-                    "DESCRIPTION": "Si le contenu non textuel est purement décoratif, s’il est utilisé seulement pour un formatage visuel ou s’il n’est pas présenté à l’utilisateur, alors il est implémenté de manière à être ignoré par les technologies d’assistance.",
+                    "DESCRIPTION": "Si le contenu non textuel est purement décoratif, s’il est utilisé seulement pour un formatage visuel ou s’il n’est pas présenté à l’utilisateur, alors il est mis en œuvre de manière à être ignoré par les technologies d’assistance.",
                     "TITLE": "Décoration, formatage, invisibilité"
                 }
             }
@@ -112,7 +112,7 @@
                     "TITLE": "Contenu pré-enregistré seulement audio"
                 },
                 "2": {
-                    "DESCRIPTION": "Fournir, soit une version de remplacement pour un média temporel, soit une piste audio (présentant une information équivalente) pour un contenu pré-enregistré seulement vidéo.",
+                    "DESCRIPTION": "Fournir soit une version de remplacement pour un média temporel, soit une piste audio (présentant une information équivalente) pour un contenu pré-enregistré seulement vidéo.",
                     "TITLE": "Contenu pré-enregistré seulement vidéo"
                 }
             }
@@ -159,7 +159,7 @@
         },
         "1.3.1": {
             "TITLE": "Information et relations",
-            "DESCRIPTION": "L’information, la structure, et les relations véhiculées par la présentation peuvent être déterminées par un programme informatique ou sont disponibles sous forme de texte.",
+            "DESCRIPTION": "L’information, la structure et les relations véhiculées par la présentation peuvent être déterminées par un programme informatique ou sont disponibles sous forme de texte.",
             "DETAILS": {}
         },
         "1.3.2": {
@@ -182,16 +182,16 @@
             "DESCRIPTION": "La finalité de chaque champ de saisie recueillant des informations sur l’utilisateur peut être déterminée par un programme informatique lorsque :",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "Le champ de saisie répond à une finalité identifiée dans la section Finalités de saisie des composants d’interface utilisateur; et"
+                    "DESCRIPTION": "Le champ de saisie répond à une finalité identifiée dans la section Finalités de saisie des composants d’interface utilisateur ; et"
                 },
                 "2": {
-                    "DESCRIPTION": "Le contenu est implémenté via des technologies permettant d’identifier la finalité de la saisie attendue pour le champ."
+                    "DESCRIPTION": "Le contenu est mis en œuvre via des technologies permettant d’identifier la finalité de la saisie attendue pour le champ."
                 }
             }
         },
         "1.3.6": {
             "TITLE": "Identifier la fonction",
-            "DESCRIPTION": "Dans un contenu implémenté via un langage de balisage, la fonction des composants d’interface utilisateur, des icônes et des régions peut être déterminée par un programme informatique.",
+            "DESCRIPTION": "Dans un contenu mis en œuvre via un langage de balisage, la fonction des composants d’interface utilisateur, des icônes et des régions peut être déterminée par un programme informatique.",
             "DETAILS": {}
         },
         "1.4.1": {
@@ -209,7 +209,7 @@
             "DESCRIPTION": "La présentation visuelle du texte et du texte sous forme d’image a un rapport de contraste d’au moins 4,5:1, sauf dans les cas suivants :",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "Le texte agrandi et le texte agrandi sous forme d’image ont un rapport de contraste d’au moins 3:1;",
+                    "DESCRIPTION": "Le texte agrandi et le texte agrandi sous forme d’image ont un rapport de contraste d’au moins 3:1 ;",
                     "TITLE": "Texte agrandi"
                 },
                 "2": {
@@ -232,7 +232,7 @@
             "DESCRIPTION": "Si les technologies utilisées peuvent réaliser la présentation visuelle, du texte est utilisé pour véhiculer l’information plutôt que du texte sous forme d’image sauf dans les cas suivants :",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "Le texte sous forme d’image peut être personnalisé visuellement selon les exigences de l’utilisateur;",
+                    "DESCRIPTION": "Le texte sous forme d’image peut être personnalisé visuellement selon les exigences de l’utilisateur ;",
                     "TITLE": "Personnalisable"
                 },
                 "2": {
@@ -246,7 +246,7 @@
             "DESCRIPTION": "La présentation visuelle du texte et du texte sous forme d’image a un rapport de contraste d’au moins 7:1, sauf dans les cas suivants :",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "le texte agrandi et le texte agrandi sous forme d’image ont un rapport de contraste d’au moins 4,5:1;",
+                    "DESCRIPTION": "le texte agrandi et le texte agrandi sous forme d’image ont un rapport de contraste d’au moins 4,5:1 ;",
                     "TITLE": "Texte agrandi"
                 },
                 "2": {
@@ -308,10 +308,10 @@
             "DESCRIPTION": "Le contenu peut être présenté sans perte d’information ou de fonctionnalité et sans nécessité de défilement dans les deux dimensions pour :",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "Un contenu à défilement vertical avec une largeur équivalente à 320 pixels CSS;"
+                    "DESCRIPTION": "Un contenu à défilement vertical avec une largeur équivalente à 320 pixels CSS ;"
                 },
                 "2": {
-                    "DESCRIPTION": "un contenu à défilement horizontal avec une hauteur équivalente à 256 pixels CSS."
+                    "DESCRIPTION": "Un contenu à défilement horizontal avec une hauteur équivalente à 256 pixels CSS."
                 }
             }
         },
@@ -331,19 +331,19 @@
         },
         "1.4.12": {
             "TITLE": "Espacement du texte",
-            "DESCRIPTION": "Dans un contenu implémenté via un langage de balisage qui prend en charge les propriétés de style de texte suivantes, il n’y a aucune perte de contenu ou de fonctionnalité lorsqu’on applique toutes les valeurs ci-dessous sans modifier aucune autre propriété de style :",
+            "DESCRIPTION": "Dans un contenu mis en œuvre via un langage de balisage qui prend en charge les propriétés de style de texte suivantes, il n’y a aucune perte de contenu ou de fonctionnalité lorsqu’on applique toutes les valeurs ci-dessous sans modifier aucune autre propriété de style :",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "La hauteur de ligne (interlignage) définie à au moins 1,5 fois la taille de la police;"
+                    "DESCRIPTION": "La hauteur de ligne (interlignage) définie a au moins 1,5 fois la taille de la police;"
                 },
                 "2": {
-                    "DESCRIPTION": "L’espacement entre les paragraphes consécutifs défini à au moins 2 fois la taille de la police;"
+                    "DESCRIPTION": "L’espacement entre les paragraphes consécutifs défini a au moins 2 fois la taille de la police;"
                 },
                 "3": {
-                    "DESCRIPTION": "L’espacement des lettres (interlettrage) défini à au moins 0,12 fois la taille de la police;"
+                    "DESCRIPTION": "L’espacement des lettres (interlettrage) défini a au moins 0,12 fois la taille de la police;"
                 },
                 "4": {
-                    "DESCRIPTION": "L’espacement entre les mots défini à au moins 0,16 fois la taille de la police."
+                    "DESCRIPTION": "L’espacement entre les mots défini a au moins 0,16 fois la taille de la police."
                 }
             }
         },
@@ -352,7 +352,7 @@
             "DESCRIPTION": "Lorsque la réception puis le retrait du survol du pointeur ou du focus du clavier déclenche l’affichage puis le masquage d’un contenu additionnel, les éléments suivants sont vrais :",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "Il existe un mécanisme permettant de masquer le contenu additionnel sans déplacer le pointeur ou le focus du clavier, à moins que le contenu additionnel ne communique une erreur de saisie ou ne masque ni ne remplace un autre contenu.",
+                    "DESCRIPTION": "Il existe un mécanisme permettant de masquer le contenu additionnel sans déplacer le pointeur ou le focus du clavier, à moins que le contenu additionnel ne communique une erreur de saisie ou ne masque ou ne remplace un autre contenu.",
                     "TITLE": "Masquer"
                 },
                 "2": {
@@ -382,14 +382,14 @@
         },
         "2.1.4": {
             "TITLE": "Raccourcis clavier utilisant des caractères",
-            "DESCRIPTION": "Si un raccourci clavier est implémenté dans du contenu en utilisant uniquement des caractères de type lettres (y compris les majuscules et les minuscules), des signes de ponctuation, des chiffres ou des symboles, alors au moins l’une des conditions suivantes est vraie :",
+            "DESCRIPTION": "Si un raccourci clavier est mis en œuvre dans du contenu en utilisant uniquement des caractères de type lettres (y compris les majuscules et les minuscules), des signes de ponctuation, des chiffres ou des symboles, alors au moins l’une des conditions suivantes est vraie :",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "Un mécanisme est disponible pour désactiver le raccourci;",
+                    "DESCRIPTION": "Un mécanisme est disponible pour désactiver le raccourci ;",
                     "TITLE": "Désactiver"
                 },
                 "2": {
-                    "DESCRIPTION": "Un mécanisme est disponible pour réassigner le raccourci afin d’utiliser un ou plusieurs caractères non imprimables du clavier (par exemple, Ctrl, Alt, etc.);",
+                    "DESCRIPTION": "Un mécanisme est disponible pour réassigner le raccourci afin d’utiliser un ou plusieurs caractères non imprimables du clavier (par exemple, Ctrl, Alt, etc.) ;",
                     "TITLE": "Réassigner"
                 },
                 "3": {
@@ -403,23 +403,23 @@
             "DESCRIPTION": "Pour chaque limite de temps fixée par le contenu, au moins l’un des points suivants est vrai :",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "L’utilisateur a la possibilité de supprimer la limite de temps avant de la rencontrer; ou ",
+                    "DESCRIPTION": "L’utilisateur a la possibilité de supprimer la limite de temps avant de la rencontrer ; ou ",
                     "TITLE": "Suppression"
                 },
                 "2": {
-                    "DESCRIPTION": "L’utilisateur a la possibilité d’ajuster la limite de temps avant de la rencontrer dans un intervalle d’au moins dix fois la durée paramétrée par défaut; ou ",
+                    "DESCRIPTION": "L’utilisateur a la possibilité d’ajuster la limite de temps avant de la rencontrer dans un intervalle d’au moins dix fois la durée paramétrée par défaut ; ou ",
                     "TITLE": "Ajustement"
                 },
                 "3": {
-                    "DESCRIPTION": "L’utilisateur est averti avant que la limite de temps n’expire et il lui est accordé au moins 20 secondes pour étendre cette limite par une action simple (par exemple, « appuyer sur la barre d’espace ») et l’utilisateur a la possibilité d’étendre la limite de temps au moins dix fois; ou ",
+                    "DESCRIPTION": "L’utilisateur est averti avant que la limite de temps n’expire et il lui est accordé au moins 20 secondes pour étendre cette limite par une action simple (par exemple, « appuyer sur la barre d’espace ») et l’utilisateur a la possibilité d’étendre la limite de temps au moins dix fois ; ou ",
                     "TITLE": "Extension"
                 },
                 "4": {
-                    "DESCRIPTION": "La limite de temps est une partie constitutive d’un événement en temps réel (par exemple, une enchère) et aucune alternative n’est possible; ou ",
+                    "DESCRIPTION": "La limite de temps est une partie constitutive d’un événement en temps réel (par exemple, une enchère) et aucune alternative n’est possible ; ou ",
                     "TITLE": "L’exception du temps réel"
                 },
                 "5": {
-                    "DESCRIPTION": "La limite de temps est essentielle et l’étendre invaliderait alors l’activité; ou",
+                    "DESCRIPTION": "La limite de temps est essentielle et l’étendre invaliderait alors l’activité ; ou",
                     "TITLE": "L’exception de la limite essentielle"
                 },
                 "6": {
@@ -433,7 +433,7 @@
             "DESCRIPTION": "Pour toute information en mouvement, clignotante, défilante ou mise à jour automatiquement, tous les points suivants sont vrais :",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "Pour toute information en mouvement, clignotante ou défilante qui (1) démarre automatiquement, (2) dure plus de cinq secondes et (3) est présentée conjointement avec un autre contenu, il y a un mécanisme à la disposition de l’utilisateur pour la mettre en pause, l’arrêter ou la masquer, à moins que le mouvement, le clignotement ou le défilement s’avère un élément essentiel au bon déroulement de l’activité; et ",
+                    "DESCRIPTION": "Pour toute information en mouvement, clignotante ou défilante qui (1) démarre automatiquement, (2) dure plus de cinq secondes et (3) est présentée conjointement avec un autre contenu, il y a un mécanisme à la disposition de l’utilisateur pour la mettre en pause, l’arrêter ou la masquer, à moins que le mouvement, le clignotement ou le défilement s’avère un élément essentiel au bon déroulement de l’activité ; et ",
                     "TITLE": "Déplacement, clignotement, défilement"
                 },
                 "2": {
@@ -454,7 +454,7 @@
         },
         "2.2.5": {
             "TITLE": "Nouvelle authentification",
-            "DESCRIPTION": "Quand une session authentifiée expire, l’utilisateur peut poursuivre son activité sans perte de données après une nouvelle authentification.",
+            "DESCRIPTION": "Quand une session authentifiée expire, l’utilisateur peut poursuivre son activité sans perte de données, après une nouvelle authentification.",
             "DETAILS": {}
         },
         "2.2.6": {
@@ -537,15 +537,15 @@
             "DESCRIPTION": "Pour une fonctionnalité qui peut être activée avec un dispositif de pointage à contact unique, au moins une des conditions suivantes est vraie :",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "L’événement descendant (down-event) du pointeur n’est pas utilisé pour exécuter une partie ou la totalité de la fonction;",
+                    "DESCRIPTION": "L’événement descendant (down-event) du pointeur n’est pas utilisé pour exécuter une partie ou la totalité de la fonction ;",
                     "TITLE": "Aucun événement descendant"
                 },
                 "2": {
-                    "DESCRIPTION": "L’achèvement de la fonction se fait sur l’événement ascendant (up-event), et un mécanisme est disponible pour interrompre la fonction avant l’achèvement ou pour annuler la fonction après l’achèvement;",
+                    "DESCRIPTION": "L’achèvement de la fonction se fait sur l’événement ascendant (up-event) et un mécanisme est disponible pour interrompre la fonction avant l’achèvement ou pour annuler la fonction après l’achèvement ;",
                     "TITLE": "Abandon ou annulation"
                 },
                 "3": {
-                    "DESCRIPTION": "L’événement ascendant inverse tout résultat de l’événement descendant précédent;",
+                    "DESCRIPTION": "L’événement ascendant inverse tout résultat de l’événement descendant précédent ;",
                     "TITLE": "Inversion sur l’événement ascendant"
                 },
                 "4": {
@@ -564,7 +564,7 @@
             "DESCRIPTION": "Les fonctionnalités qui peuvent être activées par un mouvement de l’appareil ou un mouvement de l’utilisateur peuvent également être activées par des composants d’interface utilisateur et la réponse au mouvement peut être désactivée pour éviter une activation accidentelle, sauf dans les cas suivants :",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "Le mouvement est utilisé pour activer la fonctionnalité par l’intermédiaire d’une interface compatible avec l’accessibilité;"
+                    "DESCRIPTION": "Le mouvement est utilisé pour activer la fonctionnalité par l’intermédiaire d’une interface compatible avec l’accessibilité ;"
                 },
                 "2": {
                     "DESCRIPTION": "Le mouvement est essentiel à la fonction et le désactiver invaliderait l’activité.",
@@ -577,15 +577,15 @@
             "DESCRIPTION": "La taille de la cible pour les pointeurs d’entrée est d’au moins 44 par 44 pixels CSS, sauf quand :",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "La cible est disponible depuis un lien ou un contrôle équivalent sur la même page qui mesure au moins 44 par 44 pixels CSS;",
+                    "DESCRIPTION": "La cible est disponible depuis un lien ou un contrôle équivalent sur la même page qui mesure au moins 44 par 44 pixels CSS ;",
                     "TITLE": "Équivalente"
                 },
                 "2": {
-                    "DESCRIPTION": "La cible se trouve dans une phrase ou un bloc de texte;",
+                    "DESCRIPTION": "La cible se trouve dans une phrase ou un bloc de texte ;",
                     "TITLE": "En ligne"
                 },
                 "3": {
-                    "DESCRIPTION": "La taille de la cible est déterminée par l’agent utilisateur et n’est pas modifiée par l’auteur;",
+                    "DESCRIPTION": "La taille de la cible est déterminée par l’agent utilisateur et n’est pas modifiée par l’auteur ;",
                     "TITLE": "Contrôlée par l’agent utilisateur"
                 },
                 "4": {
@@ -601,7 +601,7 @@
         },
         "3.1.1": {
             "TITLE": " Langue de la page",
-            "DESCRIPTION": "La langue par défaut de chaque page Web peut être déterminée par un programme informatique",
+            "DESCRIPTION": "La langue par défaut de chaque page Web peut être déterminée par un programme informatique.",
             "DETAILS": {}
         },
         "3.1.2": {
@@ -621,7 +621,7 @@
         },
         "3.1.5": {
             "TITLE": "Niveau de lecture",
-            "DESCRIPTION": "Lorsqu’un texte nécessite une capacité de lecture plus avancée que le premier cycle de l’enseignement secondaire après la suppression des noms propres et des titres, un contenu additionnel, ou une version qui ne requiert pas de capacité de lecture supérieure au premier cycle de l’enseignement secondaire est disponible.",
+            "DESCRIPTION": "Lorsqu’un texte nécessite une capacité de lecture plus avancée que le premier cycle de l’enseignement secondaire après la suppression des noms propres et des titres, un contenu additionnel ou une version qui ne requiert pas de capacité de lecture supérieure au premier cycle de l’enseignement secondaire est disponible.",
             "DETAILS": {}
         },
         "3.1.6": {
@@ -631,27 +631,27 @@
         },
         "3.2.1": {
             "TITLE": "Au focus",
-            "DESCRIPTION": "Quand un composant d’interface utilisateur reçoit le focus, il ne doit pas initier de changement de contexte.",
+            "DESCRIPTION": "Quand un composant d’interface utilisateur reçoit le focus, il ne doit pas provoquer de changement de contexte.",
             "DETAILS": {}
         },
         "3.2.2": {
             "TITLE": "À la saisie",
-            "DESCRIPTION": "Le changement de paramètre d’un composant d’interface utilisateur ne doit pas initier de changement de contexte à moins que l’utilisateur n’ait été avisé de ce comportement avant d’utiliser le composant.",
+            "DESCRIPTION": "Le changement de paramètre d’un composant d’interface utilisateur ne doit pas provoquer de changement de contexte à moins que l’utilisateur n’ait été avisé de ce comportement avant d’utiliser le composant.",
             "DETAILS": {}
         },
         "3.2.3": {
             "TITLE": "Navigation cohérente",
-            "DESCRIPTION": "Dans un ensemble de pages, les mécanismes de navigation qui se répètent sur plusieurs pages Web se présentent dans le même ordre relatif chaque fois qu’ils sont répétés, à moins qu’un changement soit initié par l’utilisateur.",
+            "DESCRIPTION": "Dans un ensemble de pages, les mécanismes de navigation qui se répètent sur plusieurs pages Web se présentent dans le même ordre relatif chaque fois qu’ils sont répétés, à moins qu’un changement soit provoqué par l’utilisateur.",
             "DETAILS": {}
         },
         "3.2.4": {
             "TITLE": "Identification cohérente",
-            "DESCRIPTION": "Dans un ensemble de pages Web les composants qui ont la même fonctionnalité sont identifiés de la même façon.",
+            "DESCRIPTION": "Dans un ensemble de pages Web, les composants qui ont la même fonctionnalité sont identifiés de la même façon.",
             "DETAILS": {}
         },
         "3.2.5": {
             "TITLE": "Changement à la demande",
-            "DESCRIPTION": "Un changement de contexte est initié uniquement sur demande de l’utilisateur ou un mécanisme est disponible pour désactiver un tel changement.",
+            "DESCRIPTION": "Un changement de contexte est provoqué uniquement sur demande de l’utilisateur ou un mécanisme est disponible pour désactiver un tel changement.",
             "DETAILS": {}
         },
         "3.3.1": {
@@ -678,7 +678,7 @@
                     "TITLE": "Réversible"
                 },
                 "2": {
-                    "DESCRIPTION": "Les données saisies par l’utilisateur sont vérifiées au niveau des erreurs de saisie et la possibilité est donnée à l’utilisateur de les corriger.",
+                    "DESCRIPTION": "Les erreurs de saisie de l’utilisateur sont vérifiées et la possibilité est donnée à l’utilisateur de les corriger.",
                     "TITLE": "Vérifiée"
                 },
                 "3": {
@@ -701,7 +701,7 @@
                     "TITLE": "Réversible"
                 },
                 "2": {
-                    "DESCRIPTION": "Les données saisies par l’utilisateur sont vérifiées au niveau des erreurs de saisie et la possibilité est donnée à l’utilisateur de les corriger.",
+                    "DESCRIPTION": "Les erreurs de saisie de l’utilisateur sont vérifiées et la possibilité est donnée à l’utilisateur de les corriger.",
                     "TITLE": "Vérifiée"
                 },
                 "3": {
@@ -712,17 +712,17 @@
         },
         "4.1.1": {
             "TITLE": "Analyse syntaxique",
-            "DESCRIPTION": "À moins que les spécifications ne le permettent, dans un contenu implémenté via un langage de balisage, les éléments ont des balises de début et de fin complètes, ils sont imbriqués conformément à leurs spécifications, ils ne contiennent pas d’attributs dupliqués et chaque ID est unique.",
+            "DESCRIPTION": "À moins que les spécifications ne le permettent, dans un contenu mis en œuvre via un langage de balisage, les éléments ont des balises de début et de fin complètes, ils sont imbriqués conformément à leurs spécifications, ils ne contiennent pas d’attributs dupliqués et chaque identifiant est unique.",
             "DETAILS": {}
         },
         "4.1.2": {
             "TITLE": "Nom, rôle et valeur",
-            "DESCRIPTION": "Pour tout composant d’interface utilisateur (comprenant mais n’étant pas limité aux éléments de formulaire, liens et composants générés par des scripts), le nom et le rôle peuvent être déterminés par un programme informatique; les états, les propriétés et les valeurs qui peuvent être paramétrés par l’utilisateur peuvent être définis par programmation; et la notification des changements de ces éléments est disponible aux agents utilisateurs, incluant les technologies d’assistance.",
+            "DESCRIPTION": "Pour tout composant d’interface utilisateur (comprenant mais n’étant pas limité aux éléments de formulaire, liens et composants générés par des scripts), le nom et le rôle peuvent être déterminés par un programme informatique ; les états, les propriétés et les valeurs qui peuvent être paramétrés par l’utilisateur peuvent être définis par programmation ; la notification des changements de ces éléments est disponible aux agents utilisateurs, incluant les technologies d’assistance.",
             "DETAILS": {}
         },
         "4.1.3": {
             "TITLE": "Messages d’état",
-            "DESCRIPTION": "Dans un contenu implémenté via un langage de balisage, les messages d’état peuvent être déterminés par un programme informatique grâce à un rôle ou des propriétés afin qu’ils puissent être présentés à l’utilisateur par des technologies d’assistance sans recevoir le focus.",
+            "DESCRIPTION": "Dans un contenu mis en œuvre via un langage de balisage, les messages d’état peuvent être déterminés par un programme informatique grâce à un rôle ou des propriétés afin qu’ils puissent être présentés à l’utilisateur par des technologies d’assistance sans recevoir le focus.",
             "DETAILS": {}
         }
     }
