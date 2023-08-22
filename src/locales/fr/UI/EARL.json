@@ -1,7 +1,7 @@
 {
     "PASSED": "Conforme",
     "FAILED": "Non conforme",
-    "CANT_TELL": "Je ne sais pas",
+    "CANT_TELL": "Non évaluable",
     "INAPPLICABLE": "Non concerné",
     "UNTESTED": "Non vérifié",
     "LEVEL_A": "Niveau A",

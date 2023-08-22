@@ -5,7 +5,7 @@
     "LABEL_TITLE": "Titre du rapport",
     "TITLE_PREFIX": "Rapport pour",
     "INF_TITLE": "Donnez un titre au rapport d’évaluation de l’accessibilité du site Web. Par exemple : <br>« Rapport d’évaluation pour une organisation donnée »<br> « Analyse de l’accessibilité de la boutique en ligne et suggestions d’amélioration ».",
-    "LABEL_COMMISSIONER": "Commissaire à l’évaluation",
+    "LABEL_COMMISSIONER": "Commandé par",
     "INF_COMMISSIONER": "La personne, l’équipe, l’organisation, le service interne ou toute autre entité qui a commandé l’évaluation.",
     "LABEL_CREATOR": "Évaluateur",
     "INF_CREATOR": "La personne, l’équipe, l’organisation, le service interne ou toute autre entité responsable de la réalisation de l’évaluation.",
