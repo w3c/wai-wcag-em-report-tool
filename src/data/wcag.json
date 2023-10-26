@@ -1030,7 +1030,6 @@
             "id": "error-prevention-all",
             "conformanceLevel": "AAA"
         },
-        "4.1.1": { "num": "4.1.1", "id": "parsing", "conformanceLevel": "A" },
         "4.1.2": {
             "num": "4.1.2",
             "id": "name-role-value",
