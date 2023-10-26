@@ -5,7 +5,7 @@ export const AssertionTypes = ['Assertion'];
 export class Assertion extends BaseModel {
   constructor(options = {}) {
     super(options);
-
+    console.log(options);
     const REQUIRED_OPTIONS = ['subject', 'test'];
 
     if (REQUIRED_OPTIONS.some((option) => options[option] === undefined)) {

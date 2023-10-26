@@ -673,5 +673,418 @@
             "id": "status-messages",
             "conformanceLevel": "AA"
         }
+    },
+    "2.2": {
+        "1.1.1": {
+            "num": "1.1.1",
+            "id": "non-text-content",
+            "conformanceLevel": "A"
+        },
+        "1.2.1": {
+            "num": "1.2.1",
+            "id": "audio-only-and-video-only-prerecorded",
+            "conformanceLevel": "A"
+        },
+        "1.2.2": {
+            "num": "1.2.2",
+            "id": "captions-prerecorded",
+            "conformanceLevel": "A"
+        },
+        "1.2.3": {
+            "num": "1.2.3",
+            "id": "audio-description-or-media-alternative-prerecorded",
+            "conformanceLevel": "A"
+        },
+        "1.2.4": {
+            "num": "1.2.4",
+            "id": "captions-live",
+            "conformanceLevel": "AA"
+        },
+        "1.2.5": {
+            "num": "1.2.5",
+            "id": "audio-description-prerecorded",
+            "conformanceLevel": "AA"
+        },
+        "1.2.6": {
+            "num": "1.2.6",
+            "id": "sign-language-prerecorded",
+            "conformanceLevel": "AAA"
+        },
+        "1.2.7": {
+            "num": "1.2.7",
+            "id": "extended-audio-description-prerecorded",
+            "conformanceLevel": "AAA"
+        },
+        "1.2.8": {
+            "num": "1.2.8",
+            "id": "media-alternative-prerecorded",
+            "conformanceLevel": "AAA"
+        },
+        "1.2.9": {
+            "num": "1.2.9",
+            "id": "audio-only-live",
+            "conformanceLevel": "AAA"
+        },
+        "1.3.1": {
+            "num": "1.3.1",
+            "id": "info-and-relationships",
+            "conformanceLevel": "A"
+        },
+        "1.3.2": {
+            "num": "1.3.2",
+            "id": "meaningful-sequence",
+            "conformanceLevel": "A"
+        },
+        "1.3.3": {
+            "num": "1.3.3",
+            "id": "sensory-characteristics",
+            "conformanceLevel": "A"
+        },
+        "1.3.4": {
+            "num": "1.3.4",
+            "id": "orientation",
+            "conformanceLevel": "AA"
+        },
+        "1.3.5": {
+            "num": "1.3.5",
+            "id": "identify-input-purpose",
+            "conformanceLevel": "AA"
+        },
+        "1.3.6": {
+            "num": "1.3.6",
+            "id": "identify-purpose",
+            "conformanceLevel": "AAA"
+        },
+        "1.4.1": {
+            "num": "1.4.1",
+            "id": "use-of-color",
+            "conformanceLevel": "A"
+        },
+        "1.4.2": {
+            "num": "1.4.2",
+            "id": "audio-control",
+            "conformanceLevel": "A"
+        },
+        "1.4.3": {
+            "num": "1.4.3",
+            "id": "contrast-minimum",
+            "conformanceLevel": "AA"
+        },
+        "1.4.4": {
+            "num": "1.4.4",
+            "id": "resize-text",
+            "conformanceLevel": "AA"
+        },
+        "1.4.5": {
+            "num": "1.4.5",
+            "id": "images-of-text",
+            "conformanceLevel": "AA"
+        },
+        "1.4.6": {
+            "num": "1.4.6",
+            "id": "contrast-enhanced",
+            "conformanceLevel": "AAA"
+        },
+        "1.4.7": {
+            "num": "1.4.7",
+            "id": "low-or-no-background-audio",
+            "conformanceLevel": "AAA"
+        },
+        "1.4.8": {
+            "num": "1.4.8",
+            "id": "visual-presentation",
+            "conformanceLevel": "AAA"
+        },
+        "1.4.9": {
+            "num": "1.4.9",
+            "id": "images-of-text-no-exception",
+            "conformanceLevel": "AAA"
+        },
+        "1.4.10": { "num": "1.4.10", "id": "reflow", "conformanceLevel": "AA" },
+        "1.4.11": {
+            "num": "1.4.11",
+            "id": "non-text-contrast",
+            "conformanceLevel": "AA"
+        },
+        "1.4.12": {
+            "num": "1.4.12",
+            "id": "text-spacing",
+            "conformanceLevel": "AA"
+        },
+        "1.4.13": {
+            "num": "1.4.13",
+            "id": "content-on-hover-or-focus",
+            "conformanceLevel": "AA"
+        },
+        "2.1.1": { "num": "2.1.1", "id": "keyboard", "conformanceLevel": "A" },
+        "2.1.2": {
+            "num": "2.1.2",
+            "id": "no-keyboard-trap",
+            "conformanceLevel": "A"
+        },
+        "2.1.3": {
+            "num": "2.1.3",
+            "id": "keyboard-no-exception",
+            "conformanceLevel": "AAA"
+        },
+        "2.1.4": {
+            "num": "2.1.4",
+            "id": "character-key-shortcuts",
+            "conformanceLevel": "A"
+        },
+        "2.2.1": {
+            "num": "2.2.1",
+            "id": "timing-adjustable",
+            "conformanceLevel": "A"
+        },
+        "2.2.2": {
+            "num": "2.2.2",
+            "id": "pause-stop-hide",
+            "conformanceLevel": "A"
+        },
+        "2.2.3": {
+            "num": "2.2.3",
+            "id": "no-timing",
+            "conformanceLevel": "AAA"
+        },
+        "2.2.4": {
+            "num": "2.2.4",
+            "id": "interruptions",
+            "conformanceLevel": "AAA"
+        },
+        "2.2.5": {
+            "num": "2.2.5",
+            "id": "re-authenticating",
+            "conformanceLevel": "AAA"
+        },
+        "2.2.6": {
+            "num": "2.2.6",
+            "id": "timeouts",
+            "conformanceLevel": "AAA"
+        },
+        "2.3.1": {
+            "num": "2.3.1",
+            "id": "three-flashes-or-below-threshold",
+            "conformanceLevel": "A"
+        },
+        "2.3.2": {
+            "num": "2.3.2",
+            "id": "three-flashes",
+            "conformanceLevel": "AAA"
+        },
+        "2.3.3": {
+            "num": "2.3.3",
+            "id": "animation-from-interactions",
+            "conformanceLevel": "AAA"
+        },
+        "2.4.1": {
+            "num": "2.4.1",
+            "id": "bypass-blocks",
+            "conformanceLevel": "A"
+        },
+        "2.4.2": {
+            "num": "2.4.2",
+            "id": "page-titled",
+            "conformanceLevel": "A"
+        },
+        "2.4.3": {
+            "num": "2.4.3",
+            "id": "focus-order",
+            "conformanceLevel": "A"
+        },
+        "2.4.4": {
+            "num": "2.4.4",
+            "id": "link-purpose-in-context",
+            "conformanceLevel": "A"
+        },
+        "2.4.5": {
+            "num": "2.4.5",
+            "id": "multiple-ways",
+            "conformanceLevel": "AA"
+        },
+        "2.4.6": {
+            "num": "2.4.6",
+            "id": "headings-and-labels",
+            "conformanceLevel": "AA"
+        },
+        "2.4.7": {
+            "num": "2.4.7",
+            "id": "focus-visible",
+            "conformanceLevel": "AA"
+        },
+        "2.4.8": {
+            "num": "2.4.8",
+            "id": "location",
+            "conformanceLevel": "AAA"
+        },
+        "2.4.9": {
+            "num": "2.4.9",
+            "id": "link-purpose-link-only",
+            "conformanceLevel": "AAA"
+        },
+        "2.4.10": {
+            "num": "2.4.10",
+            "id": "section-headings",
+            "conformanceLevel": "AAA"
+        },
+        "2.5.1": {
+            "num": "2.5.1",
+            "id": "pointer-gestures",
+            "conformanceLevel": "A"
+        },
+        "2.5.2": {
+            "num": "2.5.2",
+            "id": "pointer-cancellation",
+            "conformanceLevel": "A"
+        },
+        "2.5.3": {
+            "num": "2.5.3",
+            "id": "label-in-name",
+            "conformanceLevel": "A"
+        },
+        "2.5.4": {
+            "num": "2.5.4",
+            "id": "motion-actuation",
+            "conformanceLevel": "A"
+        },
+        "2.5.5": {
+            "num": "2.5.5",
+            "id": "target-size",
+            "conformanceLevel": "AAA"
+        },
+        "2.5.6": {
+            "num": "2.5.6",
+            "id": "concurrent-input-mechanisms",
+            "conformanceLevel": "AAA"
+        },
+        "3.1.1": {
+            "num": "3.1.1",
+            "id": "language-of-page",
+            "conformanceLevel": "A"
+        },
+        "3.1.2": {
+            "num": "3.1.2",
+            "id": "language-of-parts",
+            "conformanceLevel": "AA"
+        },
+        "3.1.3": {
+            "num": "3.1.3",
+            "id": "unusual-words",
+            "conformanceLevel": "AAA"
+        },
+        "3.1.4": {
+            "num": "3.1.4",
+            "id": "abbreviations",
+            "conformanceLevel": "AAA"
+        },
+        "3.1.5": {
+            "num": "3.1.5",
+            "id": "reading-level",
+            "conformanceLevel": "AAA"
+        },
+        "3.1.6": {
+            "num": "3.1.6",
+            "id": "pronunciation",
+            "conformanceLevel": "AAA"
+        },
+        "3.2.1": { "num": "3.2.1", "id": "on-focus", "conformanceLevel": "A" },
+        "3.2.2": { "num": "3.2.2", "id": "on-input", "conformanceLevel": "A" },
+        "3.2.3": {
+            "num": "3.2.3",
+            "id": "consistent-navigation",
+            "conformanceLevel": "AA"
+        },
+        "3.2.4": {
+            "num": "3.2.4",
+            "id": "consistent-identification",
+            "conformanceLevel": "AA"
+        },
+        "3.2.5": {
+            "num": "3.2.5",
+            "id": "change-on-request",
+            "conformanceLevel": "AAA"
+        },
+        "3.3.1": {
+            "num": "3.3.1",
+            "id": "error-identification",
+            "conformanceLevel": "A"
+        },
+        "3.3.2": {
+            "num": "3.3.2",
+            "id": "labels-or-instructions",
+            "conformanceLevel": "A"
+        },
+        "3.3.3": {
+            "num": "3.3.3",
+            "id": "error-suggestion",
+            "conformanceLevel": "AA"
+        },
+        "3.3.4": {
+            "num": "3.3.4",
+            "id": "error-prevention-legal-financial-data",
+            "conformanceLevel": "AA"
+        },
+        "3.3.5": { "num": "3.3.5", "id": "help", "conformanceLevel": "AAA" },
+        "3.3.6": {
+            "num": "3.3.6",
+            "id": "error-prevention-all",
+            "conformanceLevel": "AAA"
+        },
+        "4.1.1": { "num": "4.1.1", "id": "parsing", "conformanceLevel": "A" },
+        "4.1.2": {
+            "num": "4.1.2",
+            "id": "name-role-value",
+            "conformanceLevel": "A"
+        },
+        "4.1.3": {
+            "num": "4.1.3",
+            "id": "status-messages",
+            "conformanceLevel": "AA"
+        },
+        "2.4.11": {
+            "num": "2.4.11",
+            "id": "focus-not-obscured-minimum",
+            "conformanceLevel": "AA"
+        },
+        "2.4.12": {
+            "num": "2.4.12",
+            "id": "focus-not-obscured-enhanced",
+            "conformanceLevel": "AAA"
+        },
+        "2.4.13": {
+            "num": "2.4.13",
+            "id": "focus-appearance",
+            "conformanceLevel": "AAA"
+        },
+        "2.5.7": {
+            "num": "2.5.7",
+            "id": "dragging-movements",
+            "conformanceLevel": "AA"
+        },
+        "2.5.8": {
+            "num": "2.5.8",
+            "id": "target-size-minimum",
+            "conformanceLevel": "AA"
+        },
+        "3.2.6": {
+            "num": "3.2.6",
+            "id": "consistent-help",
+            "conformanceLevel": "A"
+        },
+        "3.3.7": {
+            "num": "3.3.7",
+            "id": "redundant-entry",
+            "conformanceLevel": "A"
+        },
+        "3.3.8": {
+            "num": "3.3.8",
+            "id": "accessible-authentication-minimum",
+            "conformanceLevel": "AA"
+        },
+        "3.3.9": {
+            "num": "3.3.9",
+            "id": "accessible-authentication-enhanced",
+            "conformanceLevel": "AAA"
+        }
     }
 }
