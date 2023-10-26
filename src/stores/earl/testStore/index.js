@@ -14,6 +14,8 @@ import { TestRequirement } from './models.js';
  * @type {Array}
  */
 const LATEST_WCAG_VERSION = WCAG_VERSIONS.slice(-1)[0];
+console.log(LATEST_WCAG_VERSION);
+console.log(wcagCriteriaDictionary);
 const initialTestStore = wcagCriteriaDictionary[LATEST_WCAG_VERSION].map(
   (criterion) => {
     const newTest = new TestRequirement(criterion);
@@ -24,6 +26,7 @@ const initialTestStore = wcagCriteriaDictionary[LATEST_WCAG_VERSION].map(
     return newTest;
   }
 );
+console.log(initialTestStore);
 
 /**
  * $tests
