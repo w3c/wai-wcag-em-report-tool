@@ -157,12 +157,10 @@
       subject = $subjects.find((subject) => {
         return subject.type.indexOf(TestSubjectTypes.WEBSITE) >= 0;
     });
-    console.log($tests);
     test = $tests.find(($test) => {
       return $test.num === check;
     });
       
-      console.log(test);
     $assertions.find(($assertion) => {
       const matchedTest = $assertion.test === test;
       const matchedSubject = $assertion.subject === subject;
