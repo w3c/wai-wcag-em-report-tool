@@ -1,5 +1,5 @@
 {
-    "BROWSER_NOT_SUPPORTED": "Le navigateur Web que vous utilisez ne supporte pas certaines fonctionnalités, telles que la sauvegarde et l’ouverture de rapports. Vous pouvez continuer à utiliser l’outil de rapport avec des fonctionnalités limitées. Mettre à jour votre navigateur Web ou en utiliser un autre afin de bénéficier de toutes les fonctionnalités de cet outil.",
+    "BROWSER_NOT_SUPPORTED": "Le navigateur Web que vous utilisez ne prend pas en charge certaines fonctionnalités, telles que la sauvegarde et l’ouverture de rapports. Vous pouvez continuer à utiliser l’outil de rapport avec des fonctionnalités limitées. Mettez à jour ou utilisez un autre navigateur Web afin de bénéficier de toutes les fonctionnalités de cet outil.",
     "WARNING_BEFORE_UNLOAD": "Les données que vous avez saisies ne sont pas sauvegardées automatiquement. Elles seront perdues si vous fermez la fenêtre de ce navigateur Web. Utiliser le lien « Enregistrer » (Ctrl + S ou ⌘ S) qui se trouve en haut de toutes les pages pour sauvegarder vos données dans un fichier local sur votre ordinateur, et pouvoir les récupérer ensuite pour poursuivre votre travail.",
     "MORE_INFO": "Pour plus d’informations, voir <a href={{url}}>{{name}}</a>.",
     "HIDE_MESSAGE": "Cacher le message",
