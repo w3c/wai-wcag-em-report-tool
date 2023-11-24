@@ -1,7 +1,7 @@
 {
     "TITLE": "Étape 2 : Explorer le site Web",
     "INTRO": "Explorez le site Web pour comprendre son objectif, sa fonctionnalité et son utilisation. Cette étape vous aide à déterminer quelles pages Web évaluer dans les étapes suivantes. Identifiez les technologies Web utilisées et, si vous le souhaitez, prenez des notes sur d'autres aspects du site Web. Pour cette étape, il est généralement préférable d'obtenir l’avis des propriétaires et des développeurs du site Web.",
-    "RESOURCE_LINK_NAME": "Étape 2 : Explorer le site Web",
+    "RESOURCE_LINK_NAME": "Étape 2 : Explorer le site Web cible",
     "HD_RELIEDUP_TECH": "Technologies Web dont la conformité dépend",
     "INF_RELIEDUP_TECH": "Identifiez les technologies Web utilisées pour fournir le site Web, [dont dépend la conformité aux WCAG 2](https://www.w3.org/Translations/WCAG21-fr/#dfn-relied-upon). Pour plus d’informations, consultez [WCAG-EM Étape 2.d : Identifier les technologies Web dont dépend la conformité](https://www.w3.org/TR/WCAG-EM/#step2d).",
     "LABEL_TECH": "Technologie Web ",
