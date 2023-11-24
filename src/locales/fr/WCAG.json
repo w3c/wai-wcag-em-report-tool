@@ -191,7 +191,7 @@
         },
         "1.3.6": {
             "TITLE": "Identifier la fonction",
-            "DESCRIPTION": "Dans un contenu mis en œuvre via un langage de balisage, la fonction des composants d’interface utilisateur, des icônes et des régions peut être déterminée par un programme informatique.",
+            "DESCRIPTION": "Dans un contenu implémenté via un langage de balisage, la fonction des composants d’interface utilisateur, des icônes et des régions peut être déterminée par un programme informatique.",
             "DETAILS": {}
         },
         "1.4.1": {
