@@ -712,7 +712,7 @@
         },
         "4.1.1": {
             "TITLE": "Analyse syntaxique",
-            "DESCRIPTION": "À moins que les spécifications ne le permettent, dans un contenu mis en œuvre via un langage de balisage, les éléments ont des balises de début et de fin complètes, ils sont imbriqués conformément à leurs spécifications, ils ne contiennent pas d’attributs dupliqués et chaque identifiant est unique.",
+            "DESCRIPTION": "À moins que les spécifications ne le permettent, dans un contenu implémenté via un langage de balisage, les éléments ont des balises de début et de fin complètes, ils sont imbriqués conformément à leurs spécifications, ils ne contiennent pas d’attributs dupliqués et chaque ID est unique.",
             "DETAILS": {}
         },
         "4.1.2": {
