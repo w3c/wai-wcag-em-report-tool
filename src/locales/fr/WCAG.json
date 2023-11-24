@@ -631,7 +631,7 @@
         },
         "3.2.1": {
             "TITLE": "Au focus",
-            "DESCRIPTION": "Quand un composant d’interface utilisateur reçoit le focus, il ne doit pas provoquer de changement de contexte.",
+            "DESCRIPTION": "Quand un composant d’interface utilisateur reçoit le focus, il ne doit pas initier de changement de contexte.",
             "DETAILS": {}
         },
         "3.2.2": {
