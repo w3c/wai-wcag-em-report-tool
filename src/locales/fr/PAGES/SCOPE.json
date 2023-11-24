@@ -24,5 +24,5 @@
     "INF_EXTRA_REQUIREMENTS_LI1": "« Le rapport comprendra une description du problème et des suggestions de réparation pour toutes les erreurs répertoriées »",
     "INF_EXTRA_REQUIREMENTS_LI2": "« L’évaluation portera sur l’ensemble des pages Web et du contenu du site Web, plutôt que sur un échantillon sélectionné »",
     "INF_EXTRA_REQUIREMENTS_1": "WCAG-EM Étape 1.d : Définir des exigences d’évaluation supplémentaires",
-    "DATA_LOSS_WARNING": "Cette modification supprimera un ou plusieurs critères évalués du rapport. Vos observations relatives à ces critères seront supprimées. Êtes-vous sûr de vouloir continuer ?"
+    "DATA_LOSS_WARNING": "Cette modification supprimera un ou plusieurs critères évalués du rapport. Vos observations pour ces critères seront supprimées. Voulez-vous vraiment continuer ?"
 }
