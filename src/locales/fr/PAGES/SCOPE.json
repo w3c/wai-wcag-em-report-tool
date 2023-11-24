@@ -3,7 +3,7 @@
     "INTRO": "Définissez les paramètres généraux et le périmètre de l’évaluation. L’idéal est de le faire avec la personne qui a commandé l’évaluation (qui peut ou non être propriétaire du site Web), afin de garantir des attentes communes quant au périmètre de l’évaluation.",
     "RESOURCE_LINK_NAME": "Étape 1 : Déterminer le périmètre de l’évaluation",
     "LABEL_SITE_NAME": "Nom du site Web",
-    "INF_SITE_NAME": "Proposez un nom pour le site Web que vous souhaitez évaluer. Par exemple : <br> « Site Web public de l’organisation Exemple » <br> « Boutique en ligne de l’entreprise Exemple » <br> « Intranet de l’université Exemple »",
+    "INF_SITE_NAME": "Donnez un nom au site Web que vous souhaitez évaluer. Par exemple : <ul><li>« Boutique en ligne de l'entreprise Exemple »</li><li>« Site Web public de l'organisation Exemple »</li><li>« Intranet de l’université Exemple »</li></ul>",
     "LABEL_SITE_SCOPE": "Portée du site Web",
     "INF_SITE_SCOPE_0": "Définir le périmètre du site Web, de manière à ce que les pages Web incluses dans l’évaluation soient claires. Pour plus d’informations, voir [WCAG-EM Étape 1.a : Définir le champ d’application du site Web](https://www.w3.org/TR/WCAG-EM/#step1a). Par exemple :",
     "INF_SITE_SCOPE_LI0": "« Tout le contenu du site Web public de l’organisation d’exemple, situé à l’adresse `http://www.example.org` »",
