@@ -6,7 +6,7 @@
     "INF_SITE_NAME": "Donnez un nom au site Web que vous souhaitez évaluer. Par exemple : <ul><li>« Boutique en ligne de l'entreprise Exemple »</li><li>« Site Web public de l'organisation Exemple »</li><li>« Intranet de l’université Exemple »</li></ul>",
     "LABEL_SITE_SCOPE": "Périmètre du site Web",
     "INF_SITE_SCOPE_0": "Définissez le périmètre du site Web de manière à savoir clairement quelles pages Web sont incluses dans l’évaluation. Pour plus d’informations, voir [WCAG-EM Étape 1.a  : Définir le champ d’application du site Web](https://www.w3.org/TR/WCAG-EM/#step1a). Par exemple :",
-    "INF_SITE_SCOPE_LI0": "« Tout le contenu du site Web public de l’organisation d’exemple, situé à l’adresse `http://www.example.org` »",
+    "INF_SITE_SCOPE_LI0": "« Tout le contenu du site Web public de l’organisation Exemple, situé à l’adresse `http://www.example.org` »",
     "INF_SITE_SCOPE_LI1": "« Tout le contenu Web de la boutique en ligne de l’organisation d’exemple, située à `http://www.example.org/shop/` »",
     "INF_SITE_SCOPE_LI2": "« Tout le contenu Web de la version mobile du site Web public de l’organisation d’exemple. situé à `http://m.example.org` »",
     "INF_SITE_SCOPE_1": "WCAG-EM Étape 1.a : Définir le périmètre du site Web <i class='fas fa-external-link-alt'></i>",
