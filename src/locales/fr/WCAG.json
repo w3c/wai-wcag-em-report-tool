@@ -722,7 +722,7 @@
         },
         "4.1.3": {
             "TITLE": "Messages d’état",
-            "DESCRIPTION": "Dans un contenu mis en œuvre via un langage de balisage, les messages d’état peuvent être déterminés par un programme informatique grâce à un rôle ou des propriétés afin qu’ils puissent être présentés à l’utilisateur par des technologies d’assistance sans recevoir le focus.",
+            "DESCRIPTION": "Dans un contenu implémenté via un langage de balisage, les messages d’état peuvent être déterminés par un programme informatique grâce à un rôle ou des propriétés afin qu’ils puissent être présentés à l’utilisateur par des technologies d’assistance sans recevoir le focus.",
             "DETAILS": {}
         }
     }
