@@ -10,7 +10,7 @@
     "LABEL_CREATOR": "Évaluateur",
     "INF_CREATOR": "La personne, l’équipe, l’organisation, le service interne ou toute autre entité responsable de la réalisation de l’évaluation.",
     "LABEL_DATE": "Date de l’évaluation",
-    "INF_DATE": "Indiquer la date d’achèvement ou la période de cette évaluation. Vous pouvez utiliser n’importe quel format de date. Écrire le mois en toutes lettres pour que ce soit clair au niveau international. (Le format de date 01-02-2022 est ambigu - il s’agit du 2 janvier dans certains endroits et du 1er février dans d’autres).",
+    "INF_DATE": "Indiquez la date d’achèvement ou la période de cette évaluation. Vous pouvez utiliser n’importe quel format de date. Écrivez le mois en toutes lettres pour qu'il soit compréhensible internationalement. (Le format de date 01-02-2022 est ambigu – il s’agit du 2 janvier dans certains endroits et du 1er février dans d’autres).",
     "LABEL_SUMMARY": "Synthèse",
     "INF_SUMMARY": "Fournissez un bref résumé des constats de l’évaluation pour donner un aperçu des résultats. Par exemple, décrivez l’accessibilité globale du site Web et les observations clés que vous avez faites lors de l’évaluation, tels que les problèmes et les schémas qui se répètent fréquemment.",
     "LABEL_SPECIFICS": "Registre des spécificités de l’évaluation (facultatif)",
