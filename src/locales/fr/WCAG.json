@@ -636,7 +636,7 @@
         },
         "3.2.2": {
             "TITLE": "À la saisie",
-            "DESCRIPTION": "Le changement de paramètre d’un composant d’interface utilisateur ne doit pas provoquer de changement de contexte à moins que l’utilisateur n’ait été avisé de ce comportement avant d’utiliser le composant.",
+            "DESCRIPTION": "Le changement de paramètre d’un composant d’interface utilisateur ne doit pas initier de changement de contexte à moins que l’utilisateur n’ait été avisé de ce comportement avant d’utiliser le composant.",
             "DETAILS": {}
         },
         "3.2.3": {
