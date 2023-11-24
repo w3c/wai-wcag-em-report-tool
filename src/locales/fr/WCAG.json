@@ -641,7 +641,7 @@
         },
         "3.2.3": {
             "TITLE": "Navigation cohérente",
-            "DESCRIPTION": "Dans un ensemble de pages, les mécanismes de navigation qui se répètent sur plusieurs pages Web se présentent dans le même ordre relatif chaque fois qu’ils sont répétés, à moins qu’un changement soit provoqué par l’utilisateur.",
+            "DESCRIPTION": "Dans un ensemble de pages, les mécanismes de navigation qui se répètent sur plusieurs pages Web se présentent dans le même ordre relatif chaque fois qu’ils sont répétés, à moins qu’un changement soit initié par l’utilisateur.",
             "DETAILS": {}
         },
         "3.2.4": {
