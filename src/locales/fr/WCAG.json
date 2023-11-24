@@ -382,7 +382,7 @@
         },
         "2.1.4": {
             "TITLE": "Raccourcis clavier utilisant des caractères",
-            "DESCRIPTION": "Si un raccourci clavier est mis en œuvre dans du contenu en utilisant uniquement des caractères de type lettres (y compris les majuscules et les minuscules), des signes de ponctuation, des chiffres ou des symboles, alors au moins l’une des conditions suivantes est vraie :",
+            "DESCRIPTION": "Si un raccourci clavier est implémenté dans du contenu en utilisant uniquement des caractères de type lettres (y compris les majuscules et les minuscules), des signes de ponctuation, des chiffres ou des symboles, alors au moins l’une des conditions suivantes est vraie :",
             "DETAILS": {
                 "1": {
                     "DESCRIPTION": "Un mécanisme est disponible pour désactiver le raccourci ;",
