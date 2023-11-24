@@ -367,17 +367,17 @@
         },
         "2.1.1": {
             "TITLE": "Clavier",
-            "DESCRIPTION": "Toutes les fonctionnalités du contenu sont utilisables à l’aide d’une interface clavier sans exiger un rythme de frappe propre à l’utilisateur, sauf lorsque la fonction sous-jacente nécessite une saisie qui dépend du tracé du mouvement effectué par l’utilisateur et pas seulement des points de départ et d’arrivée de ce tracé.",
+            "DESCRIPTION": "Toutes les fonctionnalités du contenu sont utilisables à l’aide d’une  clavier sans exiger un rythme de frappe propre à l’utilisateur, sauf lorsque la fonction sous-jacente nécessite une saisie qui dépend du tracé du mouvement effectué par l’utilisateur et pas seulement des points de départ et d’arrivée de ce tracé.",
             "DETAILS": {}
         },
         "2.1.2": {
             "TITLE": "Pas de piège au clavier",
-            "DESCRIPTION": "Si le focus du clavier peut être positionné sur un élément de la page à l’aide d’une interface clavier, réciproquement, il peut être déplacé hors de ce même composant simplement à l’aide d’une interface clavier et, si ce déplacement exige plus que l’utilisation d’une simple touche flèche ou tabulation ou toute autre méthode standard de sortie, l’utilisateur est informé de la méthode permettant de déplacer le focus hors de ce composant.",
+            "DESCRIPTION": "Si le focus du clavier peut être positionné sur un élément de la page à l’aide d’une  clavier, réciproquement, il peut être déplacé hors de ce même composant simplement à l’aide d’une  clavier et, si ce déplacement exige plus que l’utilisation d’une simple touche flèche ou tabulation ou toute autre méthode standard de sortie, l’utilisateur est informé de la méthode permettant de déplacer le focus hors de ce composant.",
             "DETAILS": {}
         },
         "2.1.3": {
             "TITLE": "Clavier (pas d’exception)",
-            "DESCRIPTION": "Toutes les fonctionnalités du contenu sont utilisables à l’aide d’une interface clavier sans exiger un rythme de frappe propre à l’utilisateur.",
+            "DESCRIPTION": "Toutes les fonctionnalités du contenu sont utilisables à l’aide d’une  clavier sans exiger un rythme de frappe propre à l’utilisateur.",
             "DETAILS": {}
         },
         "2.1.4": {
@@ -564,7 +564,8 @@
             "DESCRIPTION": "Les fonctionnalités qui peuvent être activées par un mouvement de l’appareil ou un mouvement de l’utilisateur peuvent également être activées par des composants d’interface utilisateur et la réponse au mouvement peut être désactivée pour éviter une activation accidentelle, sauf dans les cas suivants :",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "Le mouvement est utilisé pour activer la fonctionnalité par l’intermédiaire d’une interface compatible avec l’accessibilité ;"
+                    "DESCRIPTION": "Le mouvement est utilisé pour activer la fonctionnalité par l’intermédiaire d’une interface compatible avec l’accessibilité ;",
+                    "TITLE": "Interface compatible"
                 },
                 "2": {
                     "DESCRIPTION": "Le mouvement est essentiel à la fonction et le désactiver invaliderait l’activité.",
