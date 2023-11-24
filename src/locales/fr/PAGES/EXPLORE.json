@@ -9,7 +9,7 @@
     "PLH_TECH": "Ex. : HTML5, CSS, DOM",
     "PLH_TECH_SPEC": "Adresse (URL) ou description pour les spécifications des technologies Web",
     "BTN_REMOVE_TECH": "Retirer cette technologie",
-    "BTN_ADD_TECH": "Ajouter une technologie",
+    "BTN_ADD_TECH": "Ajouter une technologie Web",
     "HD_NOTE_TAKING": "Notes d’exploration facultatives",
     "INF_NOTE_TAKING": "Cette section vous permet d’enregistrer des informations au cours de l’exploration du site Web. Ces notes sont reportées à l’étape suivante, pour vous aider à choisir un échantillon de pages Web à évaluer. **Ces notes ne sont pas incluses dans le rapport final**. Elles sont sauvegardées lorsque vous enregistrez le fichier et sont disponibles lorsque vous récupérez ensuite les données du fichier.",
     "LABEL_ESSENT_FUNC": "Fonctionnalités essentielles du site Web",
