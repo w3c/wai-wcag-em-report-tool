@@ -185,7 +185,7 @@
                     "DESCRIPTION": "Le champ de saisie répond à une finalité identifiée dans la section Finalités de saisie des composants d’interface utilisateur ; et"
                 },
                 "2": {
-                    "DESCRIPTION": "Le contenu est mis en œuvre via des technologies permettant d’identifier la finalité de la saisie attendue pour le champ."
+                    "DESCRIPTION": "Le contenu est implémenté via des technologies permettant d’identifier la finalité de la saisie attendue pour le champ."
                 }
             }
         },
