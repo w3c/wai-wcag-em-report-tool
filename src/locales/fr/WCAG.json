@@ -331,7 +331,7 @@
         },
         "1.4.12": {
             "TITLE": "Espacement du texte",
-            "DESCRIPTION": "Dans un contenu mis en œuvre via un langage de balisage qui prend en charge les propriétés de style de texte suivantes, il n’y a aucune perte de contenu ou de fonctionnalité lorsqu’on applique toutes les valeurs ci-dessous sans modifier aucune autre propriété de style :",
+            "DESCRIPTION": "Dans un contenu implémenté via un langage de balisage qui prend en charge les propriétés de style de texte suivantes, il n’y a aucune perte de contenu ou de fonctionnalité lorsqu’on applique toutes les valeurs ci-dessous sans modifier aucune autre propriété de style :",
             "DETAILS": {
                 "1": {
                     "DESCRIPTION": "La hauteur de ligne (interlignage) définie a au moins 1,5 fois la taille de la police;"
