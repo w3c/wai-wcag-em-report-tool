@@ -678,7 +678,7 @@
                     "TITLE": "Réversible"
                 },
                 "2": {
-                    "DESCRIPTION": "Les erreurs de saisie de l’utilisateur sont vérifiées et la possibilité est donnée à l’utilisateur de les corriger.",
+                    "DESCRIPTION": "Les données saisies par l’utilisateur sont vérifiées au niveau des erreurs de saisie et la possibilité est donnée à l’utilisateur de les corriger.",
                     "TITLE": "Vérifiée"
                 },
                 "3": {
