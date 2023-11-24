@@ -29,6 +29,6 @@
     "VIEWREPORT": "Voir le rapport",
     "CLEARREPORT": "Effacer le rapport",
     "NOT_STARTED": "Aucun rapport commencé.",
-    "CLEARWARNING": "Cela effacera l’évaluation en cours et en commencera une nouvelle. Êtes-vous sûr que c’est ce que vous voulez faire ?",
+    "CLEARWARNING": "Cette action effacera l’évaluation en cours et en commencera une nouvelle. Êtes-vous sûr de vouloir faire cela ?",
     "BTN_BACK_TO_EVAL": "Retour"
 }
