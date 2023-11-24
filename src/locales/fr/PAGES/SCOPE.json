@@ -15,7 +15,7 @@
     "WCAG21": "WCAG 2.1",
     "WCAG20": "WCAG 2.0",
     "LABEL_CONFORMANCE_TGT": "Objectif de conformité",
-    "INF_CONF_TGT": "Sélectionnez un niveau de conformité WCAG 2 cible (A, AA ou AAA) pour l’évaluation. Pour plus d’informations, voir [WCAG-EM Étape 1.b : Définir la cible de conformité](https://www.w3.org/TR/WCAG-EM/#step1b). Cette sélection détermine les filtres de niveau de conformité qui sont actifs par défaut à l’ « Étape 4 : Auditer l’échantillon ».",
+    "INF_CONF_TGT": "Sélectionnez un niveau de conformité WCAG 2 cible (A, AA ou AAA) pour l’évaluation. Pour plus d’informations, voir [WCAG-EM Étape 1.b : Définir la cible de conformité](https://www.w3.org/TR/WCAG-EM/#step1b). Cette sélection détermine les filtres de niveau de conformité qui sont actifs par défaut à l’« Étape 4  : Auditer l’échantillon ».",
     "LABEL_SUPPORT_BASE": "Environnement de réference pour évaluer l'accessibilité",
     "INF_SUPPORT_BASE": "Définir les navigateurs Web, les technologies d’assistance et les autres [agents utilisateurs](https://www.w3.org/Translations/WCAG20-fr/#useragentdef) qui seront [compatibles avec l’accessibilité](https://www.w3.org/Translations/WCAG20-fr/#accessibility-supporteddef) par le site Web. Par exemple, « Internet Explorer (IE) avec JAWS », « FireFox avec NVDA » et « Apple avec VoiceOver » pourraient être des définitions de base. Pour plus d’informations, voir [WCAG-EM Étape 1.c : Définir une référence de support d'accessibilité](https://www.w3.org/TR/WCAG-EM/#step1c).",
     "LABEL_EXTRA_REQUIREMENTS": "Exigences d’évaluation supplémentaires",
