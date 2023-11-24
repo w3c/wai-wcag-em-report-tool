@@ -14,7 +14,7 @@
     "FILTER": "Afficher",
     "HD_CRITERIA": "Critère de succès à évaluer",
     "HD_SAMPLE_SELECT": "Ajouter des résultats aux pages",
-    "HOW_TO": "Comment se conformer",
+    "HOW_TO": "Comment satisfaire à",
     "INF_AUDIT_CRITERIA": "Cette section répertorie les critères de réussite WCAG 2. Utiliser le filtre pour afficher ou masquer les critères de réussite de différents niveaux (A, AA et AAA). Vous pouvez sélectionner les résultats comme suit : « Non vérifié », « Réussi », « Échoué », « Non présent » et « Impossible de dire »; et vous pouvez fournir des détails, des commentaires ou d’autres observations effectuées lors de l’évaluation dans la zone de texte qui l’accompagne.",
     "INF_AUDIT_SAMPLE": "Cette section répertorie les pages Web que vous avez sélectionnées à l’étape précédente. Les pages Web qui sont vérifiées dans cette section sont répertoriées lorsque l’option « Afficher les pages Web pour saisir des résultats individuels » est activée dans la section « Critères de réussite à évaluer ». Vous pouvez afficher une page web individuelle que vous évaluez, ou afficher plusieurs pages web simultanément. <br> L’icône en forme de « maillon » ouvre la page web dans une fenêtre de navigateur séparée.",
     "INTRO": "Enregistrer le résultat de l’évaluation des pages Web sélectionnées à l’étape précédente. Comparer les résultats entre la page structurée et les pages sélectionnées au hasard, ajuster l’échantillon sélectionné à l’étape précédente si nécessaire.",
