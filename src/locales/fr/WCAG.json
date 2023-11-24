@@ -98,7 +98,7 @@
                     "TITLE": "CAPTCHA"
                 },
                 "6": {
-                    "DESCRIPTION": "Si le contenu non textuel est purement décoratif, s’il est utilisé seulement pour un formatage visuel ou s’il n’est pas présenté à l’utilisateur, alors il est mis en œuvre de manière à être ignoré par les technologies d’assistance.",
+                    "DESCRIPTION": "Si le contenu non textuel est purement décoratif, s’il est utilisé seulement pour un formatage visuel ou s’il n’est pas présenté à l’utilisateur, alors il est implémenté de manière à être ignoré par les technologies d’assistance.",
                     "TITLE": "Décoration, formatage, invisibilité"
                 }
             }
