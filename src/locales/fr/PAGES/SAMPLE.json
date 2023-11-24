@@ -3,7 +3,7 @@
     "INTRO": "Sélectionnez les pages Web à évaluer. Les notes que vous avez prises lors de l’exploration à l’étape précédente sont présentées ici pour vous aider à sélectionner les pages Web. Veillez à ce que les pages web sélectionnées soient représentatives du site Web cible.",
     "RESOURCE_LINK_NAME": "Étape 3 : Sélectionner un échantillon représentatif",
     "HD_STRUCT_SAMPLE": "Échantillon structuré",
-    "HD_ESSENT_FUNC": "Fonctionnalité essentielle (notes facultatives de l’étape précédente) ",
+    "HD_ESSENT_FUNC": "Fonctionnalités essentielles (notes facultatives de l’étape précédente) ",
     "HD_VARIETY_PAGE_TYPES": "Variété de types de pages Web (notes facultatives de l’étape précédente) ",
     "HD_STRUCT_SAMPLE_SUB": "Échantillon de pages Web structurées",
     "INF_STRUCT_SAMPLE": "Sélectionnez des pages Web qui reflètent toutes les pages web identifiées (1) les pages Web courantes, (2) les fonctionnalités essentielles, (3) les types de pages web, (4) les technologies web utilisées et (5) les autres pages Web pertinentes. Pour plus d’informations, voir [WCAG-EM Étape 3.a : Inclure un échantillon structuré](https://www.w3.org/TR/WCAG-EM/#step3a).<br> **Note** : Les « pages Web » comprennent différents « états de page web »; voir la définition des [états de page web](https://www.w3.org/TR/WCAG-EM/#states).",
