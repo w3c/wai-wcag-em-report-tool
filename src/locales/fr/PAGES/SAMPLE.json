@@ -9,7 +9,7 @@
     "INF_STRUCT_SAMPLE": "Sélectionnez des pages Web qui reflètent tous les éléments identifiés : (1) pages Web courantes, (2) fonctionnalités essentielles, (3) types de pages Web, (4) technologies Web dont dépend la conformité et (5) autres pages Web pertinentes. Pour plus d’informations, voir [WCAG-EM Étape 3.a  : Inclure un échantillon structuré](https://www.w3.org/TR/WCAG-EM/#step3a).<br> **Note** : le terme « pages Web » utilisé ici inclut différents « états de page Web » ; voir la définition des [états de page Web](https://www.w3.org/TR/WCAG-EM/#states).",
     "HD_RANDOM_SAMPLE": "Échantillon sélectionné aléatoirement",
     "INF_RAND_SAMPLE": "Sélectionnez de manière aléatoire un échantillon de pages Web ; sélectionnez 10% de l’échantillon structuré choisi ci-dessus. Pour plus d’informations, voir [WCAG-EM Étape 3.b  : Inclure un échantillon sélectionné aléatoirement](https://www.w3.org/TR/WCAG-EM/#step3b).<br> **Note** : le terme « pages Web » utilisé ici inclut différents « états de page Web »  ; voir la définition des [états de page Web](https://www.w3.org/TR/WCAG-EM/#states).",
-    "RAND_SAMPLE_LENGTH": "Sur la base de votre échantillon structuré de {STRUCTURED_SAMPLE_COUNT} pages Web, choisir au moins {REQUIRED_RANDOM_SAMPLE_COUNT} pages Web sélectionnées de manière aléatoire (pour répondre à l’exigence de 10 % de WCAG-EM).",
+    "RAND_SAMPLE_LENGTH": "Sur la base de votre échantillon structuré de {STRUCTURED_SAMPLE_COUNT} pages Web, sélectionnez aléatoirement au moins {REQUIRED_RANDOM_SAMPLE_COUNT} pages Web (pour satisfaire à l’exigence de 10 % de WCAG-EM).",
     "LABEL_HANDLE": "Nom court",
     "LABEL_PAGE": "Adresse (URL) ou description",
     "NO_PAGES_DEFINED": "Aucune page n’est définie pour cette liste",
