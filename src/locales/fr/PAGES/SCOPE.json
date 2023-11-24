@@ -11,7 +11,7 @@
     "INF_SITE_SCOPE_LI2": "« Tout le contenu Web de la version mobile du site Web public de l’organisation Exemple, situé à l'adresse `http://m.example.org` »",
     "INF_SITE_SCOPE_1": "WCAG-EM Étape 1.a : Définir le périmètre du site Web <i class='fas fa-external-link-alt'></i>",
     "LABEL_WCAG_VERSION": "Version des WCAG",
-    "INFO_WCAG_VERSION": "Sélectionner la version du WCAG à utiliser. Version 2.1 (par défaut) ou 2.0",
+    "INFO_WCAG_VERSION": "Sélectionnez la version des WCAG à utiliser. Version 2.1 (par défaut) ou 2.0",
     "WCAG21": "WCAG 2.1",
     "WCAG20": "WCAG 2.0",
     "LABEL_CONFORMANCE_TGT": "Niveau de conformité",
