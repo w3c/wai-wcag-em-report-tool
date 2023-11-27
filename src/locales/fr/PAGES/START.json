@@ -2,7 +2,7 @@
     "TITLE": "Outil de rapport WCAG-EM",
     "SUBTITLE": "Vue d’ensemble",
     "INTRO_HD": "Ce que fait cet outil",
-    "INTRO_1": "L’outil de rapport WCAG-EM transforme les résultats de votre évaluation de l’accessibilité en un rapport. Il est basé sur la méthodologie d’évaluation des lignes directrices pour l’accessibilité du contenu Web ([WCAG-EM](https://www.w3.org/TR/WCAG-EM/)).",
+    "INTRO_1": "L’outil de rapport WCAG-EM transforme les résultats de votre évaluation de l’accessibilité en un rapport. Il est basé sur la méthodologie d’évaluation des Règles pour l’accessibilité des contenus Web ([WCAG-EM](https://www.w3.org/TR/WCAG-EM/)).",
     "TIPS_HD": "Conseils d’utilisation de cet outil",
     "TIPS_1": "Sous « Voir le rapport », vous pouvez télécharger votre rapport au format HTML (page Web) ou au format JSON (données structurées).",
     "TIPS_2": "Vous pouvez mettre en forme vos résultats avec <a href='https://fr.wikipedia.org/wiki/Markdown'>Markdown</a>, pour ajouter des listes, des liens, des exemples de code, etc. Cela fonctionne également pour les champs « Résumé exécutif » et « Spécificités de l’évaluation ».",
