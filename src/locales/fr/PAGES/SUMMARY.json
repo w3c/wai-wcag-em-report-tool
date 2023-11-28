@@ -1,7 +1,7 @@
 {
     "TITLE": "Étape 5: Finaliser le rapport",
     "INTRO": "Fournissez des informations supplémentaires sur l’évaluation que vous souhaitez voir figurer dans le rapport. Les résultats de l’évaluation que vous avez saisis à l’étape précédente sont inscrits ci-dessous dans la section « Résultats détaillés de l’audit » pour examen et pour vous aider à rédiger la synthèse.",
-    "RESOURCE_LINK_NAME": "Étape 5: Résultat du rapport de l’évaluation",
+    "RESOURCE_LINK_NAME": "Étape 5 : Rapporter les conclusions de l’évaluation",
     "LABEL_TITLE": "Titre du rapport",
     "TITLE_PREFIX": "Rapport pour",
     "INF_TITLE": "Donnez un titre au rapport d’évaluation de l’accessibilité du site Web. Par exemple : <br>« Rapport d’évaluation pour l'organisation Exemple »<br> « Analyse de l’accessibilité de la boutique en ligne et suggestions d’amélioration ».",
