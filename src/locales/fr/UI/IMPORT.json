@@ -8,7 +8,7 @@
     },
     "ERROR": {
     	"JSONLD_SYNTAX": "Le format de fichier n’est pas reconnu.",
-    	"NO_ASSERTIONS": "Le fichier ne contenait aucune affirmation reconnaissable.",
+    	"NO_ASSERTIONS": "Le fichier ne contenait aucune assertion reconnaissable.",
     	"NO_COMPATIBLE_ASSERTIONS": "Aucune des affirmations de ce fichier ne correspond à l’échantillon sélectionné.",
     	"FILE_ERROR": "Format de fichier incorrect ou fichier endommagé."
     },
