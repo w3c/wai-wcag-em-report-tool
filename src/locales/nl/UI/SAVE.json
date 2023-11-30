@@ -1,6 +1,0 @@
-{
-    "TITLE": "Evaluatierapport opslaan",
-    "INTRO": "Gebruik onderstaande link om de door u ingevoerde gegevens van het evaluatierapport als JSON databestand lokaal op uw computer te bewaren.",
-    "BTN_DOWNLOAD_DATA_FILE": "Bewaar databestand lokaal op uw computer",
-    "TIPS": "U kunt onvoltooide rapporten (en aantekeningen) bewaren en hier later aan verder werken. U kunt deze openen in iedere webbrowser en het databestand naar een andere computer sturen.<br> U dient uw werk regelmatig op te slaan om te voorkomen dat u werk verliest, mocht de webbrowser sluiten. U kunt de sneltoets Ctrl+S voor windows of ⌘S voor Mac gebruiken om het opslaan-scherm te starten (of om automatisch naar uw downloads folder te plaatsen, afhankelijk van uw browserinstellingen). <br> Wanneer u het evaluatierapport heeft afgerond, kunt u een HTML-bestand met het volledige rapport downloaden de <a href={{link_report}}>'Bekijk rapport'-pagina</a>."
-}
