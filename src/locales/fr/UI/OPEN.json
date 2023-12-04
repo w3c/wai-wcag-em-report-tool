@@ -1,7 +1,0 @@
-{
-    "TITLE": "Ouvrir le rapport d’évaluation",
-    "INTRO": "Pour récupérer un fichier enregistré, cliquez sur le bouton « Sélectionner le fichier de données » et sélectionnez le fichier JSON que vous avez enregistré prédédemment.",
-    "LABEL_SELECT_FILE": "Sélectionner le fichier de données",
-    "MSG_LOADING": "Chargement de l’évaluation, veuillez patienter...",
-    "BTN_LOAD_FILE": "Charger les données du fichier sélectionné"
-}

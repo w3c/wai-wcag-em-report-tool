@@ -1,6 +1,0 @@
-{
-    "TITLE": "Enregistrer le rapport d’évaluation",
-    "INTRO": "Utiliser le lien ci-dessous afin d’enregistrer les informations du rapport d’évaluation que vous avez saisies dans un fichier de données JSON sur votre ordinateur.",
-    "BTN_DOWNLOAD_DATA_FILE": "Enregistrer le fichier de données localement sur votre ordinateur",
-    "TIPS": "Vous pouvez enregistrer des rapports (et des notes) partiellement terminés et les retravailler ultérieurement. Vous pouvez les ouvrir à partir d’un navigateur Web et transférer le fichier de données vers un autre ordinateur. <br> Vous pouvez enregistrer régulièrement pendant que vous travaillez, afin d’éviter de perdre des données si votre navigateur Web se ferme. Vous pouvez utiliser les touches de raccourci Windows Ctrl+S ou ⌘S sur Mac pour ouvrir la boîte de dialogue Enregistrer (ou l’enregistrer automatiquement dans votre dossier de téléchargements en fonction des paramètres de votre navigateur Web). <br> Lorsque vous avez fini de saisir les informations de votre rapport d’évaluation, vous pouvez télécharger un fichier au format HTML du rapport terminé à partir de la page <a href={{link_report}}>Voir le rapport</a>."
-}

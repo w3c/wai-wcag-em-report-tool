@@ -14,12 +14,8 @@
     "LABEL_PAGE": "Adresse (URL) ou description",
     "NO_PAGES_DEFINED": "Aucune page n’est définie pour cette liste",
     "ITEM": "page Web",
-    "PLH_TITLE": "Identifiant de la page web",
-    "PLH_PAGE_URL": "Adresse (URL) ou description de la manière de s’y rendre",
     "BTN_ADD_PAGE": "Ajouter une page Web",
     "BTN_REMOVE_PAGE": "Supprimer une page Web",
-    "STRUCTURED_PAGE": "Page structurée",
-    "RANDOM_PAGE": "Page aléatoire",
     "SAMPLE_PAGE": "Page de l'échantillon",
     "DELETE_CONFIRM": "Voulez-vous vraiment supprimer cette page de l’échantillon ?"
 }

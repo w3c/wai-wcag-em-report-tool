@@ -6,9 +6,6 @@
     "INF_RELIEDUP_TECH": "Identifiez les technologies Web utilisées pour fournir le site Web, [dont dépend la conformité aux WCAG 2](https://www.w3.org/Translations/WCAG21-fr/#dfn-relied-upon). Pour plus d’informations, consultez [WCAG-EM Étape 2.d : Identifier les technologies Web dont dépend la conformité](https://www.w3.org/TR/WCAG-EM/#step2d).",
     "LABEL_TECH": "Technologie Web ",
     "LABEL_TECH_SPEC": "Adresse (URL) de la spécification ",
-    "PLH_TECH": "Ex. : HTML5, CSS, DOM",
-    "PLH_TECH_SPEC": "Adresse (URL) ou description pour les spécifications des technologies Web",
-    "BTN_REMOVE_TECH": "Retirer cette technologie",
     "BTN_ADD_TECH": "Ajouter une technologie Web",
     "HD_NOTE_TAKING": "Notes d’exploration facultatives",
     "INF_NOTE_TAKING": "Cette section vous permet de noter des informations au cours de l’exploration du site Web. Ces notes sont reportées à l’étape suivante, pour vous aider à choisir un échantillon de pages Web à évaluer. **Ces notes ne sont pas incluses dans le rapport final**. Elles sont sauvegardées lorsque vous enregistrez le fichier et sont disponibles lorsque vous re-chargez le fichier plus tard.",
@@ -16,6 +13,5 @@
     "INF_ESSENT_FUNC": "Vous pouvez utiliser ce champ pour prendre des notes sur les fonctionnalités essentielles du site Web. Voici quelques exemples de fonctionnalités essentielles : <br> « Sélectionner et acheter un produit de la boutique du site Web » <br> « Remplir et soumettre un formulaire disponible sur le site Web » <br> « Créer un compte sur le site Web » <br>Pour plus d’informations, voir [WCAG-EM Étape 2.b : Identifier les fonctionnalités essentielles du site Web](https://www.w3.org/TR/WCAG-EM/#step2b).",
     "LABEL_VARIETY_PAGE_TYPES": "Variété des types de pages Web",
     "INF_VARIETY_PAGE_TYPES": "Vous pouvez utiliser ce champ pour prendre des notes sur les types (par opposition aux instances) de pages Web que vous trouvez sur le site Web. Cela comprend des notes sur les différents styles, mises en page, structures et fonctionnalités fournies sur le site Web. Pour plus d’informations, consultez [WCAG-EM Étape 2.c : Identifier la variété des types de pages Web](https://www.w3.org/TR/WCAG-EM/#step2c).<br> **Note** : Les « pages Web » comprennent différents « États de page Web » ; voir la définition des [États de page Web](https://www.w3.org/TR/WCAG-EM/#states).",
-    "LABEL_OTHER": "Autres...",
     "ADD_TECH": "Ajouter"
 }

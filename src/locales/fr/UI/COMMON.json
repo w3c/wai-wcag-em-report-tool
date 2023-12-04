@@ -1,6 +1,4 @@
 {
-    "BROWSER_NOT_SUPPORTED": "Le navigateur Web que vous utilisez ne prend pas en charge certaines fonctionnalités, telles que la sauvegarde et l’ouverture de rapports. Vous pouvez continuer à utiliser l’outil de rapport avec des fonctionnalités limitées. Mettez à jour ou utilisez un autre navigateur Web afin de bénéficier de toutes les fonctionnalités de cet outil.",
-    "WARNING_BEFORE_UNLOAD": "Les données que vous avez saisies ne sont pas sauvegardées automatiquement. Elles seront perdues si vous fermez cette fenêtre du navigateur Web. Utilisez le lien « Enregistrer » (Ctrl + S ou ⌘ S) disponible en haut de chacune des pages pour enregistrer vos données dans un fichier local sur votre ordinateur, et pouvoir les récupérer ensuite pour poursuivre votre travail.",
     "MORE_INFO": "Pour plus d’informations, voir <a href={{url}}>{{name}}</a>.",
     "HIDE_MESSAGE": "Masquer le message",
     "ERROR": {
@@ -10,9 +8,6 @@
     "NO": "Non",
     "NEXT": "{label} suivante",
     "PREVIOUS": "{label} précédente",
-    "CLICK_EXPAND": "Cliquer pour afficher la section",
-    "CLICK_COLLAPSE": "Cliquer pour cacher la section",
-    "TO_TOP": "Retour en haut",
     "ACTIVE": "Sélectionné",
     "BUTTON": {
         "ADD": "Ajouter {subject}",

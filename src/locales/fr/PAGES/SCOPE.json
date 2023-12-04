@@ -9,7 +9,6 @@
     "INF_SITE_SCOPE_LI0": "« Tout le contenu du site Web public de l’organisation Exemple, situé à l’adresse `http://www.example.org` »",
     "INF_SITE_SCOPE_LI1": "« Tout le contenu Web de la boutique en ligne de l’organisation Exemple, située à l'adresse `http://www.example.org/shop/` »",
     "INF_SITE_SCOPE_LI2": "« Tout le contenu Web de la version mobile du site Web public de l’organisation Exemple, situé à l'adresse `http://m.example.org` »",
-    "INF_SITE_SCOPE_1": "WCAG-EM Étape 1.a : Définir le périmètre du site Web <i class='fas fa-external-link-alt'></i>",
     "LABEL_WCAG_VERSION": "Version des WCAG",
     "INFO_WCAG_VERSION": "Sélectionnez la version des WCAG à utiliser. Version 2.1 (par défaut) ou 2.0",
     "WCAG21": "WCAG 2.1",
@@ -23,6 +22,5 @@
     "INF_EXTRA_REQUIREMENTS_LI0": "« Le rapport comprendra une liste de toutes les erreurs identifiées par l’évaluateur, plutôt que de se limiter à des exemples »",
     "INF_EXTRA_REQUIREMENTS_LI1": "« Le rapport comprendra une description du problème et des suggestions de réparation pour toutes les erreurs répertoriées »",
     "INF_EXTRA_REQUIREMENTS_LI2": "« L’évaluation portera sur l’ensemble des pages Web et du contenu du site Web, plutôt que sur un échantillon sélectionné »",
-    "INF_EXTRA_REQUIREMENTS_1": "WCAG-EM Étape 1.d : Définir des exigences d’évaluation supplémentaires",
     "DATA_LOSS_WARNING": "Cette modification supprimera un ou plusieurs critères évalués du rapport. Vos observations pour ces critères seront supprimées. Voulez-vous vraiment continuer ?"
 }
