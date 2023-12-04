@@ -6,9 +6,9 @@
     "ERROR": {
     	"JSONLD_SYNTAX": "Le format de fichier n’est pas reconnu.",
     	"NO_ASSERTIONS": "Le fichier ne contenait aucune assertion reconnaissable.",
-    	"NO_COMPATIBLE_ASSERTIONS": "Aucune des affirmations de ce fichier ne correspond à l’échantillon sélectionné.",
+    	"NO_COMPATIBLE_ASSERTIONS": "Aucune des assertions de ce fichier ne correspond à l’échantillon sélectionné.",
     	"FILE_ERROR": "Format de fichier incorrect ou fichier endommagé."
     },
-    "SUCCESSFUL": "Des affirmations ont été ajoutées aux observations de cette page.",
+    "SUCCESSFUL": "Des assertions ont été ajoutées aux observations de cette page.",
     "MORE_INFO": "Plus d’informations sur l’importation d’EARL en JSON"
 }
