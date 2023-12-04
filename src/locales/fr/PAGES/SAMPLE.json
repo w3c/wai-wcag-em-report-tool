@@ -5,7 +5,7 @@
     "HD_STRUCT_SAMPLE": "Échantillon structuré",
     "HD_ESSENT_FUNC": "Fonctionnalités essentielles (notes facultatives de l’étape précédente) ",
     "HD_VARIETY_PAGE_TYPES": "Variété des types de pages Web (notes facultatives de l’étape précédente) ",
-    "HD_STRUCT_SAMPLE_SUB": "Pages Web de l'échantillon structuré",
+    "HD_STRUCT_SAMPLE_SUB": "Pages Web de l’échantillon structuré",
     "INF_STRUCT_SAMPLE": "Sélectionnez des pages Web qui reflètent tous les éléments identifiés : (1) pages Web courantes, (2) fonctionnalités essentielles, (3) types de pages Web, (4) technologies Web dont dépend la conformité et (5) autres pages Web pertinentes. Pour plus d’informations, voir [WCAG-EM Étape 3.a  : Inclure un échantillon structuré](https://www.w3.org/TR/WCAG-EM/#step3a).<br> **Note** : le terme « pages Web » utilisé ici inclut différents « états de page Web » ; voir la définition des [états de page Web](https://www.w3.org/TR/WCAG-EM/#states).",
     "HD_RANDOM_SAMPLE": "Échantillon sélectionné aléatoirement",
     "INF_RAND_SAMPLE": "Sélectionnez de manière aléatoire un échantillon de pages Web ; sélectionnez 10% de l’échantillon structuré choisi ci-dessus. Pour plus d’informations, voir [WCAG-EM Étape 3.b  : Inclure un échantillon sélectionné aléatoirement](https://www.w3.org/TR/WCAG-EM/#step3b).<br> **Note** : le terme « pages Web » utilisé ici inclut différents « états de page Web »  ; voir la définition des [états de page Web](https://www.w3.org/TR/WCAG-EM/#states).",
