@@ -43,6 +43,34 @@
     <li>Jules Ernst</li>
     <li>Bart Pluijms</li>
   </ul>
+
+  <h2>Translations</h2>
+
+  <h3>Dutch</h3>
+  <ul>
+    <li>Roel Antonisse, accessibility.nl</li>
+    <li>Michel Hansma, HAN University</li>
+    <li><a href="https://www.w3.org/People/hidde">Hidde de Vries</a>, W3C WAI</li>
+  </ul>
+
+  <h3>French</h3>
+  <ul>
+    <li><strong>Translators:</strong></li>
+    <ul>
+    <li>Alexandre Massot, State of Geneva, Switzerland</li>
+    <li>Mark Thiebaut, Iron Cloud</li>
+    <li>Yves Dubois-Pèlerin, State of Geneva, Switzerland</li>
+    <li>Eric Porlier</li>
+    </ul>
+    <li><strong>Contributors:</strong></li>
+    <ul>
+    <li>Julien Conti, State of Geneva, Switzerland</li>
+    <li>Dimitri Zaslavsky, State of Geneva, Switzerland</li>
+    <li>Audrey Maniez, Access 42</li>
+    <li>Rémi Bétin</li>
+    </ul>
+  </ul>
+
 </Page>
 <!-- /component -->
 
