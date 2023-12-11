@@ -7,13 +7,22 @@
     <h3>{num}: {TRANSLATED.CRITERION.TITLE}</h3>
     <em class="criterion-header__level">Level {conformanceLevel}</em>
     <div class="criterion__resource-links">
-      <ResourceLink
-        href="https://www.w3.org/WAI/WCAG21/Understanding/{id}.html"
-      >
-        {TRANSLATED.UNDERSTAND_BUTTON}
-        {num}
-      </ResourceLink>
-      <ResourceLink href="https://www.w3.org/WAI/WCAG21/quickref/#{id}">
+			{#if wcagVersion == '20'}
+	      <ResourceLink
+	        href="https://www.w3.org/TR/UNDERSTANDING-WCAG{wcagVersion}/{id}.html"
+	      >
+	        {TRANSLATED.UNDERSTAND_BUTTON}
+	        {num}
+	      </ResourceLink>
+			{:else}
+	      <ResourceLink
+	        href="https://www.w3.org/WAI/WCAG{wcagVersion}/Understanding/{id}.html"
+	      >
+	        {TRANSLATED.UNDERSTAND_BUTTON}
+	        {num}
+	      </ResourceLink>
+			{/if}
+      <ResourceLink href="https://www.w3.org/WAI/WCAG{wcagVersion}/quickref/#{id}">
         {TRANSLATED.HOW_TO_BUTTON}
         {num}
       </ResourceLink>
@@ -133,7 +142,9 @@ import Acknowledgements from '../../pages/Acknowledgements.svelte';
   export let criterionDetailsOpen = false;
   let criterionDetails;
 
-  const { translate, translateToObject } = getContext('app');
+  const { translate, translateToObject, scopeStore } = getContext('app');
+
+  $: wcagVersion = $scopeStore['WCAG_VERSION'].replace(".", "");
 
   $: TRANSLATED = {
     UNDERSTAND_BUTTON: $translate('PAGES.AUDIT.UNDERSTAND'),

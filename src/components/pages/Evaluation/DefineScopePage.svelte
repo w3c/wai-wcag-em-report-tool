@@ -157,7 +157,6 @@
       subject = $subjects.find((subject) => {
         return subject.type.indexOf(TestSubjectTypes.WEBSITE) >= 0;
     });
-
     test = $tests.find(($test) => {
       return $test.num === check;
     });
