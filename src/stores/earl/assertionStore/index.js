@@ -11,7 +11,10 @@ import collectionStore from '@app/stores/collectionStore.js';
 import {
   isUntestedOutcome,
   OUTCOME,
-  outcomeValueStore as outcomeValues
+  outcomeValueStore as outcomeValues,
+  isUntestedImpact,
+  IMPACT,
+  impactValueStore as impactValues
 } from '@app/stores/earl/resultStore/index.js';
 import subjects from '@app/stores/earl/subjectStore/index.js';
 import tests from '@app/stores/earl/testStore/index.js';
@@ -61,9 +64,14 @@ export async function importAssertions(json) {
   let $subjects;
   let $tests;
   let $outcomeValues;
+  let $impactValues;
 
   outcomeValues.subscribe((value) => {
     $outcomeValues = value;
+  })();
+
+  impactValues.subscribe((value) => {
+    $impactValues = value;
   })();
 
   assertions.subscribe((value) => {
@@ -83,18 +91,18 @@ export async function importAssertions(json) {
     const subjectID = idUrl
       ? idUrl.href
       : ['source', 'description'].reduce((href, key) => {
-        if (isURL(href)) {
-          return href;
-        }
+          if (isURL(href)) {
+            return href;
+          }
 
-        let url;
+          let url;
 
-        if (subject[key]) {
-          url = getURL(subject[key]);
-        }
+          if (subject[key]) {
+            url = getURL(subject[key]);
+          }
 
-        return url ? url.href : null;
-      }, '');
+          return url ? url.href : null;
+        }, '');
 
     if (isURL(subjectID)) {
       subject.id = subjectID;
@@ -127,7 +135,12 @@ export async function importAssertions(json) {
     const matchedCriterion = matchCriterion(test);
     const matchedSubject = matchSubject(subject);
 
-    if (matchedCriterion && matchedSubject && !isUntestedOutcome(result.outcome)) {
+    if (
+      matchedCriterion &&
+      matchedSubject &&
+      !isUntestedOutcome(result.outcome) &&
+      !isUntestedImpact(result.impact)
+    ) {
       return {
         subjectId: matchedSubject.id,
         criterionNum: matchedCriterion.num,
@@ -157,6 +170,7 @@ export async function importAssertions(json) {
       };
       TRANSLATED.IMPORT_RESULT_TEST = get('UI.IMPORT.IMPORT.TEST_PREFIX');
       TRANSLATED.OUTCOME = get('PAGES.AUDIT.LABEL_OUTCOME');
+      TRANSLATED.IMPACT = get('PAGES.AUDIT.LABEL_IMPACT');
     })();
 
     results.forEach((importableAssertion) => {
@@ -164,11 +178,15 @@ export async function importAssertions(json) {
       const $outcome = $outcomeValues.find(($outcomeValue) => {
         return $outcomeValue.id === result.outcome.id;
       });
+      const $impact = $impactValues.find(($impactValue) => {
+        return $impactValue.id === result.impact.id;
+      });
 
       const resultString =
         `${TRANSLATED.getImportHeading(importableAssertion)}:` +
         `\n${TRANSLATED.IMPORT_RESULT_TEST}: ${test.title || ''} ${test.id}` +
         `\n${TRANSLATED.OUTCOME}: ${$outcome.title}` +
+        `\n${TRANSLATED.IMPACT}: ${$impact.title}` +
         `\n${result.description || ''}`;
 
       assertion.result.addDescription(resultString);
@@ -176,6 +194,7 @@ export async function importAssertions(json) {
 
     if (testedResult) {
       assertion.result.setOutcome(OUTCOME.CANT_TELL.id);
+      assertion.result.setImpact(IMPACT.NO_IMPACT.id);
     }
 
     return assertion;
@@ -284,10 +303,7 @@ export async function importAssertions(json) {
           });
           const results = importableAssertions[criterionNum][subjectId];
           let foundAssertion = $assertions.find(($assertion) => {
-            return (
-              $assertion.test === $test &&
-              $assertion.subject === $subject
-            );
+            return $assertion.test === $test && $assertion.subject === $subject;
           });
 
           let newAssertion;

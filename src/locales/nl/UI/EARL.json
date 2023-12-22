@@ -6,5 +6,9 @@
     "UNTESTED": "Niet getoetst",
     "LEVEL_A": "Niveau A",
     "LEVEL_AA": "Niveau AA",
-    "LEVEL_AAA": "Niveau AAA"
+    "LEVEL_AAA": "Niveau AAA",
+    "HIGH_PRIORITY": "Prioritair",
+    "WARNING": "Waarschuwing",
+    "BEST_PRACTICE": "Aangeraden",
+    "NO_IMPACT": "Geen impact"
 }

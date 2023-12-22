@@ -4,6 +4,7 @@
     "BTN_SAVE_JSON": "Bewaar de evaluatiedata (JSON)",
     "HEADER_SUCCESS_CRITERION": "Success Criterium",
     "HEADER_RESULT": "Uitkomst",
+    "HEADER_IMPACT": "Impact",
     "HEADER_OBSERVATIONS": "Bevindingen",
     "NO_OBSERVATIONS_FOUND": "Geen bevindingen beschreven"
 }

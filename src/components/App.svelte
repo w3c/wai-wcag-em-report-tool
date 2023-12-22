@@ -17,7 +17,10 @@
   import scopeStore from '@app/stores/scopeStore.js';
   import summaryStore from '@app/stores/summaryStore.js';
   import wcagStore from '@app/stores/wcagStore.js';
-  import { outcomeValueStore } from '@app/stores/earl/resultStore/index.js';
+  import {
+    outcomeValueStore,
+    impactValueStore
+  } from '@app/stores/earl/resultStore/index.js';
   import { basepath as storedBasepath } from '@app/stores/appStore.js';
   import evaluationStore from '@app/stores/evaluationStore.js';
   import assertions from '@app/stores/earl/assertionStore/index.js';
@@ -39,6 +42,7 @@
 
   setContext('Evaluation', {
     outcomeValues: outcomeValueStore,
+    impactValues: impactValueStore,
     wcagCriteria: wcagStore
   });
 
@@ -78,22 +82,22 @@
     });
 
   onMount(() => {
-    window.addEventListener("input", setInteracted);
+    window.addEventListener('input', setInteracted);
     storedBasepath.set(basepath);
-    document.addEventListener("keydown", saveReportJSON);
+    document.addEventListener('keydown', saveReportJSON);
   });
 
-  function setInteracted(){
-      window.removeEventListener("input", setInteracted);
-      //set some var to notify us of user changes
-      window.onbeforeunload = closeEditorWarning;
+  function setInteracted() {
+    window.removeEventListener('input', setInteracted);
+    //set some var to notify us of user changes
+    window.onbeforeunload = closeEditorWarning;
   }
 
-  function closeEditorWarning(){
-    return 'Are you sure?'
+  function closeEditorWarning() {
+    return 'Are you sure?';
   }
 
-  function saveReportJSON(e){
+  function saveReportJSON(e) {
     if (e.keyCode === 83 && (e.ctrlKey || e.metaKey)) {
       e.preventDefault();
       handleJSONDownloadClick();
@@ -106,25 +110,37 @@
   }
 
   function forceEvaluationUpdate() {
-    $evaluationStore.reportFindings.evaluator = $summaryStore.EVALUATION_CREATOR;
-    $evaluationStore.reportFindings.commissioner = $summaryStore.EVALUATION_COMMISSIONER;
+    $evaluationStore.reportFindings.evaluator =
+      $summaryStore.EVALUATION_CREATOR;
+    $evaluationStore.reportFindings.commissioner =
+      $summaryStore.EVALUATION_COMMISSIONER;
     $evaluationStore.reportFindings.date = $summaryStore.EVALUATION_DATE;
     $evaluationStore.reportFindings.summary = $summaryStore.EVALUATION_SUMMARY;
     $evaluationStore.reportFindings.title = $summaryStore.EVALUATION_TITLE;
-    $evaluationStore.defineScope.scope = {description: $scopeStore.WEBSITE_SCOPE, title: $scopeStore.SITE_NAME}
+    $evaluationStore.defineScope.scope = {
+      description: $scopeStore.WEBSITE_SCOPE,
+      title: $scopeStore.SITE_NAME
+    };
     $evaluationStore.defineScope.wcagVersion = $scopeStore.WCAG_VERSION;
-    $evaluationStore.defineScope.conformanceTarget = $scopeStore.CONFORMANCE_TARGET;
-    $evaluationStore.defineScope.accessibilitySupportBaseline = $scopeStore.AS_BASELINE;
-    $evaluationStore.defineScope.additionalEvaluationRequirements = $scopeStore.ADDITIONAL_REQUIREMENTS;
+    $evaluationStore.defineScope.conformanceTarget =
+      $scopeStore.CONFORMANCE_TARGET;
+    $evaluationStore.defineScope.accessibilitySupportBaseline =
+      $scopeStore.AS_BASELINE;
+    $evaluationStore.defineScope.additionalEvaluationRequirements =
+      $scopeStore.ADDITIONAL_REQUIREMENTS;
 
     $evaluationStore.auditSample = $assertions;
 
-    $evaluationStore.selectSample.structuredSample = $sampleStore['STRUCTURED_SAMPLE'];
+    $evaluationStore.selectSample.structuredSample =
+      $sampleStore['STRUCTURED_SAMPLE'];
     $evaluationStore.selectSample.randomSample = $sampleStore['RANDOM_SAMPLE'];
-    $evaluationStore.exploreTarget.technologiesReliedUpon = $exploreStore['TECHNOLOGIES_RELIED_UPON'];
-    $evaluationStore.exploreTarget.essentialFunctionality = $exploreStore['ESSENTIAL_FUNCTIONALITY'];
-    $evaluationStore.exploreTarget.pageTypeVariety = $exploreStore['PAGE_TYPES'];
-    $evaluationStore.reportFindings.evaluationSpecifics = $summaryStore.EVALUATION_SPECIFICS;
+    $evaluationStore.exploreTarget.technologiesReliedUpon =
+      $exploreStore['TECHNOLOGIES_RELIED_UPON'];
+    $evaluationStore.exploreTarget.essentialFunctionality =
+      $exploreStore['ESSENTIAL_FUNCTIONALITY'];
+    $evaluationStore.exploreTarget.pageTypeVariety =
+      $exploreStore['PAGE_TYPES'];
+    $evaluationStore.reportFindings.evaluationSpecifics =
+      $summaryStore.EVALUATION_SPECIFICS;
   }
-
 </script>

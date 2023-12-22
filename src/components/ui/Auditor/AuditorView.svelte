@@ -1,10 +1,19 @@
 <div class="AuditorView">
   {#each [...principles] as principle}
     <details open>
-      <summary><h2 id={`principle-${TRANSLATED.PRINCIPLES[principle].TITLE.toLowerCase()}`}>{principle} {TRANSLATED.PRINCIPLES[principle].TITLE}</h2></summary>
+      <summary>
+        <h2
+          id="{`principle-${TRANSLATED.PRINCIPLES[principle].TITLE.toLowerCase()}`}"
+        >
+          {principle}
+          {TRANSLATED.PRINCIPLES[principle].TITLE}
+        </h2>
+      </summary>
       {#each [...guidelines].filter((g) => g.indexOf(principle) === 0) as guideline}
         <details open>
-          <summary><h3>{guideline} {TRANSLATED.GUIDELINES[guideline].TITLE}</h3></summary>
+          <summary>
+            <h3>{guideline} {TRANSLATED.GUIDELINES[guideline].TITLE}</h3>
+          </summary>
           <!--
            * Should filter assertions based on test prop;
            * assertion.test.num in case of wcag.
@@ -44,7 +53,7 @@
               <Criterion {...criterion} />
             </div>
           {/each}
-          </details>
+        </details>
       {/each}
     </details>
   {:else}

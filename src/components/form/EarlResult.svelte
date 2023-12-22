@@ -28,6 +28,13 @@
       value="{_assertion.result.outcome.id}"
       on:change="{handleOutcomeChange}"
     />
+    <Select
+      id="{`assertion__${_assertion.ID}--result__impact`}"
+      label="{$translate('PAGES.AUDIT.LABEL_IMPACT')}"
+      options="{impactOptions}"
+      value="{_assertion.result.impact.id}"
+      on:change="{handleImpactChange}"
+    />
 
     <Textarea
       id="{`assertion__${_assertion.ID}--result__description`}"
@@ -37,7 +44,11 @@
       className="Criterion__Observation"
     >
       <span slot="after-textarea" class="view-in-report">
-      <Link to={`/evaluation/view-report#criterion-${_assertion.test.num.replaceAll('.', '')}`}>{TRANSLATED.VIEW_IN_REPORT}</Link>
+        <Link
+          to="{`/evaluation/view-report#criterion-${_assertion.test.num.replaceAll('.', '')}`}"
+        >
+          {TRANSLATED.VIEW_IN_REPORT}
+        </Link>
       </span>
     </Textarea>
   </div>
@@ -109,7 +120,9 @@
   export let test = {};
 
   const { translate } = getContext('app');
-  const { outcomeValues } = getContext('Evaluation');
+  const { outcomeValues, impactValues } = getContext('Evaluation');
+
+  console.log(outcomeOptions, impactOptions);
 
   $: TRANSLATED = {
     VIEW_IN_REPORT: $translate('PAGES.AUDIT.VIEW_IN_REPORT')
@@ -126,6 +139,17 @@
     };
   });
 
+  $: impactOptions = $impactValues.map((impactValue, index) => {
+    const title = impactValue.title;
+    const value = impactValue.id;
+
+    return {
+      title,
+      value,
+      selected: index === $impactValues.length - 1
+    };
+  });
+
   // Get or create an Assertion
   $: _assertion =
     $assertions.find(($assertion) => {
@@ -139,6 +163,16 @@
     const value = event.target.value;
     _assertion.result.outcome = $outcomeValues.find((outcomeValue) => {
       return outcomeValue.id === value;
+    });
+
+    _assertion.result.setDate();
+    assertions.update(() => $assertions);
+  }
+
+  function handleImpactChange(event) {
+    const value = event.target.value;
+    _assertion.result.impact = $impactValues.find((impactValue) => {
+      return impactValue.id === value;
     });
 
     _assertion.result.setDate();

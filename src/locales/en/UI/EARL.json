@@ -6,5 +6,9 @@
     "UNTESTED": "Not checked",
     "LEVEL_A": "Level A",
     "LEVEL_AA": "Level AA",
-    "LEVEL_AAA": "Level AAA"
+    "LEVEL_AAA": "Level AAA",
+    "HIGH_PRIORITY": "High priority",
+    "WARNING": "Warning",
+    "BEST_PRACTICE": "Best practice",
+    "NO_IMPACT": "No impact"
 }

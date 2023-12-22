@@ -14,9 +14,15 @@ import { downloadFileJSON } from '@app/scripts/files.js';
 
 // Import related stores and combine
 import { TestResult } from '@app/stores/earl/resultStore/models.js';
-import { outcomeValueStore as outcomeValues } from '@app/stores/earl/resultStore/index.js';
+import {
+  outcomeValueStore as outcomeValues,
+  impactValueStore as impactValues
+} from '@app/stores/earl/resultStore/index.js';
 import scopeStore, { initialScopeStore } from '@app/stores/scopeStore.js';
-import exploreStore, { initialExploreStore, webTechnologyStore } from '@app/stores/exploreStore.js';
+import exploreStore, {
+  initialExploreStore,
+  webTechnologyStore
+} from '@app/stores/exploreStore.js';
 import sampleStore, { initialSampleStore } from '@app/stores/sampleStore.js';
 import summaryStore, { initialSummaryStore } from '@app/stores/summaryStore.js';
 import {
@@ -223,6 +229,7 @@ class EvaluationModel {
       .then(async (framedEvaluation) => {
         let $assertions;
         let $outcomeValues;
+        let $impactValues;
         let $subjects;
         let $tests;
 
@@ -245,6 +252,9 @@ class EvaluationModel {
           }),
           outcomeValues: outcomeValues.subscribe((value) => {
             $outcomeValues = value;
+          }),
+          impactValues: impactValues.subscribe((value) => {
+            $impactValues = value;
           }),
           subjects: subjects.subscribe((value) => {
             $subjects = value;
@@ -281,21 +291,21 @@ class EvaluationModel {
         if (!selectSample) {
           selectSample = {};
         }
-  
+
         language = framedEvaluation.language || 'en';
         locale.set(language);
         wcagVersion = defineScope.wcagVersion || DEFAULT_WCAG_VERSION;
 
         //Improved compatibility for older reports
-        if(defineScope.step1b){
-          if(defineScope.step1b == "WAI:WCAG2A-Conformance"){
-            defineScope.step1b = "A";
-          }else if(defineScope.step1b == "WAI:WCAG2AA-Conformance"){
-            defineScope.step1b = "AA";
-          }else if(defineScope.step1b == "WAI:WCAG2AAA-Conformance"){
-            defineScope.step1b = "AAA";
-          }else{
-            defineScope.step1b = "AA";
+        if (defineScope.step1b) {
+          if (defineScope.step1b == 'WAI:WCAG2A-Conformance') {
+            defineScope.step1b = 'A';
+          } else if (defineScope.step1b == 'WAI:WCAG2AA-Conformance') {
+            defineScope.step1b = 'AA';
+          } else if (defineScope.step1b == 'WAI:WCAG2AAA-Conformance') {
+            defineScope.step1b = 'AAA';
+          } else {
+            defineScope.step1b = 'AA';
           }
         }
 
@@ -315,7 +325,10 @@ class EvaluationModel {
             ADDITIONAL_REQUIREMENTS:
               defineScope.additionalEvaluationRequirements || '',
             AS_BASELINE: defineScope.accessibilitySupportBaseline || '',
-            CONFORMANCE_TARGET: defineScope.conformanceTarget || defineScope.step1b || DEFAULT_CONFORMANCE_LEVEL,
+            CONFORMANCE_TARGET:
+              defineScope.conformanceTarget ||
+              defineScope.step1b ||
+              DEFAULT_CONFORMANCE_LEVEL,
             SITE_NAME:
               openedScope.title ||
               // Deprecated
@@ -344,7 +357,9 @@ class EvaluationModel {
           }
 
           return Object.assign(value, {
-            TECHNOLOGIES_RELIED_UPON: technologies.map((tech) => tech.title || tech),
+            TECHNOLOGIES_RELIED_UPON: technologies.map(
+              (tech) => tech.title || tech
+            ),
             ESSENTIAL_FUNCTIONALITY:
               exploreTarget.essentialFunctionality ||
               framedEvaluation.essentialFunctionality ||
@@ -367,18 +382,18 @@ class EvaluationModel {
             ? structuredSample
             : // Deprecated / previous versions
             deprecated.structuredSample
-              ? deprecated.structuredSample.DfnWebpageWcag21 ||
+            ? deprecated.structuredSample.DfnWebpageWcag21 ||
               deprecated.structuredSample.DfnWebpageWcag20
-              : // Default
+            : // Default
               [];
 
           let importRandomSample = randomSample
             ? randomSample
             : // Deprecated / previous versions
             deprecated.randomSample
-              ? deprecated.randomSample.DfnWebpageWcag21 ||
+            ? deprecated.randomSample.DfnWebpageWcag21 ||
               deprecated.randomSample.DfnWebpageWcag20
-              : // Default
+            : // Default
               [];
 
           if (!Array.isArray(importStructuredSample)) {
@@ -390,19 +405,22 @@ class EvaluationModel {
           }
 
           importStructuredSample.forEach((sample) => {
-            if(Array.isArray(sample.title)){
+            if (Array.isArray(sample.title)) {
               sample.title = sample.title[0];
               sample.description = sample.description[0];
             }
           });
           importRandomSample.forEach((sample) => {
-            if(Array.isArray(sample.title)){
+            if (Array.isArray(sample.title)) {
               sample.title = sample.title[0];
               sample.description = sample.description[0];
             }
           });
-          
-          if(importStructuredSample != undefined && importRandomSample != undefined){
+
+          if (
+            importStructuredSample != undefined &&
+            importRandomSample != undefined
+          ) {
             return {
               STRUCTURED_SAMPLE: importStructuredSample.map((sample) => {
                 sample.type = TestSubjectTypes.WEBPAGE;
@@ -415,22 +433,24 @@ class EvaluationModel {
                 return subjects.create(sample);
               })
             };
-          }else{
+          } else {
             return {
               STRUCTURED_SAMPLE: [],
               RANDOM_SAMPLE: []
             };
           }
-          
         });
 
         //Improved compatibility for older reports
-        let altCreator = "";
-        if(framedEvaluation["dcterms:creator"]){
-          altCreator = framedEvaluation["dcterms:creator"]["http://xmlns.com/foaf/0.1/name"];
+        let altCreator = '';
+        if (framedEvaluation['dcterms:creator']) {
+          altCreator =
+            framedEvaluation['dcterms:creator'][
+              'http://xmlns.com/foaf/0.1/name'
+            ];
         }
-        let altDate = "";
-        if(reportFindings.date){
+        let altDate = '';
+        if (reportFindings.date) {
           altDate = reportFindings.date['@value'];
         }
 
@@ -463,7 +483,10 @@ class EvaluationModel {
               const { assertedBy, mode, result, subject, test } = assertion;
               let newSubject = $subjects.find(($subject) => {
                 if (
-                  jsonld.hasType($subject, [TestSubjectTypes.WEBSITE, 'WebSite'])
+                  jsonld.hasType($subject, [
+                    TestSubjectTypes.WEBSITE,
+                    'WebSite'
+                  ])
                 ) {
                   return jsonld.hasType($subject, TestSubjectTypes.WEBSITE);
                 }
@@ -476,8 +499,13 @@ class EvaluationModel {
               let newResult = result
                 ? new TestResult(result)
                 : new TestResult();
+
               newResult.outcome = $outcomeValues.find(($outcomeValue) => {
                 return $outcomeValue.id === newResult.outcome.id;
+              });
+
+              newResult.impact = $impactValues.find(($impactValue) => {
+                return $impactValue.id === newResult.impact.id;
               });
 
               let newTest = $tests.find(($test) => {
@@ -522,9 +550,12 @@ class EvaluationModel {
                   //   assertions.create(newAssertion);
                   // }
 
-                  if(assertion.subject.type.indexOf("Website") >= 0 || assertion.subject.type.indexOf("WebSite") >= 0){
+                  if (
+                    assertion.subject.type.indexOf('Website') >= 0 ||
+                    assertion.subject.type.indexOf('WebSite') >= 0
+                  ) {
                     assertions.create(newAssertion);
-                  }else {
+                  } else {
                     newSubject = $subjects.find(($subject) => {
                       return $subject.title == assertion.subject.title;
                     });
@@ -532,8 +563,7 @@ class EvaluationModel {
                     assertion.result = newResult;
                     assertion.test = newTest;
                     assertions.create(assertion);
-                  
-                }
+                  }
                 })({
                   assertedBy,
                   mode,
@@ -545,7 +575,7 @@ class EvaluationModel {
             });
           });
 
-          console.log($assertions);
+        console.log($assertions);
 
         unscribeStores();
       });
@@ -593,7 +623,11 @@ class EvaluationModel {
       .compact(this, appJsonLdContext)
       .then((compacted) => {
         downloadFileJSON({
-          name: `${compacted.defineScope.scope.title ? slugify(compacted.defineScope.scope.title) + '-': ""}evaluation.json`,
+          name: `${
+            compacted.defineScope.scope.title
+              ? slugify(compacted.defineScope.scope.title) + '-'
+              : ''
+          }evaluation.json`,
           type: 'application/json',
           contents: JSON.stringify(compacted)
         });
@@ -602,90 +636,87 @@ class EvaluationModel {
         console.error(`An error occured: “${error.name}”\n${error.message}`);
       });
   }
-
 }
 
 const _evaluation = writable(new EvaluationModel());
 
-export default (
-  [
-    assertions,
-    locale,
-    subjects,
-    scopeStore,
-    exploreStore,
-    sampleStore,
-    summaryStore
-  ],
-  ([
-    $assertions,
-    $locale,
-    $subjects,
-    $scopeStore,
-    $exploreStore,
-    $sampleStore,
-    $summaryStore
-  ]) => {
-    const {
-      ADDITIONAL_REQUIREMENTS,
-      AS_BASELINE,
-      CONFORMANCE_TARGET,
-      WCAG_VERSION
-    } = $scopeStore;
-    const { RANDOM_SAMPLE, STRUCTURED_SAMPLE } = $sampleStore;
+export default ([
+  assertions,
+  locale,
+  subjects,
+  scopeStore,
+  exploreStore,
+  sampleStore,
+  summaryStore
+],
+([
+  $assertions,
+  $locale,
+  $subjects,
+  $scopeStore,
+  $exploreStore,
+  $sampleStore,
+  $summaryStore
+]) => {
+  const {
+    ADDITIONAL_REQUIREMENTS,
+    AS_BASELINE,
+    CONFORMANCE_TARGET,
+    WCAG_VERSION
+  } = $scopeStore;
+  const { RANDOM_SAMPLE, STRUCTURED_SAMPLE } = $sampleStore;
 
-    const {
-      ESSENTIAL_FUNCTIONALITY,
-      PAGE_TYPES,
-      TECHNOLOGIES_RELIED_UPON
-    } = $exploreStore;
+  const {
+    ESSENTIAL_FUNCTIONALITY,
+    PAGE_TYPES,
+    TECHNOLOGIES_RELIED_UPON
+  } = $exploreStore;
 
-    const {
-      EVALUATION_CREATOR,
-      EVALUATION_COMMISSIONER,
-      EVALUATION_DATE,
-      EVALUATION_SPECIFICS,
-      EVALUATION_SUMMARY,
-      EVALUATION_TITLE
-    } = $summaryStore;
+  const {
+    EVALUATION_CREATOR,
+    EVALUATION_COMMISSIONER,
+    EVALUATION_DATE,
+    EVALUATION_SPECIFICS,
+    EVALUATION_SUMMARY,
+    EVALUATION_TITLE
+  } = $summaryStore;
 
-    _evaluation['@language'] = $locale;
+  _evaluation['@language'] = $locale;
 
-    Object.assign(_evaluation.defineScope, {
-      scope: $subjects.find(($subject) => {
-        return $subject.type.indexOf(TestSubjectTypes.WEBSITE) >= 0;
-      }),
-      wcagVersion: WCAG_VERSION,
-      conformanceTarget: CONFORMANCE_TARGET,
-      accessibilitySupportBaseline: AS_BASELINE,
-      additionalEvaluationRequirements: ADDITIONAL_REQUIREMENTS
-    });
+  Object.assign(_evaluation.defineScope, {
+    scope: $subjects.find(($subject) => {
+      return $subject.type.indexOf(TestSubjectTypes.WEBSITE) >= 0;
+    }),
+    wcagVersion: WCAG_VERSION,
+    conformanceTarget: CONFORMANCE_TARGET,
+    accessibilitySupportBaseline: AS_BASELINE,
+    additionalEvaluationRequirements: ADDITIONAL_REQUIREMENTS
+  });
 
-    Object.assign(_evaluation.exploreTarget, {
-      technologiesReliedUpon: webTechnologies.filter(
-        (tech) => TECHNOLOGIES_RELIED_UPON.indexOf(tech.title) >= 0
-      ),
-      essentialFunctionality: ESSENTIAL_FUNCTIONALITY,
-      pageTypeVariety: PAGE_TYPES
-    });
+  Object.assign(_evaluation.exploreTarget, {
+    technologiesReliedUpon: webTechnologies.filter(
+      (tech) => TECHNOLOGIES_RELIED_UPON.indexOf(tech.title) >= 0
+    ),
+    essentialFunctionality: ESSENTIAL_FUNCTIONALITY,
+    pageTypeVariety: PAGE_TYPES
+  });
 
-    Object.assign(_evaluation.selectSample, {
-      randomSample: RANDOM_SAMPLE,
-      structuredSample: STRUCTURED_SAMPLE
-    });
+  Object.assign(_evaluation.selectSample, {
+    randomSample: RANDOM_SAMPLE,
+    structuredSample: STRUCTURED_SAMPLE
+  });
 
-    _evaluation.auditSample = $assertions;
+  _evaluation.auditSample = $assertions;
 
-    Object.assign(_evaluation.reportFindings, {
-      commissioner: EVALUATION_COMMISSIONER,
-      date: EVALUATION_DATE,
-      evaluator: EVALUATION_CREATOR,
-      evaluationSpecifics: EVALUATION_SPECIFICS,
-      summary: EVALUATION_SUMMARY,
-      title: EVALUATION_TITLE
-    });
+  Object.assign(_evaluation.reportFindings, {
+    commissioner: EVALUATION_COMMISSIONER,
+    date: EVALUATION_DATE,
+    evaluator: EVALUATION_CREATOR,
+    evaluationSpecifics: EVALUATION_SPECIFICS,
+    summary: EVALUATION_SUMMARY,
+    title: EVALUATION_TITLE
+  });
 
-    return _evaluation;
-  },
-  _evaluation
-);
+  return _evaluation;
+},
+_evaluation);

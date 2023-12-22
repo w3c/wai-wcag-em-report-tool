@@ -4,8 +4,13 @@
 
 <script>
   import { getContext, onDestroy, onMount, setContext } from 'svelte';
-  import { outcomeValueStore } from '@app/stores/earl/resultStore/index.js';
-  import subjects, { TestSubjectTypes } from '@app/stores/earl/subjectStore/index.js';
+  import {
+    outcomeValueStore,
+    impactValueStore
+  } from '@app/stores/earl/resultStore/index.js';
+  import subjects, {
+    TestSubjectTypes
+  } from '@app/stores/earl/subjectStore/index.js';
   import wcag from '@app/stores/wcagStore.js';
 
   const { scopeStore } = getContext('app');
@@ -29,6 +34,7 @@
 
   setContext('Evaluation', {
     outcomeValues: outcomeValueStore,
+    impactValues: impactValueStore,
     wcagCriteria: wcag
   });
 
@@ -36,10 +42,12 @@
     // Stores that need to be up-to-date in background
     endSubscription = (() => {
       const unscribeOutcomeStore = outcomeValueStore.subscribe(() => {});
+      const unscribeImpactStore = impactValueStore.subscribe(() => {});
       const unscribeWcag = wcag.subscribe(() => {});
 
       return () => {
         unscribeOutcomeStore();
+        unscribeImpactStore();
         unscribeWcag();
       };
     })();

@@ -75,6 +75,74 @@ Object.freeze(OUTCOME);
 
 const outcomeValues = [PASSED, FAILED, CANT_TELL, INAPPLICABLE, UNTESTED];
 
+export class ImpactValue extends BaseModel {
+  constructor(options) {
+    super(options);
+
+    const { type } = options;
+    const ALLOWED_TYPES = [
+      'Pass',
+      'Fail',
+      'CannotTell',
+      'NotApplicable',
+      'NotTested'
+    ];
+
+    Object.assign(this['@context'], {
+      ImpactValue: 'earl:ImpactValue',
+      Pass: 'earl:Pass',
+      Fail: 'earl:Fail',
+      CannotTell: 'earl:CannotTell',
+      NotApplicable: 'earl:NotApplicable',
+      NotTested: 'earl:NotTested'
+    });
+
+    this.type = ['ImpactValue'];
+
+    if (ALLOWED_TYPES.indexOf(type) >= 0) {
+      this.type.push(type);
+    }
+
+    delete this.date;
+  }
+
+  update() {}
+}
+
+const HIGH_PRIORITY = new ImpactValue({
+  id: 'earl:highPriority',
+  type: 'HighPriority'
+});
+Object.freeze(HIGH_PRIORITY);
+
+const WARNING = new ImpactValue({
+  id: 'earl:warning',
+  type: 'Warning'
+});
+Object.freeze(WARNING);
+
+const BEST_PRACTICE = new ImpactValue({
+  id: 'earl:bestPractice',
+  type: 'BestPractice'
+});
+Object.freeze(BEST_PRACTICE);
+
+const NO_IMPACT = new ImpactValue({
+  id: 'earl:noImpact',
+  type: 'NoImpact'
+});
+Object.freeze(NO_IMPACT);
+
+export const IMPACT = {
+  HIGH_PRIORITY,
+  WARNING,
+  BEST_PRACTICE,
+  NO_IMPACT
+};
+Object.freeze(IMPACT);
+
+const impactValues = [HIGH_PRIORITY, WARNING, BEST_PRACTICE, NO_IMPACT];
+
 export class TestResult extends BaseModel {
   constructor(options = {}) {
     super(options);
@@ -85,13 +153,22 @@ export class TestResult extends BaseModel {
       outcome: {
         '@id': 'earl:outcome',
         '@type': 'earl:OutcomeValue'
+      },
+      ImpactValue: 'earl:ImpactValue',
+      impact: {
+        '@id': 'earl:impact',
+        '@type': 'earl:ImpactValue'
       }
     });
 
     this.type = ['TestResult'];
-    
+
     this.outcome = this.setOutcome(
       (options.outcome && options.outcome.id) || OUTCOME.UNTESTED.id
+    );
+
+    this.impact = this.setImpact(
+      (options.impact && options.impact.id) || IMPACT.NO_IMPACT.id
     );
   }
 
@@ -116,6 +193,26 @@ export class TestResult extends BaseModel {
   }
 
   /**
+   * Set the impact by ImpactValue id
+   * @param {String} id ld string, compacted IRI e.g. earl:warning
+   */
+  setImpact(id) {
+    if (typeof id !== 'string') {
+      console.warn('[setImpact]: Expected id to be defined as type string.');
+    }
+
+    const newImpact = [...impactValues].find((impact) => {
+      return impact.id === id;
+    });
+
+    if (newImpact) {
+      this.impact = newImpact;
+    }
+
+    return newImpact;
+  }
+
+  /**
    * Add contents to description
    * seperated by a newline.
    * @param {String} contents
@@ -123,7 +220,9 @@ export class TestResult extends BaseModel {
    */
   addDescription(contents = '') {
     if (typeof contents !== 'string') {
-      console.warn('[addDescription]: Expected contents to be of type string. Treating as empty string.');
+      console.warn(
+        '[addDescription]: Expected contents to be of type string. Treating as empty string.'
+      );
       contents = '';
     }
 

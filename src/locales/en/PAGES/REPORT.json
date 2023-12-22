@@ -4,6 +4,7 @@
     "BTN_SAVE_JSON": "Download Report (JSON)",
     "HEADER_SUCCESS_CRITERION": "Success Criterion",
     "HEADER_RESULT": "Result",
+    "HEADER_IMPACT": "Impact",
     "HEADER_OBSERVATIONS": "Observations",
     "NO_OBSERVATIONS_FOUND": "No observations added"
 }
