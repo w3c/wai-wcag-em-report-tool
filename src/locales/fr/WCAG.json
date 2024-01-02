@@ -725,6 +725,51 @@
             "TITLE": "Messages d’état",
             "DESCRIPTION": "Dans un contenu implémenté via un langage de balisage, les messages d’état peuvent être déterminés par un programme informatique grâce à un rôle ou des propriétés afin qu’ils puissent être présentés à l’utilisateur par des technologies d’assistance sans recevoir le focus.",
             "DETAILS": {}
+        },
+        "2.4.11": {
+            "TITLE": "Focus Not Obscured (Minimum)",
+            "DESCRIPTION": "When a user interface component receives keyboard focus, the component is not entirely hidden due to author-created content.",
+            "DETAILS": {}
+        },
+        "2.4.12": {
+            "TITLE": "Focus Not Obscured (Enhanced)",
+            "DESCRIPTION": "When a user interface component receives keyboard focus, no part of the component is hidden by author-created content.",
+            "DETAILS": {}
+        },
+        "2.4.13": {
+            "TITLE": "Focus Appearance",
+            "DESCRIPTION": "When the keyboard focus indicator is visible, an area of the focus indicator meets all the following:",
+            "DETAILS": {}
+        },
+        "2.5.7": {
+            "TITLE": "Dragging Movements",
+            "DESCRIPTION": "All functionality that uses a dragging movement for operation can be achieved by a single pointer without dragging, unless dragging is essential or the functionality is determined by the user agent and not modified by the author.",
+            "DETAILS": {}
+        },
+        "2.5.8": {
+            "TITLE": "Target Size (Minimum)",
+            "DESCRIPTION": "The size of the target for pointer inputs is at least 24 by 24 CSS pixels, except where:",
+            "DETAILS": {}
+        },
+        "3.2.6": {
+            "TITLE": "Consistent Help",
+            "DESCRIPTION": "If a Web page contains any of the following help mechanisms, and those mechanisms are repeated on multiple Web pages within a set of Web pages, they occur in the same order relative to other page content, unless a change is initiated by the user:",
+            "DETAILS": {}
+        },
+        "3.3.7": {
+            "TITLE": "Redundant Entry",
+            "DESCRIPTION": "Information previously entered by or provided to the user that is required to be entered again in the same process is either:",
+            "DETAILS": {}
+        },
+        "3.3.8": {
+            "TITLE": "Accessible Authentication (Minimum)",
+            "DESCRIPTION": "A cognitive function test (such as remembering a password or solving a puzzle) is not required for any step in an authentication process unless that step provides at least one of the following:",
+            "DETAILS": {}
+        },
+        "3.3.9": {
+            "TITLE": "Accessible Authentication (Enhanced)",
+            "DESCRIPTION": "A cognitive function test (such as remembering a password or solving a puzzle) is not required for any step in an authentication process unless that step provides at least one of the following:",
+            "DETAILS": {}
         }
     }
 }
