@@ -589,6 +589,7 @@ class EvaluationModel {
   }
 
   save() {
+    console.log(this);
     jsonld
       .compact(this, appJsonLdContext)
       .then((compacted) => {

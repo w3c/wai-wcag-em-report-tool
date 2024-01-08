@@ -16,8 +16,19 @@ import { TestRequirement } from './models.js';
 const LATEST_WCAG_VERSION = WCAG_VERSIONS.slice(-1)[0];
 console.log(LATEST_WCAG_VERSION);
 console.log(wcagCriteriaDictionary);
+
+var TempArr = [];
+var sortedCrit = [];
+for (var Key in wcagCriteriaDictionary){
+    TempArr.push(Key);
+}
+for (var i = TempArr.length-1; i >= 0; i--){
+    sortedCrit[TempArr[i]] = wcagCriteriaDictionary[TempArr[i]];
+}
+console.log(sortedCrit);
+
 let initialTestStore = [];
-for (const property in wcagCriteriaDictionary) {
+for (const property in sortedCrit) {
   console.log(property);
   let temp = wcagCriteriaDictionary[property].map(
   (criterion) => {
@@ -30,7 +41,9 @@ for (const property in wcagCriteriaDictionary) {
   });
  
   temp.forEach((t) => {
-   initialTestStore.push(t);
+    if(initialTestStore.some(function(m){ return m.num == t.num }) == false){
+      initialTestStore.push(t);
+    } 
   });
 }
 console.log(initialTestStore);
