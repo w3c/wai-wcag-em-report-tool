@@ -28,7 +28,7 @@ for (var i = TempArr.length-1; i >= 0; i--){
 console.log(sortedCrit);
 
 let initialTestStore = [];
-for (const property in sortedCrit) {
+for (const property in wcagCriteriaDictionary) {
   console.log(property);
   let temp = wcagCriteriaDictionary[property].map(
   (criterion) => {
@@ -41,12 +41,12 @@ for (const property in sortedCrit) {
   });
  
   temp.forEach((t) => {
-    if(initialTestStore.some(function(m){ return m.num == t.num }) == false){
+  //   if(initialTestStore.some(function(m){ return m.num == t.num }) == false){
       initialTestStore.push(t);
-    } 
+  //   } 
   });
 }
-console.log(initialTestStore);
+// console.log(initialTestStore);
 
 /**
  * $tests

@@ -56,7 +56,7 @@ export async function importAssertions(json) {
     successfull: 0,
     failed: 0
   };
-
+  console.log("sdfgds");
   let $assertions;
   let $subjects;
   let $tests;
