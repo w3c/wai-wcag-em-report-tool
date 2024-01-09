@@ -56,7 +56,7 @@ export async function importAssertions(json) {
     successfull: 0,
     failed: 0
   };
-  console.log("sdfgds");
+
   let $assertions;
   let $subjects;
   let $tests;
@@ -100,7 +100,6 @@ export async function importAssertions(json) {
       subject.id = subjectID;
 
       return $subjects.find(($subject) => {
-        console.log($subject.id);
         return $subject.id === subject.id;
       });
     }

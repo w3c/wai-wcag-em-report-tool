@@ -37,12 +37,9 @@ for (const property in wcagCriteriaDictionary) {
   });
  
   temp.forEach((t) => {
-  //   if(initialTestStore.some(function(m){ return m.num == t.num }) == false){
       initialTestStore.push(t);
-  //   } 
   });
 }
-// console.log(initialTestStore);
 
 /**
  * $tests

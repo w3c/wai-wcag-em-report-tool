@@ -183,8 +183,6 @@
       }
     });
     
-    console.log($assertions);
-
     assertionsToRemove = $assertions.filter((assertion) => {
       return available.indexOf(assertion.test.num) == -1;
     });
