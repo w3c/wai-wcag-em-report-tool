@@ -150,7 +150,7 @@
   let assertionsToRemove = [];
   $: {
     // Get or create an Assertion
-    $assertions = [];
+    //$assertions = [];
     const available = [];
     $CriteriaSelected.forEach((criteria) => {
       const check = criteria.num;
@@ -158,19 +158,28 @@
       subject = $subjects.find((subject) => {
         return subject.type.indexOf(TestSubjectTypes.WEBSITE) >= 0;
     });
-    console.log($tests);
+
     test = $tests.find(($test) => {
-      return $test.num === check && $test.id === "WCAG"+$scopeStore['WCAG_VERSION'].split('.').join("")+":"+criteria.id;
+      return $test.num === check  && $test.id === "WCAG"+$scopeStore['WCAG_VERSION'].split('.').join("")+":"+criteria.id;
     });
 
       
     if(test != undefined){
     $assertions.find(($assertion) => {
-      const matchedTest = $assertion.test === test;
+      const matchedTest = $assertion.test.num === test.num;
       const matchedSubject = $assertion.subject === subject;
 
       return matchedTest && matchedSubject;
       }) || assertions.create({ subject, test });
+      }
+    });
+
+    $assertions.forEach(($assertion) => {
+      var updater = $tests.find(($test) => {
+        return $test.num === $assertion.test.num && $test.id.startsWith("WCAG"+$scopeStore['WCAG_VERSION'].split('.').join(""));
+      });
+      if(updater != undefined){
+        $assertion.test = updater;
       }
     });
     
