@@ -3,19 +3,23 @@
     "PRINCIPLE": {
         "1": {
             "TITLE": "Perceivable",
-            "DESCRIPTION": "Information and user interface components must be presentable to users in ways they can perceive."
+            "DESCRIPTION": "Information and user interface components must be presentable to users in ways they can perceive.",
+            "RESULT_DESCRIPTION": "We reported that {count} of the {totalCount} (or {percentage}%) relevant level A and AA criteria related to perceivability are not met, which means that a valuable segment of your target audience doesn’t have sufficient digital text alternatives that can be interpreted through their assistive technology (screen readers, braille devices, etc) and/or their visual ability."
         },
         "2": {
             "TITLE": "Operable",
-            "DESCRIPTION": "User interface components and navigation must be operable."
+            "DESCRIPTION": "User interface components and navigation must be operable.",
+            "RESULT_DESCRIPTION": "We reported that {count} of the {totalCount} (or {percentage}%) relevant level A and AA criteria related to operability are not met, which means that a valuable segment of your target audience cannot interact with your website. Operability is considered support for keyboard and mouse interaction, providing sufficient time to fulfil certain tasks, and designing content in a way that is not causing seizures or physical reactions."
         },
         "3": {
             "TITLE": "Understandable",
-            "DESCRIPTION": "Information and the operation of user interface must be understandable."
+            "DESCRIPTION": "Information and the operation of user interface must be understandable.",
+            "RESULT_DESCRIPTION": "We reported that {count} of the {totalCount} (or {percentage}%) relevant level A and AA criteria related to understandability are not met, which means that the minority of your target audience cannot understand the information shared on your website. Understanding means correct pronunciation and use of simple language, combined with consistent navigation and prevention of input errors through labelling, instructions, suggestions, and help."
         },
         "4": {
             "TITLE": "Robust",
-            "DESCRIPTION": "Content must be robust enough that it can be interpreted by by a wide variety of user agents, including assistive technologies."
+            "DESCRIPTION": "Content must be robust enough that it can be interpreted by by a wide variety of user agents, including assistive technologies.",
+            "RESULT_DESCRIPTION": "We reported that {count} of the {totalCount} (or {percentage}%) relevant level A and AA criteria related to robustness are not met, which means that your website does not accommodate reliable access through a variety of user agents (browsers, assistive technology, etc). \n\n In addition to using different browsers (Chrome, Firefox, Microsoft Edge, etc), people with disabilities may rely on different types of assistive technologies. From screen readers and braille terminals to software for text magnification and speech recognition."
         }
     },
     "GUIDELINE": {

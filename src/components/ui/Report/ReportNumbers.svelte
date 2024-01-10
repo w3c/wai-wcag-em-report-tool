@@ -1,18 +1,16 @@
 <p class="your-report__description">
-  {TRANSLATED.REPORTED_ON} 
-  {totalEvaluated} 
-  {TRANSLATED.REPORTED_ON_OF} 
+  {TRANSLATED.REPORTED_ON}
+  {totalEvaluated}
+  {TRANSLATED.REPORTED_ON_OF}
   {criteria} WCAG {wcagVersion}
-  {conformanceTarget} 
-  Success Criteria.
+  {conformanceTarget} Success Criteria.
 </p>
 
 <script>
   import { getContext } from 'svelte';
 
   import assertions from '@app/stores/earl/assertionStore/index.js';
-  import { CriteriaSelected } from '@app/stores/selectedCriteriaStore.js';
-  import subjects, { TestSubjectTypes } from '@app/stores/earl/subjectStore/index.js';
+  import { TestSubjectTypes } from '@app/stores/earl/subjectStore/index.js';
 
   const { translate, scopeStore } = getContext('app');
 
@@ -26,7 +24,9 @@
     REPORTED_ON_OF: $translate('UI.REPORT.REPORTED_ON_OF')
   };
 
-  $: totalEvaluated = $assertions.filter(assertion => 
-   assertion.result.outcome.id !== "earl:untested" && assertion.subject.type.indexOf(TestSubjectTypes.WEBSITE) >= 0).length;
-
+  $: totalEvaluated = $assertions.filter(
+    (assertion) =>
+      assertion.result.outcome.id !== 'earl:untested' &&
+      assertion.subject.type.indexOf(TestSubjectTypes.WEBSITE) >= 0
+  ).length;
 </script>

@@ -50,7 +50,7 @@ function createDate(date = new Date()) {
   let dateString;
 
   try {
-    dateString = (new Date(date)).toISOString();
+    dateString = new Date(date).toISOString();
   } catch (e) {
     console.warn(`[createDate]: ${e.message}`);
     dateString = date;

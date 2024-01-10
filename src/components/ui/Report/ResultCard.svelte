@@ -1,7 +1,7 @@
-<script>
-  export let label;
-  export let items = [];
-</script>
+<li class="result-card">
+  <span class="result-card__number">{items.length}</span>
+  <span class="result-card__label">{label}</span>
+</li>
 
 <style>
   .result-card {
@@ -17,17 +17,13 @@
     line-height: 1;
     color: var(--ocean);
   }
-  @media (min-width: 60em) {
-    .result-card__number {
-      font-size: 3em;
-    }
-  }
   .result-card__label {
+    display: block;
     font-size: 1.125em;
   }
 </style>
 
-<li class="result-card">
-  <span class="result-card__number">{items.length}</span>
-  <span class="result-card__label">{label}</span>
-</li>
+<script>
+  export let label;
+  export let items = [];
+</script>

@@ -7,6 +7,7 @@
     "LABEL_SITE_NAME": "Website naam",
     "LABEL_SITE_SCOPE": "Scope van de website",
     "LABEL_CONFORMANCE_TGT": "Conformiteitsdoel",
+    "LABEL_LEVEL": "Conformiteitsniveau",
     "LABEL_EXTRA_REQUIREMENTS": "Verdere evaluatievereisten",
     "LABEL_SUPPORT_BASE": "Basisniveau van toegankelijkheid ondersteund",
     "LABEL_RELIEDUP_TECH": "technologieën waarop gesteund wordt",
@@ -26,7 +27,9 @@
     "SAVE": "Opslaan",
     "EDIT": "Wijzig",
     "SUMMARY": "Samenvatting",
+    "STATISTICS": "Statistieken",
     "IMPACT": "Impact",
     "OUTCOME": "Outcome",
+    "POUR": "POUR principes",
     "ALL_RESULTS": "Alle resultaten"
 }

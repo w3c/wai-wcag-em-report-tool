@@ -14,26 +14,25 @@ import { TestRequirement } from './models.js';
  * @type {Array}
  */
 const LATEST_WCAG_VERSION = WCAG_VERSIONS.slice(-1)[0];
-console.log(LATEST_WCAG_VERSION);
-console.log(wcagCriteriaDictionary);
+console.log('LATEST_WCAG_VERSION', LATEST_WCAG_VERSION);
+console.log('wcagCriteriaDictionary', wcagCriteriaDictionary);
 let initialTestStore = [];
 for (const property in wcagCriteriaDictionary) {
-  console.log(property);
-  let temp = wcagCriteriaDictionary[property].map(
-  (criterion) => {
+  let temp = wcagCriteriaDictionary[property].map((criterion) => {
     const newTest = new TestRequirement(criterion);
     const wcagVersionLd = `WCAG${property.replace('.', '')}`;
     newTest.id = `${wcagVersionLd}:${criterion.id}`;
     newTest.num = criterion.num;
- 
+    newTest.conformanceLevel = criterion.conformanceLevel;
+
     return newTest;
   });
- 
+
   temp.forEach((t) => {
-   initialTestStore.push(t);
+    initialTestStore.push(t);
   });
 }
-console.log(initialTestStore);
+console.log('initialTestStore', initialTestStore);
 
 /**
  * $tests

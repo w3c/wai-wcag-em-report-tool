@@ -19,10 +19,7 @@ export class TestSubject extends partsMixin(Base) {
     super(options);
 
     let { type } = options;
-    const ALLOWED_TYPES = [
-      TestSubjectTypes.WEBSITE,
-      TestSubjectTypes.WEBPAGE
-    ];
+    const ALLOWED_TYPES = [TestSubjectTypes.WEBSITE, TestSubjectTypes.WEBPAGE];
 
     this['@context'] = {
       ...this['@context'],
@@ -60,13 +57,13 @@ export class TestSubject extends partsMixin(Base) {
       }
 
       let newURL;
-      if(value != undefined){
+      if (value != undefined) {
         newURL = getURL(value);
       }
-      
+
       return newURL ? newURL.href : '';
     }, '');
-    
+
     return url ? url : `_:subject_${ID}`;
   }
 }

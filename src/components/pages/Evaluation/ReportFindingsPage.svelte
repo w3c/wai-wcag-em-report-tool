@@ -2,7 +2,9 @@
   <p>
     {@html TRANSLATED.INTRODUCTION}
   </p>
-  <ResourceLink href="https://www.w3.org/TR/WCAG-EM/#step5">{TRANSLATED.RESOURCE_LINK_NAME}</ResourceLink>
+  <ResourceLink href="https://www.w3.org/TR/WCAG-EM/#step5">
+    {TRANSLATED.RESOURCE_LINK_NAME}
+  </ResourceLink>
 
   <form action="" novalidate>
     <Input
@@ -49,7 +51,11 @@
   </form>
 
   <details>
-    <summary><h2>{TRANSLATED.AUDIT_RESULTS_HEADING}</h2></summary>
+    <summary>
+      <h2>{TRANSLATED.AUDIT_RESULTS_HEADING}</h2>
+    </summary>
+    <h3>{TRANSLATED.STATISTICS}</h3>
+    <ReportStatistics />
     <h3>{TRANSLATED.SUMMARY}</h3>
     <ReportSummary />
     <h3>{TRANSLATED.ALL_RESULTS}</h3>
@@ -65,6 +71,7 @@
 
   import ReportAllResults from '@app/components/ui/Report/ReportAllResults.svelte';
   import ReportSummary from '@app/components/ui/Report/ReportSummary.svelte';
+  import ReportStatistics from '@app/components/ui/Report/ReportStatistics.svelte';
   import Input from '@app/components/form/Input.svelte';
   import ResourceLink from '@app/components/ui/ResourceLink.svelte';
   import Textarea from '@app/components/form/Textarea.svelte';
@@ -90,6 +97,7 @@
     EVALUATION_SPECIFICS_HELPTEXT: $translate('PAGES.SUMMARY.INF_SPECIFICS'),
     AUDIT_RESULTS_HEADING: $translate('PAGES.SUMMARY.HD_CRITERIA_REPORT'),
     SUMMARY: $translate('UI.REPORT.SUMMARY'),
+    STATISTICS: $translate('UI.REPORT.STATISTICS'),
     ALL_RESULTS: $translate('UI.REPORT.ALL_RESULTS')
   };
 </script>

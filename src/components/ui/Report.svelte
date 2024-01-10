@@ -206,6 +206,9 @@
 
 <h2>{TRANSLATED.HEADING_AUDIT_RESULTS_DETAIL}</h2>
 
+<h3>{TRANSLATED.STATISTICS}</h3>
+<ReportStatistics />
+
 <h3>{TRANSLATED.SUMMARY}</h3>
 <ReportSummary />
 
@@ -300,6 +303,7 @@
   import ReportHeaderValue from '@app/components/ui/Report/ReportHeaderValue.svelte';
   import ReportHeaderMultiValue from '@app/components/ui/Report/ReportHeaderMultiValue.svelte';
   import ReportSummary from './Report/ReportSummary.svelte';
+  import ReportStatistics from './Report/ReportStatistics.svelte';
   import evaluationStore from '@app/stores/evaluationStore.js';
 
   const { sampleStore, summaryStore, exploreStore, translate } = getContext(
@@ -339,6 +343,7 @@
     CONFORMANCE_LEVEL: $translate('WCAG.COMMON.CONFORMANCE_LEVEL'),
     TEXT_NO_SAMPLE: $translate('PAGES.AUDIT.NO_SAMPLE'),
     SUMMARY: $translate('UI.REPORT.SUMMARY'),
+    STATISTICS: $translate('UI.REPORT.STATISTICS'),
     ALL_RESULTS: $translate('UI.REPORT.ALL_RESULTS'),
     LABEL_TECH: $translate('PAGES.EXPLORE.LABEL_TECH')
   };

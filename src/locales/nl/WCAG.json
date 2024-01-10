@@ -3,19 +3,23 @@
     "PRINCIPLE": {
         "1": {
             "TITLE": "Waarneembaar",
-            "DESCRIPTION": "Informatie en componenten van de gebruikersinterface moeten toonbaar zijn aan gebruikers op voor hen waarneembare wijze."
+            "DESCRIPTION": "Informatie en componenten van de gebruikersinterface moeten toonbaar zijn aan gebruikers op voor hen waarneembare wijze.",
+            "RESULT_DESCRIPTION": "We reported that {count} of the {totalCount} (or {percentage}%) relevant level A and AA criteria related to perceivability are not met, which means that a valuable segment of your target audience doesn’t have sufficient digital text alternatives that can be interpreted through their assistive technology (screen readers, braille devices, etc) and/or their visual ability."
         },
         "2": {
             "TITLE": "Bedienbaar",
-            "DESCRIPTION": "Componenten van de gebruikersinterface en navigatie moeten bedienbaar zijn."
+            "DESCRIPTION": "Componenten van de gebruikersinterface en navigatie moeten bedienbaar zijn.",
+            "RESULT_DESCRIPTION": "We reported that {count} of the {totalCount} (or {percentage}%) relevant level A and AA criteria related to operability are not met, which means that a valuable segment of your target audience cannot interact with your website. Operability is considered support for keyboard and mouse interaction, providing sufficient time to fulfil certain tasks, and designing content in a way that is not causing seizures or physical reactions."
         },
         "3": {
             "TITLE": "Begrijpelijk",
-            "DESCRIPTION": "Informatie en de bediening van de gebruikersinterface moeten begrijpelijk zijn."
+            "DESCRIPTION": "Informatie en de bediening van de gebruikersinterface moeten begrijpelijk zijn.",
+            "RESULT_DESCRIPTION": "We reported that {count} of the {totalCount} (or {percentage}%) relevant level A and AA criteria related to understandability are not met, which means that the minority of your target audience cannot understand the information shared on your website. Understanding means correct pronunciation and use of simple language, combined with consistent navigation and prevention of input errors through labelling, instructions, suggestions, and help."
         },
         "4": {
             "TITLE": "Robuust",
-            "DESCRIPTION": "Content moet voldoende robuust zijn om betrouwbaar geïnterpreteerd te kunnen worden door een breed scala van user agents, met inbegrip van hulptechnologieën."
+            "DESCRIPTION": "Content moet voldoende robuust zijn om betrouwbaar geïnterpreteerd te kunnen worden door een breed scala van user agents, met inbegrip van hulptechnologieën.",
+            "RESULT_DESCRIPTION": "We reported that {count} of the {totalCount} (or {percentage}%) relevant level A and AA criteria related to robustness are not met, which means that your website does not accommodate reliable access through a variety of user agents (browsers, assistive technology, etc). \n\n In addition to using different browsers (Chrome, Firefox, Microsoft Edge, etc), people with disabilities may rely on different types of assistive technologies. From screen readers and braille terminals to software for text magnification and speech recognition."
         }
     },
     "GUIDELINE": {
