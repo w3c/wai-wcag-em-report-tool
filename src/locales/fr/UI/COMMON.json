@@ -1,0 +1,29 @@
+{
+    "MORE_INFO": "Pour plus d’informations, voir <a href={{url}}>{{name}}</a>.",
+    "HIDE_MESSAGE": "Masquer le message",
+    "ERROR": {
+        "DEFAULT": "Un problème est survenu."
+    },
+    "YES": "Oui",
+    "NO": "Non",
+    "NEXT": "{label} suivante",
+    "PREVIOUS": "{label} précédente",
+    "ACTIVE": "Sélectionné",
+    "BUTTON": {
+        "ADD": "Ajouter {subject}",
+        "INFO": "info",
+        "HIDE": "Cacher {subject}",
+        "LANGUAGE_SELECT": "traductions",
+        "SHOW": "Voir {subject}"
+    },
+    "LABEL": {
+        "LANGUAGE_SELECT": "Cette page en"
+    },
+    "YOUR_REPORT": "Votre rapport",
+    "SHOW_FULL_DESCRIPTION": "Voir la description complète",
+    "PREVIOUSNEXT": "Étape prédédente/suivante",
+    "DELETE": "Supprimer",
+    "FOR": "pour",
+    "EXPAND_ALL": "Afficher toutes les sections",
+    "COLLAPSE_ALL": "Masquer toutes les sections"
+}
