@@ -1,8 +1,0 @@
-{
-    "TITLE": "Oops! Something went wrong",
-    "INTRO": "This is not the page you are looking for. Try one of these solutions to solve the problem.",
-    "SUGGESTION1": "If you typed the URL, make sure it is exactly what it should be.",
-    "SUGGESTION2": "Go <a href={{link_back}}>back to the previous page</a> and try again.",
-    "SUGGESTION3": "Make sure the files you are working from follow the <a href={{link_format}}>wcag-em format</a>.",
-    "BUG_REPORT": "To report any bugs or feature suggestions, leave an issue on our <a href={{link_github}}>Github project page</a>."
-}

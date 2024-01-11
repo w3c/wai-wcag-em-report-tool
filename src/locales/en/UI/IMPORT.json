@@ -1,7 +1,4 @@
 {
-    "TITLE": "Import a WCAG EARL report",
-    "INTRO": "If you have used another application to generate a WCAG EARL-report that falls into the scope of this evaluation, you may be able to import these and add them to the evaluation audit result. The file itself should be: JSON-LD parseable, consist of objects in EARL format and evaluation tests should be related to WCAG.",
-    "LABEL_SELECT_FILE": "Select a JSON-LD file",
     "IMPORT": {
         "HEADING": "Imported result {IMPORT_DATE, date, ::yyyy/MM/dd} by {AUTHOR}",
         "TEST_PREFIX": "Test"

@@ -6,9 +6,6 @@
     "INF_RELIEDUP_TECH": "Bepaal op welke webtechnologieën de website steund [volgens WCAG 2.0](https://www.w3.org/TR/WCAG21/#dfn-relied-upon). Voor meer informatie, zie [WCAG-EM Stap 2.d: Identificeer technologieën waarop gesteund wordt](https://www.w3.org/TR/WCAG-EM/#step2d).",
     "LABEL_TECH": "Webtechnologie",
     "LABEL_TECH_SPEC": "Specificatie adres (URL)",
-    "PLH_TECH": "Bv. HTML5, CSS, DOM",
-    "PLH_TECH_SPEC": "Locatie (URL) of instructie naar de specificatie",
-    "BTN_REMOVE_TECH": "Webtechnologie verwijderen",
     "BTN_ADD_TECH": "Webtechnologie toevoegen",
     "HD_NOTE_TAKING": "Eventuele aantekeningen uit verkenning",
     "INF_NOTE_TAKING": "In dit onderdeel kunt u aantekeningen zetten die u maakt bij het verkennen van de website. Deze aantekeningen kunt u in de volgende stap gebruiken om webpagina's voor de sample te selecteren voor de evaluatie. **Deze notities komen niet in het eindrapport.** Wel worden ze bewaard wanneer u het onderzoek opslaat en het bestand later opent.",
@@ -16,6 +13,5 @@
     "INF_ESSENT_FUNC": "Gebruik dit veld om essentiële functionaliteiten van de website te noteren. Voorbeelden van essentiële functionaliteiten zijn: <br> ‘Selecteer en bestel een product uit de webwinkel van de website’<br> ‘Afronden en versturen van een formulier op de website’<br>‘Een account op de website registreren’<br> Meer informatie vindt u in [WCAG-EM Stap 2.b: Identificeer essentiële functionaliteiten van de website](https://www.w3.org/TR/WCAG-EM/#step2b)",
     "LABEL_VARIETY_PAGE_TYPES": "Diverse paginatypes",
     "INF_VARIETY_PAGE_TYPES": "Gebruik dit veld om bij te houden welke diverse typen webpagina's u op de website heeft gevonden. Het gaat hier bijvoorbeeld om verschillende (opmaak)stijlen, layouts, indelingen en functionaliteiten op de website. Meer informatie vindt u in [WCAG-EM Stap 2.c: Identificeer diverse paginatypes](https://www.w3.org/TR/WCAG-EM/#step2c).<br> **Merk op**: Een ‘webpagina’ kan in verschillende 'webpagina-toestanden' bestaan; zie de definitie [webpagina-toestanden](https://www.w3.org/TR/WCAG-EM/#states).",
-    "LABEL_OTHER": "Anders...",
     "ADD_TECH": "Toevoegen"
 }

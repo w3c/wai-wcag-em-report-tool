@@ -1,7 +1,4 @@
 {
-    "TITLE": "Importeer een WCAG EARL rapport",
-    "INTRO": "Als je een andere applicatie gebruikt hebt om een WCAG EARL-report te genereren dat binnen de scope van deze evaluatie valt, zou je deze kunnen importeren en kunnen toevoegen bij deze evaluatie van je bevindingen. Het bestand moet zijn: JSON-LD, ontleedbaar, bestaande uit objecten in EARL format en de evaluatietests moeten gerelateerd zijn aan WCAG.",
-    "LABEL_SELECT_FILE": "Kies een JSON-LD bestand",
     "IMPORT": {
         "HEADING": "Geïmporteerd resultaat {IMPORT_DATE, date, ::yyyy/MM/dd} van {AUTHOR}",
         "TEST_PREFIX": "Test"

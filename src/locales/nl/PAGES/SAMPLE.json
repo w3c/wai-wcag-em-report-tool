@@ -14,12 +14,8 @@
     "LABEL_PAGE": "Locatie (URL) of instructie",
     "NO_PAGES_DEFINED": "Er is geen pagina in deze lijst",
     "ITEM": "Webpagina",
-    "PLH_TITLE": "Identificerende naam voor de webpagina",
-    "PLH_PAGE_URL": "Locatie (URL) of instructie van het te volgen pad",
     "BTN_ADD_PAGE": "Pagina toevoegen",
     "BTN_REMOVE_PAGE": "Pagina verwijderen",
-    "STRUCTURED_PAGE": "Geordende pagina",
-    "RANDOM_PAGE": "Willekeurige pagina",
     "SAMPLE_PAGE": "Samplepagina",
     "DELETE_CONFIRM": "Weet je zeker dat je deze samplepagina wilt verwijderen?"
 }

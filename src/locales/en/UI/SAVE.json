@@ -1,6 +1,0 @@
-{
-    "TITLE": "Save Evaluation Report",
-    "INTRO": "Use the link below to save the evaluation report information that you have entered in a JSON data file locally on your computer.",
-    "BTN_DOWNLOAD_DATA_FILE": "Save data file locally to your computer",
-    "TIPS": "You can save partially-complete reports (and notes) and work on them later. You can open them from any web browser and you can transfer the data file to another computer. <br> You can Save periodically as you work to avoid losing data if your web browser closes. You can use Windows shortcut keys Ctrl+S or Mac shortcut keys ⌘S to open the Save dialog (or automatically save it in your downloads folder depending on your web browser settings). <br> When you are done entering your evaluation report information, you can download an HTML file of the completed report from the <a href={{link_report}}>View Report</a> page."
-}
