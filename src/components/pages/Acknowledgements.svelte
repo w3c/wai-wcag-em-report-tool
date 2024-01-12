@@ -33,7 +33,7 @@
   <h3>Version 3</h3>
   <ul>
     <li>Michel Hansma, HAN University</li>
-    <li><a href="https://www.w3.org/People/hidde">Hidde de Vries</a>, W3C WAI</li>
+    <li>Hidde de Vries, W3C WAI</li>
   </ul>
 
   <h2>Contributors</h2> 
@@ -50,7 +50,7 @@
   <ul>
     <li>Roel Antonisse, accessibility.nl</li>
     <li>Michel Hansma, HAN University</li>
-    <li><a href="https://www.w3.org/People/hidde">Hidde de Vries</a>, W3C WAI</li>
+    <li>Hidde de Vries, W3C WAI</li>
   </ul>
 
   <h3>French</h3>
