@@ -1,0 +1,6 @@
+{
+    "TITLE": "Zapisz raport z oceny",
+    "INTRO": "Użyj poniższego łącza, aby zapisać informacje z raportu z oceny, które zostały wprowadzone lokalnie do pliku danych JSON na Twoim komputerze.",
+    "BTN_DOWNLOAD_DATA_FILE": "Zapisz plik z danymi lokalnie na swoim komputerze",
+    "TIPS": "Możesz zapisywać raporty wypełnione raporty częściowo (i notatki) i pracować nad nimi później. Można je otworzyć z dowolnej przeglądarki internetowej i przenieść plik z danymi na inny komputer. <br>Możesz zapisywać plik okresowo w trakcie pracy, aby uniknąć utraty danych w przypadku zamknięcia przeglądarki internetowej. Możesz użyć klawiszy skrótów Windows Ctrl+S lub klawiszy skrótów Mac ⌘S, aby otworzyć okno dialogowe Zapisz (lub automatycznie zapisać je w folderze do pobrania w zależności od ustawień przeglądarki internetowej). <br> Po wprowadzeniu informacji o raporcie z oceny można pobrać plik HTML z wypełnionego raportu na stronie <a href={{link_report}}>Zobacz raport</a>."
+}

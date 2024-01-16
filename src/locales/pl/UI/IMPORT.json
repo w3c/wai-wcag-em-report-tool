@@ -1,0 +1,17 @@
+{
+    "TITLE": "Importuj raport WCAG EARL",
+    "INTRO": "Jeśli używasz innej aplikacji do generowania raportu WCAG EARL, które wchodzą w zakres niniejszej oceny, można je importować i dodawać do wyników audytu. Sam plik powinien być: parsowalny dla JSON-LD, składać się z obiektów w formacie EARL, a testy ewaluacyjne powinny być powiązane z WCAG.",
+    "LABEL_SELECT_FILE": "Wybierz plik JSON-LD",
+    "IMPORT": {
+        "HEADING": "Wynik importu {IMPORT_DATE, date, ::yyyy/MM/dd} przez {AUTHOR}",
+        "TEST_PREFIX": "Test"
+    },
+    "ERROR": {
+        "JSONLD_SYNTAX": "Format pliku nie został rozpoznany.",
+        "NO_ASSERTIONS": "Plik nie zawierał żadnych rozpoznawalnych obserwacji.",
+        "NO_COMPATIBLE_ASSERTIONS": "Żadne z obserwacji w tym pliku nie pasowało do wybranej próbki.",
+        "FILE_ERROR": "Nieprawidłowy format pliku lub uszkodzony plik."
+    },
+    "SUCCESSFUL": "Do obserwacji na tej stronie dodano twierdzenia / twierdzenia.",
+    "MORE_INFO": "Więcej informacji na temat importowania EARL jako JSON"
+}

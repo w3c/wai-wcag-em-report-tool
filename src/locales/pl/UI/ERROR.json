@@ -1,0 +1,8 @@
+{
+    "TITLE": "Ups! Coś poszło nie tak",
+    "INTRO": "To nie jest strona, której szukasz. Wypróbuj jedną z poniższych możliwości, aby rozwiązać problem.",
+    "SUGGESTION1": "Jeśli wpisałeś adres URL, upewnij się, że jest dokładnie taki, jaki powinien być.",
+    "SUGGESTION2": "Idź do <a href={{link_back}}>Wróć do poprzedniej strony</a> i spróbuj ponownie.",
+    "SUGGESTION3": "Upewnij się, że pliki, z którymi pracujesz, działają w formacie <a href={{link_format}}>wcag-em</a>.",
+    "BUG_REPORT": "Aby zgłosić jakiekolwiek błędy lub sugestie dotyczące funkcji, pozostaw wiadomość na <a href={{link_github}}> stronie Github naszego projektu</a>."
+}

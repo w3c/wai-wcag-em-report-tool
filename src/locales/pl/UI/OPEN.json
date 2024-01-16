@@ -1,0 +1,7 @@
+{
+    "TITLE": "Otwórz plik raportu z oceny",
+    "INTRO": "Aby ponownie załadować zapisany plik, kliknij przycisk „Znajdź i wybierz plik z danymi” i znajdź plik JSON, który wcześniej zapisałeś.",
+    "LABEL_SELECT_FILE": "Znajdź i wybierz plik danych",
+    "MSG_LOADING": "Ładowanie oceny, proszę poczekać...",
+    "BTN_LOAD_FILE": "Wczytaj dane z wybranego pliku"
+}
