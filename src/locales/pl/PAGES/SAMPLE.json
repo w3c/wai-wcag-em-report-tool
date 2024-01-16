@@ -14,12 +14,8 @@
     "LABEL_PAGE": "Adres (URL) lub opis",
     "NO_PAGES_DEFINED": "Nie określono stron dla tej listy",
     "ITEM": "Witryna",
-    "PLH_TITLE": "Identyfikator strony internetowej",
-    "PLH_PAGE_URL": "Adres (URL) lub opis sposobu dotarcia do strony",
     "BTN_ADD_PAGE": "Dodaj stronę",
     "BTN_REMOVE_PAGE": "Usuń stronę",
-    "STRUCTURED_PAGE": "Strona strukturalna",
-    "RANDOM_PAGE": "Strona losowa",
     "SAMPLE_PAGE": "Próbka stron",
     "DELETE_CONFIRM": "Czy na pewno chcesz usunąć tę próbkę stron?"
 }

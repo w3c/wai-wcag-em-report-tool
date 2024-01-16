@@ -1,6 +1,4 @@
 {
-    "BROWSER_NOT_SUPPORTED": "Używana przeglądarka internetowa nie obsługuje niektórych funkcji, takich jak zapisywanie i ładowanie raportów. Możesz nadal korzystać z Generatora raportu z ograniczoną funkcjonalnością. Aby korzystać z wszystkich funkcji Generatora, zaktualizuj przeglądarkę internetową lub użyj innej.",
-    "WARNING_BEFORE_UNLOAD": "Wprowadzone dane nie są automatycznie zapisywane. Zostaną one utracone, jeśli zamkniesz okno przeglądarki internetowej. Użyj łącza „Zapisz” (Ctrl + S lub ⌘ S) , który znajduje się na górze wszystkich stron, aby zapisać dane w pliku lokalnie na Twoim komputerze, a następnie załadować go ponownie, aby kontynuować nad nim pracę.",
     "MORE_INFO": "Aby uzyskać więcej informacji, zobacz <a href={{url}}>{{name}}</a>.",
     "HIDE_MESSAGE": "Ukryj wiadomość",
     "ERROR": {
@@ -10,9 +8,6 @@
     "NO": "Nie",
     "NEXT": "Następny {label}",
     "PREVIOUS": "Poprzedni {label}",
-    "CLICK_EXPAND": "Wybierz, aby rozwinąć sekcję",
-    "CLICK_COLLAPSE": "Wybierz, aby ukryć sekcję",
-    "TO_TOP": "Wróć na górę",
     "ACTIVE": "Aktywne",
     "BUTTON": {
         "ADD": "Dodaj {subject}",
@@ -20,6 +15,18 @@
         "HIDE": "Ukryj {subject}",
         "LANGUAGE_SELECT": "języki",
         "SHOW": "Pokaż {subject}"
+    },
+    "YES": "Yes",
+    "NO": "No",
+    "NEXT": "Next {label}",
+    "PREVIOUS": "Previous {label}",
+    "ACTIVE": "Active",
+    "BUTTON": {
+        "ADD": "Add {subject}",
+        "INFO": "info",
+        "HIDE": "Hide {subject}",
+        "LANGUAGE_SELECT": "translations",
+        "SHOW": "Show {subject}"
     },
     "LABEL": {
         "LANGUAGE_SELECT": "Wybierz język"

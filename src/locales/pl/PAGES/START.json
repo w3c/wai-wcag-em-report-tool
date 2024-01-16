@@ -1,6 +1,5 @@
 {
     "TITLE": "WCAG-EM. Generator raportów",
-	"WELCOME": "Witamy w  [zaktualizowanym Generatorze raportów WCAG-EM](https://github.com/w3c/wai-wcag-em-report-tool/wiki/Changelog:-What's-new-in-the-2021-redesign-of-the-WCAG-EM-Report-Tool). Za pomocą tego narzędzia można otwierać istniejące raporty.[Poprzednia wersja](https://w3c.github.io/wcag-em-report-tool/) jest dostępna, ale nie jest już obsługiwana.",
     "SUBTITLE": "Przegląd",
     "INTRO_HD": "Co robi to narzędzie",
     "INTRO_1": "Generator raportów WCAG-EM zamienia wyniki Twojej oceny dostępności w raport. Generator jest oparty na „Metodologii oceniania zgodności w zakresie dostępności internetowej”. ([WCAG-EM](https://www.w3.org/TR/WCAG-EM/)), przetłumaczonej na język polski ([WCAG-EM po polsku](https://testy.lepszyweb.pl/met-wcag-em-pl)).",
@@ -27,5 +26,4 @@
     "CHOICES_DD4": "To kryterium sukcesu nie ma zastosowania - odnosi się do funkcji lub treści, jakiej nie ma na stronie. ",
     "CHOICES_DT5": "Nie można powiedzieć",
     "CHOICES_DD5": "Nie wiadomo, czy kryterium sukcesu jest spełnione",
-    "USAGE_LI4": "Łącza, które nie są częścią nawigacji lub funkcjonalności (łącza do zasobów zewnętrznych), otwierają się w nowych oknach przeglądarki internetowej"
 }
