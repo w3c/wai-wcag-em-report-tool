@@ -1,0 +1,737 @@
+{
+    "COMMON": {
+        "CONFORMANCE_LEVEL": "Stufe"
+    },
+    "PRINCIPLE": {
+        "1": {
+            "TITLE": "Wahrnehmbar",
+            "DESCRIPTION": "Informationen und Bestandteile der Benutzerschnittstelle müssen den Benutzern so präsentiert werden, dass diese sie wahrnehmen können."
+        },
+        "2": {
+            "TITLE": "Bedienbar",
+            "DESCRIPTION": "Bestandteile der Benutzerschnittstelle und Navigation müssen bedienbar sein."
+        },
+        "3": {
+            "TITLE": "Verständlich",
+            "DESCRIPTION": "Informationen und Bedienung der Benutzerschnittstelle müssen verständlich sein."
+        },
+        "4": {
+            "TITLE": "Robust",
+            "DESCRIPTION": "Inhalte müssen robust genug sein, damit sie zuverlässig von einer großen Auswahl an Benutzeragenten einschließlich assistierender Techniken interpretiert werden können."
+        }
+    },
+    "GUIDELINE": {
+        "1.1": {
+            "TITLE": "Textalternativen",
+            "DESCRIPTION": "Stellen Sie Textalternativen für alle Nicht-Text-Inhalte zur Verfügung, so dass diese in andere vom Benutzer benötigte Formen geändert werden können, wie zum Beispiel Großschrift, Braille, Symbole oder einfachere Sprache."
+        },
+        "1.2": {
+            "TITLE": "Zeitbasierte Medien",
+            "DESCRIPTION": "Stellen Sie Alternativen für zeitbasierte Medien zur Verfügung."
+        },
+        "1.3": {
+            "TITLE": "Anpassbar",
+            "DESCRIPTION": "Erstellen Sie Inhalte, die auf verschiedene Arten dargestellt werden können (z.B. einfacheres Layout), ohne dass Informationen oder Struktur verloren gehen."
+        },
+        "1.4": {
+            "TITLE": "Unterscheidbar",
+            "DESCRIPTION": "Machen Sie es Benutzern leichter, Inhalt zu sehen und zu hören einschließlich der Trennung von Vorder- und Hintergrund."
+        },
+        "2.1": {
+            "TITLE": "Per Tastatur zugänglich",
+            "DESCRIPTION": "Sorgen Sie dafür, dass alle Funktionalitäten per Tastatur zugänglich sind."
+        },
+        "2.2": {
+            "TITLE": "Ausreichend Zeit",
+            "DESCRIPTION": "Geben Sie den Benutzern ausreichend Zeit, Inhalte zu lesen und zu benutzen."
+        },
+        "2.3": {
+            "TITLE": "Anfälle",
+            "DESCRIPTION": "Gestalten Sie Inhalte nicht auf Arten, von denen bekannt ist, dass sie zu Anfällen führen."
+        },
+        "2.4": {
+            "TITLE": "Navigierbar",
+            "DESCRIPTION": "Stellen Sie Mittel zur Verfügung, um Benutzer dabei zu unterstützen zu navigieren, Inhalte zu finden und zu bestimmen, wo sie sich befinden."
+        },
+        "2.5": {
+            "TITLE": "Input Modalities",
+            "DESCRIPTION": "Make it easier for users to operate functionality through various inputs beyond keyboard."
+        },
+        "3.1": {
+            "TITLE": "Lesbar",
+            "DESCRIPTION": "Machen Sie Inhalt lesbar und verständlich."
+        },
+        "3.2": {
+            "TITLE": "Vorhersehbar",
+            "DESCRIPTION": "Sorgen Sie dafür, dass Webseiten vorhersehbar aussehen und funktionieren."
+        },
+        "3.3": {
+            "TITLE": "Hilfestellung bei der Eingabe",
+            "DESCRIPTION": "Helfen Sie den Benutzern dabei, Fehler zu vermeiden und zu korrigieren."
+        },
+        "4.1": {
+            "TITLE": "Kompatibel",
+            "DESCRIPTION": "Maximieren Sie die Kompatibilität mit aktuellen und zukünftigen Benutzeragenten, einschließlich assistierender Techniken."
+        }
+    },
+    "SUCCESS_CRITERION": {
+        "1.1.1": {
+            "TITLE": "Nicht-Text-Inhalt",
+            "DESCRIPTION": "Alle Nicht-Text-Inhalte, die dem Benutzer präsentiert werden, haben eine Textalternative, die einem äquivalenten Zweck dient, mit Ausnahme der unten aufgelisteten Situationen.",
+            "DETAILS": {
+                "1": {
+                    "TITLE": "Steuerelemente, Eingabe",
+                    "DESCRIPTION": "Wenn es sich bei dem Nicht-Text-Inhalt um ein Steuerelement handelt oder Eingaben durch den Benutzer akzeptiert, dann hat dieser einen Namen, der seinen Zweck beschreibt. (Beachten Sie Richtlinie 4.1.2 für zusätzliche Anforderungen an Steuerelemente und Inhalte, die Eingaben durch den Benutzer akzeptieren.)"
+                },
+                "2": {
+                    "TITLE": "Zeitbasierte Medien",
+                    "DESCRIPTION": "Wenn es sich bei den Nicht-Text-Inhalten um zeitbasierte Medien handelt, dann stellen Textalternativen zumindest eine deskriptive Identifizierung des Nicht-Text-Inhalts bereit. (Beachten Sie Richtlinie 1.2 für zusätzliche Anforderungen an Medien.)"
+                },
+                "3": {
+                    "TITLE": "Test",
+                    "DESCRIPTION": "Wenn es sich bei dem Nicht-Text-Inhalt um einen Test oder eine Übung handelt, die nichtig wäre, wenn sie als Text dargestellt würde, dann stellen Textalternativen zumindest eine deskriptive Identifizierung des Nicht-Text-Inhalts bereit."
+                },
+                "4": {
+                    "TITLE": "Sensorisch",
+                    "DESCRIPTION": "Wenn Nicht-Text-Inhalt hauptsächlich dafür gedacht ist, eine bestimmte Sinneserfahrung zu schaffen, dann stellen Textalternativen zumindest eine deskriptive Identifizierung des Nicht-Text-Inhalts bereit."
+                },
+                "5": {
+                    "TITLE": "CAPTCHA",
+                    "DESCRIPTION": "Wenn der Zweck des Nicht-Text-Inhalts der ist zu bestätigen, dass eine Person und nicht ein Computer auf den Inhalt zugreift, dann werden Textalternativen bereitgestellt, die den Zweck des Nicht-Text-Inhalts identifizieren. Außerdem werden alternative Formen von CAPTCHAs bereitgestellt, die Ausgabeformen für verschiedene Arten der sensorischen Wahrnehmung nutzen, um verschiedenen Behinderungen Rechnung zu tragen."
+                },
+                "6": {
+                    "TITLE": "Dekoration, Formatierung, unsichtbar",
+                    "DESCRIPTION": "Wenn der Nicht-Text-Inhalt reine Dekoration ist, nur für visuelle Formatierung benutzt wird oder dem Benutzer gar nicht präsentiert wird, dann wird der Inhalt so implementiert, dass er von assistierender Technik ignoriert werden kann."
+                }
+            }
+        },
+        "1.2.1": {
+            "TITLE": "Reine Audio- und Videoinhalte (aufgezeichnet)",
+            "DESCRIPTION": "Für aufgezeichnete reine Audio- und aufgezeichnete reine Video- Medien gilt das Folgende, außer die Audio- oder Videomedien sind eine Medienalternative für Text und als solche klar gekennzeichnet:",
+            "DETAILS": {
+                "1": {
+                    "TITLE": "Aufgezeichneter reiner Audioinhalt",
+                    "DESCRIPTION": "Es wird eine Alternative für zeitbasierte Medien bereitgestellt, die äquivalente Informationen für aufgezeichneten reinen Audioinhalt bietet."
+                },
+                "2": {
+                    "TITLE": "Aufgezeichneter reiner Videoinhalt",
+                    "DESCRIPTION": "Es wird entweder eine Alternative für zeitbasierte Medien oder eine Audiospur zur Verfügung gestellt, die äquivalente Informationen für aufgezeichneten reinen Videoinhalt bietet."
+                }
+            }
+        },
+        "1.2.2": {
+            "TITLE": "Untertitel (aufgezeichnet)",
+            "DESCRIPTION": "Untertitel werden für alle aufgezeichneten Audioinhalte in synchronisierten Medien bereitgestellt, außer die Medien sind eine Medienalternative für Text und als solche deutlich gekennzeichnet.",
+            "DETAILS": {}
+        },
+        "1.2.3": {
+            "TITLE": "Audiodeskription oder Medienalternative (aufgezeichnet)",
+            "DESCRIPTION": "Eine Alternative für zeitbasierte Medien oder eine Audiodeskription des aufgezeichneten Videoinhalts wird für synchronisierte Medien bereitgestellt, außer die Medien sind eine Medienalternative für Text und als solche deutlich gekennzeichnet.",
+            "DETAILS": {}
+        },
+        "1.2.4": {
+            "TITLE": "Untertitel (Live)",
+            "DESCRIPTION": "Untertitel werden für alle Live- Audioinhalte in synchronisierten Medien bereitgestellt.",
+            "DETAILS": {}
+        },
+        "1.2.5": {
+            "TITLE": "Audiodeskription (aufgezeichnet)",
+            "DESCRIPTION": "Eine Audiodeskription wird für alle aufgezeichneten Videoinhalte in synchronisierten Medien zur Verfügung gestellt.",
+            "DETAILS": {}
+        },
+        "1.2.6": {
+            "TITLE": "Gebärdensprache (aufgezeichnet)",
+            "DESCRIPTION": "Eine Übersetzung in die Gebärdensprache wird für alle aufgezeichneten Audioinhalte in synchronisierten Medien bereitgestellt.",
+            "DETAILS": {}
+        },
+        "1.2.7": {
+            "TITLE": "Erweiterte Audiodeskription (aufgezeichnet)",
+            "DESCRIPTION": "Wenn die Pausen im Vordergrund-Audio nicht ausreichend sind, um Audiodeskriptionen zu ermöglichen, die den Sinn des Videos vermitteln, dann wird eine erweiterte Audiodeskription für alle aufgezeichneten Videoinhalte in synchronisierten Medien bereitgestellt.",
+            "DETAILS": {}
+        },
+        "1.2.8": {
+            "TITLE": "Medienalternative (aufgezeichnet)",
+            "DESCRIPTION": "Eine Alternative für zeitbasierte Medien wird für alle aufgezeichneten synchronisierten Medien und für alle aufgezeichneten reinen Videomedien bereitgestellt.",
+            "DETAILS": {}
+        },
+        "1.2.9": {
+            "TITLE": "Reiner Audioinhalt (Live)",
+            "DESCRIPTION": "Eine Alternative für zeitbasierte Medien, die äquivalente Informationen für live übertragene reine Audioinhalte bietet, wird bereitgestellt.",
+            "DETAILS": {}
+        },
+        "1.3.1": {
+            "TITLE": "Info und Beziehungen",
+            "DESCRIPTION": "Informationen, Struktur und Beziehungen, die über die Darstellung vermittelt werden, können durch Software bestimmt werden oder stehen in Textform zur Verfügung.",
+            "DETAILS": {}
+        },
+        "1.3.2": {
+            "TITLE": "Bedeutungstragende Reihenfolge",
+            "DESCRIPTION": "Wenn die Reihenfolge, in der Inhalte präsentiert werden, sich auf deren Bedeutung auswirkt, kann die korrekte Leseabfolge durch Software bestimmt werden.",
+            "DETAILS": {}
+        },
+        "1.3.3": {
+            "TITLE": "Sensorische Eigenschaften",
+            "DESCRIPTION": "Anweisungen, die für das Verständnis und die Bedienung von Inhalt bereitgestellt werden, stützen sich nicht nur auf sensorische Eigenschaften von Komponenten wie Form, Größe, visuelle Position, Ausrichtung oder Ton.",
+            "DETAILS": {}
+        },
+        "1.3.4": {
+            "TITLE": "Orientation",
+            "DESCRIPTION": "Content does not restrict its view and operation to a single display orientation, such as portrait or landscape, unless a specific display orientation is essential.",
+            "DETAILS": {}
+        },
+        "1.3.5": {
+            "TITLE": "Identify Input Purpose",
+            "DESCRIPTION": "The purpose of each input field collecting information about the user can be programmatically determined when:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "The input field serves a purpose identified in the Input Purposes for User Interface Components section; and"
+                },
+                "2": {
+                    "DESCRIPTION": "The content is implemented using technologies with support for identifying the expected meaning for form input data."
+                }
+            }
+        },
+        "1.3.6": {
+            "TITLE": "Identify Purpose",
+            "DESCRIPTION": "In content implemented using markup languages, the purpose of User Interface Components, icons, and regions can be programmatically determined.",
+            "DETAILS": {}
+        },
+        "1.4.1": {
+            "TITLE": "Benutzung von Farbe",
+            "DESCRIPTION": "Farbe wird nicht als einziges visuelles Mittel benutzt, um Informationen zu vermitteln, eine Handlung zu kennzeichnen, eine Reaktion zu veranlassen oder ein visuelles Element zu unterscheiden.",
+            "DETAILS": {}
+        },
+        "1.4.2": {
+            "TITLE": "Audio-Steuerelement",
+            "DESCRIPTION": "Wenn Audioinhalt auf einer Webseite automatisch für mehr als 3 Sekunden abgespielt wird, dann gibt es entweder einen Mechanismus, um die Wiedergabe zu pausieren oder zu beenden, oder es gibt einen Mechanismus, um die Lautstärke unabhängig von der allgemeinen Systemlautstärke zu regeln.",
+            "DETAILS": {}
+        },
+        "1.4.3": {
+            "TITLE": "Kontrast (Minimum)",
+            "DESCRIPTION": "Die visuelle Darstellung von Text und Bildern von Text hat ein Kontrastverhältnis von mindestens 4,5:1 mit folgenden Ausnahmen:",
+            "DETAILS": {
+                "1": {
+                    "TITLE": "Großer Text",
+                    "DESCRIPTION": "Großer Text und Bilder von großem Text haben ein Kontrastverhältnis von mindestens 3:1;"
+                },
+                "2": {
+                    "TITLE": "Nebensächlich",
+                    "DESCRIPTION": "Für Text oder Bilder eines Textes, die Teil eines inaktiven Bestandteils der Benutzerschnittstelle, rein dekorativ, für niemanden sichtbar oder Teil eines Bildes sind, welches signifikanten anderen visuellen Inhalt enthält, gibt es keine Kontrastanforderung."
+                },
+                "3": {
+                    "TITLE": "Wortbildmarken",
+                    "DESCRIPTION": "Text, der Teil eines Logos oder eines Markennamens ist, hat keine Kontrastanforderungen."
+                }
+            }
+        },
+        "1.4.4": {
+            "TITLE": "Textgröße ändern",
+            "DESCRIPTION": "Mit Ausnahme von Untertiteln und Bildern eines Textes, kann Text ohne assistierende Technik um bis zu 200 Prozent geändert werden, ohne dass dabei Inhalt oder Funktionalität verloren geht.",
+            "DETAILS": {}
+        },
+        "1.4.5": {
+            "TITLE": "Bilder eines Textes",
+            "DESCRIPTION": "Wenn die benutzten Techniken die visuelle Präsentation bewirken können, dann wird Text statt Bilder eines Textes dazu benutzt, Informationen zu vermitteln mit den folgenden Ausnahmen:",
+            "DETAILS": {
+                "1": {
+                    "TITLE": "Anpassbar",
+                    "DESCRIPTION": "Das Bild eines Textes kann visuell an die Anforderungen des Benutzers angepasst werden;"
+                },
+                "2": {
+                    "TITLE": "Unentbehrlich",
+                    "DESCRIPTION": "Eine bestimmte Präsentation von Text ist für die vermittelten Informationen unentbehrlich."
+                }
+            }
+        },
+        "1.4.6": {
+            "TITLE": "Kontrast (erhöht)",
+            "DESCRIPTION": "Die visuelle Präsentation von Text und Bildern eines Textes hat ein Kontrastverhältnis von mindestens 7:1, mit folgenden Ausnahmen:",
+            "DETAILS": {
+                "1": {
+                    "TITLE": "Großer Text",
+                    "DESCRIPTION": "Großer Text und Bilder von großem Text haben ein Kontrastverhältnis von mindestens 4,5:1;"
+                },
+                "2": {
+                    "TITLE": "Nebensächlich",
+                    "DESCRIPTION": "Für Text oder Bilder eines Textes, die Teil eines inaktiven Bestandteils der Benutzerschnittstelle, rein dekorativ, für niemanden sichtbar oder Teil eines Bildes sind, welches signifikanten anderen visuellen Inhalt enthält, gibt es keine Kontrastanforderung."
+                },
+                "3": {
+                    "TITLE": "Wortbildmarken",
+                    "DESCRIPTION": "Text, der Teil eines Logos oder eines Markennamens ist, hat keine Mindest-Kontrastanforderungen."
+                }
+            }
+        },
+        "1.4.7": {
+            "TITLE": "Leiser oder kein Hintergrund-Audioinhalt",
+            "DESCRIPTION": "Für aufgezeichneten, reinen Audioinhalt, der (1) hauptsächlich Sprache im Vordergrund enthält, (2) kein Audio-CAPTCHA oder ein Audio-Logo ist und (3) bei dem es sich nicht um eine Vokalisierung handelt, die hauptsächlich als musikalischer Ausdruck bestimmt ist wie beispielsweise Singen oder Rappen, gilt mindestens eines der Folgenden:",
+            "DETAILS": {
+                "1": {
+                    "TITLE": "Kein Hintergrund",
+                    "DESCRIPTION": "Der Audioinhalt enthält keine Hintergrundgeräusche."
+                },
+                "2": {
+                    "TITLE": "Abschalten",
+                    "DESCRIPTION": "Die Hintergrundgeräusche können abgeschaltet werden."
+                },
+                "3": {
+                    "TITLE": "20 dB",
+                    "DESCRIPTION": "Die Hintergrundgeräusche sind mindestens 20 Dezibel leiser als der Sprachinhalt im Vordergrund mit der Ausnahme von gelegentlichen Geräuschen, die nur 1 oder 2 Sekunden andauern."
+                }
+            }
+        },
+        "1.4.8": {
+            "TITLE": "Visuelle Präsentation",
+            "DESCRIPTION": "Für die visuelle Präsentation von Textblöcken gibt es einen Mechanismus, um das Folgende zu erreichen:",
+            "DETAILS": {
+                "1": {
+                    "TITLE": 1,
+                    "DESCRIPTION": "Vorder- und Hintergrundfarben können vom Benutzer ausgewählt werden."
+                },
+                "2": {
+                    "TITLE": 2,
+                    "DESCRIPTION": "Die Breite beträgt nicht mehr als 80 Zeichen oder Glyphen (40 wenn es sich um CJK handelt)."
+                },
+                "3": {
+                    "TITLE": 3,
+                    "DESCRIPTION": "Text ist nicht im Blocksatz ausgerichtet (sowohl links- als auch rechtsbündig ausgerichtet)."
+                },
+                "4": {
+                    "TITLE": 4,
+                    "DESCRIPTION": "Der Zeilenabstand (Durchschuss) ist mindestens 1,5-fach innerhalb von Paragraphen und der Paragraphenabstand ist mindestens 1,5-fach so groß wie der Zeilenabstand."
+                },
+                "5": {
+                    "TITLE": 5,
+                    "DESCRIPTION": "Die Textgröße kann ohne assistierende Technik bis auf 200 Prozent skaliert werden und zwar so, dass der Leser nicht horizontal scrollen muss, um eine Textzeile in einem bildschirmfüllenden Fenster zu lesen."
+                }
+            }
+        },
+        "1.4.9": {
+            "TITLE": "Bilder eines Textes (keine Ausnahme)",
+            "DESCRIPTION": "Bilder eines Textes werden nur rein dekorativ benutzt oder dann, wenn eine bestimmte Präsentation von Text unentbehrlich für die zu vermittelnden Informationen ist.",
+            "DETAILS": {}
+        },
+        "1.4.10": {
+            "TITLE": "Reflow",
+            "DESCRIPTION": "Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions for:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "Vertical scrolling content at a width equivalent to 320 CSS pixels;"
+                },
+                "2": {
+                    "DESCRIPTION": "Horizontal scrolling content at a height equivalent to 256 CSS pixels."
+                }
+            }
+        },
+        "1.4.11": {
+            "TITLE": "Non-text Contrast",
+            "DESCRIPTION": "The visual presentation of the following have a contrast ratio of at least 3:1 against adjacent color(s):",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "Visual information required to identify user interface components and states, except for inactive components or where the appearance of the component is determined by the user agent and not modified by the author;",
+                    "TITLE": "User Interface Components"
+                },
+                "2": {
+                    "DESCRIPTION": "Parts of graphics required to understand the content, except when a particular presentation of graphics is essential to the information being conveyed.",
+                    "TITLE": "Graphical Objects"
+                }
+            }
+        },
+        "1.4.12": {
+            "TITLE": "Text Spacing",
+            "DESCRIPTION": "In content implemented using markup languages that support the following text style properties, no loss of content or functionality occurs by setting all of the following and by changing no other style property:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "Line height (line spacing) to at least 1.5 times the font size;"
+                },
+                "2": {
+                    "DESCRIPTION": "Spacing following paragraphs to at least 2 times the font size;"
+                },
+                "3": {
+                    "DESCRIPTION": "Letter spacing (tracking) to at least 0.12 times the font size;"
+                },
+                "4": {
+                    "DESCRIPTION": "Word spacing to at least 0.16 times the font size."
+                }
+            }
+        },
+        "1.4.13": {
+            "TITLE": "Content on Hover or Focus",
+            "DESCRIPTION": "Where receiving and then removing pointer hover or keyboard focus triggers additional content to become visible and then hidden, the following are true:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "A mechanism is available to dismiss the additional content without moving pointer hover or keyboard focus, unless the additional content communicates an input error or does not obscure or replace other content;",
+                    "TITLE": "Dismissable"
+                },
+                "2": {
+                    "DESCRIPTION": "If pointer hover can trigger the additional content, then the pointer can be moved over the additional content without the additional content disappearing;",
+                    "TITLE": "Hoverable"
+                },
+                "3": {
+                    "DESCRIPTION": "The additional content remains visible until the hover or focus trigger is removed, the user dismisses it, or its information is no longer valid.",
+                    "TITLE": "Persistent"
+                }
+            }
+        },
+        "2.1.1": {
+            "TITLE": "Tastatur",
+            "DESCRIPTION": "Alle Funktionalitäten des Inhalts sind durch eine Tastaturschnittstelle bedienbar, ohne dass eine bestimmte Zeiteinteilung für einzelne Tastenanschläge erforderlich ist, außer wenn die zugrunde liegende Funktion Eingaben verlangt, die vom Pfad der Bewegung des Benutzers und nicht nur von den Endpunkten abhängig sind.",
+            "DETAILS": {}
+        },
+        "2.1.2": {
+            "TITLE": "Keine Tastaturfalle",
+            "DESCRIPTION": "Wenn der Tastaturfokus durch eine Tastaturschnittstelle auf einen Bestandteil der Seite bewegt werden kann, dann kann der Fokus von diesem Bestandteil weg bewegt werden, indem man nur die Tastaturschnittstelle benutzt; wenn man dazu mehr als nicht modifizierte Pfeil- oder Tabulatortasten oder andere übliche Ausstiegsmethoden benutzen muss, dann wird der Benutzer über die Methode zum Bewegen des Fokus informiert.",
+            "DETAILS": {}
+        },
+        "2.1.3": {
+            "TITLE": "Tastatur (keine Ausnahme)",
+            "DESCRIPTION": "Alle Funktionalitäten des Inhalts sind durch eine Tastaturschnittstelle bedienbar, ohne dass eine bestimmte Zeiteinteilung für einzelne Tastenanschläge erforderlich ist.",
+            "DETAILS": {}
+        },
+        "2.1.4": {
+            "TITLE": "Character Key Shortcuts",
+            "DESCRIPTION": "If a keyboard shortcut is implemented in content using only letter (including upper- and lower-case letters), punctuation, number, or symbol characters, then at least one of the following is true:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "A mechanism is available to turn the shortcut off;",
+                    "TITLE": "Turn off"
+                },
+                "2": {
+                    "DESCRIPTION": "A mechanism is available to remap the shortcut to use one or more non-printable keyboard characters (e.g. Ctrl, Alt, etc);",
+                    "TITLE": "Remap"
+                },
+                "3": {
+                    "DESCRIPTION": "The keyboard shortcut for a user interface component is only active when that component has focus.",
+                    "TITLE": "Active only on focus"
+                }
+            }
+        },
+        "2.2.1": {
+            "TITLE": "Zeiteinteilung anpassbar",
+            "DESCRIPTION": "Für jede zeitliche Begrenzung, die vom Inhalt festgelegt wird, gilt mindestens eines der Folgenden:",
+            "DETAILS": {
+                "1": {
+                    "TITLE": "Abschalten",
+                    "DESCRIPTION": "Der Benutzer kann die zeitliche Begrenzung abschalten, bevor er darauf trifft oder"
+                },
+                "2": {
+                    "TITLE": "Anpassen",
+                    "DESCRIPTION": "Der Benutzer darf die zeitliche Begrenzung anpassen, bevor er darauf trifft, und zwar so weitreichend, dass es sich um die mindestens zehnfache Zeit der Standardeinstellung handelt oder"
+                },
+                "3": {
+                    "TITLE": "Ausweiten",
+                    "DESCRIPTION": "Der Benutzer wird gewarnt, bevor die Zeit abläuft und bekommt mindestens 20 Sekunden Zeit, um die zeitliche Begrenzung mit einer einfachen Handlung auszuweiten (zum Beispiel: „Drücken Sie die Leertaste“) und der Benutzer darf die zeitliche Begrenzung mindestens 10 mal ausweiten oder"
+                },
+                "4": {
+                    "TITLE": "Echtzeit-Ausnahme",
+                    "DESCRIPTION": "Die zeitliche Begrenzung ist ein erforderlicher Bestandteil eines Echtzeit-Ereignisses (zum Beispiel einer Auktion) und es gibt keine Alternative zur zeitlichen Begrenzung oder"
+                },
+                "5": {
+                    "TITLE": "Unentbehrliche Ausnahme",
+                    "DESCRIPTION": "Die zeitliche Begrenzung ist unentbehrlich und eine Ausweitung dieser würde die Handlung ungültig machen oder"
+                },
+                "6": {
+                    "TITLE": "20 Stunden-Ausnahme",
+                    "DESCRIPTION": "Die zeitliche Begrenzung beträgt mehr als 20 Stunden."
+                }
+            }
+        },
+        "2.2.2": {
+            "TITLE": "Pausieren, beenden, ausblenden",
+            "DESCRIPTION": "Für sich bewegende, blinkende, scrollende oder sich automatisch aktualisierende Informationen gelten alle folgenden Punkte:",
+            "DETAILS": {
+                "1": {
+                    "TITLE": "Sich bewegend, blinkend, scrollend",
+                    "DESCRIPTION": "Für alle sich bewegenden, blinkenden oder scrollenden Informationen, die (1) automatisch beginnen, (2) länger als 5 Sekunden dauern und (3) parallel zu anderen Inhalten dargestellt werden, gibt es einen Mechanismus für den Benutzer, um diese zu pausieren, zu beenden oder auszublenden außer die Bewegung, das Blinken oder das Scrollen ist Teil einer Handlung, bei der es unentbehrlich ist und"
+                },
+                "2": {
+                    "TITLE": "Automatische Aktualisierung",
+                    "DESCRIPTION": "Für alle sich automatisch aktualisierenden Informationen, die (1) automatisch beginnen und (2) parallel mit anderen Inhalten dargestellt werden, gibt es einen Mechanismus, damit der Benutzer die Aktualisierung pausieren, beenden oder ausblenden oder die Häufigkeit der Aktualisierung kontrollieren kann, außer die automatische Aktualisierung ist Teil einer Handlung, bei der sie unentbehrlich ist."
+                }
+            }
+        },
+        "2.2.3": {
+            "TITLE": "Keine Zeiteinteilung",
+            "DESCRIPTION": "Die Zeiteinteilung ist kein unentbehrlicher Teil eines vom Inhalt dargestellten Ereignisses oder einer Handlung außer bei nicht-interaktiven synchronisierten Medien und Echtzeit-Ereignissen.",
+            "DETAILS": {}
+        },
+        "2.2.4": {
+            "TITLE": "Unterbrechungen",
+            "DESCRIPTION": "Unterbrechungen können vom Benutzer aufgeschoben oder unterdrückt werden mit Ausnahme von Unterbrechungen, bei denen es sich um einen Notfall handelt.",
+            "DETAILS": {}
+        },
+        "2.2.5": {
+            "TITLE": "Erneute Authentifizierung",
+            "DESCRIPTION": "Wenn eine authentifizierte Sitzung abläuft, kann der Benutzer die Handlung nach der erneuten Authentifizierung ohne Datenverlust fortführen.",
+            "DETAILS": {}
+        },
+        "2.2.6": {
+            "TITLE": "Timeouts",
+            "DESCRIPTION": "Users are warned of the duration of any user inactivity that could cause data loss, unless the data is preserved for more than 20 hours when the user does not take any actions.",
+            "DETAILS": {}
+        },
+        "2.3.1": {
+            "TITLE": "Grenzwert von dreimaligem Blitzen oder weniger",
+            "DESCRIPTION": "Webseiten enthalten nichts, was öfter als dreimal in einem beliebigen, eine Sekunde dauernden Zeitraum blitzt, oder der Blitz ist unterhalb der allgemeinen Grenzwerte zu Blitzen und roten Blitzen.",
+            "DETAILS": {}
+        },
+        "2.3.2": {
+            "TITLE": "Drei Blitze",
+            "DESCRIPTION": "Webseiten enthalten nichts, das öfter als dreimal in einem beliebigen, eine Sekunde dauernden Zeitraum blitzt.",
+            "DETAILS": {}
+        },
+        "2.3.3": {
+            "TITLE": "Animation from Interactions",
+            "DESCRIPTION": "Motion animation triggered by interaction can be disabled, unless the animation is essential to the functionality or the information being conveyed.",
+            "DETAILS": {}
+        },
+        "2.4.1": {
+            "TITLE": "Blöcke umgehen",
+            "DESCRIPTION": "Es gibt einen Mechanismus, um Inhaltsblöcke zu umgehen, die auf verschiedenen Webseiten wiederholt werden.",
+            "DETAILS": {}
+        },
+        "2.4.2": {
+            "TITLE": "Seite mit Titel versehen",
+            "DESCRIPTION": "Webseiten haben einen Titel, der Thema oder Zweck beschreibt.",
+            "DETAILS": {}
+        },
+        "2.4.3": {
+            "TITLE": "Fokus-Reihenfolge",
+            "DESCRIPTION": "Wenn eine Webseite der Reihe nach navigiert werden kann und die Reihenfolge der Navigation die Bedeutung oder Bedienung beeinflusst, erhalten fokussierbare Komponenten den Fokus in einer Reihenfolge, der Bedeutung und Bedienbarkeit aufrecht erhält.",
+            "DETAILS": {}
+        },
+        "2.4.4": {
+            "TITLE": "Linkzweck (im Kontext)",
+            "DESCRIPTION": "Der Zweck jedes Links kann durch den Linktext allein oder durch den Linktext zusammen mit seinem durch Software bestimmten Link-Kontext bestimmt werden außer in Fällen, in denen der Zweck des Links mehrdeutig für Benutzer im Allgemeinen wäre.",
+            "DETAILS": {}
+        },
+        "2.4.5": {
+            "TITLE": "Verschiedene Methoden",
+            "DESCRIPTION": "Es gibt mehr als eine Methode, um eine Webseite innerhalb eines Satzes von Webseiten zu finden, außer die Webseite ist das Ergebnis oder ein Schritt innerhalb eines Prozesses.",
+            "DETAILS": {}
+        },
+        "2.4.6": {
+            "TITLE": "Überschriften und Beschriftungen (Labels)",
+            "DESCRIPTION": "Überschriften und Labels beschreiben ein Thema oder einen Zweck.",
+            "DETAILS": {}
+        },
+        "2.4.7": {
+            "TITLE": "Fokus sichtbar",
+            "DESCRIPTION": "Jede durch Tastatur bedienbare Benutzerschnittstelle hat einen Bedienmodus, bei dem der Tastaturfokus sichtbar ist.",
+            "DETAILS": {}
+        },
+        "2.4.8": {
+            "TITLE": "Position",
+            "DESCRIPTION": "Es gibt Informationen zu der Position des Benutzers innerhalb eines Satzes von Webseiten.",
+            "DETAILS": {}
+        },
+        "2.4.9": {
+            "TITLE": "Linkzweck (reiner Link)",
+            "DESCRIPTION": "Es gibt einen Mechanismus, um den Zweck jedes Links durch den Linktext allein zu erkennen, außer der Linkzweck wäre mehrdeutig für Benutzer im Allgemeinen.",
+            "DETAILS": {}
+        },
+        "2.4.10": {
+            "TITLE": "Abschnittsüberschriften",
+            "DESCRIPTION": "Abschnittsüberschriften werden genutzt, um den Inhalt zu gliedern.",
+            "DETAILS": {}
+        },
+        "2.5.1": {
+            "TITLE": "Pointer Gestures",
+            "DESCRIPTION": "All functionality that uses multipoint or path-based gestures for operation can be operated with a single pointer without a path-based gesture, unless a multipoint or path-based gesture is essential.",
+            "DETAILS": {}
+        },
+        "2.5.2": {
+            "TITLE": "Pointer Cancellation",
+            "DESCRIPTION": "For functionality that can be operated using a single pointer, at least one of the following is true:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "The down-event of the pointer is not used to execute any part of the function;",
+                    "TITLE": "No Down-Event"
+                },
+                "2": {
+                    "DESCRIPTION": "Completion of the function is on the up-event, and a mechanism is available to abort the function before completion or to undo the function after completion;",
+                    "TITLE": "Abort or Undo"
+                },
+                "3": {
+                    "DESCRIPTION": "The up-event reverses any outcome of the preceding down-event;",
+                    "TITLE": "Up Reversal"
+                },
+                "4": {
+                    "DESCRIPTION": "Completing the function on the down-event is essential.",
+                    "TITLE": "Essential"
+                }
+            }
+        },
+        "2.5.3": {
+            "TITLE": "Label in Name",
+            "DESCRIPTION": "For user interface components with labels that include text or images of text, the name contains the text that is presented visually.",
+            "DETAILS": {}
+        },
+        "2.5.4": {
+            "TITLE": "Motion Actuation",
+            "DESCRIPTION": "Functionality that can be operated by device motion or user motion can also be operated by user interface components and responding to the motion can be disabled to prevent accidental actuation, except when:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "The motion is used to operate functionality through an accessibility supported interface;",
+                    "TITLE": "Supported Interface"
+                },
+                "2": {
+                    "DESCRIPTION": "The motion is essential for the function and doing so would invalidate the activity.",
+                    "TITLE": "Essential"
+                }
+            }
+        },
+        "2.5.5": {
+            "TITLE": "Target Size",
+            "DESCRIPTION": "The size of the target for pointer inputs is at least 44 by 44 CSS pixels except when:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "The target is available through an equivalent link or control on the same page that is at least 44 by 44 CSS pixels;",
+                    "TITLE": "Equivalent"
+                },
+                "2": {
+                    "DESCRIPTION": "The target is in a sentence or block of text;",
+                    "TITLE": "Inline"
+                },
+                "3": {
+                    "DESCRIPTION": "The size of the target is determined by the user agent and is not modified by the author;",
+                    "TITLE": "User Agent Control"
+                },
+                "4": {
+                    "DESCRIPTION": "A particular presentation of the target is essential to the information being conveyed.",
+                    "TITLE": "Essential"
+                }
+            }
+        },
+        "2.5.6": {
+            "TITLE": "Concurrent Input Mechanisms",
+            "DESCRIPTION": "Web content does not restrict use of input modalities available on a platform except where the restriction is essential, required to ensure the security of the content, or required to respect user settings.",
+            "DETAILS": {}
+        },
+        "3.1.1": {
+            "TITLE": "Sprache der Seite",
+            "DESCRIPTION": "Die voreingestellte menschliche Sprache jeder Webseite kann durch Software bestimmt werden.",
+            "DETAILS": {}
+        },
+        "3.1.2": {
+            "TITLE": "Sprache von Teilen",
+            "DESCRIPTION": "Die menschliche Sprache jedes Abschnitts oder jedes Satzes im Inhalt kann durch Software bestimmt werden außer bei Eigennamen, technischen Fachbegriffen, Wörtern einer unklaren Sprache und Wörtern oder Wendungen, die Teil des Jargons des direkt umliegenden Textes geworden sind.",
+            "DETAILS": {}
+        },
+        "3.1.3": {
+            "TITLE": "Ungewöhnliche Wörter",
+            "DESCRIPTION": "Es gibt einen Mechanismus, um spezielle Definitionen von Wörtern oder Wendungen zu erkennen, die auf ungewöhnliche oder eingeschränkte Weise benutzt werden, Idiome und Jargon eingeschlossen.",
+            "DETAILS": {}
+        },
+        "3.1.4": {
+            "TITLE": "Abkürzungen",
+            "DESCRIPTION": "Es gibt einen Mechanismus, um die ausgeschriebene Form oder Bedeutung von Abkürzungen zu erkennen.",
+            "DETAILS": {}
+        },
+        "3.1.5": {
+            "TITLE": "Leseniveau",
+            "DESCRIPTION": "Wenn der Text nach der Entfernung von Eigennamen und Titeln Lesefähigkeiten voraussetzt, die über das Niveau der niedrigen, sekundären Schulbildung hinausgehen, dann gibt es ergänzenden Inhalt oder eine Version, die keine über die niedrige, sekundäre Schulbildung hinausgehenden Lesefähigkeiten verlangt.",
+            "DETAILS": {}
+        },
+        "3.1.6": {
+            "TITLE": "Aussprache",
+            "DESCRIPTION": "Es gibt einen Mechanismus, um die bestimmte Aussprache von Wörtern zu erkennen, wenn die Bedeutung der Wörter - im Zusammenhang - mehrdeutig ist, wenn man die Aussprache nicht kennt.",
+            "DETAILS": {}
+        },
+        "3.2.1": {
+            "TITLE": "Bei Fokus",
+            "DESCRIPTION": "Wenn irgendein Bestandteil den Fokus erhält, dann löst dies nicht eine Änderung des Kontextes aus.",
+            "DETAILS": {}
+        },
+        "3.2.2": {
+            "TITLE": "Bei Eingabe",
+            "DESCRIPTION": "Die Änderung der Einstellung irgendeines Bestandteils der Benutzerschnittstelle führt nicht automatisch zur Änderung des Kontextes, außer der Benutzer wurde vor Benutzung des Bestandteils auf das Verhalten hingewiesen.",
+            "DETAILS": {}
+        },
+        "3.2.3": {
+            "TITLE": "Konsistente Navigation",
+            "DESCRIPTION": "Navigationsmechanismen, die auf mehreren Webseiten innerhalb eines Satzes von Webseiten wiederholt werden, treten jedes Mal, wenn sie wiederholt werden, in der gleichen relativen Reihenfolge auf, außer eine Änderung wird durch den Benutzer ausgelöst.",
+            "DETAILS": {}
+        },
+        "3.2.4": {
+            "TITLE": "Konsistente Erkennung",
+            "DESCRIPTION": "Bestandteile mit der gleichen Funktionalität innerhalb eines Satzes von Webseiten werden konsistent erkannt.",
+            "DETAILS": {}
+        },
+        "3.2.5": {
+            "TITLE": "Änderung auf Anfrage",
+            "DESCRIPTION": "Änderungen des Kontextes werden nur durch Benutzeranfrage ausgelöst oder es gibt einen Mechanismus, um solche Änderungen abzuschalten.",
+            "DETAILS": {}
+        },
+        "3.3.1": {
+            "TITLE": "Fehlererkennung",
+            "DESCRIPTION": "Wenn ein Eingabefehler automatisch erkannt wird, dann wird das fehlerhafte Element identifiziert und der Fehler wird dem Benutzer in Textform beschrieben.",
+            "DETAILS": {}
+        },
+        "3.3.2": {
+            "TITLE": "Beschriftungen (Labels) oder Anweisungen",
+            "DESCRIPTION": "Wenn der Inhalt eine Eingabe durch den Benutzer verlangt werden Beschriftungen (Labels) oder Anweisungen bereitgestellt.",
+            "DETAILS": {}
+        },
+        "3.3.3": {
+            "TITLE": "Fehlerempfehlung",
+            "DESCRIPTION": "Wenn ein Eingabefehler automatisch erkannt wird und Korrekturempfehlungen bekannt sind, dann werden diese Empfehlungen dem Benutzer bereitgestellt, außer dies würde die Sicherheit oder den Zweck des Inhalts gefährden.",
+            "DETAILS": {}
+        },
+        "3.3.4": {
+            "TITLE": "Fehlervermeidung (rechtliche, finanzielle, Daten)",
+            "DESCRIPTION": "Für Webseiten, die eine für den Benutzer auftretende rechtliche Verpflichtung oder finanzielle Transaktion zur Folge haben, die Benutzer-gesteuerte Daten in Datenspeicherungssystemen ändern oder löschen oder die Testantworten des Benutzers abschicken, gilt mindestens eines der Folgenden:",
+            "DETAILS": {
+                "1": {
+                    "TITLE": "Reversibel",
+                    "DESCRIPTION": "Versendete Daten sind reversibel."
+                },
+                "2": {
+                    "TITLE": "Geprüft",
+                    "DESCRIPTION": "Vom Benutzer eingegebene Daten werden auf Eingabefehler überprüft und der Benutzer erhält die Gelegenheit, diese zu korrigieren."
+                },
+                "3": {
+                    "TITLE": "Bestätigt",
+                    "DESCRIPTION": "Es gibt einen Mechanismus, um Informationen zu überprüfen, zu bestätigen und zu korrigieren, bevor sie endgültig abgesendet werden."
+                }
+            }
+        },
+        "3.3.5": {
+            "TITLE": "Hilfe",
+            "DESCRIPTION": "Es gibt eine kontextsensitive Hilfe.",
+            "DETAILS": {}
+        },
+        "3.3.6": {
+            "TITLE": "Fehlervermeidung (alle)",
+            "DESCRIPTION": "Für Webseiten, die verlangen, dass der Benutzer Informationen absendet, gilt mindestens eines der Folgenden:",
+            "DETAILS": {
+                "1": {
+                    "TITLE": "Reversibel",
+                    "DESCRIPTION": "Versendete Daten sind reversibel."
+                },
+                "2": {
+                    "TITLE": "Geprüft",
+                    "DESCRIPTION": "Vom Benutzer eingegebene Daten werden auf Eingabefehler überprüft und der Benutzer erhält die Gelegenheit, diese zu korrigieren."
+                },
+                "3": {
+                    "TITLE": "Bestätigt",
+                    "DESCRIPTION": "Es gibt einen Mechanismus, um Informationen zu überprüfen, zu bestätigen und zu korrigieren, bevor sie endgültig abgesendet werden."
+                }
+            }
+        },
+        "4.1.1": {
+            "TITLE": "Syntaxanalyse",
+            "DESCRIPTION": "Bei Inhalt, der durch die Benutzung von Auszeichnungssprache implementiert wurde, haben Elemente komplette Start- und End-Tags, werden Elemente entsprechend ihrer Spezifikationen verschachtelt, enthalten Elemente keine doppelten Attribute und alle IDs sind einzigartig, außer wenn die Spezifikationen diese Eigenschaften erlauben.",
+            "DETAILS": {}
+        },
+        "4.1.2": {
+            "TITLE": "Name, Rolle, Wert",
+            "DESCRIPTION": "Für alle Bestandteile der Benutzerschnittstelle (einschließlich, aber nicht beschränkt auf: Formularelemente, Links und durch Skripte generierte Komponenten) können Name und Rolle durch Software bestimmt werden; Zustände, Eigenschaften und Werte, die vom Benutzer festgelegt werden können, können durch Software festgelegt sein; und die Benachrichtigung über Änderungen an diesen Elementen steht den Benutzeragenten zur Verfügung, einschließlich assistierender Techniken.",
+            "DETAILS": {}
+        },
+        "4.1.3": {
+            "TITLE": "Status Messages",
+            "DESCRIPTION": "In content implemented using markup languages, status messages can be programmatically determined through role or properties such that they can be presented to the user by assistive technologies without receiving focus.",
+            "DETAILS": {}
+        }
+    }
+}

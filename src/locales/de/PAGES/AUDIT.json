@@ -1,0 +1,23 @@
+{
+    "ASSERTION_RESULT_DESCRIPTION_LABEL": "Notizen",
+    "ASSERTION_RESULT_DESCRIPTION_PLACEHOLDER": "Notizen, die während der Prüfung gemacht wurden",
+    "BTN_EXPAND_PAGES": "Seiten anzeigen, um individuelle Ergebnisse zu notieren",
+    "BTN_OPEN_SELECTED": "Ausgewählte Seiten öffnen",
+    "FILTER_NEW_IN_WCAG21": "In WCAG 2.1 hinzugefügt",
+    "INTRO": "Notieren Sie das Ergebnis der Prüfung der Seiten, die Sie im vorigen Schritt ausgewählt haben. Vergleichen Sie die Ergebnisse zwischen den strukturiert und den willkürlich ausgewählten Seiten. Falls nötig, korrigieren Sie die Seitenauswahl im vorigen Schritt.",
+    "IMPORT_DATA_INTRO": "Ergebnisse von anderen (automatisierten) Tests hinzufügen",
+    "RESOURCE_LINK_NAME": "Step 4: Audit the Selected Sample",
+    "LABEL_OUTCOME": "Ergebnis",
+    "NO_SAMPLE": "Keine Auswahl verfügbar",
+    "SAMPLE_FINDINGS": "Gesamte Seitenauswahl",
+    "SELECT_ALL": "Alle auswählen",
+    "TESTED": "Geprüft",
+    "TITLE": "Schritt 4: Die ausgewählten Seiten prüfen",
+    "UNDERSTAND": "Understanding",
+    "HOW_TO": "How to meet",
+    "UNTESTED": "{{critCount}} ungeprüft",
+    "VIEW_IN_REPORT": "Im Bericht anzeigen",
+    "LABEL_VERSION": "Version der WCAG",
+    "LABEL_LEVEL": "Stufe(n)",
+    "ADDED_IN": "Hinzugefügt in"
+}

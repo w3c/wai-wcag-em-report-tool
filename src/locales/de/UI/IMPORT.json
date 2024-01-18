@@ -1,0 +1,17 @@
+{
+    "TITLE": "Einen WCAG EARL Bericht importieren",
+    "INTRO": "WCAG EARL-Berichte, die Sie mit anderen Anwendungen erstellt haben, und die zum Umfang dieser Prüfung gehören, können Sie eventuell importieren und an die Prüfergebnisse anfügen. Die Datei sollte JSON-LD-parsable sein, aus Objekten im EARL-Format bestehen, und die Prüfschritte (tests) sollten sich auf die WCAG beziehen.",
+    "LABEL_SELECT_FILE": "Eine JSON-LD-Datei auswählen",
+    "IMPORT": {
+        "HEADING": "Prüfergebnis importiert am {IMPORT_DATE, date, ::dd.MM.yyyy} von {AUTHOR}",
+        "TEST_PREFIX": "Prüfschritt"
+    },
+    "ERROR": {
+    	"JSONLD_SYNTAX": "Dateiformat nicht erkannt.",
+    	"NO_ASSERTIONS": "Die Datei enthält keine erkennbaren Prüfschritte.",
+    	"NO_COMPATIBLE_ASSERTIONS": "Keine der Prüfschritte in dieser Datei passt zur Seitenauswahl.",
+    	"FILE_ERROR": "Die Datei hat ein falsches Format oder ist beschädigt."
+    },
+    "SUCCESSFUL": "Prüfschritte wurden zu den Notizen auf dieser Seite hinzugefügt.",
+    "MORE_INFO": "Weitere Informationen zum Import von EARL als JSON"
+}

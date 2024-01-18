@@ -1,0 +1,23 @@
+{
+    "TITLE": "Schritt 3: Repräsentative Seiten auswählen",
+    "INTRO": "Wählen Sie Seiten für die Prüfung aus. Ihre Notizen, die Sie beim Erkunden im vorigen Schritt gemacht haben, werden hier angeboten, um Ihnen bei der Auswahl zu helfen. Stellen Sie sicher, dass die ausgewählten Seiten repräsentativ für die Website sind.",
+    "RESOURCE_LINK_NAME": "Step 3: Select a Representative Sample",
+    "HD_STRUCT_SAMPLE": "Strukturierte Auswahl",
+    "HD_ESSENT_FUNC": "Wesentliche Funktion der Website (optionale Notizen vom vorigen Schritt)",
+    "HD_VARIETY_PAGE_TYPES": "Vielfalt der Seitenarten (optionale Notizen vom vorigen Schritt)",
+    "HD_STRUCT_SAMPLE_SUB": "Strukturiert ausgewählte Seiten",
+    "INF_STRUCT_SAMPLE": " Wählen Sie Seiten aus, die folgenden Kriterien entsprechen: (1) Allgemeine Seiten (2) Wesentliche Funktion, (3) Seitenarten, (4) Techniken auf die man sich verlässt, (5) andere relevante Seiten. Für weitere Informationen, siehe <a hreflang='en' lang='en' href='https://www.w3.org/TR/WCAG-EM/#step3a'>WCAG-EM Step 3.a: Include a Structured Sample</a>).<br>  **Hinweis**: „Seiten“ beinhalten verschiedene <a hreflang='en' lang='en' href='https://www.w3.org/TR/WCAG-EM/#states'>Zustände von Webseiten (Englisch)</a>.",
+    "HD_RANDOM_SAMPLE": "Willkürlich ausgewählte Seiten",
+    "INF_RAND_SAMPLE": "Wählen Sie zufällig 10 % der strukturiert ausgewählten Seiten aus. Für weitere Informationen, siehe <a hreflang='en' lang='en' href='https://www.w3.org/TR/WCAG-EM/#step3b'>WCAG-EM Step 3.b: Include a Randomly Selected Sample</a>.<br> **Hinweis**: „Seiten“ beinhalten verschiedene <a hreflang='en' lang='en' href='https://www.w3.org/TR/WCAG-EM/#states'>Zustände von Webseiten (Englisch)</a>.",
+    "RAND_SAMPLE_LENGTH": "Basierend auf Ihrer strukturierten Auswahl von {STRUCTURED_SAMPLE_COUNT} Seiten, wählen Sie willkürlich mindestens {REQUIRED_RANDOM_SAMPLE_COUNT} Seiten aus (um die Anforderung von 10 % zu erfüllen, die die WCAG-EM vorgeben).",
+    "LABEL_HANDLE": "Kurzbezeichnung",
+    "LABEL_PAGE": "Adresse (URL) oder Beschreibung",
+    "NO_PAGES_DEFINED": "Keine Seiten für diese Liste ausgewählt",
+    "ITEM": "Seite",
+    "BTN_ADD_PAGE": "Seite hinzufügen",
+    "BTN_REMOVE_PAGE": "Seite entfernen",
+    "STRUCTURED_PAGE": "strukturiert ausgewählte Seite",
+    "RANDOM_PAGE": "zufällig ausgewählte Seite",
+    "SAMPLE_PAGE": "ausgewählte Seite",
+    "DELETE_CONFIRM": "Sind Sie sicher, dass Sie diese Seite löschen möchten?"
+}

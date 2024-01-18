@@ -1,0 +1,18 @@
+{
+    "TITLE": "Schritt 2: Die zu prüfende Website erkunden",
+    "INTRO": "Erkunden Sie die Website, um ihren Zweck, ihre Funktionen und Benutzung zu verstehen. Dieser Schritt hilft Ihnen, Seiten auszuwählen für die Prüfung in den folgenden Schritten. Identifizieren Sie die Techniken, die auf der Website benutzt werden, und notieren Sie andere Aspekte, falls gewünscht. Normalerweise ist es am Besten, den Besitzer und die Entwickler der Website in diesem Schritt einzubeziehen.",
+    "RESOURCE_LINK_NAME": "Step 2: Explore the Target Website",
+    "HD_RELIEDUP_TECH": "Benutzte Web-Techniken",
+    "INF_RELIEDUP_TECH": "Identifizieren Sie die Web-Techniken, auf die [man sich verlässt im Sinne der WCAG 2](https://www.w3.org/Translations/WCAG20-de/#reliedupondef) um die Website zur Verfügung zu stellen. Für weitere Informationen, siehe <a hreflang='en' lang='en' href='https://www.w3.org/TR/WCAG-EM/#step2d'>WCAG-EM Step 2.d: Identify Web Technologies Relied Upon</a>.",
+    "LABEL_TECH": "Web-Technik",
+    "LABEL_TECH_SPEC": "Adresse der Spezifikation (URL)",
+    "PLH_TECH_SPEC": "Web-Adresse (URL) oder Beschreibung der Spezifikation der Web-Technik",
+    "BTN_ADD_TECH": "Web-Technik hinzufügen",
+    "HD_NOTE_TAKING": "Optionale Notizen zur Erkundung",
+    "INF_NOTE_TAKING": "Dieser Abschnitt erlaubt Ihnen, Notizen während Ihrer Erkundung zu machen. Diese Notizen werden im nächsten Schritt angezeigt, um Ihnen zu helfen eine Auswahl von Seiten für die Prüfung zu treffen. **Diese Notizen sind nicht im finalen Bericht enthalten**. Sie werden gespeichert wenn Sie die Datei speichern und später mit der Datei wieder geladen.",
+    "LABEL_ESSENT_FUNC": "Wesentliche Funktion der Website",
+    "INF_ESSENT_FUNC": "Sie können dieses Feld benutzen, um Notizen zur wesentlichen Funktion der Website zu machen. Beispiele von wesentlichen Funktionen enthalten:<ul><li>„Ein Produkt im Shop-Bereich der Website auswählen und kaufen“</li><li>„Ein Formular auf der Website ausfüllen und abschicken”</li><li>„Ein Konto auf der Website registrieren”</li></ul> Für weitere Informationen, siehe <a hreflang='en' lang='en' href='https://www.w3.org/TR/WCAG-EM/#step2b'>WCAG-EM Step 2.b: Identify Essential Functionality of the Website</a>.",
+    "LABEL_VARIETY_PAGE_TYPES": "Vielfalt der Seitenarten",
+    "INF_VARIETY_PAGE_TYPES": "Sie können dieses Feld benutzen, um Notizen zu den Arten (im Gegensatz zu Instanzen) von Seiten machen, die Sie auf der Website finden. Das beinhaltet Notizen zu verschiedenen Stilen, Layouts, Strukturen und Funktionen, die auf der Website verwendet werden. Für weitere Informationen, siehe <a hreflang='en' lang='en' href='https://www.w3.org/TR/WCAG-EM/#step2c'>WCAG-EM Step 2.c: Identify the Variety of Web Page Types</a>.<br> **Hinweis**: „Seiten“ beinhalten verschiedene <a hreflang='en' lang='en' href='https://www.w3.org/TR/WCAG-EM/#states'>Zustände von Webseiten (Englisch)</a>.",
+    "ADD_TECH": "Hinzufügen"
+}

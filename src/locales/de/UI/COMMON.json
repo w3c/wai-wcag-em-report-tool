@@ -1,0 +1,34 @@
+{
+    "BROWSER_NOT_SUPPORTED": "Ihr benutzter Webbrowser unterstützt einige Funktionen nicht, wie das Speichern und Laden von Berichten. Sie können das Bericht-Tool weiter mit limitierter Funktionalität benutzen. Aktualisieren Sie Ihren Browser oder benutzen Sie einen anderen, um dieses Report-Tool mit allen Funktionen zu nutzen.",
+    "WARNING_BEFORE_UNLOAD": "Ihre Eingaben werden nicht automatisch gespeichert und gehen verloren, wenn Sie dieses Browser-Fenster schließen. Benutzen Sie den Speichern-Link (Strg + s oder ⌘ s) am Anfang jeder Seite, um Ihre Eingaben in einer Datei auf Ihrem Computer abzuspeichern, die Sie später wieder laden können um weiter zu arbeiten.",
+    "MORE_INFO": "Für weitere Informationen siehe <a href={{url}}>{{name}}</a>.",
+    "HIDE_MESSAGE": "Nachricht verstecken",
+    "ERROR": {
+        "DEFAULT": "Etwas ist schief gelaufen."
+    },
+    "YES": "Ja",
+    "NO": "Nein",
+    "NEXT": "Nächster {label}",
+    "PREVIOUS": "Voriger {label}",
+    "CLICK_EXPAND": "Klicken, um den Abschnitt anzuzeigen",
+    "CLICK_COLLAPSE": "Klicken, um den Abschnitt zu verstecken",
+    "TO_TOP": "Zurück zum Anfang",
+    "ACTIVE": "Aktiv",
+    "BUTTON": {
+        "ADD": "{subject} hinzufügen",
+        "INFO": "Info",
+        "HIDE": "{subject} verstecken",
+        "LANGUAGE_SELECT": "Übersetzungen",
+        "SHOW": "{subject} anzeigen"
+    },
+    "LABEL": {
+        "LANGUAGE_SELECT": "Diese Seite auf"
+    },
+    "YOUR_REPORT": "Ihr Bericht",
+    "SHOW_FULL_DESCRIPTION": "Vollständige Beschreibung anzeigen",
+    "PREVIOUSNEXT": "Voriger/Nächster Schritt",
+    "DELETE": "Löschen",
+    "FOR": "für",
+    "EXPAND_ALL": "Alle Abschnitte anzeigen",
+    "COLLAPSE_ALL": "Alle Abschnitte verstecken"
+}
