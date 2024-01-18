@@ -5,10 +5,17 @@
     },
     {
         "lang": "nl",
-        "title": "Nederlands"
+        "title": "Nederlands",
+        "status": "draft"
+    },
+    {
+        "lang": "fr",
+        "title": "Français",
+        "status": "draft"
     },
     {
         "lang": "de",
-        "title": "Deutsch"
+        "title": "Deutsch",
+        "status": "draft"
     }
 ]
