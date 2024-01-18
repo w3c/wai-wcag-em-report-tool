@@ -6,7 +6,6 @@
     "INF_RELIEDUP_TECH": "Identifizieren Sie die Web-Techniken, auf die [man sich verlässt im Sinne der WCAG 2](https://www.w3.org/Translations/WCAG20-de/#reliedupondef) um die Website zur Verfügung zu stellen. Für weitere Informationen, siehe <a hreflang='en' lang='en' href='https://www.w3.org/TR/WCAG-EM/#step2d'>WCAG-EM Step 2.d: Identify Web Technologies Relied Upon</a>.",
     "LABEL_TECH": "Web-Technik",
     "LABEL_TECH_SPEC": "Adresse der Spezifikation (URL)",
-    "PLH_TECH_SPEC": "Web-Adresse (URL) oder Beschreibung der Spezifikation der Web-Technik",
     "BTN_ADD_TECH": "Web-Technik hinzufügen",
     "HD_NOTE_TAKING": "Optionale Notizen zur Erkundung",
     "INF_NOTE_TAKING": "Dieser Abschnitt erlaubt Ihnen, Notizen während Ihrer Erkundung zu machen. Diese Notizen werden im nächsten Schritt angezeigt, um Ihnen zu helfen eine Auswahl von Seiten für die Prüfung zu treffen. **Diese Notizen sind nicht im finalen Bericht enthalten**. Sie werden gespeichert wenn Sie die Datei speichern und später mit der Datei wieder geladen.",

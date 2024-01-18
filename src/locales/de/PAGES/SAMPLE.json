@@ -16,8 +16,6 @@
     "ITEM": "Seite",
     "BTN_ADD_PAGE": "Seite hinzufügen",
     "BTN_REMOVE_PAGE": "Seite entfernen",
-    "STRUCTURED_PAGE": "strukturiert ausgewählte Seite",
-    "RANDOM_PAGE": "zufällig ausgewählte Seite",
     "SAMPLE_PAGE": "ausgewählte Seite",
     "DELETE_CONFIRM": "Sind Sie sicher, dass Sie diese Seite löschen möchten?"
 }
