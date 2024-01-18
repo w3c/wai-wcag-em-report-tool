@@ -33,7 +33,7 @@
   <h3>Version 3</h3>
   <ul>
     <li>Michel Hansma, HAN University</li>
-    <li><a href="https://www.w3.org/People/hidde">Hidde de Vries</a>, W3C WAI</li>
+    <li>Hidde de Vries, W3C WAI</li>
   </ul>
 
   <h2>Contributors</h2> 
@@ -41,7 +41,36 @@
     <li><a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a></li>
     <li><a href="https://www.w3.org/groups/wg/eowg/participants">EOWG Participants</a></li>
     <li>Jules Ernst</li>
+    <li>Bart Pluijms</li>
   </ul>
+
+  <h2>Translations</h2>
+
+  <h3>Dutch</h3>
+  <ul>
+    <li>Roel Antonisse, accessibility.nl</li>
+    <li>Michel Hansma, HAN University</li>
+    <li>Hidde de Vries, W3C WAI</li>
+  </ul>
+
+  <h3>French</h3>
+  <ul>
+    <li><strong>Translators:</strong></li>
+    <ul>
+    <li>Alexandre Massot, State of Geneva, Switzerland</li>
+    <li>Mark Thiebaut, Iron Cloud</li>
+    <li>Yves Dubois-Pèlerin, State of Geneva, Switzerland</li>
+    <li>Eric Porlier</li>
+    </ul>
+    <li><strong>Contributors:</strong></li>
+    <ul>
+    <li>Julien Conti, State of Geneva, Switzerland</li>
+    <li>Dimitri Zaslavsky, State of Geneva, Switzerland</li>
+    <li>Audrey Maniez, Access 42</li>
+    <li>Rémi Bétin</li>
+    </ul>
+  </ul>
+
 </Page>
 <!-- /component -->
 

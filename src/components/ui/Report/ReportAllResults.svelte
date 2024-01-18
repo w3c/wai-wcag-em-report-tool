@@ -165,6 +165,7 @@
   import subjects, {
     TestSubjectTypes
   } from '@app/stores/earl/subjectStore/index.js';
+  import { TestSubject } from '@app/stores/earl/subjectStore/models.js';
 
   export let criteria = [];
 

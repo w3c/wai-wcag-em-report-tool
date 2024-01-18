@@ -1,6 +1,4 @@
 {
-    "BROWSER_NOT_SUPPORTED": "Enkele functionaliteiten zijn niet door uw webbrowser ondersteund, zoals het opslaan en openen van rapporten. Je kunt de rapport tool met beperkte functionaliteit gebruiken. Update of gebruik een andere webbrowser om van alle functionaliteiten in de Report Tool gebruik te kunnen maken.",
-    "WARNING_BEFORE_UNLOAD": "Uw data worden niet automatisch opgeslagen. Wanneer het venster van uw web browser sluit is de data verloren. Gebruik de 'Opslaan' link (Ctrl + S of ⌘ S) bovenaan iedere pagina om uw data in een bestand op uw locale computer te bewaren en open deze later om door te werken.",
     "MORE_INFO": "Voor meer informatie, zie <a href={{url}}>{{name}}</a>.",
     "HIDE_MESSAGE": "Verberg bericht",
     "ERROR": {
@@ -10,9 +8,6 @@
     "NO": "Nee",
     "NEXT": "Volgende {label}",
     "PREVIOUS": "Vorige {label}",
-    "CLICK_EXPAND": "Klik om sectie te tonen",
-    "CLICK_COLLAPSE": "Klik om sectie te verbergen",
-    "TO_TOP": "Naar boven",
     "BUTTON": {
         "ADD": "{subject} toevoegen",
         "INFO": "info",

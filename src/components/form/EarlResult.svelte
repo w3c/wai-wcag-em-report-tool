@@ -129,8 +129,8 @@
   // Get or create an Assertion
   $: _assertion =
     $assertions.find(($assertion) => {
-      const matchedTest = $assertion.test === test;
-      const matchedSubject = $assertion.subject.title === subject.title;
+      const matchedTest = $assertion.test.num === test.num;
+      const matchedSubject = $assertion.subject === subject;
 
       return matchedTest && matchedSubject;
     }) || assertions.create({ subject, test });

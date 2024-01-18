@@ -59,8 +59,9 @@
   $: TRANSLATED = {
     CRITERIA: $translateToObject('WCAG.SUCCESS_CRITERION')
   };
-
+  
   $: resultsByCategory = $outcomeValues.reduce(function(final, outcomeValue){
+    let totalEvaluated = 0;
     if($assertions.length == 0 && outcomeValue.id == "earl:untested"){
         const value = {
           name: outcomeValue.title,
@@ -87,6 +88,7 @@
         };
         final.push(value);
     }
+    
     return final;
 }, []);
 

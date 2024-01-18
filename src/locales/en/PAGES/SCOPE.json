@@ -9,9 +9,9 @@
     "INF_SITE_SCOPE_LI0": "'All web content of the public website of Example Org. located at `http://www.example.org`'",
     "INF_SITE_SCOPE_LI1": "'All web content of the online shop of Example Org. located at `http://www.example.org/shop/`'",
     "INF_SITE_SCOPE_LI2": "'All web content of the mobile version of the public website of Example Org. located at `http://m.example.org`'",
-    "INF_SITE_SCOPE_1": "WCAG-EM Step 1.a: Define the Scope of the Website",
     "LABEL_WCAG_VERSION": "WCAG Version",
-    "INFO_WCAG_VERSION": "Select the WCAG version to use. Version 2.1 (default) or 2.0",
+    "INFO_WCAG_VERSION": "Select the WCAG version to use. Version 2.2 (default), 2.1 or 2.0",
+    "WCAG22": "WCAG 2.2",
     "WCAG21": "WCAG 2.1",
     "WCAG20": "WCAG 2.0",
     "LABEL_CONFORMANCE_TGT": "Conformance target",
@@ -23,6 +23,5 @@
     "INF_EXTRA_REQUIREMENTS_LI0": "'The report will include a list of all errors identified by the evaluator, rather than examples only'",
     "INF_EXTRA_REQUIREMENTS_LI1": "'The report will include a description of the problem and repair suggestions for any errors listed'",
     "INF_EXTRA_REQUIREMENTS_LI2": "'The evaluation will cover all web pages and web content of the website, rather than a selected sample only'",
-    "INF_EXTRA_REQUIREMENTS_1": "WCAG-EM Step 1.d: Define Additional Evaluation Requirements",
     "DATA_LOSS_WARNING": "This change removes one or more evaluated criteria from the report. Your observations for these criteria will be deleted. Are you sure you want to continue?"
 }

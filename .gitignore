@@ -10,3 +10,4 @@ build
 # but not by platforms like Github Pages.
 # Files prefixed with `_` are ignored by default.
 translations_*.json
+package-lock.json

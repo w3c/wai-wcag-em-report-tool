@@ -14,15 +14,15 @@ jobs:
 
     steps:
     - name: Checkout 🛎️
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       with:
         persist-credentials: false
     - name: Use Node.js '12.x'
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v4
       with:
         node-version: '12.x'
     - run: npm install
-    - run: npm install --global rollup
+    - run: npm install --global rollup@2.79.1
     - run: export BASEPATH='/WAI/eval/report-tool' && npm run clean:build && rollup -c
     - run: cd build && ln -s index.html 404.html # symlink for GH pages fallback
     - name: Deploy 🚀

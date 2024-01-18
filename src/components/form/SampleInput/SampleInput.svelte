@@ -81,6 +81,7 @@
   let valueContainer;
   let showHelptext = false;
   const { translate } = getContext('app');
+  import assertions from '@app/stores/earl/assertionStore/index.js';
 
   $: TRANSLATED = {
     NO_SAMPLE: $translate('PAGES.SAMPLE.NO_PAGES_DEFINED'),
@@ -119,6 +120,7 @@
       newValue.splice(indexSample, 1);
       value = newValue;
       // @TODO: removeSample.delete(); !required for cleanup
+      $assertions = $assertions.filter(assertion => assertion.subject.id !== removeSample.id);
       subjects.remove(removeSample);
   }
 }

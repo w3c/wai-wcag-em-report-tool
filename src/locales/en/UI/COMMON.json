@@ -1,6 +1,4 @@
 {
-    "BROWSER_NOT_SUPPORTED": "The web browser you are using does not support some functionality, such as saving and loading reports. You can continue to use the Report Tool with limited functionality. Update or use a different web browser to make use of all functionality of this report tool.",
-    "WARNING_BEFORE_UNLOAD": "The data you entered is not automatically saved. It will be lost if you close this web browser window. Use the 'Save' link (Ctrl + S or ⌘ S) that is at the top of all pages to save your data in a file locally on your computer, and reload it later to continue working on it.",
     "MORE_INFO": "For more information, see <a href={{url}}>{{name}}</a>.",
     "HIDE_MESSAGE": "Hide message",
     "ERROR": {
@@ -10,9 +8,6 @@
     "NO": "No",
     "NEXT": "Next {label}",
     "PREVIOUS": "Previous {label}",
-    "CLICK_EXPAND": "Click to show section",
-    "CLICK_COLLAPSE": "Click to hide section",
-    "TO_TOP": "Back to top",
     "ACTIVE": "Active",
     "BUTTON": {
         "ADD": "Add {subject}",
