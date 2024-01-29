@@ -22,6 +22,7 @@
     "INTRO_NOTE": "<strong>Opmerking:</strong> Voor elk WCAG 2.0 succescriterium, kunt u resultaten voor de volledige sample invullen, evenals resultaten voor specifieke pagina's. Om individuele resultaten in te vullen, selecteer pagina's onder 'Te evalueren sample' (in de linker kolom); vervolgens onder de succescriteria, kies 'Invoer voor per-pagina-resultaten weergeven'",
     "RESOURCE_LINK_NAME": "Stap 4: Toets de sample",
     "LABEL_OUTCOME": "Uitkomst",
+    "LABEL_IMPACT": "Impact",
     "LABEL_PAGE_HANDLE": "Korte paginatitel",
     "NO_PAGE_SELECTED": "Geen pagina geselecteerd onder 'Te evalueren sample'",
     "NO_SAMPLE": "Geen sample beschikbaar.",

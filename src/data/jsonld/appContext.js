@@ -91,6 +91,7 @@ export const exportContext = {
   TestSubject: 'earl:TestSubject',
   TestResult: 'earl:TestResult',
   OutcomeValue: 'earl:OutcomeValue',
+  ImpactValue: 'earl:ImpactValue',
   Pass: 'earl:Pass',
   Fail: 'earl:Fail',
   CannotTell: 'earl:CannotTell',
@@ -104,6 +105,7 @@ export const exportContext = {
   subject: 'earl:subject',
   test: 'earl:test',
   outcome: 'earl:outcome',
+  impact: 'earl:impact',
 
   // Dublin Core
   dcterms: 'http://purl.org/dc/terms/',

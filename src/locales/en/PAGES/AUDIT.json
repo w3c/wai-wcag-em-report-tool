@@ -22,6 +22,7 @@
     "IMPORT_DATA_INTRO": "Add data from other (automated) tests",
     "RESOURCE_LINK_NAME": "Step 4: Audit the Selected Sample",
     "LABEL_OUTCOME": "Outcome",
+    "LABEL_IMPACT": "Impact",
     "LABEL_PAGE_HANDLE": "Short page name",
     "NO_PAGE_SELECTED": "No pages selected under Sample to Evaluate",
     "NO_SAMPLE": "No sample available.",

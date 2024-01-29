@@ -575,8 +575,6 @@ class EvaluationModel {
             });
           });
 
-        console.log($assertions);
-
         unscribeStores();
       });
 
