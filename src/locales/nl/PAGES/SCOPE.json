@@ -9,7 +9,6 @@
     "INF_SITE_SCOPE_LI0": "'Alle webcontent van de publieke website van Voorbeeld Org. op `http://www.example.org`'",
     "INF_SITE_SCOPE_LI1": "'Alle webcontent van de webwinkel van Voorbeeld Org. op `http://www.example.org/shop/`'",
     "INF_SITE_SCOPE_LI2": "'Alle webcontent op de mobiele versie van de publieke website van Voorbeeld Org. op `http://m.example.org`'",
-    "INF_SITE_SCOPE_1": "WCAG-EM Stap 1.a: Definieer de scope van de website",
     "LABEL_WCAG_VERSION": "WCAG Versie",
     "INFO_WCAG_VERSION": "Selecteer de WCAG versie waarmee wordt geëvalueerd. Versie 2.1 (standaard) of 2.0",
     "LABEL_CONFORMANCE_TGT": "Conformiteitsdoel",
@@ -21,7 +20,6 @@
     "INF_EXTRA_REQUIREMENTS_LI0": "'In het rapport wordt een volledige lijst van de gevonden problemen opgenomen, in plaats van slechts enkele voorbeelden'",
     "INF_EXTRA_REQUIREMENTS_LI1": "'In het rapport zal een omschrijving van de problemen gegeven worden, samen met suggesties voor het oplossen van de problemen'",
     "INF_EXTRA_REQUIREMENTS_LI2": "'Alle webpagina's en webcontent van de website zullen in de evaluatie getest worden, in plaats van enkel de steekproef",
-    "INF_EXTRA_REQUIREMENTS_1": "WCAG-EM Stap 1.d: Bepaal verdere onderzoeksvereisten",
     "WCAG21": "WCAG 2.1",
     "WCAG20": "WCAG 2.0",
     "DATA_LOSS_WARNING": "Deze wijziging verwijderd één of meerdere al geëvalueerde criteria van het rapport. Uw bevindingen bij deze criteria zullen verwijdert worden. Weet u weet zeker dat u door wilt gaan?"

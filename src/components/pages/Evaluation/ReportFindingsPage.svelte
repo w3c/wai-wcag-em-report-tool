@@ -65,7 +65,6 @@
 
 <script>
   import { getContext } from 'svelte';
-  import tests from '@app/stores/earl/testStore/index.js';
 
   import Page from '@app/components/ui/Page.svelte';
 
@@ -78,7 +77,7 @@
 
   import wcag from '@app/stores/wcagStore.js';
 
-  const { summaryStore, translate, scopeStore } = getContext('app');
+  const { summaryStore, translate } = getContext('app');
   $: TRANSLATED = {
     PAGE_TITLE: $translate('PAGES.SUMMARY.TITLE'),
     INTRODUCTION: $translate('PAGES.SUMMARY.INTRO'),

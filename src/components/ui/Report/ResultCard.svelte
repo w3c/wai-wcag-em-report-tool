@@ -17,8 +17,12 @@
     line-height: 1;
     color: var(--ocean);
   }
+  @media (min-width: 60em) {
+    .result-card__number {
+      font-size: 3em;
+    }
+  }
   .result-card__label {
-    display: block;
     font-size: 1.125em;
   }
 </style>

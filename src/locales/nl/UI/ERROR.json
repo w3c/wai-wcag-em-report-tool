@@ -1,8 +1,0 @@
-{
-    "TITLE": "Oeps! Er ging iets mis",
-    "INTRO": "U bent op de verkeerde plek beland. Probeer een van de volgende oplossingen om het probleem op te lossen.",
-    "SUGGESTION1": "Als u de URL heeft getypet, controleer of deze juist is.",
-    "SUGGESTION2": "Ga <a href={{link_back}}>terug naar de vorige pagina</a> en probeer het nog eens.",
-    "SUGGESTION3": "Zorg dat de bestanden waarmee u werkt het <a href={{link_format}}>wcag-em format</a> volgen.",
-    "BUG_REPORT": "Om een bug of suggestie voor nieuwe functionaliteit te rapporteren laat een issue achter op onze <a href={{link_github}}>Github-projectpagina</a>."
-}

@@ -50,7 +50,7 @@ export class TestSubject extends partsMixin(Base) {
   }
 
   setId() {
-    const { ID, id, title, description } = this;
+    const { ID, title, description } = this;
     const url = [title, description].reduce((href, value) => {
       if (href) {
         return href;

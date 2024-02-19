@@ -245,11 +245,11 @@
       Guidelines (WCAG) Overview</a>
   </li>
   <li>
-    <a href="https://www.w3.org/WAI/WCAG21/quickref/">How to Meet WCAG 2.1 Quick
+    <a href="https://www.w3.org/WAI/WCAG21/quickref/">How to Meet WCAG Quick
       Reference</a>
   </li>
   <li>
-    <a href="https://www.w3.org/WAI/eval/conformance">WCAG Evaluation
+    <a href="https://www.w3.org/WAI/eval/conformance/">WCAG Evaluation
       Methodology (WCAG-EM) Overview</a>
   </li>
 </ul>

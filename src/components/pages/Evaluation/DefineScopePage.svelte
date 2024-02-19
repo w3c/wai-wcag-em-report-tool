@@ -2,7 +2,9 @@
   <p>
     {@html TRANSLATED.INTRODUCTION}
   </p>
-  <ResourceLink href="https://www.w3.org/TR/WCAG-EM/#step1">{TRANSLATED.RESOURCE_LINK_NAME}</ResourceLink>
+  <ResourceLink href="https://www.w3.org/TR/WCAG-EM/#step1">
+    {TRANSLATED.RESOURCE_LINK_NAME}
+  </ResourceLink>
 
   <form id="defineScopeForm" method="" novalidate>
     <Input
@@ -32,7 +34,7 @@
       helptext="{TRANSLATED.WCAG_VERSION_HELPTEXT}"
       options="{wcagVersions}"
       value="{$scopeStore['WCAG_VERSION']}"
-      on:change={updateWCAGversion}
+      on:change="{updateWCAGversion}"
     />
 
     <Select
@@ -41,7 +43,7 @@
       helptext="{TRANSLATED.CONFORMANCE_TARGET_HELPTEXT}"
       options="{conformanceLevels}"
       value="{$scopeStore['CONFORMANCE_TARGET']}"
-      on:change={updateConformanceTarget}
+      on:change="{updateConformanceTarget}"
     />
 
     <Textarea
@@ -70,7 +72,11 @@
 <script>
   import { getContext, onMount } from 'svelte';
 
-  import { CONFORMANCE_LEVELS, WCAG_VERSIONS, scopedWcagVersions } from '@app/stores/wcagStore.js';
+  import {
+    CONFORMANCE_LEVELS,
+    WCAG_VERSIONS,
+    scopedWcagVersions
+  } from '@app/stores/wcagStore.js';
   import assertions from '@app/stores/earl/assertionStore/index.js';
   import { CriteriaSelected } from '@app/stores/selectedCriteriaStore.js';
   import tests from '@app/stores/earl/testStore/index.js';
@@ -101,13 +107,27 @@
     WCAG_VERSION_HELPTEXT: $translate('PAGES.SCOPE.INFO_WCAG_VERSION'),
     CONFORMANCE_TARGET_LABEL: $translate('PAGES.SCOPE.LABEL_CONFORMANCE_TGT'),
     CONFORMANCE_TARGET_HELPTEXT: $translate('PAGES.SCOPE.INF_CONF_TGT'),
-    ACCESSIBILITY_SUPPORT_BASELINE_LABEL: $translate('PAGES.SCOPE.LABEL_SUPPORT_BASE'),
-    ACCESSIBILITY_SUPPORT_BASELINE_HELPTEXT: $translate('PAGES.SCOPE.INF_SUPPORT_BASE'),
-    ADDITIONAL_REQUIREMENTS_LABEL: $translate('PAGES.SCOPE.LABEL_EXTRA_REQUIREMENTS'),
-    ADDITIONAL_REQUIREMENTS_HELPTEXT_P1: $translate('PAGES.SCOPE.INF_EXTRA_REQUIREMENTS_0'),
-    ADDITIONAL_REQUIREMENTS_HELPTEXT_LI1: $translate('PAGES.SCOPE.INF_EXTRA_REQUIREMENTS_LI0'),
-    ADDITIONAL_REQUIREMENTS_HELPTEXT_LI2: $translate('PAGES.SCOPE.INF_EXTRA_REQUIREMENTS_LI1'),
-    ADDITIONAL_REQUIREMENTS_HELPTEXT_LI3: $translate('PAGES.SCOPE.INF_EXTRA_REQUIREMENTS_LI2'),
+    ACCESSIBILITY_SUPPORT_BASELINE_LABEL: $translate(
+      'PAGES.SCOPE.LABEL_SUPPORT_BASE'
+    ),
+    ACCESSIBILITY_SUPPORT_BASELINE_HELPTEXT: $translate(
+      'PAGES.SCOPE.INF_SUPPORT_BASE'
+    ),
+    ADDITIONAL_REQUIREMENTS_LABEL: $translate(
+      'PAGES.SCOPE.LABEL_EXTRA_REQUIREMENTS'
+    ),
+    ADDITIONAL_REQUIREMENTS_HELPTEXT_P1: $translate(
+      'PAGES.SCOPE.INF_EXTRA_REQUIREMENTS_0'
+    ),
+    ADDITIONAL_REQUIREMENTS_HELPTEXT_LI1: $translate(
+      'PAGES.SCOPE.INF_EXTRA_REQUIREMENTS_LI0'
+    ),
+    ADDITIONAL_REQUIREMENTS_HELPTEXT_LI2: $translate(
+      'PAGES.SCOPE.INF_EXTRA_REQUIREMENTS_LI1'
+    ),
+    ADDITIONAL_REQUIREMENTS_HELPTEXT_LI3: $translate(
+      'PAGES.SCOPE.INF_EXTRA_REQUIREMENTS_LI2'
+    ),
     CONFORMANCE_LEVEL: $translate('WCAG.COMMON.CONFORMANCE_LEVEL'),
     DATA_LOSS_WARNING: $translate('PAGES.SCOPE.DATA_LOSS_WARNING')
   };
@@ -131,12 +151,12 @@
   let oldwcag = $scopeStore['WCAG_VERSION'];
   let oldtarget = $scopeStore['CONFORMANCE_TARGET'];
 
-  function updateWCAGversion(event){
+  function updateWCAGversion(event) {
     oldwcag = $scopeStore['WCAG_VERSION'];
     $scopeStore['WCAG_VERSION'] = event.target.value;
   }
 
-  function updateConformanceTarget(event){
+  function updateConformanceTarget(event) {
     oldtarget = $scopeStore['CONFORMANCE_TARGET'];
     $scopeStore['CONFORMANCE_TARGET'] = event.target.value;
   }
@@ -156,35 +176,59 @@
       available.push(check);
       subject = $subjects.find((subject) => {
         return subject.type.indexOf(TestSubjectTypes.WEBSITE) >= 0;
-    });
-    test = $tests.find(($test) => {
-      return $test.num === check;
-    });
-      
-    $assertions.find(($assertion) => {
-      const matchedTest = $assertion.test === test;
-      const matchedSubject = $assertion.subject === subject;
+      });
 
-      return matchedTest && matchedSubject;
-      }) || assertions.create({ subject, test });
+      test = $tests.find(($test) => {
+        return (
+          $test.num === check &&
+          $test.id ===
+            'WCAG' +
+              $scopeStore['WCAG_VERSION'].split('.').join('') +
+              ':' +
+              criteria.id
+        );
+      });
+
+      if (test != undefined) {
+        $assertions.find(($assertion) => {
+          const matchedTest = $assertion.test.num === test.num;
+          const matchedSubject = $assertion.subject === subject;
+
+          return matchedTest && matchedSubject;
+        }) || assertions.create({ subject, test });
+      }
+    });
+
+    $assertions.forEach(($assertion) => {
+      var updater = $tests.find(($test) => {
+        return (
+          $test.num === $assertion.test.num &&
+          $test.id.startsWith(
+            'WCAG' + $scopeStore['WCAG_VERSION'].split('.').join('')
+          )
+        );
+      });
+      if (updater != undefined) {
+        $assertion.test = updater;
+      }
     });
 
     assertionsToRemove = $assertions.filter((assertion) => {
       return available.indexOf(assertion.test.num) == -1;
     });
 
-    if(assertionsToRemove.length > 0){
+    if (assertionsToRemove.length > 0) {
       let answeredCount = 0;
       assertionsToRemove.forEach((assertion) => {
-        if(assertion.result.outcome.id != "earl:untested"){
+        if (assertion.result.outcome.id != 'earl:untested') {
           answeredCount++;
         }
       });
 
-      if(answeredCount > 0){
+      if (answeredCount > 0) {
         var allowDataLoss = true;
-        if($interactedOpenEvaluation != true){
-          allowDataLoss = window.confirm(TRANSLATED.DATA_LOSS_WARNING)
+        if ($interactedOpenEvaluation != true) {
+          allowDataLoss = window.confirm(TRANSLATED.DATA_LOSS_WARNING);
         }
         if (allowDataLoss) {
           assertionsToRemove.forEach((assertion) => {
@@ -194,13 +238,12 @@
           $scopeStore['WCAG_VERSION'] = oldwcag;
           $scopeStore['CONFORMANCE_TARGET'] = oldtarget;
         }
-      }else{
+      } else {
         assertionsToRemove.forEach((assertion) => {
           assertions.remove(assertion);
         });
       }
     }
     $interactedOpenEvaluation = false;
-  }  
-
+  }
 </script>
