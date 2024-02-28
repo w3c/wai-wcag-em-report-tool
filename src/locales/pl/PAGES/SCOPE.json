@@ -3,7 +3,7 @@
     "INTRO": "Określ ogólne parametry i zakres oceny. Najlepiej, jeśli zrobisz to z osobą, która zleciła ocenę (może to być, ale nie musi, osoba opiekująca się witryną), aby uwzględnić wszystkie oczekiwania co do zakresu oceny.",
     "RESOURCE_LINK_NAME": "Krok 1: Ustal zakres oceny",
     "LABEL_SITE_NAME": "Nazwa witryny",
-    "INF_SITE_NAME": "Podaj nazwę witryny, którą będziesz oceniać. Na przykład:<br> „Publiczna witryna Przykładowej organizacji”<br>„Sklep internetowy przykładowej firmy”<br>„Intranet przykładowego uniwersytetu”",
+    "INF_SITE_NAME": "Podaj nazwę witryny, którą będziesz oceniać. Na przykład:<br> „Publiczna witryna Przykładowej Organizacji”<br>„Sklep internetowy Przykładowej Firmy”<br>„Intranet Przykładowego Uniwersytetu”",
     "LABEL_SITE_SCOPE": "Zakres ocenianych zasobów",
     "INF_SITE_SCOPE_0": "Określ zakres zasobów podlegających ocenie, tak aby było jasne, które strony mają być uwzględnione w ocenie. Aby uzyskać więcej informacji, zobacz [WCAG-EM WCAG-EM Krok 1.a: Określ zakres stron witryny](https://testy.lepszyweb.pl/met-wcag-em-pl#krok-1a-okre%C5%9Bl-zakres-stron-witryny). Na przykład:",
     "INF_SITE_SCOPE_LI0": "„Cała zawartość publicznej strony internetowej Przykładowej Organizacji znajdująca się pod adresem http://www.przyklad.org”",
