@@ -1,6 +1,6 @@
 {
     "TITLE": "Krok 1: Ustal zakres oceny",
-    "INTRO": "Określ ogólne parametry i zakres oceny. Najlepiej, jeśli zrobisz to z osobą, która zleciła ocenę (może to być, ale nie musi, właściciel witryny), aby uwzględnić wszystkie oczekiwania co do zakresu oceny.",
+    "INTRO": "Określ ogólne parametry i zakres oceny. Najlepiej, jeśli zrobisz to z osobą, która zleciła ocenę (może to być, ale nie musi, osoba opiekująca się witryną), aby uwzględnić wszystkie oczekiwania co do zakresu oceny.",
     "RESOURCE_LINK_NAME": "Krok 1: Ustal zakres oceny",
     "LABEL_SITE_NAME": "Nazwa witryny",
     "INF_SITE_NAME": "Podaj nazwę witryny, którą będziesz oceniać. Na przykład:<br> „Publiczna witryna Przykładowej organizacji”<br>„Sklep internetowy przykładowej firmy”<br>„Intranet przykładowego uniwersytetu”",
