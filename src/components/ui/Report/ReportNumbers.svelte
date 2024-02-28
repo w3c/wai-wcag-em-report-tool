@@ -3,8 +3,8 @@
   {totalEvaluated} 
   {TRANSLATED.REPORTED_ON_OF} 
   {criteria} WCAG {wcagVersion}
-  {conformanceTarget} 
-  Success Criteria.
+  {conformanceTarget}
+  {TRANSLATED.SUCCESS_CRITERIA}.
 </p>
 
 <script>
@@ -23,7 +23,8 @@
 
   $: TRANSLATED = {
     REPORTED_ON: $translate('UI.REPORT.REPORTED_ON'),
-    REPORTED_ON_OF: $translate('UI.REPORT.REPORTED_ON_OF')
+    REPORTED_ON_OF: $translate('UI.REPORT.REPORTED_ON_OF'),
+    SUCCESS_CRITERIA: $translate('UI.REPORT.SUCCESS_CRITERIA')
   };
 
   $: totalEvaluated = $assertions.filter(assertion => 
