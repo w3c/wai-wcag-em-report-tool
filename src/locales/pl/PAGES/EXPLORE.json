@@ -1,6 +1,6 @@
 {
     "TITLE": "Krok 2: Dokonaj przeglądu witryny",
-    "INTRO": "Przejrzyj witrynę, aby zrozumieć jej cel, funkcjonalność i sposób użytkowania. Przegląd witryny pomoże Ci ustalić, które strony internetowe poddać ocenie w kolejnych krokach. Określ technologie internetowe wykorzystane do stworzenia witryny i, jeśli chcesz, zanotuj uwagi na temat innych aspektów witryny. Zazwyczaj najlepiej jest uzyskać informację dotyczące tego kroku od właścicieli i projektantów witryny.",
+    "INTRO": "Przejrzyj witrynę, aby zrozumieć jej cel, funkcjonalność i sposób użytkowania. Przegląd witryny pomoże Ci ustalić, które strony internetowe poddać ocenie w kolejnych krokach. Określ technologie internetowe wykorzystane do stworzenia witryny i, jeśli chcesz, zanotuj uwagi na temat innych aspektów witryny. Jeśli nie wiesz, jakie technologie zostały użyte do stworzenia witryny, zapytaj o to osoby zajmujące się witryną oraz te, które ją zaprojektowały.",
     "RESOURCE_LINK_NAME": "Krok 2: Dokonaj przeglądu witryny",
     "HD_RELIEDUP_TECH": "Zastosowane technologie internetowe",
     "INF_RELIEDUP_TECH": "Określ, jakie technologie internetowe [obsługujące dostępność zgodnie z WCAG 2](https://www.w3.org/Translations/WCAG21-pl/#dfn-obs-ugujaca-dostepnosc) zastosowano na witrynie. Aby uzyskać więcej informacji, zobacz [WCAG-EM Krok 2.d: Określ użyte technologie internetowe](https://testy.lepszyweb.pl/met-wcag-em-pl#krok-2d-okre%C5%9Bl-u%C5%BCyte-technologie-internetowe).",
