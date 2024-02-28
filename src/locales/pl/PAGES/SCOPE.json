@@ -8,7 +8,7 @@
     "INF_SITE_SCOPE_0": "Określ zakres zasobów podlegających ocenie, tak aby było jasne, które strony mają być uwzględnione w ocenie. Aby uzyskać więcej informacji, zobacz [WCAG-EM WCAG-EM Krok 1.a: Określ zakres stron witryny](https://testy.lepszyweb.pl/met-wcag-em-pl#krok-1a-okre%C5%9Bl-zakres-stron-witryny). Na przykład:",
     "INF_SITE_SCOPE_LI0": "„Cała zawartość publicznej strony internetowej Przykładowej Organizacji znajdująca się pod adresem http://www.przyklad.org”",
     "INF_SITE_SCOPE_LI1": "„Cała zawartość strony sklepu internetowego Przykładowej organizacji znajdująca się pod adresem http://www.przyklad.org/sklep/”",
-    "INF_SITE_SCOPE_LI2": "„Cała zawartość mobilnej wersji publicznej strony internetowej Przykładowej organizacji znajdująca się pod adresem  http://m.przyklad.org”",
+    "INF_SITE_SCOPE_LI2": "„Cała zawartość mobilnej wersji publicznej strony internetowej Przykładowej Organizacji znajdująca się pod adresem  http://m.przyklad.org”",
     "LABEL_WCAG_VERSION": "Wersja WCAG",
     "INFO_WCAG_VERSION": "Wybierz wersję WCAG. Wersja 2.2 (domyślnie) 2.1 lub 2.0",
     "WCAG22": "WCAG 2.2",
