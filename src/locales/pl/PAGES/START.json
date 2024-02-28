@@ -1,7 +1,7 @@
 {
     "TITLE": "WCAG-EM. Generator raportów",
     "SUBTITLE": "Przegląd",
-    "INTRO_HD": "Co robi to narzędzie",
+    "INTRO_HD": "Do czego służy to narzędzie?",
     "INTRO_1": "Generator raportów WCAG-EM zamienia wyniki Twojej oceny dostępności w raport. Generator jest oparty na „Metodologii oceniania zgodności w zakresie dostępności internetowej”. ([WCAG-EM](https://www.w3.org/TR/WCAG-EM/)), przetłumaczonej na język polski ([WCAG-EM po polsku](https://testy.lepszyweb.pl/met-wcag-em-pl)).",
     "TIPS_HD": "Jak korzystać z Generatora?",
     "TIPS_1": "W sekcji „Zobacz raport” możesz pobrać swój raport jako dokument HTML (strona internetowa) albo jako plik JSON (dane strukturalne)",
