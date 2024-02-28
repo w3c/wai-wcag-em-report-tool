@@ -22,5 +22,5 @@
     "VIEWREPORT": "Pokaż raport",
     "CLEARREPORT": "Czysty raport",
     "NOT_STARTED": "Nie rozpoczęto raportu.",
-    "CLEARWARNING": "Spowoduje to usunięcie bieżącej oceny i rozpoczęcie nowej. Czy na pewno to jest to, co chcesz zrobić?"
+    "CLEARWARNING": "Czy na pewno chcesz usunąć bieżącą ocenę i rozpocząć nową?"
 }
