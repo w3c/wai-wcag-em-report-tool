@@ -7,7 +7,7 @@
     "INF_TITLE": "Podaj tytuł raportu z oceny dostępności witryny. Na przykład:<br> „Raport z oceny Witryny Przykładowej Organizacji”,<br> „Analiza dostępności sklepu internetowego Przykładowej Organizacji i propozycje napraw.”",
     "LABEL_COMMISSIONER": "Zlecający ocenę",
     "INF_COMMISSIONER": "Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot, który zlecił ocenę.",
-    "LABEL_CREATOR": "Oceniający",
+    "LABEL_CREATOR": "Osoby odpowiedzialne za ocenę",
     "INF_CREATOR": "Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot odpowiedzialny za przeprowadzenie oceny.",
     "LABEL_DATE": "Data oceny",
     "INF_DATE": "Podaj datę zakończenia lub czas trwania oceny. Możesz użyć dowolnego formatu daty. Wypisz miesiąc, aby było to jasne w skali międzynarodowej. (Format daty 01-02-2022 jest niejednoznaczny - w niektórych miejscach jest to 2 stycznia, a w innych 1 lutego).",
