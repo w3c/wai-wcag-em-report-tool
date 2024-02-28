@@ -5,7 +5,7 @@
     "LABEL_TITLE": "Tytuł raportu",
     "TITLE_PREFIX": "Raport z oceny",
     "INF_TITLE": "Podaj tytuł raportu z oceny dostępności witryny. Na przykład:<br> „Raport z oceny Witryny Przykładowej Organizacji”,<br> „Analiza dostępności sklepu internetowego Przykładowej Organizacji i propozycje napraw.”",
-    "LABEL_COMMISSIONER": "Zlecający ocenę",
+    "LABEL_COMMISSIONER": "Osoba zlecająca ocenę",
     "INF_COMMISSIONER": "Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot, który zlecił ocenę.",
     "LABEL_CREATOR": "Osoby odpowiedzialne za ocenę",
     "INF_CREATOR": "Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot odpowiedzialny za przeprowadzenie oceny.",
