@@ -52,6 +52,7 @@
     background-color: transparent;
     color: currentColor;
     width: 1em;
+		display: inline-block;
   }
   .Editable {
     background: var(--trans-line-grey);
