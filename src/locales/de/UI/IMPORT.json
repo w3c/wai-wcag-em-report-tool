@@ -1,0 +1,14 @@
+{
+    "IMPORT": {
+        "HEADING": "Prüfergebnis importiert am {IMPORT_DATE, date, ::dd.MM.yyyy} von {AUTHOR}",
+        "TEST_PREFIX": "Prüfschritt"
+    },
+    "ERROR": {
+    	"JSONLD_SYNTAX": "Dateiformat nicht erkannt.",
+    	"NO_ASSERTIONS": "Die Datei enthält keine erkennbaren Prüfschritte.",
+    	"NO_COMPATIBLE_ASSERTIONS": "Keine der Prüfschritte in dieser Datei passt zur Seitenauswahl.",
+    	"FILE_ERROR": "Die Datei hat ein falsches Format oder ist beschädigt."
+    },
+    "SUCCESSFUL": "Prüfschritte wurden zu den Notizen auf dieser Seite hinzugefügt.",
+    "MORE_INFO": "Weitere Informationen zum Import von EARL als JSON"
+}

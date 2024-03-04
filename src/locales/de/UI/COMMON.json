@@ -1,0 +1,29 @@
+{
+    "MORE_INFO": "Für weitere Informationen siehe <a href={{url}}>{{name}}</a>.",
+    "HIDE_MESSAGE": "Nachricht verstecken",
+    "ERROR": {
+        "DEFAULT": "Etwas ist schief gelaufen."
+    },
+    "YES": "Ja",
+    "NO": "Nein",
+    "NEXT": "Nächster {label}",
+    "PREVIOUS": "Voriger {label}",
+    "ACTIVE": "Aktiv",
+    "BUTTON": {
+        "ADD": "{subject} hinzufügen",
+        "INFO": "Info",
+        "HIDE": "{subject} verstecken",
+        "LANGUAGE_SELECT": "Übersetzungen",
+        "SHOW": "{subject} anzeigen"
+    },
+    "LABEL": {
+        "LANGUAGE_SELECT": "Diese Seite auf"
+    },
+    "YOUR_REPORT": "Ihr Bericht",
+    "SHOW_FULL_DESCRIPTION": "Vollständige Beschreibung anzeigen",
+    "PREVIOUSNEXT": "Voriger/Nächster Schritt",
+    "DELETE": "Löschen",
+    "FOR": "für",
+    "EXPAND_ALL": "Alle Abschnitte anzeigen",
+    "COLLAPSE_ALL": "Alle Abschnitte verstecken"
+}
