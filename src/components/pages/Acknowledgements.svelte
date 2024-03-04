@@ -67,7 +67,19 @@
     <li>Julien Conti, State of Geneva, Switzerland</li>
     <li>Dimitri Zaslavsky, State of Geneva, Switzerland</li>
     <li>Audrey Maniez, Access 42</li>
-    <li>Rémi Bétin</li>
+    <li>Rémi Bétin, ERCIM</li>
+    </ul>
+  </ul>
+
+  <h3>Polish</h3>
+  <ul>
+    <li><strong>Translator:</strong></li>
+    <ul>
+    <li>Stefan Wajda</li>
+    </ul>
+    <li><strong>Contributor:</strong></li>
+    <ul>
+    <li>Wojtek Kutyla, Human Thing Ltd</li>
     </ul>
   </ul>
 
