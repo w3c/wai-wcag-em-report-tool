@@ -12,5 +12,10 @@
         "lang": "fr",
         "title": "Français",
         "status": "draft"
+    },
+    {
+        "lang": "pl",
+        "title": "Polski",
+        "status": "draft"
     }
 ]

@@ -1,0 +1,10 @@
+{
+    "PASSED": "Spełnione",
+    "FAILED": "Niespełnione",
+    "CANT_TELL": "Nie można powiedzieć",
+    "INAPPLICABLE": "Nie dotyczy",
+    "UNTESTED": "Nietestowane",
+    "LEVEL_A": "Poziom A",
+    "LEVEL_AA": "Poziom AA",
+    "LEVEL_AAA": "Poziom AAA"
+}

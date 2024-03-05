@@ -1,0 +1,21 @@
+{
+    "ASSERTION_RESULT_DESCRIPTION_LABEL": "Obserwacje",
+    "BTN_EXPAND_PAGES": "Pokaż wyniki dla poszczególnych stron",
+    "HD_SAMPLE_SELECT": "Oceniana próbka",
+    "HOW_TO": "Jak spełnić kryterium",
+    "INTRO": "Zapisz wyniki oceny stron internetowych wybranych w poprzednim kroku. Porównaj wyniki między stronami z próbki strukturalnej oraz losowej i w razie potrzeby dostosuj wybraną próbkę w poprzednim kroku.",
+    "IMPORT_DATA_INTRO": "Dodaj dane z innych testów (automatycznych)",
+    "RESOURCE_LINK_NAME": "Krok 4: Audyt próbki",
+    "LABEL_OUTCOME": "Wynik",
+    "NO_SAMPLE": "Brak próbki.",
+    "RESULTS_FOR": "Wyniki dla",
+    "SAMPLE_FINDINGS": "Wyniki dla całej próbki",
+    "SELECT_ALL": "Wybierz wszystkie",
+    "TITLE": "Krok 4: Audyt próbki",
+    "UNDERSTAND": "Objaśnienie",
+    "VIEW_IN_REPORT": "Pokaż w raporcie",
+    "LABEL_VERSION": "Wersja WCAG",
+    "LABEL_LEVEL": "Poziom zgodności",
+    "ADDED_IN": "Dodane w"
+}
+

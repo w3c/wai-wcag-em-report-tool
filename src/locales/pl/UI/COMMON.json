@@ -1,0 +1,29 @@
+{
+    "MORE_INFO": "Aby uzyskać więcej informacji, zobacz <a href={{url}}>{{name}}</a>.",
+    "HIDE_MESSAGE": "Ukryj wiadomość",
+    "ERROR": {
+        "DEFAULT": "Coś poszło nie tak."
+    },
+    "YES": "Tak",
+    "NO": "Nie",
+    "NEXT": "Następny {label}",
+    "PREVIOUS": "Poprzedni {label}",
+    "ACTIVE": "Aktywne",
+    "BUTTON": {
+        "ADD": "Dodaj {subject}",
+        "INFO": "informację",
+        "HIDE": "Ukryj {subject}",
+        "LANGUAGE_SELECT": "języki",
+        "SHOW": "Pokaż {subject}"
+    },
+    "LABEL": {
+        "LANGUAGE_SELECT": "Wybierz język"
+    },
+    "YOUR_REPORT": "Twój raport",
+    "SHOW_FULL_DESCRIPTION": "Pokaż cały opis",
+    "PREVIOUSNEXT": "Poprzedni/Następny krok",
+    "DELETE": "Usuń",
+    "FOR": "dla",
+    "EXPAND_ALL": "Rozwiń wszystkie części",
+    "COLLAPSE_ALL": "Zwiń wszystkie części"
+}

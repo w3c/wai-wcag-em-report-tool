@@ -1,0 +1,19 @@
+{
+    "TITLE": "Krok 5: Raport z wynikami oceny",
+    "INTRO": "Podaj dodatkowe informacje, które chcesz uwzględnić w raporcie. Aby ułatwić Ci napisanie streszczenia, ustalenia z oceny wprowadzone w poprzednim kroku, znajdują się poniżej w części „Szczegółowe wyniki audytu”.",
+    "RESOURCE_LINK_NAME": "Krok 5: Raport z wynikami oceny",
+    "LABEL_TITLE": "Tytuł raportu",
+    "TITLE_PREFIX": "Raport z oceny",
+    "INF_TITLE": "Podaj tytuł raportu z oceny dostępności witryny. Na przykład:<br> „Raport z oceny Witryny Przykładowej Organizacji”,<br> „Analiza dostępności sklepu internetowego Przykładowej Organizacji i propozycje naprawy.”",
+    "LABEL_COMMISSIONER": "Osoba zlecająca ocenę",
+    "INF_COMMISSIONER": "Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot, który zlecił ocenę.",
+    "LABEL_CREATOR": "Osoby odpowiedzialne za ocenę",
+    "INF_CREATOR": "Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot odpowiedzialny za przeprowadzenie oceny.",
+    "LABEL_DATE": "Data oceny",
+    "INF_DATE": "Podaj datę zakończenia lub czas trwania oceny. Możesz użyć dowolnego formatu daty. Wypisz miesiąc, aby było to jasne w skali międzynarodowej. (Format daty 01-02-2022 jest niejednoznaczny - w niektórych miejscach jest to 2 stycznia, a w innych 1 lutego).",
+    "LABEL_SUMMARY": "Streszczenie",
+    "INF_SUMMARY": "Podaj krótkie podsumowanie ustaleń z oceny, aby dać przegląd wyników. Na przykład, opisz ogólną dostępność witryny i najważniejsze spostrzeżenia (kluczowe obserwacje) poczynione podczas oceny, takie jak często występujące problemy i wzorce projektowe rozwiązań.",
+    "LABEL_SPECIFICS": "Zapis szczegółów oceny (opcjonalnie)",
+    "INF_SPECIFICS": "WCAG-EM sugeruje udokumentowanie metodyki oceny witryny. Aby uzyskać więcej informacji, zobacz [Krok 5.b: Zapisz specyfikację oceny (opcjonalne)](https://www.w3.org/TR/WCAG-EM/#step5b). W tym polu tekstowym można zapisać narzędzia oceny, przeglądarki internetowe, technologie wspomagające, inne oprogramowanie i metody zastosowane do oceny. To, co tu wpiszesz, zostanie uwzględnione w wygenerowanym raporcie. Po pobraniu raportu i przed przesłaniem go do zleceniodawcy możesz usunąć lub edytować te informacje w pliku HTML.",
+    "HD_CRITERIA_REPORT": "Szczegółowe wyniki audytu"
+}

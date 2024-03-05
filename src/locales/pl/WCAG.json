@@ -1,0 +1,828 @@
+{
+    "COMMON": { "CONFORMANCE_LEVEL": "Poziom" },
+    "PRINCIPLE": {
+        "1": {
+            "TITLE": "Postrzegalność",
+            "DESCRIPTION": "Przedstawiaj użytkownikom informacje i komponenty interfejsu w sposób dostrzegalny dla ich zmysłów."
+        },
+        "2": {
+            "TITLE": "Funkcjonalność",
+            "DESCRIPTION": "Zapewnij, aby komponenty interfejsu użytkownika i nawigacja były możliwe do użycia."
+        },
+        "3": {
+            "TITLE": "Zrozumiałość",
+            "DESCRIPTION": "Zadbaj o to, aby informacje i obsługa interfejsu były zrozumiałe."
+        },
+        "4": {
+            "TITLE": "Solidność",
+            "DESCRIPTION": "Twórz treści solidnie, aby mogły być skutecznie interpretowane przez różne programy użytkownika, w tym technologie wspomagające."
+        }
+    },
+    "GUIDELINE": {
+        "1.1": {
+            "TITLE": "Alternatywa tekstowa",
+            "DESCRIPTION": "Zapewnij tekstowe zamienniki wszystkich treści nietekstowych, aby można je było zamienić na inne formy (np. powiększony druk, brajl, mowa syntetyczna, symbole lub prostszy język)."
+        },
+        "1.2": {
+            "TITLE": "Multimedia",
+            "DESCRIPTION": "Zapewnij rozwiązania alternatywne dla mediów opartych na czasie."
+        },
+        "1.3": {
+            "TITLE": "Możliwość adaptacji",
+            "DESCRIPTION": "Twórz treści, które mogą być prezentowane na różne sposoby bez utraty informacji czy struktury."
+        },
+        "1.4": {
+            "TITLE": "Rozróżnialność",
+            "DESCRIPTION": "Ułatwiaj oglądanie i słuchanie treści oraz oddzielanie informacji od tła."
+        },
+        "2.1": {
+            "TITLE": "Dostępność z klawiatury",
+            "DESCRIPTION": "Zapewnij dostępność wszystkich funkcjonalności za pomocą klawiatury."
+        },
+        "2.2": {
+            "TITLE": "Wystarczający czas",
+            "DESCRIPTION": "Zapewnij użytkownikom wystarczająco dużo czasu na przeczytanie i skorzystanie z treści."
+        },
+        "2.3": {
+            "TITLE": "Ataki padaczki",
+            "DESCRIPTION": "Prezentuj treść tak, aby nie wywoływała napadów padaczkowych."
+        },
+        "2.4": {
+            "TITLE": "Możliwość nawigacji",
+            "DESCRIPTION": "Zapewnij użytkownikowi narzędzia pomagające w nawigacji, znalezieniu treści i określeniu, gdzie się aktualnie znajduje."
+        },
+        "2.5": {
+            "TITLE": "Metody obsługi",
+            "DESCRIPTION": "Ułatwiaj użytkownikom obsługę funkcji za pomocą różnych sposobów poza klawiaturą."
+        },
+        "3.1": {
+            "TITLE": "Możliwość odczytania",
+            "DESCRIPTION": "Twórz treści możliwe do odczytania i zrozumienia."
+        },
+        "3.2": {
+            "TITLE": "Przewidywalność",
+            "DESCRIPTION": "Twórz strony internetowe tak, aby otwierały się, wyglądały i działały w sposób przewidywalny."
+        },
+        "3.3": {
+            "TITLE": "Pomoc przy wprowadzaniu informacji",
+            "DESCRIPTION": "Pomagaj użytkownikom unikać błędów i je korygować."
+        },
+        "4.1": {
+            "TITLE": "Kompatybilność",
+            "DESCRIPTION": "Zapewnij jak największą zgodność z aktualnymi i przyszłymi programami użytkownika, w tym z technologiami asystującymi."
+        }
+    },
+    "SUCCESS_CRITERION": {
+        "1.1.1": {
+            "TITLE": "Treść nietekstowa",
+            "DESCRIPTION": "Wszelkie treści nietekstowe przedstawione użytkownikowi posiadają swoją tekstową alternatywę, która pełni tę samą funkcję, z wyjątkiem sytuacji opisanych poniżej.",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "Jeśli treść nietekstowa jest kontrolką użytkownika lub polem wprowadzania danych, wtedy posiada nazwę opisującą jej przeznaczenie. (Kryterium sukcesu 4.1.2 podaje dodatkowe wymagania dotyczące kontrolek oraz wprowadzania danych przez użytkownika.)",
+                    "TITLE": "Kontrolki użytkownika i wprowadzanie danych przez użytkownika"
+                },
+                "2": {
+                    "DESCRIPTION": "Jeśli treścią nietekstową są media oparte na czasie, wtedy alternatywa tekstowa zawiera przynajmniej opisowe określenie treści nietekstowej. (Wytyczna 1.2 podaje dodatkowe wymagania, jeśli chodzi o media.)",
+                    "TITLE": "Multimedia"
+                },
+                "3": {
+                    "DESCRIPTION": "Jeśli treść nietekstowa jest testem lub ćwiczeniem, które utraciłoby swój sens ze względu na przedstawienie tej samej treści w postaci tekstu, wtedy alternatywa w postaci tekstu podawać powinna przynajmniej opis pozwalający zrozumieć przeznaczenie treści nietekstowej.",
+                    "TITLE": "Test"
+                },
+                "4": {
+                    "DESCRIPTION": "Jeśli treść nietekstowa ma za zadanie przede wszystkim tworzyć konkretne odczucie zmysłowe, wtedy alternatywa w postaci tekstu jest opisem pozwalającym zrozumieć przeznaczenie treści nietekstowej.",
+                    "TITLE": "Odczucie zmysłowe"
+                },
+                "5": {
+                    "DESCRIPTION": "Jeśli celem treści nietekstowej jest potwierdzenie, że do treści ma dostęp człowiek, a nie komputer, wtedy dostarcza się alternatywę w postaci tekstu, która identyfikuje oraz opisuje cel treści nietekstowej. Dostarcza się również alternatywnych zabezpieczeń typu CAPTCHA, dostosowanych do różnych możliwości percepcji użytkowników, uwzględniając różne rodzaje niepełnosprawności.",
+                    "TITLE": "CAPTCHA"
+                },
+                "6": {
+                    "DESCRIPTION": "Jeśli treść nietekstowa pełni funkcję czysto dekoracyjną, używana jest do formatowania wizualnego lub też nie jest przedstawiana użytkownikowi, powinna być wdrożona w sposób umożliwiający technologiom wspomagającym jej zignorowanie.",
+                    "TITLE": "Cele dekoracyjne, formatowanie, treść niewidoczna"
+                }
+            }
+        },
+        "1.2.1": {
+            "TITLE": "Tylko audio lub tylko wideo (nagranie)",
+            "DESCRIPTION": "Dla mediów nagranych w systemie tylko audio lub tylko wideo stosuje się następujące zasady, z wyjątkiem sytuacji, kiedy nagranie audio lub wideo jest alternatywą dla tekstu i w taki sposób jest oznaczone:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "Zapewniona jest alternatywa tekstowa dla nagrań dźwiękowych przedstawiająca tę samą treść, co nagranie audio.",
+                    "TITLE": "Alternatywa dla audio"
+                },
+                "2": {
+                    "DESCRIPTION": "Zapewniona jest alternatywa tekstowa albo audiodeskrypcja dla nagrań zawierających tylko wideo przedstawiająca tę samą treść, co nagranie wideo.",
+                    "TITLE": "Alternatywa dla wideo"
+                }
+            }
+        },
+        "1.2.2": {
+            "TITLE": "Napisy rozszerzone (nagranie)",
+            "DESCRIPTION": "Do wszystkich nagrań audio w multimediach zsynchronizowanych (dźwięk i obraz), z wyjątkiem sytuacji, kiedy są one alternatywami dla tekstu i w taki sposób są oznaczone, zapewnione są napisy rozszerzone.",
+            "DETAILS": {}
+        },
+        "1.2.3": {
+            "TITLE": "Audiodeskrypcja lub alternatywa tekstowa dla mediów (nagranie)",
+            "DESCRIPTION": "Zapewniona jest alternatywa dla multimediów lub audiodeskrypcja dla nagrań wideo w multimediach zsynchronizowanych (dźwięk i obraz), z wyjątkiem sytuacji, kiedy są one alternatywami dla tekstu i w taki sposób są oznaczone.",
+            "DETAILS": {}
+        },
+        "1.2.4": {
+            "TITLE": "Napisy rozszerzone (na żywo)",
+            "DESCRIPTION": "Do wszystkich treści audio w multimediach zsynchronizowanych (dźwięk i obraz) przekazywanych na żywo zapewnione są napisy rozszerzone.",
+            "DETAILS": {}
+        },
+        "1.2.5": {
+            "TITLE": "Audiodeskrypcja (nagranie)",
+            "DESCRIPTION": "Zapewniona jest audiodeskrypcja dla wszystkich nagrań wideo w multimediach zsynchronizowanych.",
+            "DETAILS": {}
+        },
+        "1.2.6": {
+            "TITLE": "Język migowy (nagranie)",
+            "DESCRIPTION": "Zapewnione jest tłumaczenie w języku migowym wszystkich nagrań audio w multimediach zsynchronizowanych (dźwięk i obraz).",
+            "DETAILS": {}
+        },
+        "1.2.7": {
+            "TITLE": "Rozszerzona audiodeskrypcja (nagranie)",
+            "DESCRIPTION": "Jeśli przerwy w ścieżce dźwiękowej nagrania nie pozwalają na zamieszczenie audiodeskrypcji przekazującej sens treści w wystarczającym stopniu, dla wszystkich nagrań wideo w multimediach zsynchronizowanych (dźwięk i obraz) zapewniona jest rozszerzona audiodeskrypcja.",
+            "DETAILS": {}
+        },
+        "1.2.8": {
+            "TITLE": "Alternatywa dla mediów (nagranie)",
+            "DESCRIPTION": "Zapewniona jest alternatywa dla wszystkich nagrań w multimediach zsynchronizowanych (dźwięk i obraz) oraz dla wszystkich nagrań tylko wideo (sam obraz).",
+            "DETAILS": {}
+        },
+        "1.2.9": {
+            "TITLE": "Tylko audio (na żywo)",
+            "DESCRIPTION": "Zapewniona jest alternatywa dla multimediów przedstawiająca informacje takie same, jak w przekazie tylko audio na żywo.",
+            "DETAILS": {}
+        },
+        "1.3.1": {
+            "TITLE": "Informacje i relacje",
+            "DESCRIPTION": "Informacje, struktura oraz relacje między treściami przekazywane poprzez prezentację mogą być odczytane przez program komputerowy lub istnieją w postaci tekstu.",
+            "DETAILS": {}
+        },
+        "1.3.2": {
+            "TITLE": "Zrozumiała kolejność",
+            "DESCRIPTION": "Jeśli kolejność, w jakiej przedstawiona jest treść, ma znaczenie dla zrozumienia treści — prawidłowa kolejność odczytu musi być określona programowo.",
+            "DETAILS": {}
+        },
+        "1.3.3": {
+            "TITLE": "Właściwości zmysłowe",
+            "DESCRIPTION": "Instrukcje co do zrozumienia i operowania treścią nie opierają się wyłącznie na właściwościach zmysłowych, takich jak: kształt, rozmiar, wzrokowa lokalizacja, orientacja w przestrzeni lub dźwięk.",
+            "DETAILS": {}
+        },
+        "1.3.4": {
+            "TITLE": "Orientacja",
+            "DESCRIPTION": "Treść nie ogranicza swojego widoku i działania do jednej orientacji wyświetlania, takiej jak pionowa lub pozioma, chyba że określona orientacja wyświetlania jest istotna.",
+            "DETAILS": {}
+        },
+        "1.3.5": {
+            "TITLE": "Określenie pożądanej wartości",
+            "DESCRIPTION": "Cel każdego pola zbierającego informacje o użytkowniku może być programowo określony, gdy:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "Pole zbierające dane służy celowi określonemu w sekcji Przeznaczenie pól danych w komponentach interfejsu użytkownika; oraz"
+                },
+                "2": {
+                    "DESCRIPTION": "Treść jest implementowana za pomocą technologii obsługującej określanie w polach formularza typu oczekiwanych danych."
+                }
+            }
+        },
+        "1.3.6": {
+            "TITLE": "Określenie przeznaczenia",
+            "DESCRIPTION": "W treściach zaimplementowanych przy użyciu języków znaczników przeznaczenie komponentów interfejsu użytkownika, ikon i obszarów kluczowych może zostać określone programowo.",
+            "DETAILS": {}
+        },
+        "1.4.1": {
+            "TITLE": "Użycie koloru",
+            "DESCRIPTION": "Kolor nie jest wykorzystywany jako jedyny wizualny sposób przekazywania informacji, wskazywania czynności do wykonania lub oczekiwania na odpowiedź, czy też wyróżniania elementów wizualnych.",
+            "DETAILS": {}
+        },
+        "1.4.2": {
+            "TITLE": "Kontrola odtwarzania dźwięku",
+            "DESCRIPTION": "Jeśli jakieś nagranie audio włącza się automatycznie na danej stronie i jest odtwarzane przez okres dłuższy niż 3 sekundy, istnieje mechanizm umożliwiający przerwanie lub wyłączenie nagrania albo mechanizm kontrolujący poziom głośności niezależnie od poziomu głośności całego systemu.",
+            "DETAILS": {}
+        },
+        "1.4.3": {
+            "TITLE": "Kontrast (minimalny)",
+            "DESCRIPTION": "Wizualna prezentacja tekstu lub obrazu tekstu posiada współczynnik kontrastu wynoszący przynajmniej 4.5:1, poza następującymi wyjątkami:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "Duży tekst oraz grafiki takiego tekstu posiadają kontrast przynajmniej 3:1;",
+                    "TITLE": "Duży tekst"
+                },
+                "2": {
+                    "DESCRIPTION": "Tekst lub obrazy tekstu, które są częścią nieaktywnego komponentu interfejsu użytkownika, które są czystą dekoracją, które nie są widoczne lub które są częścią obrazu zawierającego inne istotne treści wizualne, nie wymagają minimalnego kontrastu;",
+                    "TITLE": "Incydentalne"
+                },
+                "3": {
+                    "DESCRIPTION": "Tekst, który jest częścią logo lub nazwy własnej produktu (marki), nie wymaga minimalnego kontrastu.",
+                    "TITLE": "Logotyp"
+                }
+            }
+        },
+        "1.4.4": {
+            "TITLE": "Zmiana rozmiaru tekstu",
+            "DESCRIPTION": "Oprócz napisów rozszerzonych oraz obrazów tekstu, rozmiar tekstu może zostać powiększony do 200% bez użycia technologii wspomagających oraz bez utraty treści lub funkcjonalności.",
+            "DETAILS": {}
+        },
+        "1.4.5": {
+            "TITLE": "Obrazy tekstu",
+            "DESCRIPTION": "Jeśli wykorzystywane technologie mogą przedstawiać treść wizualnie, do przekazywania informacji wykorzystuje się tekst, a nie obraz tekstu, z wyjątkiem następujących sytuacji:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "Obraz tekstu może być dostosowany wizualnie do wymagań użytkownika;",
+                    "TITLE": "Możliwy do dostosowania"
+                },
+                "2": {
+                    "DESCRIPTION": "Prezentacja tekstu w postaci graficznej jest istotna dla zrozumienia przekazywanej informacji.",
+                    "TITLE": "Istotny"
+                }
+            }
+        },
+        "1.4.6": {
+            "TITLE": "Kontrast (wzmocniony)",
+            "DESCRIPTION": "Wizualna prezentacja tekstu lub obrazu tekstu posiada współczynnik kontrastu wynoszący przynajmniej 7:1, poza następującymi wyjątkami:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "Duży tekst oraz grafiki takiego tekstu posiadają kontrast przynajmniej 4,5:1.",
+                    "TITLE": "Duży tekst"
+                },
+                "2": {
+                    "DESCRIPTION": "Tekst lub obrazy tekstu, które są częścią nieaktywnego komponentu interfejsu użytkownika, które są czystą dekoracją, które nie są widoczne lub które są częścią obrazu zawierającego inne istotne treści wizualne, nie wymagają wzmocnionego kontrastu.",
+                    "TITLE": "Incydentalne"
+                },
+                "3": {
+                    "DESCRIPTION": "Tekst, który jest częścią logo lub nazwy własnej produktu (marki), nie wymaga wzmocnionego kontrastu.",
+                    "TITLE": "Logotyp"
+                }
+            }
+        },
+        "1.4.7": {
+            "TITLE": "Niska głośność lub bez dźwięków w tle",
+            "DESCRIPTION": "Dla nagranej treści tylko audio, która (1) na pierwszym planie zawiera głównie mowę, (2) nie jest dźwiękową CAPTCHA lub logo w postaci dźwiękowej, oraz (3) nie jest wokalizacją mającą na celu głównie ekspresję muzyczną, np. w przypadku śpiewu lub rapu, przynajmniej jedno z poniższych założeń jest spełnione:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "Nagranie audio nie zawiera dźwięków tła.",
+                    "TITLE": "Bez treści w tle"
+                },
+                "2": {
+                    "DESCRIPTION": "Dźwięki tła mogą zostać wyłączone.",
+                    "TITLE": "Możliwość wyłączenia"
+                },
+                "3": {
+                    "DESCRIPTION": "Głośność dźwięków tła jest przynajmniej o 20 decybeli mniejsza, niż głośność mowy, która stanowi główną treść nagrania, z wyjątkiem okazyjnych, jedno– lub dwusekundowych dźwięków tła.",
+                    "TITLE": "20 dB"
+                }
+            }
+        },
+        "1.4.8": {
+            "TITLE": "Prezentacja wizualna",
+            "DESCRIPTION": "Dla wizualnego przedstawienia bloków tekstu, istnieje mechanizm, za pomocą którego można osiągnąć, co następuje:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "Kolory na pierwszym planie oraz kolory tła mogą być zmienione przez użytkownika."
+                },
+                "2": {
+                    "DESCRIPTION": "Szerokość nie przekracza 80 znaków (40 w przypadku alfabetów: chińskiego, japońskiego i koreańskiego)."
+                },
+                "3": {
+                    "DESCRIPTION": "Tekst nie jest wyjustowany (tzn. wyrównany do prawego i lewego marginesu)."
+                },
+                "4": {
+                    "DESCRIPTION": "Odstępy między wierszami w akapitach wynoszą przynajmniej 1,5 wysokości linii, a odległość między akapitami jest przynajmniej 1,5 razy większa niż ta pomiędzy wierszami."
+                },
+                "5": {
+                    "DESCRIPTION": "Rozmiar tekstu może zostać powiększony do 200% bez użycia technologii wspomagających, nie wymagając od użytkownika, chcącego odczytać cały wiersz, przesuwania tekstu w poziomie przy zmaksymalizowanym oknie ekranu."
+                }
+            }
+        },
+        "1.4.9": {
+            "TITLE": "Obrazy tekstu (bez wyjątków)",
+            "DESCRIPTION": "Obrazy tekstu są wykorzystywane jedynie w celach czysto dekoracyjnych lub też w przypadkach, gdy taka prezentacja tekstu jest istotna dla przekazywanej informacji.",
+            "DETAILS": {}
+        },
+        "1.4.10": {
+            "TITLE": "Dopasowanie do ekranu",
+            "DESCRIPTION": "Treść może być prezentowana bez utraty informacji lub funkcjonalności, bez konieczności przewijania w dwóch wymiarach dla:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "Pionowego przewijania treści o szerokości odpowiadającej 320 pikselom CSS;"
+                },
+                "2": {
+                    "DESCRIPTION": "Poziomego przewijania treści na wysokości odpowiadającej 256 pikselom CSS."
+                }
+            }
+        },
+        "1.4.11": {
+            "TITLE": "Kontrast elementów nietekstowych",
+            "DESCRIPTION": "Wizualna prezentacja następujących elementów ma współczynnik kontrastu co najmniej 3:1 względem sąsiednich kolorów:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "Informacje wizualne wymagane do identyfikacji komponentów interfejsu użytkownika i ich stanów, z wyjątkiem nieaktywnych składników lub gdy wygląd komponentu jest określony przez agenta użytkownika i nie jest modyfikowany przez autora;",
+                    "TITLE": "Komponenty interfejsu użytkownika"
+                },
+                "2": {
+                    "DESCRIPTION": "Części grafiki wymagane do zrozumienia treści, z wyjątkiem sytuacji, gdy konkretna prezentacja grafiki ma istotne znaczenie dla przekazywanych informacji.",
+                    "TITLE": "Obiekty graficzne"
+                }
+            }
+        },
+        "1.4.12": {
+            "TITLE": "Odstępy w tekście",
+            "DESCRIPTION": "W treściach tworzonych za pomocą języków znaczników, umożliwiających ustawienie poniższych właściwości stylu, nie następuje utrata żadnych treści lub funkcjonalności, gdy tekst ustawiony zostanie tak, aby uwzględniał wszystkie poniższe parametry oraz gdy wprowadzone zostaną zmiany w jakiejkolwiek innej właściwości stylu:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "Wysokość linii (odstęp między wierszami) do co najmniej 1,5-krotności rozmiaru czcionki;"
+                },
+                "2": {
+                    "DESCRIPTION": "Odstęp między akapitami co najmniej 2 razy większy od rozmiaru czcionki;"
+                },
+                "3": {
+                    "DESCRIPTION": "Odstępy między literami (tracking) do co najmniej 0,12-krotności rozmiaru czcionki;"
+                },
+                "4": {
+                    "DESCRIPTION": "Odstępy między wyrazami do co najmniej 0,16 wielkości czcionki."
+                }
+            }
+        },
+        "1.4.13": {
+            "TITLE": "Treść spod kursora lub fokusu",
+            "DESCRIPTION": "Gdy jakaś treść staje się widoczna po otrzymaniu kursora lub fokusu klawiatury, a po ich usunięciu znika, spełnione są poniższe warunki:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "Istnieje mechanizm umożliwiający odrzucenie dodatkowej treści bez przesuwania wskaźnika myszy lub fokusu klawiatury, chyba że dodatkowa treść przekazuje błąd wprowadzanych danych lub nie przesłania ani nie zastępuje innej treści;",
+                    "TITLE": "Odrzucone"
+                },
+                "2": {
+                    "DESCRIPTION": "Jeśli wskaźnik myszy (hover) może wyzwolić dodatkową treść, wówczas wskaźnik może zostać przeniesiony na dodatkową treść bez znikania dodatkowej treści;",
+                    "TITLE": "Wskazywane"
+                },
+                "3": {
+                    "DESCRIPTION": "Dodatkowa treść pozostaje widoczna do momentu usunięcia wyzwalacza aktywacji lub fokusu, użytkownik odrzuca go lub jego informacje nie są już ważne.",
+                    "TITLE": "Trwałe"
+                }
+            }
+        },
+        "2.1.1": {
+            "TITLE": "Klawiatura",
+            "DESCRIPTION": "Wszystkie funkcjonalności w treści są obsługiwane za pomocą interfejsu klawiatury, bez wymogu określonego czasu użycia poszczególnych klawiszy, z wyjątkiem sytuacji, kiedy dana funkcja wymaga wprowadzenia informacji przez użytkownika w oparciu o ścieżkę ruchów, a nie w oparciu o punkty końcowe wejścia.",
+            "DETAILS": {}
+        },
+        "2.1.2": {
+            "TITLE": "Bez pułapki na klawiaturę",
+            "DESCRIPTION": "Jeśli fokus klawiatury można przemieścić do danego komponentu treści za pomocą interfejsu klawiatury, to może on być z niego usunięty również za pomocą interfejsu klawiatury, a jeśli wymagane jest użycie czegoś więcej niż tylko strzałek, tabulatora lub innych standardowych metod wyjścia, użytkownik musi otrzymać odpowiednią podpowiedź, w jaki sposób usunąć fokus z danego komponentu.",
+            "DETAILS": {}
+        },
+        "2.1.3": {
+            "TITLE": "Klawiatura (bez wyjątków)",
+            "DESCRIPTION": "Wszystkie funkcjonalności w treści są obsługiwane za pomocą interfejsu klawiatury, bez wymogu określonego czasu użycia poszczególnych klawiszy.",
+            "DETAILS": {}
+        },
+        "2.1.4": {
+            "TITLE": "Jednoznakowe skróty klawiaturowe",
+            "DESCRIPTION": "Jeśli skrót klawiaturowy jest zaimplementowany w treści tylko przy użyciu jednego znaku (litery, w tym wielkiej i małej, cyfry lub symbolu), to przynajmniej jedno z poniższych jest prawdziwe:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "Istnieje mechanizm wyłączania skrótu;",
+                    "TITLE": "Wyłączanie"
+                },
+                "2": {
+                    "DESCRIPTION": "Istnieje mechanizm zmiany mapowania skrótu w celu użycia jednego lub więcej niedrukowalnych znaków klawiatury (np. Ctrl, Alt, itp.);",
+                    "TITLE": "Mapowanie"
+                },
+                "3": {
+                    "DESCRIPTION": "Skrót klawiaturowy dla komponentu interfejsu użytkownika jest aktywny tylko wtedy, gdy ten komponent ma fokus.",
+                    "TITLE": "Aktywny tylko po otrzymaniu fokusu"
+                }
+            }
+        },
+        "2.2.1": {
+            "TITLE": "Dostosowanie czasu",
+            "DESCRIPTION": "Gdy czas korzystania z treści jest ograniczany, spełniony jest przynajmniej jeden z poniższych warunków:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "Użytkownik może wyłączyć limit czasowy, zanim czas upłynie; lub",
+                    "TITLE": "Wyłączenie"
+                },
+                "2": {
+                    "DESCRIPTION": "Użytkownik może swobodnie dostosować limit czasowy (przynajmniej o wartość 10 razy większą od wartości domyślnej), zanim czas upłynie; lub",
+                    "TITLE": "Dostosowanie"
+                },
+                "3": {
+                    "DESCRIPTION": "Użytkownik jest ostrzegany przed upłynięciem limitu czasowego i ma przynajmniej 20 sekund na wydłużenie limitu za pomocą prostej czynności (np. „wciśnij klawisz spacji”) oraz może wydłużyć limit przynajmniej dziesięciokrotnie; lub",
+                    "TITLE": "Wydłużenie"
+                },
+                "4": {
+                    "DESCRIPTION": "Limit czasowy jest wymaganym komponentem jakiejś czynności w czasie rzeczywistym (np. aukcji) i nie ma możliwości zmiany limitu; lub",
+                    "TITLE": "Wyjątek dotyczący czasu rzeczywistego"
+                },
+                "5": {
+                    "DESCRIPTION": "Limit czasowy jest istotny i wydłużenie go anulowałoby lub zaburzałoby daną czynność; lub",
+                    "TITLE": "Wyjątek dotyczący istoty czynności"
+                },
+                "6": {
+                    "DESCRIPTION": "Limit czasowy przekracza 20 godzin.",
+                    "TITLE": "Wyjątek 20 godzin"
+                }
+            }
+        },
+        "2.2.2": {
+            "TITLE": "Pauza, zatrzymanie, ukrycie",
+            "DESCRIPTION": "Gdy treść się porusza, migocze, przesuwa lub jest automatycznie aktualizowana, spełnione są wszystkie poniższe warunki:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "Każdą informację, która porusza się, przesuwa lub miga, a takie działanie (1) włącza się automatycznie, (2) jest widoczne dłużej niż 5 sekund, (3) jest przedstawiane równolegle z inną treścią — użytkownik może wstrzymać, zatrzymać lub ukryć za pomocą dostępnego mechanizmu, chyba że poruszanie się, przesuwanie lub migotanie jest częścią czynności, w której takie działanie jest istotne, oraz:",
+                    "TITLE": "Poruszanie się, przesuwanie, migotanie"
+                },
+                "2": {
+                    "DESCRIPTION": "Każdą automatycznie aktualizującą się informację, która (1) włącza się automatycznie oraz (2) jest przedstawiana równolegle z inną treścią — użytkownik może wstrzymać, zatrzymać lub kontrolować częstotliwość aktualizacji za pomocą dostępnego mechanizmu, chyba, że automatyczna aktualizacja jest częścią takiej czynności, w której takie działanie jest niezbędne.",
+                    "TITLE": "Automatyczna aktualizacja"
+                }
+            }
+        },
+        "2.2.3": {
+            "TITLE": "Bez ograniczeń czasowych",
+            "DESCRIPTION": "Ograniczenie czasowe nie jest istotną częścią czynności prezentowanej na stronie, chyba, że są to nieinteraktywne multimedia zsynchronizowane lub wydarzenia w czasie rzeczywistym.",
+            "DETAILS": {}
+        },
+        "2.2.4": {
+            "TITLE": "Przerywanie",
+            "DESCRIPTION": "Przerywanie pracy może być odłożone w czasie lub odrzucone przez użytkownika, chyba że jest to sytuacja wyjątkowa.",
+            "DETAILS": {}
+        },
+        "2.2.5": {
+            "TITLE": "Ponowne potwierdzenie autentyczności",
+            "DESCRIPTION": "Kiedy kończy się czas sesji autoryzowanej przez użytkownika, może on kontynuować czynność bez utraty danych po ponownej autoryzacji.",
+            "DETAILS": {}
+        },
+        "2.2.6": {
+            "TITLE": "Ostrzeżenie o limicie czasu",
+            "DESCRIPTION": "Użytkownicy muszą być ostrzeżeni o limicie czasu bezczynności użytkownika, którego przekroczenie mogłoby spowodować utratę danych, chyba że dane te są przechowywane przez ponad 20 godzin, gdy uczestnik nie podejmie żadnych działań.",
+            "DETAILS": {}
+        },
+        "2.3.1": {
+            "TITLE": "Trzy błyski lub wartości poniżej progu",
+            "DESCRIPTION": "Strony internetowe nie zawierają w swojej treści niczego, co błyska częściej niż trzy razy w ciągu jednej sekundy, lub też błysk nie przekracza wartości granicznych dla błysków ogólnych i czerwonych.",
+            "DETAILS": {}
+        },
+        "2.3.2": {
+            "TITLE": "Trzy błyski",
+            "DESCRIPTION": "Strony internetowe nie zawierają w swojej treści niczego, co błyska częściej niż trzy razy w ciągu jednej sekundy.",
+            "DETAILS": {}
+        },
+        "2.3.3": {
+            "TITLE": "Animacja po interakcji",
+            "DESCRIPTION": "Animacja ruchowa wyzwalana przez interakcję może być wyłączona, chyba że animacja jest istotna dla funkcjonalności lub przekazywanych informacji.",
+            "DETAILS": {}
+        },
+        "2.4.1": {
+            "TITLE": "Możliwość pominięcia bloków",
+            "DESCRIPTION": "Istnieje mechanizm, który umożliwia pominięcie bloków treści powtarzanych na wielu stronach internetowych.",
+            "DETAILS": {}
+        },
+        "2.4.2": {
+            "TITLE": "Tytuły stron",
+            "DESCRIPTION": "Strony internetowe mają tytuły, które opisują ich cel lub przedstawiają ich temat.",
+            "DETAILS": {}
+        },
+        "2.4.3": {
+            "TITLE": "Kolejność fokusu",
+            "DESCRIPTION": "Jeśli strona internetowa może być nawigowana sekwencyjnie, a kolejność nawigacji wpływa na zrozumienie lub funkcjonalność strony, komponenty przyjmują fokus w kolejności, dzięki której zachowany jest sens i funkcjonalność treści.",
+            "DETAILS": {}
+        },
+        "2.4.4": {
+            "TITLE": "Cel łącza (w kontekście)",
+            "DESCRIPTION": "Cel każdego łącza może wynikać z samej treści łącza lub z treści tekstu powiązanego z kontekstem łącza określonym programowo, poza tymi przypadkami, kiedy cel łącza i tak byłby niejasny dla użytkowników.",
+            "DETAILS": {}
+        },
+        "2.4.5": {
+            "TITLE": "Wiele dróg",
+            "DESCRIPTION": "Istnieje więcej niż jeden sposób umożliwiający zlokalizowanie strony internetowej w zestawie stron internetowych, z wyjątkiem sytuacji, kiedy dana strona jest wynikiem jakiejś procedury lub jednym z jej etapów.",
+            "DETAILS": {}
+        },
+        "2.4.6": {
+            "TITLE": "Nagłówki i etykiety",
+            "DESCRIPTION": "Nagłówki i etykiety opisują temat lub cel treści.",
+            "DETAILS": {}
+        },
+        "2.4.7": {
+            "TITLE": "Widoczny fokus",
+            "DESCRIPTION": "Każdy interfejs posiadający możliwość obsługi przy pomocy klawiatury ma tryb obsługi, w którym fokus klawiatury jest stale widoczny.",
+            "DETAILS": {}
+        },
+        "2.4.8": {
+            "TITLE": "Lokalizacja",
+            "DESCRIPTION": "Zapewniona jest informacja, w którym miejscu w zestawie stron internetowych znajduje się użytkownik.",
+            "DETAILS": {}
+        },
+        "2.4.9": {
+            "TITLE": "Cel łącza (z samego łącza)",
+            "DESCRIPTION": "Istnieje mechanizm umożliwiający zidentyfikowanie celu każdego łącza z samej jego treści, poza tymi przypadkami, kiedy cel łącza i tak byłby niejasny dla użytkowników.",
+            "DETAILS": {}
+        },
+        "2.4.10": {
+            "TITLE": "Nagłówki sekcji",
+            "DESCRIPTION": "Nagłówki sekcji są używane do porządkowania treści.",
+            "DETAILS": {}
+        },
+        "2.5.1": {
+            "TITLE": "Gesty dotykowe",
+            "DESCRIPTION": "Wszystkie funkcjonalności wykorzystujące do obsługi gesty wielopunktowe lub oparte na ścieżkach mogą być obsługiwane za pomocą dotyku jednopunktowego bez gestu opartego na ścieżce, chyba że istotny jest gest wielopunktowy lub oparty na ścieżce.",
+            "DETAILS": {}
+        },
+        "2.5.2": {
+            "TITLE": "Rezygnacja ze wskazania",
+            "DESCRIPTION": "W przypadku funkcjonalności, które są wywoływane za pomocą dotyku jednopunktowego, co najmniej jedno z poniższych twierdzeń jest prawdziwe:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "Naciskanie nie wywołuje jakiejkolwiek części zdarzenia;",
+                    "TITLE": "Brak zdarzenia"
+                },
+                "2": {
+                    "DESCRIPTION": "Zdarzenie jest zależne od zwolnienia nacisku i istnieje mechanizm, którym można je przerwać lub cofnąć po zwolnieniu nacisku;;",
+                    "TITLE": "Przerwanie lub cofnięcie"
+                },
+                "3": {
+                    "DESCRIPTION": "Zwolnienie nacisku cofa wywołane zdarzenie i przywraca stan sprzed zdarzenia;",
+                    "TITLE": "Odwrócenie zdarzenia"
+                },
+                "4": {
+                    "DESCRIPTION": "Wciśnięcie jest niezbędne do wywołania zdarzenia.",
+                    "TITLE": "Istotne"
+                }
+            }
+        },
+        "2.5.3": {
+            "TITLE": "Etykieta w nazwie",
+            "DESCRIPTION": "W przypadku komponentów interfejsu użytkownika z etykietami zawierającymi tekst lub obrazy tekstu, nazwa zawiera tekst, który jest prezentowany wizualnie.",
+            "DETAILS": {}
+        },
+        "2.5.4": {
+            "TITLE": "Aktywowanie ruchem",
+            "DESCRIPTION": "Funkcjonalność, którą można obsługiwać za pomocą ruchu urządzenia lub ruchu użytkownika, można również obsługiwać za pomocą komponentów interfejsu użytkownika, a reagowanie na ruch można wyłączyć, aby zapobiec przypadkowemu uruchomieniu, z wyjątkiem sytuacji, gdy:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "Ruch służy do obsługi funkcjonalności poprzez interfejs obsługiwany przez dostępność;",
+                    "TITLE": "Obsługiwany interfejs"
+                },
+                "2": {
+                    "DESCRIPTION": "Ruch jest niezbędny dla funkcji, a to spowodowałoby unieważnienie działania.",
+                    "TITLE": "Istotny"
+                }
+            }
+        },
+        "2.5.5": {
+            "TITLE": "Rozmiar celu dotykowego",
+            "DESCRIPTION": "Rozmiar celu punktu dotykowego wynosi co najmniej 44 na 44 piksele CSS, chyba że:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "Cel jest dostępny za pośrednictwem równoważnego łącza lub kontrolki na tej samej stronie, która ma co najmniej 44 na 44 piksele CSS;",
+                    "TITLE": "Odpowiednik"
+                },
+                "2": {
+                    "DESCRIPTION": "Cel znajduje się w zdaniu lub w bloku tekstu;",
+                    "TITLE": "Śródliniowe"
+                },
+                "3": {
+                    "DESCRIPTION": "Rozmiar obiektu docelowego jest określony przez program użytkownika (przeglądarkę) i nie jest modyfikowany przez autora;",
+                    "TITLE": "Kontrola programu użytkownika"
+                },
+                "4": {
+                    "DESCRIPTION": "Szczególna prezentacja celu ma istotne znaczenie dla przekazywanych informacji.",
+                    "TITLE": "Istotny"
+                }
+            }
+        },
+        "2.5.6": {
+            "TITLE": "Równoległy mechanizm wprowadzania danych",
+            "DESCRIPTION": "Treści internetowe nie ograniczają możliwości korzystania z trybów wprowadzania danych dostępnych na platformie, z wyjątkiem sytuacji, w których ograniczenie jest istotne, wymagane do zapewnienia bezpieczeństwa treści lub wymagane do przestrzegania ustawień użytkownika.",
+            "DETAILS": {}
+        },
+        "3.1.1": {
+            "TITLE": "Język strony",
+            "DESCRIPTION": "Domyślny język naturalny każdej strony internetowej może zostać odczytany przez program komputerowy.",
+            "DETAILS": {}
+        },
+        "3.1.2": {
+            "TITLE": "Język części",
+            "DESCRIPTION": "Język naturalny każdej części lub frazy zawartej w treści może zostać odczytany przez program komputerowy, z wyjątkiem nazw własnych, wyrażeń technicznych, słów w nieokreślonym języku oraz słów i fraz, które stanowią część żargonu w bezpośrednio otaczającym je tekście.",
+            "DETAILS": {}
+        },
+        "3.1.3": {
+            "TITLE": "Nietypowe słowa",
+            "DESCRIPTION": "Istnieje mechanizm, za pomocą którego można sprawdzić definicje słów użytych w nietypowy lub ograniczony sposób, w tym idiomów i żargonu.",
+            "DETAILS": {}
+        },
+        "3.1.4": {
+            "TITLE": "Skróty",
+            "DESCRIPTION": "Istnieje mechanizm, za pomocą którego można sprawdzić znaczenie skrótów.",
+            "DETAILS": {}
+        },
+        "3.1.5": {
+            "TITLE": "Poziom umiejętności czytania",
+            "DESCRIPTION": "Jeśli dany tekst, po usunięciu nazw własnych i tytułów, wymaga umiejętności czytania na poziomie wyższym niż poziom gimnazjalny, istnieje dodatkowa treść wyjaśniająca lub oddzielna wersja, która nie wymaga większych umiejętności czytania.",
+            "DETAILS": {}
+        },
+        "3.1.6": {
+            "TITLE": "Wymowa",
+            "DESCRIPTION": "Istnieje mechanizm, za pomocą którego można sprawdzić wymowę słów, których znaczenie jest niejasne w danym kontekście bez znajomości ich wymowy.",
+            "DETAILS": {}
+        },
+        "3.2.1": {
+            "TITLE": "Po otrzymaniu fokusu",
+            "DESCRIPTION": "Przyjęcie fokusu przez dowolny komponent interfejsu użytkownika nie powoduje nieoczekiwanej zmiany kontekstu.",
+            "DETAILS": {}
+        },
+        "3.2.2": {
+            "TITLE": "Podczas wprowadzania danych",
+            "DESCRIPTION": "Zmiana ustawień jakiegokolwiek komponentu interfejsu użytkownika nie powoduje automatycznej zmiany kontekstu, chyba, że użytkownik został poinformowany o takim działaniu, zanim zaczął korzystać z komponentu.",
+            "DETAILS": {}
+        },
+        "3.2.3": {
+            "TITLE": "Spójna nawigacja",
+            "DESCRIPTION": "Mechanizmy nawigacji, które powtarzają się na wielu stronach internetowych w ramach jednego zestawu stron internetowych, występują w tej samej względnej kolejności za każdym razem, gdy są powtarzane, chyba że zmiana jest inicjowana przez użytkownika.",
+            "DETAILS": {}
+        },
+        "3.2.4": {
+            "TITLE": "Spójna identyfikacja",
+            "DESCRIPTION": "Komponenty, które mają tę samą funkcjonalność w ramach jednego zestawu stron internetowych, są w taki sam sposób zidentyfikowane.",
+            "DETAILS": {}
+        },
+        "3.2.5": {
+            "TITLE": "Zmiana na żądanie",
+            "DESCRIPTION": "Zmiany kontekstu inicjowane są tylko na żądanie użytkownika lub istnieje mechanizm pozwalający na wyłączenie takich zmian.",
+            "DETAILS": {}
+        },
+        "3.3.1": {
+            "TITLE": "Identyfikacja błędu",
+            "DESCRIPTION": "Jeśli automatycznie zostanie wykryty błąd wprowadzania danych, system wskazuje błędny element, a użytkownik otrzymuje opis błędu w postaci tekstu.",
+            "DETAILS": {}
+        },
+        "3.3.2": {
+            "TITLE": "Etykiety lub instrukcje",
+            "DESCRIPTION": "Gdy w treści wymagane jest wprowadzenie danych przez użytkownika, zapewnione są etykiety lub instrukcje.",
+            "DETAILS": {}
+        },
+        "3.3.3": {
+            "TITLE": "Sugestie korekty błędów",
+            "DESCRIPTION": "Jeśli automatycznie zostanie wykryty błąd wprowadzania danych i znane są sugestie korekty, wtedy użytkownik otrzymuje takie sugestie, chyba, że zagrażałoby to bezpieczeństwu treści lub zmieniło jej cel.",
+            "DETAILS": {}
+        },
+        "3.3.4": {
+            "TITLE": "Zapobieganie błędom (prawnym, finansowym, w danych)",
+            "DESCRIPTION": "W przypadku stron internetowych, które powodują zobowiązania prawne, albo na których użytkownik przeprowadza transakcje finansowe, modyfikuje lub usuwa dane w systemach przechowywania danych, nad którymi ma kontrolę, albo udziela odpowiedzi na testy, co najmniej jedna z poniższych informacji jest prawdziwa:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "Wprowadzenie danych jest odwracalne.",
+                    "TITLE": "Odwracalność"
+                },
+                "2": {
+                    "DESCRIPTION": "Dane wprowadzone przez użytkownika są sprawdzane pod kątem błędów, a użytkownik ma możliwość wprowadzenia poprawek.",
+                    "TITLE": "Sprawdzanie"
+                },
+                "3": {
+                    "DESCRIPTION": "Istnieje mechanizm sprawdzania, potwierdzania oraz korekty informacji przed jej ostatecznym wysłaniem.",
+                    "TITLE": "Potwierdzenie"
+                }
+            }
+        },
+        "3.3.5": {
+            "TITLE": "Pomoc",
+            "DESCRIPTION": "Istnieje pomoc kontekstowa.",
+            "DETAILS": {}
+        },
+        "3.3.6": {
+            "TITLE": "Zapobieganie błędom (wszystkim)",
+            "DESCRIPTION": "Dla stron internetowych, które wymagają od użytkownika wprowadzania informacji, przynajmniej jedno z poniższych założeń jest prawdziwe:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "Wprowadzenie danych jest odwracalne.",
+                    "TITLE": "Odwracalność"
+                },
+                "2": {
+                    "DESCRIPTION": "Dane wprowadzone przez użytkownika są sprawdzane pod kątem błędów, a użytkownik ma możliwość wprowadzenia poprawek.",
+                    "TITLE": "Sprawdzanie"
+                },
+                "3": {
+                    "DESCRIPTION": "Istnieje mechanizm sprawdzania, potwierdzania oraz korekty informacji przed jej ostatecznym wysłaniem.",
+                    "TITLE": "Potwierdzenie"
+                }
+            }
+        },
+        "4.1.1": {
+            "TITLE": "Poprawność kodu",
+            "DESCRIPTION": "W treści wprowadzonej przy użyciu języka znaczników, elementy posiadają kompletne znaczniki początkowe i końcowe, elementy są zagnieżdżane według swoich specyfikacji, nie posiadają zduplikowanych atrybutów, a wszystkie ID są unikalne, z wyjątkiem przypadków, kiedy specyfikacja zezwala na wyżej wymienione cechy.",
+            "DETAILS": {}
+        },
+        "4.1.2": {
+            "TITLE": "Nazwa, rola, wartość",
+            "DESCRIPTION": "Dla wszystkich komponentów interfejsu użytkownika (w tym, ale nie tylko, elementów formularzy, łączy oraz komponentów wygenerowanych przez skrypty) nazwa oraz rola mogą być określone programowo; stan, właściwości oraz wartości, które mogą być ustawione przez użytkownika, mogą również być ustawione programowo; powiadomienie o zmianach w tych elementach dostępne jest dla programów użytkownika, w tym technologii wspomagających.",
+            "DETAILS": {}
+        },
+        "4.1.3": {
+            "TITLE": "Komunikaty o stanie",
+            "DESCRIPTION": "W treści wprowadzonej przy użyciu języka znaczników komunikaty o stanie mogą być programowo określane poprzez role lub właściwości, dzięki czemu mogą być prezentowane użytkownikowi za pomocą technologii wspomagających bez uzyskiwania fokusu.",
+            "DETAILS": {}
+        },
+        "2.4.11": {
+            "TITLE": "Fokus niezakryty (minimum)",
+            "DESCRIPTION": "Gdy komponent interfejsu użytkownika otrzymuje fokus klawiatury, komponent nie jest całkowicie zakryty treścią stworzoną przez autora.",
+            "DETAILS": {}
+        },
+        "2.4.12": {
+            "TITLE": "Fokus niezakryty (ulepszony)",
+            "DESCRIPTION": "Gdy komponent interfejsu użytkownika otrzymuje fokus klawiatury, żadna część komponentu nie może być zakryta przez treść stworzoną przez autora.",
+            "DETAILS": {}
+        },
+        "2.4.13": {
+            "TITLE": "Wygląd fokusu",
+            "DESCRIPTION": "Gdy widoczny jest wskaźnik fokusu klawiatury, obszar wskaźnika fokusu spełnia wszystkie poniższe kryteria:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "jest co najmniej tak duży, jak obszar obwodu o grubości 2 pikseli CSS komponentu lub podkomponentu bez fokusu,"
+                },
+                "2": {
+                    "DESCRIPTION": "ma współczynnik kontrastu co najmniej 3:1 między tymi samymi pikselami w stanie „ma fokus” i „nie ma fokusu”."
+                }
+            }
+        },
+        "2.5.7": {
+            "TITLE": "Przeciąganie",
+            "DESCRIPTION": "Wszystkie funkcjonalności, które wykorzystują do działania ruch przeciągania można zrealizować za pomocą wskaźnika jednopunktowego bez przeciągania, chyba że przeciąganie jest niezbędne lub funkcjonalność została określona przez oprogramowanie użytkownika, a nie autora treści.",
+            "DETAILS": {}
+        },
+        "2.5.8": {
+            "TITLE": "Rozmiar celu (minimum)",
+            "DESCRIPTION": "Rozmiar celu dla punktu dotykowego wynosi co najmniej 24 na 24 piksele CSS, z wyjątkiem sytuacji, gdy:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "Odstępy: Niewielkie cele (mniejsze niż 24 na 24 piksele CSS) są umieszczane w taki sposób, że jeśli okrąg o średnicy 24 pikseli CSS jest wyśrodkowany na obwiedni każdego z nich, okręgi nie przecinają innego celu ani okręgu innego niewielkiego celu;"
+                },
+                "2": {
+                    "DESCRIPTION": "Odpowiednik: Efekt może być osiągnięty na tej samej stronie za pomocą innej kontrolki, która spełnia to kryterium;"
+                },
+                "3": {
+                    "DESCRIPTION": "Wierszowe: Cel znajduje się w zdaniu lub jego rozmiar jest w inny sposób ograniczony przez wysokość linii tekstu innego niż wiersz z celem;"
+                },
+                "4": {
+                    "DESCRIPTION": "Kontrolka programu użytkownika: Rozmiar celu jest określany przez program użytkownika i nie jest modyfikowany przez autora;"
+                },
+                "5": {
+                    "DESCRIPTION": "Istotny: Sposób przedstawienia celu jest niezbędny albo jest prawnie wymagany przy przekazywaniu informacji."
+                }
+            }
+        },
+        "3.2.6": {
+            "TITLE": "Spójna pomoc",
+            "DESCRIPTION": "Jeśli strona internetowa zawiera którykolwiek z poniższych mechanizmów pomocy, a mechanizmy te powtarzają się na wielu stronach internetowych w ramach zestawu stron internetowych, występują one w tej samej kolejności względem innych treści strony, chyba że użytkownik zainicjuje zmianę:",
+            "DETAILS": {}
+        },
+        "3.3.7": {
+            "TITLE": "Ponowne wpisy",
+            "DESCRIPTION": "Informacje uprzednio wprowadzone przez użytkownika lub przekazane użytkownikowi, które muszą zostać wprowadzone ponownie w tej samej procedurze, są wypełniane automatycznie albo możliwe do wyboru przez użytkownika, z wyjątkami:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "ponowne wprowadzenie informacji jest niezbędne,"
+                },
+                "2": {
+                    "DESCRIPTION": "informacje są niezbędne do zapewnienia bezpieczeństwa treści lub"
+                },
+                "3": {
+                    "DESCRIPTION": "poprzednio wprowadzone informacje są już nieaktualne."
+                }
+            }
+        },
+        "3.3.8": {
+            "TITLE": "Dostępne uwierzytelnianie (minimum)",
+            "DESCRIPTION": "Test funkcji poznawczych (taki jak zapamiętywanie hasła lub rozwiązywanie łamigłówki) nie jest wymagany na żadnym etapie procedury uwierzytelniania, chyba że etap ten zapewnia co najmniej jedną z poniższych:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "Alternatywa. Inna metoda uwierzytelniania, która nie opiera się na teście funkcji poznawczych."
+                },
+                "2": {
+                    "DESCRIPTION": "Mechanizm. Dostępny jest mechanizm pomagający użytkownikowi w ukończeniu testu funkcji poznawczych."
+                },
+                "3": {
+                    "DESCRIPTION": "Rozpoznawanie obiektów. Test funkcji poznawczych polega na rozpoznawaniu obiektów."
+                },
+                "4": {
+                    "DESCRIPTION": "Treść osobista. Test funkcji poznawczych ma na celu rozpoznanie treści nietekstowych, które użytkownik dostarczył na stronę internetową."
+                }
+            }
+        },
+        "3.3.9": {
+            "TITLE": "Dostępne uwierzytelnianie (ulepszone)",
+            "DESCRIPTION": "Test funkcji poznawczych (taki jak zapamiętywanie hasła lub rozwiązywanie łamigłówki) nie jest wymagany na żadnym etapie procesu uwierzytelniania, chyba że etap ten zapewnia co najmniej jedną z poniższych:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "Alternatywa. Inna metoda uwierzytelniania, która nie opiera się na teście funkcji poznawczych."
+                },
+                "2": {
+                    "DESCRIPTION": "Mechanizm. Dostępny jest mechanizm pomagający użytkownikowi w ukończeniu testu funkcji poznawczych."
+                }
+            }
+        }
+    }
+}
