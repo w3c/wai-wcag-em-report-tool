@@ -14,6 +14,6 @@
     "LABEL_SUMMARY": "Streszczenie",
     "INF_SUMMARY": "Podaj krótkie podsumowanie ustaleń z oceny, aby dać przegląd wyników. Na przykład, opisz ogólną dostępność witryny i najważniejsze spostrzeżenia (kluczowe obserwacje) poczynione podczas oceny, takie jak często występujące problemy i wzorce projektowe rozwiązań.",
     "LABEL_SPECIFICS": "Zapis szczegółów oceny (opcjonalnie)",
-    "INF_SPECIFICS": "WCAG-EM sugeruje udokumentowanie metodyki oceny witryny. Aby uzyskać więcej informacji, zobacz [Krok 5.b: Zapisz specyfikację oceny (opcjonalne)](https://testy.lepszyweb.pl/met-wcag-em-pl#step5b). W tym polu tekstowym można zapisać narzędzia oceny, przeglądarki internetowe, technologie wspomagające, inne oprogramowanie i metody zastosowane do oceny. To, co tu wpiszesz, zostanie uwzględnione w wygenerowanym raporcie. Po pobraniu raportu i przed przesłaniem go do zleceniodawcy możesz usunąć lub edytować te informacje w pliku HTML.",
+    "INF_SPECIFICS": "WCAG-EM sugeruje udokumentowanie metodyki oceny witryny. Aby uzyskać więcej informacji, zobacz [Krok 5.b: Zapisz specyfikację oceny (opcjonalne)](https://www.w3.org/TR/WCAG-EM/#step5b). W tym polu tekstowym można zapisać narzędzia oceny, przeglądarki internetowe, technologie wspomagające, inne oprogramowanie i metody zastosowane do oceny. To, co tu wpiszesz, zostanie uwzględnione w wygenerowanym raporcie. Po pobraniu raportu i przed przesłaniem go do zleceniodawcy możesz usunąć lub edytować te informacje w pliku HTML.",
     "HD_CRITERIA_REPORT": "Szczegółowe wyniki audytu"
 }
