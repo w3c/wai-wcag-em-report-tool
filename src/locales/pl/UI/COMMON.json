@@ -16,18 +16,6 @@
         "LANGUAGE_SELECT": "języki",
         "SHOW": "Pokaż {subject}"
     },
-    "YES": "Yes",
-    "NO": "No",
-    "NEXT": "Next {label}",
-    "PREVIOUS": "Previous {label}",
-    "ACTIVE": "Active",
-    "BUTTON": {
-        "ADD": "Add {subject}",
-        "INFO": "info",
-        "HIDE": "Hide {subject}",
-        "LANGUAGE_SELECT": "translations",
-        "SHOW": "Show {subject}"
-    },
     "LABEL": {
         "LANGUAGE_SELECT": "Wybierz język"
     },
