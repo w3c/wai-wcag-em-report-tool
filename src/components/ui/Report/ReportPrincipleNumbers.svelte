@@ -100,13 +100,13 @@
       resultsByCategory
         .map(({ items }) => items)
         .flat()
-        .map(({ test }) => test.conformanceLevel)
+        .map(({ test }) => test?.conformanceLevel)
     )
   ];
 
   function getItems(category, principle) {
     return category.items.filter(({ test }) =>
-      test.num.startsWith(`${principle}.`)
+      test?.num.startsWith(`${principle}.`)
     );
   }
 

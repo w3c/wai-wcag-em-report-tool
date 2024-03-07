@@ -7,11 +7,13 @@
     "LABEL_SITE_NAME": "Website Name",
     "LABEL_SITE_SCOPE": "Scope of the Website",
     "LABEL_CONFORMANCE_TGT": "Conformance Target",
+    "LABEL_LEVEL": "Conformance level",
     "LABEL_EXTRA_REQUIREMENTS": "Additional Evaluation Requirements",
     "LABEL_SUPPORT_BASE": "Accessibility Support Baseline",
     "LABEL_RELIEDUP_TECH": "Relied Upon Technologies",
     "LABEL_NOT_PROVIDED": "Not provided",
     "HD_SCORE": "Overview of audit results",
+    "RESULTS_OF": "Results of",
     "PRINCIPLE": "Principle",
     "TOTAL_SCORE": "Total",
     "HD_CRITERIA_REPORT": "Detailed Audit Results",
@@ -25,5 +27,9 @@
     "SAVE": "Save",
     "EDIT": "Edit",
     "SUMMARY": "Summary",
+    "STATISTICS": "Statistics",
+    "IMPACT": "Impact",
+    "OUTCOME": "Outcome",
+    "POUR": "POUR principles",
     "ALL_RESULTS": "All Results"
 }

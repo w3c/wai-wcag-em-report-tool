@@ -6,6 +6,7 @@
   {#if !collapsed}
     <span class="LanguageSelect__languages_container languagelist">
       <strong id="LanguageSelect__label">{LABEL_TRANSLATIONS}:</strong>
+      <!-- svelte-ignore a11y-click-events-have-key-events -->
       <ul
         class="LanguageSelect__languages languagelistul"
         on:click="{handleClick}"
@@ -36,7 +37,7 @@
       aria-expanded="{!collapsed}"
     >
       <svg aria-hidden="true" class="icon-languages"><use
-          xlink:href={`${$basepath}/images/icons.svg#icon-languages`}
+          xlink:href="{`${$basepath}/images/icons.svg#icon-languages`}"
         ></use></svg>
       <span>
         {#if collapsed}
@@ -46,8 +47,8 @@
     </button>
   </span>
 </div>
-<!-- /component -->
 
+<!-- /component -->
 <style>
   .LanguageSelect {
     grid-column: 2 / 10;
@@ -66,6 +67,7 @@
     padding-left: 0.5rem;
     border-left: solid 1px var(--w3c-classic);
   }
+
 </style>
 
 <script>
@@ -112,4 +114,5 @@
   function handleToggle() {
     collapsed = !collapsed;
   }
+
 </script>

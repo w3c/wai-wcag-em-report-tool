@@ -246,4 +246,5 @@
     }
     $interactedOpenEvaluation = false;
   }
+
 </script>

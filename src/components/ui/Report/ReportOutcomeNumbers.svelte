@@ -6,7 +6,7 @@
       {#each resultsByCategory as category}
         <ResultCard
           label="{category.name}"
-          items="{category.items.filter(({ test }) => test.conformanceLevel === conformanceLevel)}"
+          items="{category.items.filter(({ test }) => test?.conformanceLevel === conformanceLevel)}"
         />
       {/each}
     </ul>

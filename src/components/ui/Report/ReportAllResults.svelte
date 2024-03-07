@@ -77,7 +77,7 @@
                   <span
                     class="results-label-mobile"
                   >{TRANSLATED.HEADER_IMPACT}:</span>
-                  {assertion.result.impact.title || TRANSLATED.TEXT_NO_IMPACT}
+                  {assertion.result.impact.id || TRANSLATED.TEXT_NO_IMPACT}
                 </p>
               {:else}
                 <p>
@@ -97,7 +97,7 @@
                       <span
                         class="results-label-mobile"
                       >{TRANSLATED.HEADER_IMPACT}:</span>
-                      {assertion.result.impact.title || TRANSLATED.TEXT_NO_IMPACT}
+                      {assertion.result.impact.id || TRANSLATED.TEXT_NO_IMPACT}
                     </p>
                   {/if}
                 {/each}
@@ -356,8 +356,8 @@
 
   function impactHasContents(assertion) {
     return (
-      (assertion.result.outcome.title &&
-        assertion.result.outcome.title !== TRANSLATED.TEXT_NO_IMPACT) ||
+      (assertion.result.impact.title &&
+        assertion.result.impact.title !== TRANSLATED.TEXT_NO_IMPACT) ||
       assertion.result.description
     );
   }

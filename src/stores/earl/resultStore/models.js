@@ -81,20 +81,18 @@ export class ImpactValue extends BaseModel {
 
     const { type } = options;
     const ALLOWED_TYPES = [
-      'Pass',
-      'Fail',
-      'CannotTell',
-      'NotApplicable',
-      'NotTested'
+      'HighPriority',
+      'Warning',
+      'BestPractice',
+      'NoImpact'
     ];
 
     Object.assign(this['@context'], {
       ImpactValue: 'earl:ImpactValue',
-      Pass: 'earl:Pass',
-      Fail: 'earl:Fail',
-      CannotTell: 'earl:CannotTell',
-      NotApplicable: 'earl:NotApplicable',
-      NotTested: 'earl:NotTested'
+      HighPriority: 'earl:HighPriority',
+      Warning: 'earl:Warning',
+      BestPractice: 'earl:BestPractice',
+      NoImpact: 'earl:NoImpact'
     });
 
     this.type = ['ImpactValue'];
@@ -163,6 +161,8 @@ export class TestResult extends BaseModel {
 
     this.type = ['TestResult'];
 
+    console.log('before', this.impact);
+
     this.outcome = this.setOutcome(
       (options.outcome && options.outcome.id) || OUTCOME.UNTESTED.id
     );
@@ -170,6 +170,8 @@ export class TestResult extends BaseModel {
     this.impact = this.setImpact(
       (options.impact && options.impact.id) || IMPACT.NO_IMPACT.id
     );
+
+    console.log('after', options.impact && options.impact.id);
   }
 
   /**
@@ -200,6 +202,12 @@ export class TestResult extends BaseModel {
     if (typeof id !== 'string') {
       console.warn('[setImpact]: Expected id to be defined as type string.');
     }
+
+    console.log(
+      [...impactValues].find((impact) => {
+        return impact.id === id;
+      })
+    );
 
     const newImpact = [...impactValues].find((impact) => {
       return impact.id === id;

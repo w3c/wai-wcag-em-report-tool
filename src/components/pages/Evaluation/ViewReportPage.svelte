@@ -1,11 +1,13 @@
-<Page title="{$summaryStore['EVALUATION_TITLE'] ? $summaryStore['EVALUATION_TITLE'] : TRANSLATED.PAGE_TITLE}" pageid="view-report">
-
-    <Button on:click="{handleHTMLDownloadClick}">
-      <span>{TRANSLATED.BUTTON_SAVE_HTML}</span>
-    </Button>
-    <Button on:click="{handleJSONDownloadClick}">
-      <span>{TRANSLATED.BUTTON_SAVE_JSON}</span>
-    </Button>
+<Page
+  title="{$summaryStore['EVALUATION_TITLE'] ? $summaryStore['EVALUATION_TITLE'] : TRANSLATED.PAGE_TITLE}"
+  pageid="view-report"
+>
+  <Button on:click="{handleHTMLDownloadClick}">
+    <span>{TRANSLATED.BUTTON_SAVE_HTML}</span>
+  </Button>
+  <Button on:click="{handleJSONDownloadClick}">
+    <span>{TRANSLATED.BUTTON_SAVE_JSON}</span>
+  </Button>
 
   <Report />
 </Page>
@@ -19,12 +21,12 @@
   import sampleStore from '@app/stores/sampleStore.js';
   import exploreStore from '@app/stores/exploreStore.js';
   import subjects, {
-  initialSubjectStore,
-  TestSubjectTypes
+    initialSubjectStore,
+    TestSubjectTypes
   } from '@app/stores/earl/subjectStore/index.js';
   import assertions from '@app/stores/earl/assertionStore/index.js';
   import { slugify } from '@app/scripts/slugify.js';
-  import { t as t, locale } from 'svelte-i18n';  
+  import { t, locale } from 'svelte-i18n';
   import { downloadFileHTML } from '@app/scripts/files.js';
 
   import Button from '@app/components/ui/Button.svelte';
@@ -41,22 +43,23 @@
     BUTTON_SAVE_JSON: $translate('PAGES.REPORT.BTN_SAVE_JSON')
   };
 
-  $: htmlFilename = $scopeStore.SITE_NAME ? `${slugify($scopeStore.SITE_NAME)}-report.html` : 'report.html';
+  $: htmlFilename = $scopeStore.SITE_NAME
+    ? `${slugify($scopeStore.SITE_NAME)}-report.html`
+    : 'report.html';
 
   function handleHTMLDownloadClick() {
-    let reportContents = document.getElementById("view-report");
-    
+    let reportContents = document.getElementById('view-report');
+
     downloadFileHTML({
       contents: reportContents,
       name: htmlFilename,
       type: 'text/html',
       lang: $locale
     });
-  }  
+  }
 
   function handleJSONDownloadClick() {
     updateEvaluation();
     $evaluationStore.save();
   }
-
 </script>

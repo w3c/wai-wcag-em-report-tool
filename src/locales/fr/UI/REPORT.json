@@ -7,6 +7,7 @@
     "LABEL_SITE_NAME": "Nom du site Web",
     "LABEL_SITE_SCOPE": "Périmètre du site Web",
     "LABEL_CONFORMANCE_TGT": "Objectif de conformité",
+    "LABEL_LEVEL": "Niveau de conformité",
     "LABEL_EXTRA_REQUIREMENTS": "Exigences d’évaluation supplémentaires",
     "LABEL_SUPPORT_BASE": "Référence pour la prise en charge de l’accessibilité",
     "LABEL_RELIEDUP_TECH": "Technologies sous-jacentes",
@@ -25,5 +26,9 @@
     "SAVE": "Enregistrer",
     "EDIT": "Modifier",
     "SUMMARY": "Sommaire",
+    "STATISTICS": "Statistiques",
+    "IMPACT": "Impact",
+    "OUTCOME": "Résultat",
+    "POUR": "POUR principles",
     "ALL_RESULTS": "Tous les résultats"
 }

@@ -51,7 +51,7 @@
 
   $: navigationItems = [
     {
-      path: '/',
+      path: '/auditor',
       title: $translate('UI.NAV.WZRD_START')
     },
     {

@@ -12,12 +12,14 @@
         "dev": "export BASEPATH='' && npm run clean:dev & rollup -c -w",
         "clean": "rimraf ./build ./node_modules",
         "clean:build": "rimraf ./build",
-        "clean:dev": "rimraf ./build"
+        "clean:dev": "rimraf ./build",
+        "serve": "serve ./build"
     },
     "main": "src/main.js",
     "dependencies": {
         "jsonld": "^3.2.0",
         "marked": "^1.2.9",
+        "serve": "^14.2.1",
         "sirv-cli": "^1.0.0",
         "svelte-navigator": "^3.1.4"
     },
