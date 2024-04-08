@@ -1,7 +1,0 @@
-{
-    "TITLE": "Open Evaluation Report",
-    "INTRO": "To reload a saved file, click the 'Find and select the data file' button and locate the JSON file that you previously saved.",
-    "LABEL_SELECT_FILE": "Find and select the data file",
-    "MSG_LOADING": "Loading the evaluation, please wait...",
-    "BTN_LOAD_FILE": "Load data from selected file"
-}

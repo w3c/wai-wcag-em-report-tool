@@ -1,7 +1,0 @@
-{
-    "TITLE": "Open Evaluatierapport",
-    "INTRO": "Om een opgeslagen bestand opnieuw te openen, klik op 'Selecteer het evaluatie-databestand', en zoek het JSON bestand op dat u voorheen hebt opgeslagen.",
-    "LABEL_SELECT_FILE": "Selecteer het evaluatie-databestand",
-    "MSG_LOADING": "De evaluatie wordt geladen, even geduld a.u.b.",
-    "BTN_LOAD_FILE": "Open data uit geselecteerd bestand"
-}

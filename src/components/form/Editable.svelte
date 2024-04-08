@@ -43,7 +43,7 @@
 
 <style>
   .Editable__Control--delete {
-    font-size: 1em;;
+    font-size: 1em;
     float: right;
     margin-left: 1em;
     margin-top: .25em;
@@ -51,6 +51,8 @@
     border: 0;
     background-color: transparent;
     color: currentColor;
+    width: 1em;
+		display: inline-block;
   }
   .Editable {
     background: var(--trans-line-grey);

@@ -2,20 +2,14 @@
     "MENU": "Menu",
     "MENU_IMPORT": "Importeer gegevens",
     "MENU_IMPORT_HINT": "EARL als JSON-LD",
-    "MENU_RESOURCES": "Relevante links",
     "MENU_NEW": "Nieuw rapport",
     "MENU_OPEN": "Open rapport",
-    "MENU_SAVE": "Rapport opslaan",
-    "MENU_SAVE_TITLE": "Ctrl + S of ⌘ S",
-    "MENU_LANGUAGE": "Taalkeuze",
-    "WZRD_LABEL": "Evaluatiestappen",
     "WZRD_START": "Overzicht",
     "WZRD_SCOPE": "1. Bepaal Scope",
     "WZRD_EXPLORE": "2. Verken Website",
     "WZRD_SAMPLE": "3. Selecteer Sample",
     "WZRD_AUDIT": "4. Toets Sample",
     "WZRD_REPORT": "5. Rapporteer Resultaat",
-    "WZRD_ACTIVE": "Actief",
     "WZRD_VIEWREPORT": "Bekijk Rapport",
     "STEP": "stap",
     "STEP_START": "Start",
@@ -28,6 +22,5 @@
     "VIEWREPORT": "Bekijk rapport",
     "NOT_STARTED": "Nog niet aan een rapport begonnen.",
     "CLEARREPORT": "Opnieuw",
-    "CLEARWARNING": "Dit zal alles wat nu is ingevoerd verwijderen en een nieuw rapport starten. Weet u het zeker?",
-    "BTN_BACK_TO_EVAL": "Terug"
+    "CLEARWARNING": "Dit zal alles wat nu is ingevoerd verwijderen en een nieuw rapport starten. Weet u het zeker?"
 }

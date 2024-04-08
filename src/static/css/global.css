@@ -83,3 +83,23 @@ textarea {
   scroll-margin-top: 5rem;
 }
 
+
+/* Add draft translation box */
+
+.doc-note-translation {
+  border: 2px solid var(--gold);
+  padding: 8px;
+  background-color: var(--pure-white);
+  margin-block-end: 20px;
+
+  & p:first-child {
+    margin-block-start: 0;
+  }
+  & p:last-child {
+    margin-block-end: 0;
+  }
+}
+
+.app-container .doc-note-translation p {
+  max-width: none;
+}
