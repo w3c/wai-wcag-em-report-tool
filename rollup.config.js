@@ -15,7 +15,8 @@ import locales from './src/locales/index.json';
 
 const production = !process.env.ROLLUP_WATCH;
 
-const BASEPATH = process.env.BASEPATH || '';
+//const BASEPATH = process.env.BASEPATH || '';
+const BASEPATH = '/wcag-em-rt'
 
 export default {
   input: pkg.main,
