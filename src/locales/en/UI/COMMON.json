@@ -25,5 +25,9 @@
     "DELETE": "Delete",
     "FOR": "for",
     "EXPAND_ALL": "Expand All Sections",
-    "COLLAPSE_ALL": "Collapse All Sections"
+    "COLLAPSE_ALL": "Collapse All Sections",
+    "TRANSLATION_ABOUT": "About this translation",
+    "TRANSLATION_DRAFT": "This volunteer translation is a <strong>draft</strong>. It contains English wording that will be translated soon.",
+    "TRANSLATION_ACK": "See <a href='https://www.w3.org/WAI/eval/report-tool/acknowledgements'>Acknowledgements</a> for all translators and contributors.",
+    "TRANSLATION_UNOFFICIAL": "This translation of WCAG 2 guidelines and success criteria is <strong>unofficial</strong> and might not accurately reflect the intentions of the <a href='https://www.w3.org/WAI/standards-guidelines/wcag/#versions'>English originals</a>."
 }
