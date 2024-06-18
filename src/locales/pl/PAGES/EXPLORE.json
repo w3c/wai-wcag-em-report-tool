@@ -1,0 +1,19 @@
+{
+    "TITLE": "Krok 2: Poznaj ocenianą witrynę",
+    "INTRO": "Przejrzyj witrynę, aby zrozumieć jej cel, funkcjonalność i sposób użytkowania. Przegląd witryny pomoże Ci ustalić, które strony internetowe poddać ocenie w kolejnych krokach. Określ technologie internetowe wykorzystane do stworzenia witryny i, jeśli chcesz, zanotuj uwagi na temat innych aspektów witryny. Jeśli nie wiesz, jakie technologie zostały użyte do stworzenia witryny, zapytaj o to osoby zajmujące się witryną oraz te, które ją zaprojektowały.",
+    "RESOURCE_LINK_NAME": "Krok 2: Poznaj ocenianą witrynę",
+    "HD_RELIEDUP_TECH": "Zastosowane technologie internetowe",
+    "INF_RELIEDUP_TECH": "Określ, jakie technologie internetowe [obsługujące dostępność zgodnie z WCAG 2](https://www.w3.org/Translations/WCAG21-pl/#dfn-stanowiaca-podstawe-zgodnosci) zastosowano na witrynie. Aby uzyskać więcej informacji, zobacz [WCAG-EM Krok 2.d: Określ technologie, na których można polegać](https://www.w3.org/TR/WCAG-EM/#step2d).",
+    "LABEL_TECH": "Technologie internetowe",
+    "LABEL_TECH_SPEC": "Adres specyfikacji (URL)",
+    "BTN_ADD_TECH": "Dodaj technologię",
+    "HD_NOTE_TAKING": "Inne uwagi (opcjonalnie)",
+    "INF_NOTE_TAKING": "Ta część umożliwia zanotowanie podczas przeglądu witryny innych uwag istotnych dla oceny witryny. Notatki te zostaną wyświetlone w następnym kroku, aby pomóc Ci wybrać próbkę stron internetowych do oceny. **W raporcie końcowym te uwagi nie zostaną uwzględnione**. Są one rejestrowane podczas zapisywania pliku i dostępne podczas ponownego ładowania pliku.",
+    "LABEL_ESSENT_FUNC": "Niezbędne funkcjonalności witryny",
+    "INF_ESSENT_FUNC": "Możesz użyć tego pola do wypisania podstawowych funkcjonalności witryny. Przykłady takich podstawowych funkcjonalności obejmują:<br>„wybór i zakup produktu w strefie sklepu”,<br> „wypełnienie i przesłanie formularza kontaktowego”,<br>„rejestrację konta użytkownika”.<br>Aby uzyskać więcej informacji, zobacz [WCAG-EM Krok 2.b: Rozpoznaj niezbędne funkcjonalności witryny](https://www.w3.org/TR/WCAG-EM/#step2b).",
+    "LABEL_VARIETY_PAGE_TYPES": "Różne typy stron internetowych",
+    "INF_VARIETY_PAGE_TYPES": "Możesz użyć tego pola do wynotowania różnych typów stron internetowych, które znajdziesz w witrynie. Zestawienie może objąć różne rodzaje układów, struktur i funkcjonalności, stylów zastosowanych w witrynie. Nie wypisuj tutaj wystąpień (instancji) różnych typów, a jedynie ich określenie. Aby uzyskać więcej informacji, zobacz [WCAG-EM Krok 2.c: Rozpoznaj różne typy stron internetowych](https://www.w3.org/TR/WCAG-EM/#step2c).<br> **Uwaga**: „Strony internetowe” obejmują różne „stany stron internetowych”; zobacz definicję [stanu strony internetowej](https://www.w3.org/TR/WCAG-EM/#states).",
+    "ADD_TECH": "Dodaj"
+}
+
+

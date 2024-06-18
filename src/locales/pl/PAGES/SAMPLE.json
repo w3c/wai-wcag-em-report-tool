@@ -1,0 +1,21 @@
+{
+    "TITLE": "Krok 3: Wybierz reprezentatywną próbkę",
+    "INTRO": "Wybierz konkretne strony internetowe do oceny. Poniżej znajdziesz notatki z poprzedniego kroku, które pomogą Ci w przeglądzie witryny i wyborze stron. Upewnij się, że wybrane strony są reprezentatywne dla ocenianej witryny.",
+    "RESOURCE_LINK_NAME": "Krok 3: Wybierz reprezentatywną próbkę",
+    "HD_STRUCT_SAMPLE": "Próbka strukturalna",
+    "HD_ESSENT_FUNC": "Niezbędne funkcjonalności (opcjonalne uwagi z poprzedniego kroku)",
+    "HD_VARIETY_PAGE_TYPES": "Różne typy stron internetowych (opcjonalne uwagi z poprzedniego kroku)",
+    "HD_STRUCT_SAMPLE_SUB": "Strukturalna próbka stron internetowych",
+    "INF_STRUCT_SAMPLE": "Wybierz strony, które reprezentują wszystkie zidentyfikowane (1) kluczowe strony internetowe, (2) podstawowe funkcjonalności, (3) typy stron internetowych, (4) technologie internetowe, na których oparto witrynę, oraz (5) inne strony chrakterystyczne dla witryny. Aby uzyskać więcej informacji, zobacz [WCAG-EM Krok 3.a: Uwzględnij próbkę strukturalną](https://www.w3.org/TR/WCAG-EM/#step3a).<br> **Uwaga**: „Strony internetowe” obejmują różne „stany stron internetowych”; zobacz definicję [stanów stron internetowych](https://www.w3.org/TR/WCAG-EM/#states).",
+    "HD_RANDOM_SAMPLE": "Próbka losowa",
+    "INF_RAND_SAMPLE": "Wybierz losowo próbkę stron w liczbie 10% próbki strukturalnej. Aby uzyskać więcej informacji, zobacz  [WCAG-EM Krok 3.b: Uwzględnij próbkę wybraną losowo](https://www.w3.org/TR/WCAG-EM/#step3b).<br> **Uwaga**: „Strony internetowe” obejmują różne „stany stron internetowych”; zobacz definicję [stanów stron internetowych](https://www.w3.org/TR/WCAG-EM/#states).",
+    "RAND_SAMPLE_LENGTH": "Na podstawie ustrukturyzowanej próbki {STRUCTURED_SAMPLE_COUNT} stron internetowych wybierz co najmniej {REQUIRED_RANDOM_SAMPLE_COUNT} losowo wybranych stron (aby zapewnić wymagane 10% określone w WCAG-EM).",
+    "LABEL_HANDLE": "Krótka nazwa",
+    "LABEL_PAGE": "Adres (URL) lub opis",
+    "NO_PAGES_DEFINED": "Nie określono stron dla tej listy",
+    "ITEM": "Witryna",
+    "BTN_ADD_PAGE": "Dodaj stronę",
+    "BTN_REMOVE_PAGE": "Usuń stronę",
+    "SAMPLE_PAGE": "Próbka stron",
+    "DELETE_CONFIRM": "Czy na pewno chcesz usunąć tę próbkę stron?"
+}
