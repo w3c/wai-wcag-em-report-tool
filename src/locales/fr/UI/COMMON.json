@@ -25,5 +25,9 @@
     "DELETE": "Supprimer",
     "FOR": "pour",
     "EXPAND_ALL": "Afficher toutes les sections",
-    "COLLAPSE_ALL": "Masquer toutes les sections"
+    "COLLAPSE_ALL": "Masquer toutes les sections",
+    "TRANSLATION_ABOUT": "À propos de cette traduction",
+    "TRANSLATION_DRAFT": "Cette traduction faite par des volontaires est au statut de <strong>brouillon</strong>. Elle contient des termes en anglais qui seront traduits prochainement.",
+    "TRANSLATION_ACK": "Consultez la liste des traducteurs et contributeurs dans la page <a href='https://www.w3.org/WAI/eval/report-tool/acknowledgements'>Remerciements</a>.",
+    "TRANSLATION_UNOFFICIAL": "Cette traduction des règles et des critères de succès des WCAG 2 est <strong>non-officielle</strong> et pourrait ne pas réfleter les intentions des <a href='https://www.w3.org/WAI/standards-guidelines/wcag/#versions'>originaux en anglais</a>."
 }

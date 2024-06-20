@@ -9,9 +9,12 @@
       <h1>{title}</h1>
       {#if currentLocale.status === "draft"}
           <section id="translation-info" class="doc-note-translation" lang="en">
-            <h2 class="visuallyhidden">About this translation</h2>
-            <p>This volunteer translation is a <strong>draft</strong>. It contains English wording that will be translated soon.</p>
-            <p>See <a href="{`${$basepath}/acknowledgements`}">Acknowledgements</a> for all translators and contributors.</p>
+            <h2 class="visuallyhidden">{TRANSLATED.TRANSLATION_ABOUT}</h2>
+            <p>{@html TRANSLATED.TRANSLATION_DRAFT}</p>
+            {#if currentLocale.wcagStatus === "unofficial"}
+              <p>{@html TRANSLATED.TRANSLATION_UNOFFICIAL}</p>
+            {/if}
+            <p>{@html TRANSLATED.TRANSLATION_ACK}</p>
           </section>
       {/if}
       <slot />
@@ -27,9 +30,12 @@
       <h1>{title}</h1>
       {#if currentLocale.status === "draft"}
           <section id="translation-info" class="doc-note-translation" lang="en">
-            <h2 class="visuallyhidden">About this translation</h2>
-            <p>This volunteer translation is a <strong>draft</strong>. It contains English wording that will be translated soon.</p>
-            <p>See <a href="{`${$basepath}/acknowledgements`}">Acknowledgements</a> for all translators and contributors.</p>
+            <h2 class="visuallyhidden">{TRANSLATED.TRANSLATION_ABOUT}</h2>
+            <p>{@html TRANSLATED.TRANSLATION_DRAFT}</p>
+            {#if currentLocale.wcagStatus === "unofficial"}
+              <p>{@html TRANSLATED.TRANSLATION_UNOFFICIAL}</p>
+            {/if}
+            <p>{@html TRANSLATED.TRANSLATION_ACK}</p>
           </section>
       {/if}
       <slot />
@@ -54,7 +60,7 @@
 </style>
 
 <script>
-  import { onMount } from "svelte";
+  import { onMount, getContext } from "svelte";
   import { useLocation } from 'svelte-navigator';
   import { honourFragmentIdLinks } from '@app/scripts/honourFragmentIdLinks.js';
   import { locale } from 'svelte-i18n';
@@ -62,7 +68,7 @@
   import locales from '@app/locales/index.json';
   $: currentLocale = locales.find((l) => l.lang === $locale);
 
-  import { routes, basepath, yourReportPanelOpen } from '@app/stores/appStore.js';
+  import { routes, yourReportPanelOpen } from '@app/stores/appStore.js';
 
   import YourReport from '@app/components/ui/YourReport.svelte';
 
@@ -80,4 +86,14 @@
   });
 
   export let title;
+
+  const { translate } = getContext('app');
+
+  $: TRANSLATED = {
+    TRANSLATION_ABOUT: $translate('UI.COMMON.TRANSLATION_ABOUT'),
+    TRANSLATION_DRAFT: $translate('UI.COMMON.TRANSLATION_DRAFT'),
+    TRANSLATION_ACK: $translate('UI.COMMON.TRANSLATION_ACK'),
+    TRANSLATION_UNOFFICIAL: $translate('UI.COMMON.TRANSLATION_UNOFFICIAL'),
+  };
+
 </script>
