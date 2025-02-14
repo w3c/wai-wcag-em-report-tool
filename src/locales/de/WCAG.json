@@ -1,317 +1,319 @@
 {
-    "COMMON": { "CONFORMANCE_LEVEL": "Level" },
+    "COMMON": {
+        "CONFORMANCE_LEVEL": "Level"
+    },
     "PRINCIPLE": {
         "1": {
-            "TITLE": "Perceivable",
-            "DESCRIPTION": "Information and user interface components must be presentable to users in ways they can perceive."
+            "TITLE": "Wahrnehmbar",
+            "DESCRIPTION": "Informationen und Benutzeroberflächenkomponenten müssen so dargestellt werden, dass sie von den Benutzern wahrgenommen werden können."
         },
         "2": {
-            "TITLE": "Operable",
-            "DESCRIPTION": "User interface components and navigation must be operable."
+            "TITLE": "Bedienbar",
+            "DESCRIPTION": "Benutzeroberflächenkomponenten und Navigation müssen bedienbar sein."
         },
         "3": {
-            "TITLE": "Understandable",
-            "DESCRIPTION": "Information and the operation of user interface must be understandable."
+            "TITLE": "Verstehbar",
+            "DESCRIPTION": "Informationen und die Bedienung der Benutzeroberfläche müssen verständlich sein."
         },
         "4": {
             "TITLE": "Robust",
-            "DESCRIPTION": "Content must be robust enough that it can be interpreted by by a wide variety of user agents, including assistive technologies."
+            "DESCRIPTION": "Inhalte müssen robust genug sein, damit sie von einer Vielzahl von Benutzeragenten, einschließlich unterstützender Technologien, interpretiert werden können."
         }
     },
     "GUIDELINE": {
         "1.1": {
-            "TITLE": "Text Alternatives",
-            "DESCRIPTION": "Provide text alternatives for any non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language."
+            "TITLE": "Textalternativen",
+            "DESCRIPTION": "Bieten Sie Textalternativen für alle Nicht-Textinhalte an, damit diese in andere Formen umgewandelt werden können, die Menschen benötigen, wie z. B. große Schrift, Braille, Sprache, Symbole oder einfachere Sprache."
         },
         "1.2": {
-            "TITLE": "Time-based Media",
-            "DESCRIPTION": "Provide alternatives for time-based media."
+            "TITLE": "Zeitbasierte Medien",
+            "DESCRIPTION": "Bieten Sie Alternativen für zeitbasierte Medien an."
         },
         "1.3": {
-            "TITLE": "Adaptable",
-            "DESCRIPTION": "Create content that can be presented in different ways (for example simpler layout) without losing information or structure."
+            "TITLE": "Anpassbar",
+            "DESCRIPTION": "Erstellen Sie Inhalte, die in verschiedenen Formen dargestellt werden können (z. B. ein einfacheres Layout), ohne Informationen oder Struktur zu verlieren."
         },
         "1.4": {
-            "TITLE": "Distinguishable",
-            "DESCRIPTION": "Make it easier for users to see and hear content including separating foreground from background."
+            "TITLE": "Unterscheidbar",
+            "DESCRIPTION": "Erleichtern Sie es den Benutzern, Inhalte zu sehen und zu hören, einschließlich der Trennung von Vordergrund und Hintergrund."
         },
         "2.1": {
-            "TITLE": "Keyboard Accessible",
-            "DESCRIPTION": "Make all functionality available from a keyboard."
+            "TITLE": "Tastaturzugänglich",
+            "DESCRIPTION": "Machen Sie alle Funktionen über eine Tastatur zugänglich."
         },
         "2.2": {
-            "TITLE": "Enough Time",
-            "DESCRIPTION": "Provide users enough time to read and use content."
+            "TITLE": "Genug Zeit",
+            "DESCRIPTION": "Bieten Sie den Benutzern genug Zeit, um Inhalte zu lesen und zu nutzen."
         },
         "2.3": {
-            "TITLE": "Seizures and Physical Reactions",
-            "DESCRIPTION": "Do not design content in a way that is known to cause seizures or physical reactions."
+            "TITLE": "Anfälle und physische Reaktionen",
+            "DESCRIPTION": "Gestalten Sie Inhalte nicht so, dass sie Anfälle oder physische Reaktionen verursachen."
         },
         "2.4": {
-            "TITLE": "Navigable",
-            "DESCRIPTION": "Provide ways to help users navigate, find content, and determine where they are."
+            "TITLE": "Navigierbar",
+            "DESCRIPTION": "Bieten Sie Möglichkeiten, den Benutzern bei der Navigation, dem Auffinden von Inhalten und dem Bestimmen ihres Standorts zu helfen."
         },
         "2.5": {
-            "TITLE": "Input Modalities",
-            "DESCRIPTION": "Make it easier for users to operate functionality through various inputs beyond keyboard."
+            "TITLE": "Eingabemodalitäten",
+            "DESCRIPTION": "Erleichtern Sie es den Benutzern, Funktionen über verschiedene Eingabemethoden hinaus der Tastatur zu bedienen."
         },
         "3.1": {
-            "TITLE": "Readable",
-            "DESCRIPTION": "Make text content readable and understandable."
+            "TITLE": "Lesbar",
+            "DESCRIPTION": "Gestalten Sie Textinhalte lesbar und verständlich."
         },
         "3.2": {
-            "TITLE": "Predictable",
-            "DESCRIPTION": "Make Web pages appear and operate in predictable ways."
+            "TITLE": "Vorhersagbar",
+            "DESCRIPTION": "Gestalten Sie Webseiten so, dass sie in vorhersagbaren Weisen erscheinen und funktionieren."
         },
         "3.3": {
-            "TITLE": "Input Assistance",
-            "DESCRIPTION": "Help users avoid and correct mistakes."
+            "TITLE": "Eingabehilfe",
+            "DESCRIPTION": "Helfen Sie den Benutzern, Fehler zu vermeiden und zu korrigieren."
         },
         "4.1": {
-            "TITLE": "Compatible",
-            "DESCRIPTION": "Maximize compatibility with current and future user agents, including assistive technologies."
+            "TITLE": "Kompatibel",
+            "DESCRIPTION": "Maximieren Sie die Kompatibilität mit aktuellen und zukünftigen Benutzeragenten, einschließlich unterstützender Technologien."
         }
     },
     "SUCCESS_CRITERION": {
         "1.1.1": {
-            "TITLE": "Non-text Content",
-            "DESCRIPTION": "All non-text content that is presented to the user has a text alternative that serves the equivalent purpose, except for the situations listed below.",
+            "TITLE": "Nicht-Text-Inhalte",
+            "DESCRIPTION": "Alle Nicht-Text-Inhalte, die dem Benutzer präsentiert werden, haben eine Textalternative, die denselben Zweck erfüllt, mit Ausnahme der unten aufgeführten Situationen.",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "If non-text content is a control or accepts user input, then it has a name that describes its purpose. (Refer to Success Criterion 4.1.2 for additional requirements for controls and content that accepts user input.)",
-                    "TITLE": "Controls, Input"
+                    "DESCRIPTION": "Wenn Nicht-Text-Inhalte eine Steuerung sind oder Benutzereingaben akzeptieren, müssen sie einen Namen haben, der ihren Zweck beschreibt. (Siehe Erfolgskriterium 4.1.2 für zusätzliche Anforderungen an Steuerungen und Inhalte, die Benutzereingaben akzeptieren.)",
+                    "TITLE": "Steuerungen, Eingabe"
                 },
                 "2": {
-                    "DESCRIPTION": "If non-text content is time-based media, then text alternatives at least provide descriptive identification of the non-text content. (Refer to Guideline 1.2 for additional requirements for media.)",
-                    "TITLE": "Time-Based Media"
+                    "DESCRIPTION": "Wenn Nicht-Text-Inhalte zeitbasierte Medien sind, müssen die Textalternativen mindestens eine beschreibende Identifikation des Nicht-Text-Inhalts bieten. (Siehe Leitlinie 1.2 für zusätzliche Anforderungen an Medien.)",
+                    "TITLE": "Zeitbasierte Medien"
                 },
                 "3": {
-                    "DESCRIPTION": "If non-text content is a test or exercise that would be invalid if presented in text, then text alternatives at least provide descriptive identification of the non-text content.",
+                    "DESCRIPTION": "Wenn Nicht-Text-Inhalte ein Test oder eine Übung sind, die ungültig wären, wenn sie als Text präsentiert würden, müssen die Textalternativen mindestens eine beschreibende Identifikation des Nicht-Text-Inhalts bieten.",
                     "TITLE": "Test"
                 },
                 "4": {
-                    "DESCRIPTION": "If non-text content is primarily intended to create a specific sensory experience, then text alternatives at least provide descriptive identification of the non-text content.",
-                    "TITLE": "Sensory"
+                    "DESCRIPTION": "Wenn Nicht-Text-Inhalte hauptsächlich dazu bestimmt sind, eine spezifische sensorische Erfahrung zu erzeugen, müssen die Textalternativen mindestens eine beschreibende Identifikation des Nicht-Text-Inhalts bieten.",
+                    "TITLE": "Sensorisch"
                 },
                 "5": {
-                    "DESCRIPTION": "If the purpose of non-text content is to confirm that content is being accessed by a person rather than a computer, then text alternatives that identify and describe the purpose of the non-text content are provided, and alternative forms of CAPTCHA using output modes for different types of sensory perception are provided to accommodate different disabilities.",
+                    "DESCRIPTION": "Wenn der Zweck von Nicht-Text-Inhalten darin besteht, zu bestätigen, dass der Inhalt von einer Person und nicht von einem Computer aufgerufen wird, müssen Textalternativen bereitgestellt werden, die den Zweck des Nicht-Text-Inhalts identifizieren und beschreiben, und es müssen alternative Formen von CAPTCHA bereitgestellt werden, die Ausgabemodi für verschiedene Arten der sensorischen Wahrnehmung verwenden, um unterschiedliche Behinderungen zu berücksichtigen.",
                     "TITLE": "CAPTCHA"
                 },
                 "6": {
-                    "DESCRIPTION": "If non-text content is pure decoration, is used only for visual formatting, or is not presented to users, then it is implemented in a way that it can be ignored by assistive technology.",
-                    "TITLE": "Decoration, Formatting, Invisible"
+                    "DESCRIPTION": "Wenn Nicht-Text-Inhalte reine Dekoration sind, nur für die visuelle Formatierung verwendet werden oder nicht dem Benutzer präsentiert werden, müssen sie so implementiert werden, dass sie von assistiven Technologien ignoriert werden können.",
+                    "TITLE": "Dekoration, Formatierung, Unsichtbar"
                 }
             }
         },
         "1.2.1": {
-            "TITLE": "Audio-only and Video-only (Prerecorded)",
-            "DESCRIPTION": "For prerecorded audio-only and prerecorded video-only media, the following are true, except when the audio or video is a media alternative for text and is clearly labeled as such:",
+            "TITLE": "Nur Audio und Nur Video (vorgefertigt)",
+            "DESCRIPTION": "Für vorgestellte Audio-only- und Video-only-Medien gilt Folgendes, außer wenn das Audio oder Video eine Medienalternative für Text ist und klar als solche gekennzeichnet ist:",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "An alternative for time-based media is provided that presents equivalent information for prerecorded audio-only content.",
-                    "TITLE": "Prerecorded Audio-only"
+                    "DESCRIPTION": "Eine Alternative für zeitbasierte Medien wird bereitgestellt, die gleichwertige Informationen für vorgestellte Audio-only-Inhalte bietet.",
+                    "TITLE": "Vorgefertigtes Audio-only"
                 },
                 "2": {
-                    "DESCRIPTION": "Either an alternative for time-based media or an audio track is provided that presents equivalent information for prerecorded video-only content.",
-                    "TITLE": "Prerecorded Video-only"
+                    "DESCRIPTION": "Entweder eine Alternative für zeitbasierte Medien oder ein Audiotrack wird bereitgestellt, der gleichwertige Informationen für vorgestellte Video-only-Inhalte bietet.",
+                    "TITLE": "Vorgefertigtes Video-only"
                 }
             }
         },
         "1.2.2": {
-            "TITLE": "Captions (Prerecorded)",
-            "DESCRIPTION": "Captions are provided for all prerecorded audio content in synchronized media, except when the media is a media alternative for text and is clearly labeled as such.",
+            "TITLE": "Untertitel (vorgefertigt)",
+            "DESCRIPTION": "Untertitel werden für alle vorgestellten Audioinhalte in synchronisierten Medien bereitgestellt, außer wenn das Medium eine Medienalternative für Text ist und klar als solche gekennzeichnet ist.",
             "DETAILS": {}
         },
         "1.2.3": {
-            "TITLE": "Audio Description or Media Alternative (Prerecorded)",
-            "DESCRIPTION": "An alternative for time-based media or audio description of the prerecorded video content is provided for synchronized media, except when the media is a media alternative for text and is clearly labeled as such.",
+            "TITLE": "Audiobeschreibung oder Medienalternative (vorgefertigt)",
+            "DESCRIPTION": "Eine Alternative für zeitbasierte Medien oder eine Audiobeschreibung des vorgestellten Video-Inhalts wird für synchronisierte Medien bereitgestellt, außer wenn das Medium eine Medienalternative für Text ist und klar als solche gekennzeichnet ist.",
             "DETAILS": {}
         },
         "1.2.4": {
-            "TITLE": "Captions (Live)",
-            "DESCRIPTION": "Captions are provided for all live audio content in synchronized media.",
+            "TITLE": "Untertitel (live)",
+            "DESCRIPTION": "Untertitel werden für alle live-Audioinhalte in synchronisierten Medien bereitgestellt.",
             "DETAILS": {}
         },
         "1.2.5": {
-            "TITLE": "Audio Description (Prerecorded)",
-            "DESCRIPTION": "Audio description is provided for all prerecorded video content in synchronized media.",
+            "TITLE": "Audiobeschreibung (vorgefertigt)",
+            "DESCRIPTION": "Eine Audiobeschreibung wird für alle vorgestellten Video-Inhalte in synchronisierten Medien bereitgestellt.",
             "DETAILS": {}
         },
         "1.2.6": {
-            "TITLE": "Sign Language (Prerecorded)",
-            "DESCRIPTION": "Sign language interpretation is provided for all prerecorded audio content in synchronized media.",
+            "TITLE": "Gebärdensprache (vorgefertigt)",
+            "DESCRIPTION": "Die Gebärdensprachdolmetschung wird für alle vorgestellten Audioinhalte in synchronisierten Medien bereitgestellt.",
             "DETAILS": {}
         },
         "1.2.7": {
-            "TITLE": "Extended Audio Description (Prerecorded)",
-            "DESCRIPTION": "Where pauses in foreground audio are insufficient to allow audio descriptions to convey the sense of the video, extended audio description is provided for all prerecorded video content in synchronized media.",
+            "TITLE": "Erweiterte Audiobeschreibung (vorgefertigt)",
+            "DESCRIPTION": "Wenn Pausen im Vordergrund-Audio nicht ausreichen, um Audiobeschreibungen den Sinn des Videos zu vermitteln, wird eine erweiterte Audiobeschreibung für alle vorgestellten Video-Inhalte in synchronisierten Medien bereitgestellt.",
             "DETAILS": {}
         },
         "1.2.8": {
-            "TITLE": "Media Alternative (Prerecorded)",
-            "DESCRIPTION": "An alternative for time-based media is provided for all prerecorded synchronized media and for all prerecorded video-only media.",
+            "TITLE": "Medienalternative (vorgefertigt)",
+            "DESCRIPTION": "Eine Alternative für zeitbasierte Medien wird für alle vorgestellten synchronisierten Medien und für alle vorgestellten Video-only-Medien bereitgestellt.",
             "DETAILS": {}
         },
         "1.2.9": {
-            "TITLE": "Audio-only (Live)",
-            "DESCRIPTION": "An alternative for time-based media that presents equivalent information for live audio-only content is provided.",
+            "TITLE": "Nur Audio (live)",
+            "DESCRIPTION": "Eine Alternative für zeitbasierte Medien, die gleichwertige Informationen für live-Audio-only-Inhalte bietet, wird bereitgestellt.",
             "DETAILS": {}
         },
         "1.3.1": {
-            "TITLE": "Info and Relationships",
-            "DESCRIPTION": "Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text.",
+            "TITLE": "Informationen und Beziehungen",
+            "DESCRIPTION": "Informationen, Struktur und Beziehungen, die durch die Präsentation vermittelt werden, können programmatisch bestimmt oder sind in Text verfügbar.",
             "DETAILS": {}
         },
         "1.3.2": {
-            "TITLE": "Meaningful Sequence",
-            "DESCRIPTION": "When the sequence in which content is presented affects its meaning, a correct reading sequence can be programmatically determined.",
+            "TITLE": "Bedeutungsvolle Reihenfolge",
+            "DESCRIPTION": "Wenn die Reihenfolge, in der Inhalte präsentiert werden, ihre Bedeutung beeinflusst, kann eine korrekte Lesereihenfolge programmatisch bestimmt werden.",
             "DETAILS": {}
         },
         "1.3.3": {
-            "TITLE": "Sensory Characteristics",
-            "DESCRIPTION": "Instructions provided for understanding and operating content do not rely solely on sensory characteristics of components such as shape, color, size, visual location, orientation, or sound.",
+            "TITLE": "Sensorische Merkmale",
+            "DESCRIPTION": "Anweisungen zum Verstehen und Bedienen von Inhalten stützen sich nicht ausschließlich auf sensorische Merkmale von Komponenten wie Form, Farbe, Größe, visueller Position, Ausrichtung oder Klang.",
             "DETAILS": {}
         },
         "1.3.4": {
-            "TITLE": "Orientation",
-            "DESCRIPTION": "Content does not restrict its view and operation to a single display orientation, such as portrait or landscape, unless a specific display orientation is essential.",
+            "TITLE": "Ausrichtung",
+            "DESCRIPTION": "Inhalte beschränken ihre Ansicht und Bedienung nicht auf eine einzige Anzeigeorientierung, wie Hochformat oder Querformat, es sei denn, eine spezifische Anzeigeorientierung ist wesentlich.",
             "DETAILS": {}
         },
         "1.3.5": {
-            "TITLE": "Identify Input Purpose",
-            "DESCRIPTION": "The purpose of each input field collecting information about the user can be programmatically determined when:",
+            "TITLE": "Zweck der Eingabe identifizieren",
+            "DESCRIPTION": "Der Zweck jedes Eingabefelds, das Informationen über den Benutzer sammelt, kann programmatisch bestimmt werden, wenn:",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "The input field serves a purpose identified in the Input Purposes for User Interface Components section; and"
+                    "DESCRIPTION": "Das Eingabefeld dient einem Zweck, der im Abschnitt 'Zwecke der Eingabe für Benutzeroberflächenkomponenten' identifiziert ist;"
                 },
                 "2": {
-                    "DESCRIPTION": "The content is implemented using technologies with support for identifying the expected meaning for form input data."
+                    "DESCRIPTION": "Der Inhalt ist unter Verwendung von Technologien implementiert, die die erwartete Bedeutung für Formulareingabedaten unterstützen."
                 }
             }
         },
         "1.3.6": {
-            "TITLE": "Identify Purpose",
-            "DESCRIPTION": "In content implemented using markup languages, the purpose of User Interface Components, icons, and regions can be programmatically determined.",
+            "TITLE": "Zweck identifizieren",
+            "DESCRIPTION": "In Inhalten, die mit Auszeichnungssprachen implementiert sind, kann der Zweck von Benutzeroberflächenkomponenten, Symbolen und Bereichen programmatisch bestimmt werden.",
             "DETAILS": {}
         },
         "1.4.1": {
-            "TITLE": "Use of Color",
-            "DESCRIPTION": "Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element.",
+            "TITLE": "Verwendung von Farbe",
+            "DESCRIPTION": "Farbe wird nicht als einziges visuelles Mittel verwendet, um Informationen zu vermitteln, eine Handlung anzuzeigen, eine Antwort anzufordern oder ein visuelles Element zu unterscheiden.",
             "DETAILS": {}
         },
         "1.4.2": {
-            "TITLE": "Audio Control",
-            "DESCRIPTION": "If any audio on a Web page plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a mechanism is available to control audio volume independently from the overall system volume level.",
+            "TITLE": "Audio-Steuerung",
+            "DESCRIPTION": "Wenn Audio auf einer Webseite automatisch für mehr als 3 Sekunden abgespielt wird, muss entweder ein Mechanismus vorhanden sein, um das Audio zu pausieren oder zu stoppen, oder ein Mechanismus muss verfügbar sein, um die Lautstärke des Audios unabhängig vom gesamten Systemvolumen zu steuern.",
             "DETAILS": {}
         },
         "1.4.3": {
-            "TITLE": "Contrast (Minimum)",
-            "DESCRIPTION": "The visual presentation of text and images of text has a contrast ratio of at least 4.5:1, except for the following:",
+            "TITLE": "Kontrast (Minimum)",
+            "DESCRIPTION": "Die visuelle Darstellung von Text und Textbildern hat ein Kontrastverhältnis von mindestens 4,5:1, außer in folgenden Fällen:",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "Large-scale text and images of large-scale text have a contrast ratio of at least 3:1;",
-                    "TITLE": "Large Text"
+                    "DESCRIPTION": "Großschrift und Bilder von Großschrift haben ein Kontrastverhältnis von mindestens 3:1;",
+                    "TITLE": "Großtext"
                 },
                 "2": {
-                    "DESCRIPTION": "Text or images of text that are part of an inactive user interface component, that are pure decoration, that are not visible to anyone, or that are part of a picture that contains significant other visual content, have no contrast requirement.",
-                    "TITLE": "Incidental"
+                    "DESCRIPTION": "Text oder Bilder von Text, die Teil eines inaktiven Benutzeroberflächenkomponenten sind, die reine Dekoration sind, die für niemanden sichtbar sind oder die Teil eines Bildes sind, das signifikante andere visuelle Inhalte enthält, unterliegen keinem Kontrastanforderung.",
+                    "TITLE": "Zufällig"
                 },
                 "3": {
-                    "DESCRIPTION": "Text that is part of a logo or brand name has no contrast requirement.",
-                    "TITLE": "Logotypes"
+                    "DESCRIPTION": "Text, der Teil eines Logos oder Markennamens ist, unterliegt keiner Kontrastanforderung.",
+                    "TITLE": "Logos"
                 }
             }
         },
         "1.4.4": {
-            "TITLE": "Resize text",
-            "DESCRIPTION": "Except for captions and images of text, text can be resized without assistive technology up to 200 percent without loss of content or functionality.",
+            "TITLE": "Text vergrößern",
+            "DESCRIPTION": "Außer bei Untertiteln und Bildern von Text kann Text ohne Hilfstechnologie bis zu 200 Prozent vergrößert werden, ohne dass Inhalte oder Funktionen verloren gehen.",
             "DETAILS": {}
         },
         "1.4.5": {
-            "TITLE": "Images of Text",
-            "DESCRIPTION": "If the technologies being used can achieve the visual presentation, text is used to convey information rather than images of text except for the following:",
+            "TITLE": "Bilder von Text",
+            "DESCRIPTION": "Wenn die verwendeten Technologien die visuelle Präsentation erreichen können, wird Text verwendet, um Informationen zu vermitteln, anstatt Bilder von Text, außer in folgenden Fällen:",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "The image of text can be visually customized to the user's requirements;",
-                    "TITLE": "Customizable"
+                    "DESCRIPTION": "Das Bild des Textes kann an die Anforderungen des Benutzers visuell angepasst werden;",
+                    "TITLE": "Anpassbar"
                 },
                 "2": {
-                    "DESCRIPTION": "A particular presentation of text is essential to the information being conveyed.",
-                    "TITLE": "Essential"
+                    "DESCRIPTION": "Eine bestimmte Präsentation des Textes ist wesentlich für die zu vermittelnden Informationen.",
+                    "TITLE": "Wesentlich"
                 }
             }
         },
         "1.4.6": {
-            "TITLE": "Contrast (Enhanced)",
-            "DESCRIPTION": "The visual presentation of text and images of text has a contrast ratio of at least 7:1, except for the following:",
+            "TITLE": "Kontrast (Verbessert)",
+            "DESCRIPTION": "Die visuelle Präsentation von Text und Textbildern hat ein Kontrastverhältnis von mindestens 7:1, außer in folgenden Fällen:",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "Large-scale text and images of large-scale text have a contrast ratio of at least 4.5:1;",
-                    "TITLE": "Large Text"
+                    "DESCRIPTION": "Großschrift und Bilder von Großschrift haben ein Kontrastverhältnis von mindestens 4,5:1;",
+                    "TITLE": "Großtext"
                 },
                 "2": {
-                    "DESCRIPTION": "Text or images of text that are part of an inactive user interface component, that are pure decoration, that are not visible to anyone, or that are part of a picture that contains significant other visual content, have no contrast requirement.",
-                    "TITLE": "Incidental"
+                    "DESCRIPTION": "Text oder Bilder von Text, die Teil eines inaktiven Benutzeroberflächenkomponenten sind, die reine Dekoration sind, die für niemanden sichtbar sind oder die Teil eines Bildes sind, das signifikante andere visuelle Inhalte enthält, unterliegen keinem Kontrastanforderung.",
+                    "TITLE": "Zufällig"
                 },
                 "3": {
-                    "DESCRIPTION": "Text that is part of a logo or brand name has no contrast requirement.",
-                    "TITLE": "Logotypes"
+                    "DESCRIPTION": "Text, der Teil eines Logos oder Markennamens ist, unterliegt keiner Kontrastanforderung.",
+                    "TITLE": "Logos"
                 }
             }
         },
         "1.4.7": {
-            "TITLE": "Low or No Background Audio",
-            "DESCRIPTION": "For prerecorded audio-only content that (1) contains primarily speech in the foreground, (2) is not an audio CAPTCHA or audio logo, and (3) is not vocalization intended to be primarily musical expression such as singing or rapping, at least one of the following is true:",
+            "TITLE": "Geringes oder kein Hintergrundaudio",
+            "DESCRIPTION": "Für vorgestelltes Audio-only-Inhalte, das (1) hauptsächlich Sprache im Vordergrund enthält, (2) kein Audio-CAPTCHA oder Audio-Logo ist und (3) keine vokalisierte Musik wie Singen oder Rappen ist, muss mindestens eines der folgenden zutreffen:",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "The audio does not contain background sounds.",
-                    "TITLE": "No Background"
+                    "DESCRIPTION": "Das Audio enthält keine Hintergrundgeräusche.",
+                    "TITLE": "Kein Hintergrund"
                 },
                 "2": {
-                    "DESCRIPTION": "The background sounds can be turned off.",
-                    "TITLE": "Turn Off"
+                    "DESCRIPTION": "Die Hintergrundgeräusche können ausgeschaltet werden.",
+                    "TITLE": "Ausschalten"
                 },
                 "3": {
-                    "DESCRIPTION": "The background sounds are at least 20 decibels lower than the foreground speech content, with the exception of occasional sounds that last for only one or two seconds. NotePer the definition of \"decibel,\" background sound that meets this requirement will be approximately four times quieter than the foreground speech content.",
+                    "DESCRIPTION": "Die Hintergrundgeräusche sind mindestens 20 Dezibel leiser als der Vordergrund-Sprachinhalt, mit Ausnahme von gelegentlichen Geräuschen, die nur ein oder zwei Sekunden dauern. Hinweis: Nach der Definition von 'Dezibel' wird Hintergrundgeräusch, das dieses Kriterium erfüllt, etwa viermal leiser sein als der Vordergrund-Sprachinhalt.",
                     "TITLE": "20 dB"
                 }
             }
         },
         "1.4.8": {
-            "TITLE": "Visual Presentation",
-            "DESCRIPTION": "For the visual presentation of blocks of text, a mechanism is available to achieve the following:",
+            "TITLE": "Visuelle Präsentation",
+            "DESCRIPTION": "Für die visuelle Präsentation von Textblöcken ist ein Mechanismus verfügbar, um Folgendes zu erreichen:",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "Foreground and background colors can be selected by the user."
+                    "DESCRIPTION": "Vordergrund- und Hintergrundfarben können vom Benutzer ausgewählt werden."
                 },
                 "2": {
-                    "DESCRIPTION": "Width is no more than 80 characters or glyphs (40 if CJK)."
+                    "DESCRIPTION": "Die Breite beträgt höchstens 80 Zeichen oder Glyphen (40 bei CJK)."
                 },
                 "3": {
-                    "DESCRIPTION": "Text is not justified (aligned to both the left and the right margins)."
+                    "DESCRIPTION": "Der Text ist nicht ausgerichtet (auf beide Ränder ausgerichtet)."
                 },
                 "4": {
-                    "DESCRIPTION": "Line spacing (leading) is at least space-and-a-half within paragraphs, and paragraph spacing is at least 1.5 times larger than the line spacing."
+                    "DESCRIPTION": "Zeilenabstand (Leading) beträgt mindestens den 1,5-fachen Abstand innerhalb von Absätzen, und der Absatzabstand ist mindestens 1,5-mal größer als der Zeilenabstand."
                 },
                 "5": {
-                    "DESCRIPTION": "Text can be resized without assistive technology up to 200 percent in a way that does not require the user to scroll horizontally to read a line of text on a full-screen window."
+                    "DESCRIPTION": "Text kann ohne Hilfstechnologie bis zu 200 Prozent vergrößert werden, ohne dass der Benutzer horizontal scrollen muss, um eine Textzeile in einem Vollbildfenster zu lesen."
                 }
             }
         },
         "1.4.9": {
-            "TITLE": "Images of Text (No Exception)",
-            "DESCRIPTION": "Images of text are only used for pure decoration or where a particular presentation of text is essential to the information being conveyed.",
+            "TITLE": "Bilder von Text (Keine Ausnahme)",
+            "DESCRIPTION": "Bilder von Text werden nur für reine Dekoration oder wenn eine bestimmte Präsentation des Textes für die zu vermittelnden Informationen wesentlich ist, verwendet.",
             "DETAILS": {}
         },
         "1.4.10": {
-            "TITLE": "Reflow",
-            "DESCRIPTION": "Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions for:",
+            "TITLE": "Neuformatierung",
+            "DESCRIPTION": "Inhalte können ohne Verlust von Informationen oder Funktionen und ohne dass ein Scrollen in zwei Dimensionen erforderlich ist, wie folgt präsentiert werden:",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "Vertical scrolling content at a width equivalent to 320 CSS pixels;"
+                    "DESCRIPTION": "Vertikal scrollende Inhalte bei einer Breite von 320 CSS-Pixeln;"
                 },
                 "2": {
-                    "DESCRIPTION": "Horizontal scrolling content at a height equivalent to 256 CSS pixels."
+                    "DESCRIPTION": "Horizontal scrollende Inhalte bei einer Höhe von 256 CSS-Pixeln."
                 }
             }
         },
