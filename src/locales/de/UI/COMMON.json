@@ -1,33 +1,33 @@
 {
-    "MORE_INFO": "For more information, see <a href={{url}}>{{name}}</a>.",
-    "HIDE_MESSAGE": "Hide message",
+    "MORE_INFO": "Für mehr Informationen siehe <a href={{url}}>{{name}}</a>.",
+    "HIDE_MESSAGE": "Nachricht ausblenden",
     "ERROR": {
-        "DEFAULT": "Something went wrong."
+        "DEFAULT": "Etwas ist schiefgelaufen."
     },
-    "YES": "Yes",
-    "NO": "No",
-    "NEXT": "Next {label}",
-    "PREVIOUS": "Previous {label}",
-    "ACTIVE": "Active",
+    "YES": "Ja",
+    "NO": "Nein",
+    "NEXT": "Weiter {label}",
+    "PREVIOUS": "Zurück {label}",
+    "ACTIVE": "Aktiv",
     "BUTTON": {
-        "ADD": "Add {subject}",
-        "INFO": "info",
-        "HIDE": "Hide {subject}",
-        "LANGUAGE_SELECT": "translations",
-        "SHOW": "Show {subject}"
+        "ADD": "{subject} hinzufügen",
+        "INFO": "Info",
+        "HIDE": "{subject} ausblenden",
+        "LANGUAGE_SELECT": "Übersetzungen",
+        "SHOW": "{subject} anzeigen"
     },
     "LABEL": {
-        "LANGUAGE_SELECT": "This page in"
+        "LANGUAGE_SELECT": "Diese Seite in"
     },
-    "YOUR_REPORT": "Your report",
-    "SHOW_FULL_DESCRIPTION": "Show full description",
-    "PREVIOUSNEXT": "Previous/Next Step",
-    "DELETE": "Delete",
-    "FOR": "for",
-    "EXPAND_ALL": "Expand All Sections",
-    "COLLAPSE_ALL": "Collapse All Sections",
-    "TRANSLATION_ABOUT": "About this translation",
-    "TRANSLATION_DRAFT": "This volunteer translation is a <strong>draft</strong>. It contains English wording that will be translated soon.",
-    "TRANSLATION_ACK": "See <a href='https://www.w3.org/WAI/eval/report-tool/acknowledgements'>Acknowledgements</a> for all translators and contributors.",
-    "TRANSLATION_UNOFFICIAL": "This translation of WCAG 2 guidelines and success criteria is <strong>unofficial</strong> and might not accurately reflect the intentions of the <a href='https://www.w3.org/WAI/standards-guidelines/wcag/#versions'>English originals</a>."
+    "YOUR_REPORT": "Dein Bericht",
+    "SHOW_FULL_DESCRIPTION": "Vollständige Beschreibung anzeigen",
+    "PREVIOUSNEXT": "Vorheriger/Nächster Schritt",
+    "DELETE": "Löschen",
+    "FOR": "für",
+    "EXPAND_ALL": "Alle Abschnitte erweitern",
+    "COLLAPSE_ALL": "Alle Abschnitte einklappen",
+    "TRANSLATION_ABOUT": "Über diese Übersetzung",
+    "TRANSLATION_DRAFT": "Diese freiwillige Übersetzung ist ein <strong>Entwurf</strong>. Sie enthält englische Formulierungen, die bald übersetzt werden.",
+    "TRANSLATION_ACK": "Siehe <a href='https://www.w3.org/WAI/eval/report-tool/acknowledgements'>Danksagungen</a> für alle Übersetzer und Mitwirkende.",
+    "TRANSLATION_UNOFFICIAL": "Diese Übersetzung der WCAG 2 Richtlinien und Erfolgskriterien ist <strong>unoffiziell</strong> und spiegelt möglicherweise nicht genau die Absichten der <a href='https://www.w3.org/WAI/standards-guidelines/wcag/#versions'>englischen Originale</a> wider."
 }

@@ -1,14 +1,14 @@
 {
     "IMPORT": {
-        "HEADING": "Imported result {IMPORT_DATE, date, ::yyyy/MM/dd} by {AUTHOR}",
+        "HEADING": "Importiertes Ergebnis {IMPORT_DATE, date, ::yyyy/MM/dd} von {AUTHOR}",
         "TEST_PREFIX": "Test"
     },
     "ERROR": {
-    	"JSONLD_SYNTAX": "File format is not recognized.",
-    	"NO_ASSERTIONS": "The file contained no recognizable assertions.",
-    	"NO_COMPATIBLE_ASSERTIONS": "None of the assertions in this file matched the selected sample.",
-    	"FILE_ERROR": "Incorrect file format or damaged file."
+        "JSONLD_SYNTAX": "Dateiformat wird nicht erkannt.",
+        "NO_ASSERTIONS": "Die Datei enthielt keine erkennbaren Behauptungen.",
+        "NO_COMPATIBLE_ASSERTIONS": "Keine der Behauptungen in dieser Datei stimmte mit dem ausgewählten Beispiel überein.",
+        "FILE_ERROR": "Falsches Dateiformat oder beschädigte Datei."
     },
-    "SUCCESSFUL": "Assertions were added to the observations on this page.",
-    "MORE_INFO": "More info on importing EARL as JSON"
+    "SUCCESSFUL": "Behauptungen wurden den Beobachtungen auf dieser Seite hinzugefügt.",
+    "MORE_INFO": "Mehr Informationen zum Import von EARL als JSON"
 }
