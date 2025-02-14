@@ -1,0 +1,21 @@
+{
+    "TITLE": "Step 3: Select a Representative Sample",
+    "INTRO": "Select web pages for evaluation. The notes that you took during exploration in the previous step are provided here, to help you select the web pages. Ensure that the web pages selected are representative of the target website.",
+    "RESOURCE_LINK_NAME": "Step 3: Select a Representative Sample",
+    "HD_STRUCT_SAMPLE": "Structured Sample",
+    "HD_ESSENT_FUNC": "Essential functionality (optional notes from previous step)",
+    "HD_VARIETY_PAGE_TYPES": "Variety of web page types (optional notes from previous step)",
+    "HD_STRUCT_SAMPLE_SUB": "Structured Sample Web Pages",
+    "INF_STRUCT_SAMPLE": "Select web pages that reflect all identified (1) common web pages, (2) essential functionality, (3) types of web pages, (4) web technologies relied upon, and (5) other relevant web pages. For more information, see [WCAG-EM Step 3.a: Include a Structured Sample](https://www.w3.org/TR/WCAG-EM/#step3a).<br> **Note**: ‘Web pages’ include different ‘web page states’; see definition of [web page states](https://www.w3.org/TR/WCAG-EM/#states).",
+    "HD_RANDOM_SAMPLE": "Randomly Selected Sample",
+    "INF_RAND_SAMPLE": "Randomly select sample web pages; select 10% of the structured sample selected above. For more information, see [WCAG-EM Step 3.b: Include a Randomly Selected Sample](https://www.w3.org/TR/WCAG-EM/#step3b).<br> **Note**: ‘Web pages’ include different ‘web page states’; see definition of [web page states](https://www.w3.org/TR/WCAG-EM/#states).",
+    "RAND_SAMPLE_LENGTH": "Based on your structured sample of {STRUCTURED_SAMPLE_COUNT} web pages, choose at least {REQUIRED_RANDOM_SAMPLE_COUNT} randomly selected web pages (to meet the 10% requirement in WCAG-EM).",
+    "LABEL_HANDLE": "Short name",
+    "LABEL_PAGE": "Address (URL) or description",
+    "NO_PAGES_DEFINED": "No pages defined for this list",
+    "ITEM": "Web page",
+    "BTN_ADD_PAGE": "Add web page",
+    "BTN_REMOVE_PAGE": "Remove page",
+    "SAMPLE_PAGE": "Sample page",
+    "DELETE_CONFIRM": "Are you sure you would like to delete this sample page?"
+}

@@ -83,6 +83,18 @@
     </ul>
   </ul>
 
+  <h3>German</h3>
+  <ul>
+    <li><strong>Translator:</strong></li>
+    <ul>
+    <li>Silvio Endruhn</li>
+    </ul>
+    <li><strong>Contributor:</strong></li>
+    <ul>
+    <li>Silvio Ednruhn</li>
+    </ul>
+  </ul>
+
 </Page>
 <!-- /component -->
 

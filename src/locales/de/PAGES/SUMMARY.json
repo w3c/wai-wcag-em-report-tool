@@ -1,0 +1,19 @@
+{
+    "TITLE": "Step 5: Report the Evaluation Findings",
+    "INTRO": "Provide additional information about the evaluation that you want included in the report. The evaluation findings that you entered in the previous step are included below under 'Detailed audit results' for review and to help you write the executive summary.",
+    "RESOURCE_LINK_NAME": "Step 5: Report the Evaluation Findings",
+    "LABEL_TITLE": "Report title",
+    "TITLE_PREFIX": "Report for",
+    "INF_TITLE": "Provide a title for the website accessibility evaluation report. For example:<br> 'Evaluation Report for Example Organization'<br> 'Webshop Accessibility Analysis and Repair Suggestions'",
+    "LABEL_COMMISSIONER": "Evaluation commissioner",
+    "INF_COMMISSIONER": "The person, team of people, organization, in-house department, or other entity that commissioned the evaluation.",
+    "LABEL_CREATOR": "Evaluator",
+    "INF_CREATOR": "The person, team of people, organization, in-house department, or other entity responsible for carrying out the evaluation.",
+    "LABEL_DATE": "Evaluation date",
+    "INF_DATE": "Provide the completion date or duration dates of this evaluation. You can use any date format. Write out the month to make it clear internationally. (The date format 01-02-2022 is ambiguous — it is 2 January in some places and 1 February in some places.)",
+    "LABEL_SUMMARY": "Executive summary",
+    "INF_SUMMARY": "Provide a brief summary of the evaluation findings to give an overview on the results. For example, describe the overall accessibility of the website and key observations you made during the evaluation, such as frequently occurring issues and patterns.",
+    "LABEL_SPECIFICS": "Record of evaluation specifics (optional)",
+    "INF_SPECIFICS": "WCAG-EM suggests that you archive the web pages audited. For more information, see <a href={{link_em_5b}}>WCAG-EM Step 5.b: Record the Evaluation Specifics</a>. You can use this text field to record the evaluation tools, web browsers, assistive technologies, other software, and methods used for the evaluation. What you enter here will be included in the generated report. After you download the report, you could delete or edit this information in the HTML file before submitting the report.",
+    "HD_CRITERIA_REPORT": "Detailed audit results"
+}

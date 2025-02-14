@@ -1,0 +1,17 @@
+{
+    "TITLE": "Step 2: Explore the Target Website",
+    "INTRO": "Explore the website to understand its purpose, functionality, and use. This step helps you determine which web pages to use for the evaluation in the next steps. Identify the web technologies used to provide the website and, if you want, take notes on other aspects of the website. Usually it is best to get input from the website owners and developers for this step.",
+    "RESOURCE_LINK_NAME": "Step 2: Explore the Target Website",
+    "HD_RELIEDUP_TECH": "Web Technologies Relied Upon",
+    "INF_RELIEDUP_TECH": "Identify the web technologies [relied upon according to WCAG 2](https://www.w3.org/TR/WCAG21/#dfn-relied-upon) to provide the website. For more information, see [WCAG-EM Step 2.d: Identify Web Technologies Relied Upon](https://www.w3.org/TR/WCAG-EM/#step2d).",
+    "LABEL_TECH": "Web Technology",
+    "LABEL_TECH_SPEC": "Specification Address (URL)",
+    "BTN_ADD_TECH": "Add web technology",
+    "HD_NOTE_TAKING": "Optional Exploration Notes",
+    "INF_NOTE_TAKING": "This section lets you record information during your website exploration. These notes are provided in the next step, to help you select a sample of web pages for evaluation. **These notes are not included in the final report.** They are saved when you save the file, and available when you later reload the file",
+    "LABEL_ESSENT_FUNC": "Essential functionality of the website",
+    "INF_ESSENT_FUNC": "You can use this field to take notes about essential functionality of the website. Examples of essential functionality include:<br> ‘selecting and purchasing a product from the shop area of the website’<br> ‘completing and submitting a form provided on the website’<br> ‘registering for an account on the website’<br> For more information, see [WCAG-EM Step 2.b: Identify Essential Functionality of the Website](https://www.w3.org/TR/WCAG-EM/#step2b).",
+    "LABEL_VARIETY_PAGE_TYPES": "Variety of web page types",
+    "INF_VARIETY_PAGE_TYPES": "You can use this field to take notes about the types (as opposed to instances) of web pages that you find on the web site. This includes notes about different styles, layouts, structures, and functionality provided on the website. For more information, see [WCAG-EM Step 2.c: Identify the Variety of Web Page Types](https://www.w3.org/TR/WCAG-EM/#step2c).<br> **Note**: ‘Web pages’ include different ‘web page states’; see definition of [web page states](https://www.w3.org/TR/WCAG-EM/#states).",
+    "ADD_TECH": "Add"
+}

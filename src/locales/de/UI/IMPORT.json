@@ -1,0 +1,14 @@
+{
+    "IMPORT": {
+        "HEADING": "Imported result {IMPORT_DATE, date, ::yyyy/MM/dd} by {AUTHOR}",
+        "TEST_PREFIX": "Test"
+    },
+    "ERROR": {
+    	"JSONLD_SYNTAX": "File format is not recognized.",
+    	"NO_ASSERTIONS": "The file contained no recognizable assertions.",
+    	"NO_COMPATIBLE_ASSERTIONS": "None of the assertions in this file matched the selected sample.",
+    	"FILE_ERROR": "Incorrect file format or damaged file."
+    },
+    "SUCCESSFUL": "Assertions were added to the observations on this page.",
+    "MORE_INFO": "More info on importing EARL as JSON"
+}
