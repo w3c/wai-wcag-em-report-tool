@@ -91,7 +91,7 @@
     </ul>
     <li><strong>Contributor:</strong></li>
     <ul>
-    <li>Silvio Ednruhn</li>
+    <li>Silvio Endruhn</li>
     </ul>
   </ul>
 
