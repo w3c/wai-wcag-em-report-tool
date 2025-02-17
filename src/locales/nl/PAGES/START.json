@@ -8,7 +8,7 @@
     "TIPS_2": "U kunt bevindingen beschrijven in  <a href='https://en.wikipedia.org/wiki/Markdown'>Markdown</a>, zodat u bijvoorbeeld lijsten, links en codevoorbeelden kunt toevoegen. Dit werkt ook op de velden 'managementsamenvatting' en 'onderbouwing van de evaluatie'.",
     "TIPS_3": "Deze tool slaat de informatie die u toevoegt niet automatsch op. OM data op te slaan, gebruik de  Windows sneltoets *ctrl+s* of de Mac sneltoets *cmd+s*.",
     "ABOUT_HEADING": "Over deze tool",
-    "ABOUT_1": "<p>De WCAG-EM Report Tool is er om een <a href='https://www.w3.org/WAI/eval/report-tool/#!/view_report'>gestructureerd rapport</a> te maken van de bevindingen uit een toegankelijkheidsonderzoek. De tool onderzoekt zelf niets en bevat ook geen automatische tests.</p>",
+    "ABOUT_1": "<p>De WCAG-EM Report Tool is er om een <a href='https://www.w3.org/WAI/eval/report-tool/evaluation/view-report'>gestructureerd rapport</a> te maken van de bevindingen uit een toegankelijkheidsonderzoek. De tool onderzoekt zelf niets en bevat ook geen automatische tests.</p>",
     "ABOUT_2": "<p>Deze tool is bedoeld voor ervaren toegankelijkheidsonderzoekers. Kennis wordt verondersteld van WCAG, toegankelijk bouwen, hulptechnologieën en van hoe mensen met een functiebeperking het web gebruiken (zoals beschreven in de sectie <a lang='en' href='http://www.w3.org/TR/WCAG-EM/#expertise'>Required Expertise</a> van WCAG-EM.</p>",
     "USAGE_HD": "Hoe deze tool werkt",
     "USAGE_LI1": "Alle functionaliteit is direct in uw webbrowser beschikbaar. U heeft geen internetverbinding nodig vanaf dit punt. Wanneer u het venster van de webbrowser sluit, raken gegevens die u niet heeft bewaard verloren.",
