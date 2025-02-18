@@ -18,5 +18,10 @@
         "title": "Polski",
         "status": "draft",
         "wcagStatus": "unofficial"
+    },
+    {
+        "lang": "de",
+        "title": "Deutsch",
+        "status": "draft"
     }
 ]
