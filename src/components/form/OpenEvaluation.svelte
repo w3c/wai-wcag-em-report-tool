@@ -53,4 +53,55 @@
       event.target.value = ''
     }
   }
+  
+  function loadFilefromUrl() {
+    
+    var queryString = window.location.search;
+    var urlParams = new URLSearchParams(queryString);
+    var clearResult = true;
+    if (urlParams.has("jsonUrl") && clearResult) {
+      const jsonUrl = urlParams.get("jsonUrl");
+      getJsonfromUrl(jsonUrl);
+    }
+  }
+
+  function openJsonfromUrl(json) {
+    if(json!='error') {
+      json=JSON.parse(json);
+      loading = true;
+      $evaluationStore
+        .open(json)
+        .then(() => {
+          $interactedOpenEvaluation = true;
+          navigate('/evaluation/define-scope');
+          $interacted = true;
+        })
+        .finally(() => {
+          loading = false;
+        });
+    }
+  }
+    
+  function getJsonfromUrl(url) {
+    var resp;
+
+    var xhttp = new XMLHttpRequest();
+
+    xhttp.onreadystatechange = function() {
+    
+      if (xhttp.readyState == 4 && xhttp.status == 200) {
+        
+        if(this.getResponseHeader('content-type') == 'application/json; charset=utf-8') {
+          var json_data = xhttp.responseText;
+          openJsonfromUrl(json_data);
+        }
+      } else {
+        openJsonfromUrl('error');
+      }
+    };
+    xhttp.open("GET", url, false);
+    xhttp.send(null);
+  }
+
+  loadFilefromUrl();
 </script>

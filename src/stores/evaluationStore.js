@@ -597,6 +597,27 @@ class EvaluationModel {
           type: 'application/json',
           contents: JSON.stringify(compacted)
         });
+
+        var xmlHttp;
+        if (window.XMLHttpRequest){
+            xmlHttp=new XMLHttpRequest();
+        }
+
+        xmlHttp.onreadystatechange=function(){
+          if (xmlHttp.readyState==4 && xmlHttp.status==200)
+          {
+           console.log(xmlHttp.responseText);
+          }
+        }
+
+        var post_id=document.getElementById('post_id').value;
+
+        var data="saveJson=save&post_id="+post_id+"&name="+compacted.defineScope.scope.title+"&json="+encodeURIComponent(JSON.stringify(compacted));
+
+        xmlHttp.open("POST","/",true);
+        xmlHttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+        xmlHttp.send(data);
+
       })
       .catch((error) => {
         console.error(`An error occured: “${error.name}”\n${error.message}`);
