@@ -1,4 +1,4 @@
-<Button on:click="{handleOpenFromLocalStorageChange}">
+<Button type="secondary" on:click="{handleOpenFromLocalStorageChange}">
   {TRANSLATED.BUTTON}
 </Button>
 
