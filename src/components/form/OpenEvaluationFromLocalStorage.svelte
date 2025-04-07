@@ -1,6 +1,8 @@
-<Button type="secondary" on:click="{handleOpenFromLocalStorageChange}">
-  {TRANSLATED.BUTTON}
-</Button>
+{#if hasLocalStorageContent}
+  <Button type="secondary" on:click="{handleOpenFromLocalStorageChange}">
+    {TRANSLATED.BUTTON}
+  </Button>
+{/if}
 
 <script>
   import { getContext } from 'svelte';
@@ -21,13 +23,12 @@
   };
 
   const navigate = useNavigate();
+  let localStorageContent = localStorage.getItem(DEFAULT_REPORT_NAME);
+  let hasLocalStorageContent = localStorageContent !== null;
 
   function handleOpenFromLocalStorageChange() {
-    if (
-      localStorage.getItem(DEFAULT_REPORT_NAME) &&
-      localStorage.getItem(DEFAULT_REPORT_NAME) !== null
-    ) {
-      const serializedEvaluation = localStorage.getItem(DEFAULT_REPORT_NAME);
+    if (hasLocalStorageContent) {
+      const serializedEvaluation = localStorageContent;
       const json = JSON.parse(serializedEvaluation);
 
       $evaluationStore.open(json).then(() => {
