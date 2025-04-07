@@ -21,6 +21,7 @@
         {TRANSLATED.BUTTON_NEW_EVALUATION}
       </Button>
       <OpenEvaluation />
+      <OpenEvaluationFromLocalStorage />
     </div>
   </div> 
 
@@ -60,6 +61,7 @@
   import Page from '@app/components/ui/Page.svelte';
   import ExpandCollapseAll from '@app/components/ui/ExpandCollapseAll.svelte';
   import OpenEvaluation from '@app/components/form/OpenEvaluation.svelte';
+  import OpenEvaluationFromLocalStorage from '@app/components/form/OpenEvaluationFromLocalStorage.svelte';
   import Button from '@app/components/ui/Button.svelte';
 
   import { routes, previousVersionMsgDismissed } from '@app/stores/appStore.js';
