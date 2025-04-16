@@ -432,7 +432,11 @@
             "id": "images-of-text-no-exception",
             "conformanceLevel": "AAA"
         },
-        "1.4.10": { "num": "1.4.10", "id": "reflow", "conformanceLevel": "AA" },
+        "1.4.10": {
+            "num": "1.4.10",
+            "id": "reflow",
+            "conformanceLevel": "AA"
+        },
         "1.4.11": {
             "num": "1.4.11",
             "id": "non-text-contrast",
@@ -448,7 +452,11 @@
             "id": "content-on-hover-or-focus",
             "conformanceLevel": "AA"
         },
-        "2.1.1": { "num": "2.1.1", "id": "keyboard", "conformanceLevel": "A" },
+        "2.1.1": {
+            "num": "2.1.1",
+            "id": "keyboard",
+            "conformanceLevel": "A"
+        },
         "2.1.2": {
             "num": "2.1.2",
             "id": "no-keyboard-trap",
@@ -619,8 +627,16 @@
             "id": "pronunciation",
             "conformanceLevel": "AAA"
         },
-        "3.2.1": { "num": "3.2.1", "id": "on-focus", "conformanceLevel": "A" },
-        "3.2.2": { "num": "3.2.2", "id": "on-input", "conformanceLevel": "A" },
+        "3.2.1": {
+            "num": "3.2.1",
+            "id": "on-focus",
+            "conformanceLevel": "A"
+        },
+        "3.2.2": {
+            "num": "3.2.2",
+            "id": "on-input",
+            "conformanceLevel": "A"
+        },
         "3.2.3": {
             "num": "3.2.3",
             "id": "consistent-navigation",
@@ -656,13 +672,21 @@
             "id": "error-prevention-legal-financial-data",
             "conformanceLevel": "AA"
         },
-        "3.3.5": { "num": "3.3.5", "id": "help", "conformanceLevel": "AAA" },
+        "3.3.5": {
+            "num": "3.3.5",
+            "id": "help",
+            "conformanceLevel": "AAA"
+        },
         "3.3.6": {
             "num": "3.3.6",
             "id": "error-prevention-all",
             "conformanceLevel": "AAA"
         },
-        "4.1.1": { "num": "4.1.1", "id": "parsing", "conformanceLevel": "A" },
+        "4.1.1": {
+            "num": "4.1.1",
+            "id": "parsing",
+            "conformanceLevel": "A"
+        },
         "4.1.2": {
             "num": "4.1.2",
             "id": "name-role-value",
@@ -800,7 +824,11 @@
             "id": "images-of-text-no-exception",
             "conformanceLevel": "AAA"
         },
-        "1.4.10": { "num": "1.4.10", "id": "reflow", "conformanceLevel": "AA" },
+        "1.4.10": {
+            "num": "1.4.10",
+            "id": "reflow",
+            "conformanceLevel": "AA"
+        },
         "1.4.11": {
             "num": "1.4.11",
             "id": "non-text-contrast",
@@ -816,7 +844,11 @@
             "id": "content-on-hover-or-focus",
             "conformanceLevel": "AA"
         },
-        "2.1.1": { "num": "2.1.1", "id": "keyboard", "conformanceLevel": "A" },
+        "2.1.1": {
+            "num": "2.1.1",
+            "id": "keyboard",
+            "conformanceLevel": "A"
+        },
         "2.1.2": {
             "num": "2.1.2",
             "id": "no-keyboard-trap",
@@ -927,6 +959,21 @@
             "id": "section-headings",
             "conformanceLevel": "AAA"
         },
+        "2.4.11": {
+            "num": "2.4.11",
+            "id": "focus-not-obscured-minimum",
+            "conformanceLevel": "AA"
+        },
+        "2.4.12": {
+            "num": "2.4.12",
+            "id": "focus-not-obscured-enhanced",
+            "conformanceLevel": "AAA"
+        },
+        "2.4.13": {
+            "num": "2.4.13",
+            "id": "focus-appearance",
+            "conformanceLevel": "AAA"
+        },
         "2.5.1": {
             "num": "2.5.1",
             "id": "pointer-gestures",
@@ -949,13 +996,23 @@
         },
         "2.5.5": {
             "num": "2.5.5",
-            "id": "target-size",
+            "id": "target-size-enhanced",
             "conformanceLevel": "AAA"
         },
         "2.5.6": {
             "num": "2.5.6",
             "id": "concurrent-input-mechanisms",
             "conformanceLevel": "AAA"
+        },
+        "2.5.7": {
+            "num": "2.5.7",
+            "id": "dragging-movements",
+            "conformanceLevel": "AA"
+        },
+        "2.5.8": {
+            "num": "2.5.8",
+            "id": "target-size-minimum",
+            "conformanceLevel": "AA"
         },
         "3.1.1": {
             "num": "3.1.1",
@@ -987,8 +1044,16 @@
             "id": "pronunciation",
             "conformanceLevel": "AAA"
         },
-        "3.2.1": { "num": "3.2.1", "id": "on-focus", "conformanceLevel": "A" },
-        "3.2.2": { "num": "3.2.2", "id": "on-input", "conformanceLevel": "A" },
+        "3.2.1": {
+            "num": "3.2.1",
+            "id": "on-focus",
+            "conformanceLevel": "A"
+        },
+        "3.2.2": {
+            "num": "3.2.2",
+            "id": "on-input",
+            "conformanceLevel": "A"
+        },
         "3.2.3": {
             "num": "3.2.3",
             "id": "consistent-navigation",
@@ -1003,6 +1068,11 @@
             "num": "3.2.5",
             "id": "change-on-request",
             "conformanceLevel": "AAA"
+        },
+        "3.2.6": {
+            "num": "3.2.6",
+            "id": "consistent-help",
+            "conformanceLevel": "A"
         },
         "3.3.1": {
             "num": "3.3.1",
@@ -1024,51 +1094,15 @@
             "id": "error-prevention-legal-financial-data",
             "conformanceLevel": "AA"
         },
-        "3.3.5": { "num": "3.3.5", "id": "help", "conformanceLevel": "AAA" },
+        "3.3.5": {
+            "num": "3.3.5",
+            "id": "help",
+            "conformanceLevel": "AAA"
+        },
         "3.3.6": {
             "num": "3.3.6",
             "id": "error-prevention-all",
             "conformanceLevel": "AAA"
-        },
-        "4.1.2": {
-            "num": "4.1.2",
-            "id": "name-role-value",
-            "conformanceLevel": "A"
-        },
-        "4.1.3": {
-            "num": "4.1.3",
-            "id": "status-messages",
-            "conformanceLevel": "AA"
-        },
-        "2.4.11": {
-            "num": "2.4.11",
-            "id": "focus-not-obscured-minimum",
-            "conformanceLevel": "AA"
-        },
-        "2.4.12": {
-            "num": "2.4.12",
-            "id": "focus-not-obscured-enhanced",
-            "conformanceLevel": "AAA"
-        },
-        "2.4.13": {
-            "num": "2.4.13",
-            "id": "focus-appearance",
-            "conformanceLevel": "AAA"
-        },
-        "2.5.7": {
-            "num": "2.5.7",
-            "id": "dragging-movements",
-            "conformanceLevel": "AA"
-        },
-        "2.5.8": {
-            "num": "2.5.8",
-            "id": "target-size-minimum",
-            "conformanceLevel": "AA"
-        },
-        "3.2.6": {
-            "num": "3.2.6",
-            "id": "consistent-help",
-            "conformanceLevel": "A"
         },
         "3.3.7": {
             "num": "3.3.7",
@@ -1084,6 +1118,16 @@
             "num": "3.3.9",
             "id": "accessible-authentication-enhanced",
             "conformanceLevel": "AAA"
+        },
+        "4.1.2": {
+            "num": "4.1.2",
+            "id": "name-role-value",
+            "conformanceLevel": "A"
+        },
+        "4.1.3": {
+            "num": "4.1.3",
+            "id": "status-messages",
+            "conformanceLevel": "AA"
         }
     }
 }
