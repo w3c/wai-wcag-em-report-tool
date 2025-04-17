@@ -4,6 +4,7 @@
     "MENU_IMPORT_HINT": "EARL as JSON-LD",
     "MENU_NEW": "Start New Report",
     "MENU_OPEN": "Open Report",
+    "MENU_OPEN_LOCAL_STORAGE": "Open From Local Storage",
     "WZRD_START": "Overview",
     "WZRD_SCOPE": "1. Define Scope",
     "WZRD_EXPLORE": "2. Explore Website",
