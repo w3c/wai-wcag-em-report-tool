@@ -348,21 +348,22 @@
             }
         },
         "1.4.13": {
-            "TITLE": "Contenu au survol ou au focus ",
-            "DESCRIPTION": "Lorsque la réception puis le retrait du survol du pointeur ou du focus du clavier déclenche l’affichage puis le masquage d’un contenu additionnel, les éléments suivants sont vrais :",
+            "TITLE": "Contenu au survol ou au focus",
+            "DESCRIPTION": "Lorsque la réception puis le retrait du survol du pointeur ou du focus du clavier déclenche l’affichage puis le masquage d’un contenu additionnel, les éléments suivants sont vrais :",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "Il existe un mécanisme permettant de masquer le contenu additionnel sans déplacer le pointeur ou le focus du clavier, à moins que le contenu additionnel ne communique une erreur de saisie ou ne masque ou ne remplace un autre contenu.",
-                    "TITLE": "Masquer"
+                    "DESCRIPTION": "il existe un mécanisme permettant de masquer le contenu additionnel sans déplacer le pointeur ou le focus du clavier, à moins que le contenu additionnel ne communique une erreur de saisie ou ne masque ni ne remplace un autre contenu ;",
+                    "TITLE": "Masquable"
                 },
                 "2": {
-                    "DESCRIPTION": "Si le survol du pointeur peut déclencher le contenu additionnel, alors le pointeur peut être déplacé sur le contenu additionnel sans que celui-ci disparaisse.",
-                    "TITLE": "Survoler"
+                    "DESCRIPTION": "si le survol du pointeur peut déclencher le contenu additionnel, alors le pointeur peut être déplacé sur le contenu additionnel sans que celui-ci disparaisse ;",
+                    "TITLE": "Survolable"
                 },
                 "3": {
-                    "DESCRIPTION": "Le contenu additionnel reste visible jusqu’à ce que le survol ou le focus soit retiré, que l’utilisateur le masque ou que ses informations ne soient plus valables.",
-                    "TITLE": "Persister"
-                }
+                    "DESCRIPTION": "le contenu additionnel reste visible jusqu’à ce que le survol ou le focus soit retiré, que l’utilisateur le masque ou que ses informations ne soient plus valables.",
+                    "TITLE": "Persistant"
+                },
+            "DESCRIPTION": "Exception : la présentation visuelle du contenu additionnel est contrôlée par l’agent utilisateur et n’est pas modifiée par l’auteur."
             }
         },
         "2.1.1": {
@@ -382,18 +383,18 @@
         },
         "2.1.4": {
             "TITLE": "Raccourcis clavier utilisant des caractères",
-            "DESCRIPTION": "Si un raccourci clavier est implémenté dans du contenu en utilisant uniquement des caractères de type lettres (y compris les majuscules et les minuscules), des signes de ponctuation, des chiffres ou des symboles, alors au moins l’une des conditions suivantes est vraie :",
+            "DESCRIPTION": "Si un raccourci clavier est implémenté dans du contenu en utilisant uniquement des caractères de type lettres (y compris les majuscules et les minuscules), des signes de ponctuation, des chiffres ou des symboles, alors au moins l’une des conditions suivantes est vraie :",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "Un mécanisme est disponible pour désactiver le raccourci ;",
-                    "TITLE": "Désactiver"
+                    "DESCRIPTION": "un mécanisme est disponible pour désactiver le raccourci ;",
+                    "TITLE": "Désactivation"
                 },
                 "2": {
-                    "DESCRIPTION": "Un mécanisme est disponible pour réassigner le raccourci afin d’utiliser un ou plusieurs caractères non imprimables du clavier (par exemple, Ctrl, Alt, etc.) ;",
-                    "TITLE": "Réassigner"
+                    "DESCRIPTION": "un mécanisme est disponible pour réassigner le raccourci afin d’inclure une ou plusieurs touches non imprimables du clavier (par exemple, Ctrl, Alt) ;",
+                    "TITLE": "Réassignation"
                 },
                 "3": {
-                    "DESCRIPTION": "Le raccourci clavier pour un composant d’interface utilisateur n’est actif que lorsque ce composant a le focus.",
+                    "DESCRIPTION": "le raccourci clavier pour un composant d’interface utilisateur n’est actif que lorsque ce composant a le focus.",
                     "TITLE": "Actif uniquement au focus"
                 }
             }
@@ -574,24 +575,24 @@
             }
         },
         "2.5.5": {
-            "TITLE": "Taille de la cible",
-            "DESCRIPTION": "La taille de la cible pour les pointeurs d’entrée est d’au moins 44 par 44 pixels CSS, sauf quand :",
+            "TITLE": "Taille de la cible (amélioré)",
+            "DESCRIPTION": "La taille de la cible pour les entrées de pointeur est d’au moins 44 par 44 pixels CSS, sauf quand :",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "La cible est disponible depuis un lien ou un contrôle équivalent sur la même page qui mesure au moins 44 par 44 pixels CSS ;",
-                    "TITLE": "Équivalente"
+                    "DESCRIPTION": "la cible est disponible depuis un lien ou un contrôle équivalent sur la même page qui mesure au moins 44 par 44 pixels CSS ;",
+                    "TITLE": "Équivalence"
                 },
                 "2": {
-                    "DESCRIPTION": "La cible se trouve dans une phrase ou un bloc de texte ;",
+                    "DESCRIPTION": "la cible se trouve dans une phrase ou un bloc de texte ;",
                     "TITLE": "En ligne"
                 },
                 "3": {
-                    "DESCRIPTION": "La taille de la cible est déterminée par l’agent utilisateur et n’est pas modifiée par l’auteur ;",
-                    "TITLE": "Contrôlée par l’agent utilisateur"
+                    "DESCRIPTION": "la taille de la cible est déterminée par l’agent utilisateur et n’est pas modifiée par l’auteur ;",
+                    "TITLE": "Contrôle par l’agent utilisateur"
                 },
                 "4": {
-                    "DESCRIPTION": "Une présentation spécifique de la cible est essentielle pour transmettre l’information.",
-                    "TITLE": "Essentielle"
+                    "DESCRIPTION": "une présentation spécifique de la cible est essentielle pour transmettre l’information.",
+                    "TITLE": "Essentiel"
                 }
             }
         },
