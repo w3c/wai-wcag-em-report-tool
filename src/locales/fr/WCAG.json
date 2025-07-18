@@ -362,8 +362,7 @@
                 "3": {
                     "DESCRIPTION": "le contenu additionnel reste visible jusqu’à ce que le survol ou le focus soit retiré, que l’utilisateur le masque ou que ses informations ne soient plus valables.",
                     "TITLE": "Persistant"
-                },
-            "DESCRIPTION": "Exception : la présentation visuelle du contenu additionnel est contrôlée par l’agent utilisateur et n’est pas modifiée par l’auteur."
+                }
             }
         },
         "2.1.1": {
@@ -740,21 +739,7 @@
         "2.4.13": {
             "TITLE": "Apparence du focus",
             "DESCRIPTION": "Lorsque le focus est visible, une partie de l’indicateur de focus satisfait à toutes les exigences suivantes :",
-            "DETAILS": {
-                "1": {
-                    "DESCRIPTION": "elle est au moins aussi grande que la surface d’un périmètre de 2 pixels CSS d’épaisseur du composant ou du sous-composant à l’état non focalisé, et"
-                },
-                "2": {
-                    "DESCRIPTION": "le rapport de contraste est d’au moins 3:1 entre l’état focalisé et non focalisé de chacun des pixels."
-                },
-            "DESCRIPTION": "Exceptions :",
-                "3": {
-                    "DESCRIPTION": "L’indicateur de focus est déterminé par l’agent utilisateur et ne peut pas être ajusté par l’auteur, ou"
-                },
-                "4": {
-                    "DESCRIPTION": "L’indicateur de focus et sa couleur d’arrière-plan ne sont pas modifiés par l’auteur."
-                }
-            }
+            "DETAILS": {}
         },
         "2.5.7": {
             "TITLE": "Mouvements de glissement",
@@ -764,104 +749,27 @@
         "2.5.8": {
             "TITLE": "Taille de la cible (minimum)",
             "DESCRIPTION": "La taille de la cible pour les entrées de pointeur est d’au moins 24 par 24 pixels CSS, sauf dans les cas suivants :",
-            "DETAILS": {
-                "1": {
-                    "DESCRIPTION": "les cibles de taille réduite (de moins de 24 par 24 pixels CSS) sont positionnées de telle sorte que si un cercle de 24 pixels CSS de diamètre est centré sur la boîte de délimitation de chacune d’elles, les cercles ne croisent pas d’autre cible ni le cercle d’une autre cible de taille réduite ;",
-                    "TITLE": "Espacement"
-                },
-                "2": {
-                    "DESCRIPTION": "la fonction peut être réalisée grâce à un élément de contrôle différent sur la même page, et qui satisfait à ce critère ;",
-                    "TITLE": "Équivalence"
-                },
-                "3": {
-                    "DESCRIPTION": "la cible se trouve dans une phrase, ou bien sa taille est limitée par la hauteur de ligne du texte non ciblé ;",
-                    "TITLE": "En ligne"
-                },
-                "4": {
-                    "DESCRIPTION": "la taille de la cible est déterminée par l’agent utilisateur et n’est pas modifiée par l’auteur ;",
-                    "TITLE": "Contrôle par l’agent utilisateur"
-                },
-                "5": {
-                    "DESCRIPTION": "une présentation spécifique de la cible est essentielle ou est légalement requise pour transmettre l’information.",
-                    "TITLE": "Essentiel"
-                }
-            }
+            "DETAILS": {}
         },
         "3.2.6": {
             "TITLE": "Aide cohérente",
             "DESCRIPTION": "Si une page Web contient l’un des mécanismes d’aide suivants et que ces mécanismes sont répétés sur plusieurs pages d’un ensemble de pages, alors ils se présentent dans le même ordre relativement aux autres contenus de la page ; à moins qu’un changement soit initié par l’utilisateur :",
-            "DETAILS": {
-                "1": {
-                    "DESCRIPTION": "des coordonnées de personnes ;"
-                },
-                "2": {
-                    "DESCRIPTION": "un mécanisme pour contacter une personne ;"
-                },
-                "3": {
-                    "DESCRIPTION": "une option d’auto-assistance ;"
-                },
-                "4": {
-                    "DESCRIPTION": "un mécanisme de contact entièrement automatisé."
-                }
-            }
+            "DETAILS": {}
         },
         "3.3.7": {
             "TITLE": "Saisie redondante",
             "DESCRIPTION": "Les informations précédemment saisies par l’utilisateur ou fournies à l’utilisateur, et qui doivent être à nouveau saisies dans le même processus sont soit :",
-            "DETAILS": {
-                "1": {
-                    "DESCRIPTION": "préremplies, ou"
-                },
-                "2": {
-                    "DESCRIPTION": "disponibles pour être sélectionnées par l’utilisateur."
-                },
-            "DESCRIPTION": "Sauf dans les cas suivants :",
-                "3": {
-                    "DESCRIPTION": "il est essentiel de ressaisir les informations soi-même,"
-                },
-                "4": {
-                    "DESCRIPTION": "les informations sont requises pour assurer la sécurité du contenu, ou"
-                },
-                "5": {
-                    "DESCRIPTION": "les informations précédemment saisies ne sont plus valides."
-                }
-            }
+            "DETAILS": {}
         },
         "3.3.8": {
             "TITLE": "Authentification accessible (minimum)",
             "DESCRIPTION": "Aucune étape d’un processus d’authentification ne requiert de test cognitif (comme la mémorisation d’un mot de passe ou la résolution d’une énigme), à moins que cette étape ne fournisse au moins l’un des éléments suivants :",
-            "DETAILS": {
-                "1": {
-                    "DESCRIPTION": "une autre méthode d’authentification, qui ne repose pas sur un test cognitif.",
-                    "TITLE": "Alternative"
-                },
-                "2": {
-                    "DESCRIPTION": "un mécanisme est disponible pour aider l’utilisateur à compléter le test cognitif.",
-                    "TITLE": "Mécanisme"
-                },
-                "3": {
-                    "DESCRIPTION": "le test cognitif consiste à reconnaître des objets.",
-                    "TITLE": "Reconnaissance d’objets"
-                },
-                "4": {
-                    "DESCRIPTION": "le test cognitif consiste à identifier un contenu non textuel que l’utilisateur a fourni au site web.",
-                    "TITLE": "Contenu personnel"
-                }
-            }
+            "DETAILS": {}
         },
         "3.3.9": {
             "TITLE": "Authentification accessible (amélioré)",
             "DESCRIPTION": "Aucune étape d’un processus d’authentification ne requiert de test cognitif (comme la mémorisation d’un mot de passe ou la résolution d’une énigme), à moins que cette étape ne fournisse au moins l’un des éléments suivants :",
-            "DETAILS": {
-                "1": {
-                    "DESCRIPTION": "une autre méthode d’authentification, qui ne repose pas sur un test cognitif.",
-                    "TITLE": "Alternative"
-                },
-                "2": {
-                    "DESCRIPTION": "un mécanisme est disponible pour aider l’utilisateur à compléter le test cognitif.",
-                    "TITLE": "Mécanisme"
-                }
-            }
+            "DETAILS": {}
         }
     }
 }

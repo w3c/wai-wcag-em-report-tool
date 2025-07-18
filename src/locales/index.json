@@ -10,7 +10,8 @@
     },
     {
         "lang": "fr",
-        "title": "Français"
+        "title": "Français",
+        "status": "draft"
     },
     {
         "lang": "pl",
