@@ -68,6 +68,7 @@
     <li>Dimitri Zaslavsky, State of Geneva, Switzerland</li>
     <li>Audrey Maniez, Access 42</li>
     <li>Rémi Bétin, ERCIM</li>
+    <li>Daniel Dicso, State of Geneva, Switzerland</li>
     </ul>
   </ul>
 
