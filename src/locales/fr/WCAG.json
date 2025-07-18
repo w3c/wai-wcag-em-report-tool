@@ -348,20 +348,20 @@
             }
         },
         "1.4.13": {
-            "TITLE": "Contenu au survol ou au focus ",
-            "DESCRIPTION": "Lorsque la réception puis le retrait du survol du pointeur ou du focus du clavier déclenche l’affichage puis le masquage d’un contenu additionnel, les éléments suivants sont vrais :",
+            "TITLE": "Contenu au survol ou au focus",
+            "DESCRIPTION": "Lorsque la réception puis le retrait du survol du pointeur ou du focus du clavier déclenche l’affichage puis le masquage d’un contenu additionnel, les éléments suivants sont vrais :",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "Il existe un mécanisme permettant de masquer le contenu additionnel sans déplacer le pointeur ou le focus du clavier, à moins que le contenu additionnel ne communique une erreur de saisie ou ne masque ou ne remplace un autre contenu.",
-                    "TITLE": "Masquer"
+                    "DESCRIPTION": "il existe un mécanisme permettant de masquer le contenu additionnel sans déplacer le pointeur ou le focus du clavier, à moins que le contenu additionnel ne communique une erreur de saisie ou ne masque ni ne remplace un autre contenu ;",
+                    "TITLE": "Masquable"
                 },
                 "2": {
-                    "DESCRIPTION": "Si le survol du pointeur peut déclencher le contenu additionnel, alors le pointeur peut être déplacé sur le contenu additionnel sans que celui-ci disparaisse.",
-                    "TITLE": "Survoler"
+                    "DESCRIPTION": "si le survol du pointeur peut déclencher le contenu additionnel, alors le pointeur peut être déplacé sur le contenu additionnel sans que celui-ci disparaisse ;",
+                    "TITLE": "Survolable"
                 },
                 "3": {
-                    "DESCRIPTION": "Le contenu additionnel reste visible jusqu’à ce que le survol ou le focus soit retiré, que l’utilisateur le masque ou que ses informations ne soient plus valables.",
-                    "TITLE": "Persister"
+                    "DESCRIPTION": "le contenu additionnel reste visible jusqu’à ce que le survol ou le focus soit retiré, que l’utilisateur le masque ou que ses informations ne soient plus valables.",
+                    "TITLE": "Persistant"
                 }
             }
         },
@@ -382,18 +382,18 @@
         },
         "2.1.4": {
             "TITLE": "Raccourcis clavier utilisant des caractères",
-            "DESCRIPTION": "Si un raccourci clavier est implémenté dans du contenu en utilisant uniquement des caractères de type lettres (y compris les majuscules et les minuscules), des signes de ponctuation, des chiffres ou des symboles, alors au moins l’une des conditions suivantes est vraie :",
+            "DESCRIPTION": "Si un raccourci clavier est implémenté dans du contenu en utilisant uniquement des caractères de type lettres (y compris les majuscules et les minuscules), des signes de ponctuation, des chiffres ou des symboles, alors au moins l’une des conditions suivantes est vraie :",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "Un mécanisme est disponible pour désactiver le raccourci ;",
-                    "TITLE": "Désactiver"
+                    "DESCRIPTION": "un mécanisme est disponible pour désactiver le raccourci ;",
+                    "TITLE": "Désactivation"
                 },
                 "2": {
-                    "DESCRIPTION": "Un mécanisme est disponible pour réassigner le raccourci afin d’utiliser un ou plusieurs caractères non imprimables du clavier (par exemple, Ctrl, Alt, etc.) ;",
-                    "TITLE": "Réassigner"
+                    "DESCRIPTION": "un mécanisme est disponible pour réassigner le raccourci afin d’inclure une ou plusieurs touches non imprimables du clavier (par exemple, Ctrl, Alt) ;",
+                    "TITLE": "Réassignation"
                 },
                 "3": {
-                    "DESCRIPTION": "Le raccourci clavier pour un composant d’interface utilisateur n’est actif que lorsque ce composant a le focus.",
+                    "DESCRIPTION": "le raccourci clavier pour un composant d’interface utilisateur n’est actif que lorsque ce composant a le focus.",
                     "TITLE": "Actif uniquement au focus"
                 }
             }
@@ -574,24 +574,24 @@
             }
         },
         "2.5.5": {
-            "TITLE": "Taille de la cible",
-            "DESCRIPTION": "La taille de la cible pour les pointeurs d’entrée est d’au moins 44 par 44 pixels CSS, sauf quand :",
+            "TITLE": "Taille de la cible (amélioré)",
+            "DESCRIPTION": "La taille de la cible pour les entrées de pointeur est d’au moins 44 par 44 pixels CSS, sauf quand :",
             "DETAILS": {
                 "1": {
-                    "DESCRIPTION": "La cible est disponible depuis un lien ou un contrôle équivalent sur la même page qui mesure au moins 44 par 44 pixels CSS ;",
-                    "TITLE": "Équivalente"
+                    "DESCRIPTION": "la cible est disponible depuis un lien ou un contrôle équivalent sur la même page qui mesure au moins 44 par 44 pixels CSS ;",
+                    "TITLE": "Équivalence"
                 },
                 "2": {
-                    "DESCRIPTION": "La cible se trouve dans une phrase ou un bloc de texte ;",
+                    "DESCRIPTION": "la cible se trouve dans une phrase ou un bloc de texte ;",
                     "TITLE": "En ligne"
                 },
                 "3": {
-                    "DESCRIPTION": "La taille de la cible est déterminée par l’agent utilisateur et n’est pas modifiée par l’auteur ;",
-                    "TITLE": "Contrôlée par l’agent utilisateur"
+                    "DESCRIPTION": "la taille de la cible est déterminée par l’agent utilisateur et n’est pas modifiée par l’auteur ;",
+                    "TITLE": "Contrôle par l’agent utilisateur"
                 },
                 "4": {
-                    "DESCRIPTION": "Une présentation spécifique de la cible est essentielle pour transmettre l’information.",
-                    "TITLE": "Essentielle"
+                    "DESCRIPTION": "une présentation spécifique de la cible est essentielle pour transmettre l’information.",
+                    "TITLE": "Essentiel"
                 }
             }
         },
@@ -727,48 +727,48 @@
             "DETAILS": {}
         },
         "2.4.11": {
-            "TITLE": "Focus Not Obscured (Minimum)",
-            "DESCRIPTION": "When a user interface component receives keyboard focus, the component is not entirely hidden due to author-created content.",
+            "TITLE": "Focus non masqué (minimum)",
+            "DESCRIPTION": "Lorsqu’un composant d’interface utilisateur reçoit le focus du clavier, ce composant n’est pas entièrement masqué par du contenu créé par l’auteur.",
             "DETAILS": {}
         },
         "2.4.12": {
-            "TITLE": "Focus Not Obscured (Enhanced)",
-            "DESCRIPTION": "When a user interface component receives keyboard focus, no part of the component is hidden by author-created content.",
+            "TITLE": "Focus non masqué (amélioré)",
+            "DESCRIPTION": "Lorsqu’un composant d’interface utilisateur reçoit le focus du clavier, aucune partie de ce composant n’est masquée par du contenu créé par l’auteur.",
             "DETAILS": {}
         },
         "2.4.13": {
-            "TITLE": "Focus Appearance",
-            "DESCRIPTION": "When the keyboard focus indicator is visible, an area of the focus indicator meets all the following:",
+            "TITLE": "Apparence du focus",
+            "DESCRIPTION": "Lorsque le focus est visible, une partie de l’indicateur de focus satisfait à toutes les exigences suivantes :",
             "DETAILS": {}
         },
         "2.5.7": {
-            "TITLE": "Dragging Movements",
-            "DESCRIPTION": "All functionality that uses a dragging movement for operation can be achieved by a single pointer without dragging, unless dragging is essential or the functionality is determined by the user agent and not modified by the author.",
+            "TITLE": "Mouvements de glissement",
+            "DESCRIPTION": "Toutes les fonctionnalités qui utilisent un mouvement de glissement peuvent être réalisées par un pointage à contact unique sans glissement, sauf si le glissement est essentiel ou que la fonctionnalité est déterminée par l’agent utilisateur et non modifiée par l’auteur.",
             "DETAILS": {}
         },
         "2.5.8": {
-            "TITLE": "Target Size (Minimum)",
-            "DESCRIPTION": "The size of the target for pointer inputs is at least 24 by 24 CSS pixels, except where:",
+            "TITLE": "Taille de la cible (minimum)",
+            "DESCRIPTION": "La taille de la cible pour les entrées de pointeur est d’au moins 24 par 24 pixels CSS, sauf dans les cas suivants :",
             "DETAILS": {}
         },
         "3.2.6": {
-            "TITLE": "Consistent Help",
-            "DESCRIPTION": "If a Web page contains any of the following help mechanisms, and those mechanisms are repeated on multiple Web pages within a set of Web pages, they occur in the same order relative to other page content, unless a change is initiated by the user:",
+            "TITLE": "Aide cohérente",
+            "DESCRIPTION": "Si une page Web contient l’un des mécanismes d’aide suivants et que ces mécanismes sont répétés sur plusieurs pages d’un ensemble de pages, alors ils se présentent dans le même ordre relativement aux autres contenus de la page ; à moins qu’un changement soit initié par l’utilisateur :",
             "DETAILS": {}
         },
         "3.3.7": {
-            "TITLE": "Redundant Entry",
-            "DESCRIPTION": "Information previously entered by or provided to the user that is required to be entered again in the same process is either:",
+            "TITLE": "Saisie redondante",
+            "DESCRIPTION": "Les informations précédemment saisies par l’utilisateur ou fournies à l’utilisateur, et qui doivent être à nouveau saisies dans le même processus sont soit :",
             "DETAILS": {}
         },
         "3.3.8": {
-            "TITLE": "Accessible Authentication (Minimum)",
-            "DESCRIPTION": "A cognitive function test (such as remembering a password or solving a puzzle) is not required for any step in an authentication process unless that step provides at least one of the following:",
+            "TITLE": "Authentification accessible (minimum)",
+            "DESCRIPTION": "Aucune étape d’un processus d’authentification ne requiert de test cognitif (comme la mémorisation d’un mot de passe ou la résolution d’une énigme), à moins que cette étape ne fournisse au moins l’un des éléments suivants :",
             "DETAILS": {}
         },
         "3.3.9": {
-            "TITLE": "Accessible Authentication (Enhanced)",
-            "DESCRIPTION": "A cognitive function test (such as remembering a password or solving a puzzle) is not required for any step in an authentication process unless that step provides at least one of the following:",
+            "TITLE": "Authentification accessible (amélioré)",
+            "DESCRIPTION": "Aucune étape d’un processus d’authentification ne requiert de test cognitif (comme la mémorisation d’un mot de passe ou la résolution d’une énigme), à moins que cette étape ne fournisse au moins l’un des éléments suivants :",
             "DETAILS": {}
         }
     }
