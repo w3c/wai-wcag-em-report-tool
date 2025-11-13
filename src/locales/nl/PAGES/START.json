@@ -2,7 +2,7 @@
     "TITLE": "WCAG-EM Report Tool",
     "SUBTITLE": "Overzicht",
     "INTRO_HD": "Wat de tool doet",
-    "INTRO_1": "Deze tool maakt een rapport op basis van uw bevindingen in toegankelijkheidsonderzoek. Het is gebaseerd op de [Web Content Accessibility Guidelines Evaluation Methodology (WCAG-EM)](https://www.w3.org/TR/WCAG-EM/).",
+    "INTRO_1": "Deze tool maakt een rapport op basis van uw bevindingen in toegankelijkheidsonderzoek. Het is gebaseerd op de Website Accessibility Conformance Evaluation Methodology ([WCAG-EM](https://www.w3.org/TR/WCAG-EM/)).",
     "TIPS_HD": "Tips voor het gebruik van deze tool",
     "TIPS_1": "Onder “Bekijk Report”, kunt u uw rapport downloaden als HTML (webpagina) of als JSON (gestructureerde data).",
     "TIPS_2": "U kunt bevindingen beschrijven in  <a href='https://en.wikipedia.org/wiki/Markdown'>Markdown</a>, zodat u bijvoorbeeld lijsten, links en codevoorbeelden kunt toevoegen. Dit werkt ook op de velden 'managementsamenvatting' en 'onderbouwing van de evaluatie'.",

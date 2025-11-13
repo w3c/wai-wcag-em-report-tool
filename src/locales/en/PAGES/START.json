@@ -2,7 +2,7 @@
     "TITLE": "WCAG-EM Report Tool",
     "SUBTITLE": "Overview",
     "INTRO_HD": "What this tool does",
-    "INTRO_1": "WCAG-EM Report Tool turns your accessibility evaluation findings into a report. It is based on the Web Content Accessibility Guidelines Evaluation Methodology ([WCAG-EM](https://www.w3.org/TR/WCAG-EM/)).",
+    "INTRO_1": "WCAG-EM Report Tool turns your accessibility evaluation findings into a report. It is based on the Website Accessibility Conformance Evaluation Methodology ([WCAG-EM](https://www.w3.org/TR/WCAG-EM/)).",
     "TIPS_HD": "Tips for using this tool",
     "TIPS_1": "Under “View Report”, you can download your report as HTML (web page) or as JSON (structured data).",
     "TIPS_2": "You can format your findings with <a href='https://en.wikipedia.org/wiki/Markdown'>Markdown</a>, to add lists, links and code examples and more. This also works on the 'Executive summary' and 'Evaluation specifics' fields.",
