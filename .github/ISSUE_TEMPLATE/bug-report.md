@@ -36,10 +36,9 @@ If applicable, add screenshots to help explain your problem.
 
 ## Smartphone (please complete the following information):
 
- - Device: [e.g. iPhone 16]
- - OS: [e.g. iOS 18]
- - Browser [e.g. stock browser, Safari]
- - Version [e.g. 22]
+ - Device:
+ - OS name and version:
+ - Browser name and version:
 
 ## Additional context
 
