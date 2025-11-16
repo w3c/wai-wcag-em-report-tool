@@ -1,0 +1,21 @@
+{
+    "TITLE": "Schritt 3: Eine repräsentative Stichprobe auswählen",
+    "INTRO": "Wähle Webseiten für die Bewertung aus. Die Notizen, die du während der Erkundung im vorherigen Schritt gemacht hast, werden hier bereitgestellt, um dir bei der Auswahl der Webseiten zu helfen. Stelle sicher, dass die ausgewählten Webseiten repräsentativ für die Ziel-Website sind.",
+    "RESOURCE_LINK_NAME": "Schritt 3: Eine repräsentative Stichprobe auswählen",
+    "HD_STRUCT_SAMPLE": "Strukturierte Stichprobe",
+    "HD_ESSENT_FUNC": "Wesentliche Funktionalität (optionale Notizen aus dem vorherigen Schritt)",
+    "HD_VARIETY_PAGE_TYPES": "Vielfalt der Webseitentypen (optionale Notizen aus dem vorherigen Schritt)",
+    "HD_STRUCT_SAMPLE_SUB": "Strukturierte Stichproben-Webseiten",
+    "INF_STRUCT_SAMPLE": "Wähle Webseiten aus, die alle identifizierten (1) häufigen Webseiten, (2) wesentlichen Funktionalitäten, (3) Webseitentypen, (4) verwendeten Webtechnologien und (5) andere relevante Webseiten widerspiegeln. Weitere Informationen findest du unter [WCAG-EM Schritt 3.a: Einbeziehung einer strukturierten Stichprobe](https://www.w3.org/TR/WCAG-EM/#step3a).<br> **Hinweis**: ‚Webseiten‘ schließen verschiedene ‚Webseiten-Zustände‘ ein; siehe die Definition von [Webseiten-Zuständen](https://www.w3.org/TR/WCAG-EM/#states).",
+    "HD_RANDOM_SAMPLE": "Zufällig ausgewählte Stichprobe",
+    "INF_RAND_SAMPLE": "Wähle zufällig Stichproben-Webseiten aus; wähle 10 % der oben ausgewählten strukturierten Stichprobe. Weitere Informationen findest du unter [WCAG-EM Schritt 3.b: Einbeziehung einer zufällig ausgewählten Stichprobe](https://www.w3.org/TR/WCAG-EM/#step3b).<br> **Hinweis**: ‚Webseiten‘ schließen verschiedene ‚Webseiten-Zustände‘ ein; siehe die Definition von [Webseiten-Zuständen](https://www.w3.org/TR/WCAG-EM/#states).",
+    "RAND_SAMPLE_LENGTH": "Basierend auf deiner strukturierten Stichprobe von {STRUCTURED_SAMPLE_COUNT} Webseiten wähle mindestens {REQUIRED_RANDOM_SAMPLE_COUNT} zufällig ausgewählte Webseiten aus (um die 10 %-Anforderung in WCAG-EM zu erfüllen).",
+    "LABEL_HANDLE": "Kurzname",
+    "LABEL_PAGE": "Adresse (URL) oder Beschreibung",
+    "NO_PAGES_DEFINED": "Keine Seiten für diese Liste definiert",
+    "ITEM": "Webseite",
+    "BTN_ADD_PAGE": "Webseite hinzufügen",
+    "BTN_REMOVE_PAGE": "Seite entfernen",
+    "SAMPLE_PAGE": "Stichproben-Seite",
+    "DELETE_CONFIRM": "Bist du sicher, dass du diese Stichproben-Seite löschen möchtest?"
+}
