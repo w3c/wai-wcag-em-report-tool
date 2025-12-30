@@ -10,7 +10,7 @@
         class="LanguageSelect__languages languagelistul"
         on:click="{handleClick}"
       >
-        {#each locales as appLocale}
+        {#each locales as appLocale, index}
           <li
             class="LanguageSelect__language {appLocale === currentLocale ? 'language__item--current' : ''}"
           >
@@ -22,7 +22,7 @@
                 href="#{appLocale.lang}"
               >{appLocale.title}</a>
             {/if}
-          </li>
+          </li>{index > 0 ? " " : ""}
         {/each}
       </ul>
     </span>
