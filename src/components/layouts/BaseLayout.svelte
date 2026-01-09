@@ -34,12 +34,6 @@
 <!-- /@Layout -->
 
 <style>
-  .site-header .tool-header {
-    grid-column: 2 / 10;
-    width: 100%;
-    display: flex;
-    align-items: center;
-  }
   .BaseLayout {
     padding: 2em 1em;
   }
