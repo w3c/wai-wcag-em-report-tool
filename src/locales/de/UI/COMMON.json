@@ -1,0 +1,33 @@
+{
+    "MORE_INFO": "Für mehr Informationen siehe <a href={{url}}>{{name}}</a>.",
+    "HIDE_MESSAGE": "Nachricht ausblenden",
+    "ERROR": {
+        "DEFAULT": "Etwas ist schiefgelaufen."
+    },
+    "YES": "Ja",
+    "NO": "Nein",
+    "NEXT": "Weiter {label}",
+    "PREVIOUS": "Zurück {label}",
+    "ACTIVE": "Aktiv",
+    "BUTTON": {
+        "ADD": "{subject} hinzufügen",
+        "INFO": "Info",
+        "HIDE": "{subject} ausblenden",
+        "LANGUAGE_SELECT": "Übersetzungen",
+        "SHOW": "{subject} anzeigen"
+    },
+    "LABEL": {
+        "LANGUAGE_SELECT": "Diese Seite in"
+    },
+    "YOUR_REPORT": "Dein Bericht",
+    "SHOW_FULL_DESCRIPTION": "Vollständige Beschreibung anzeigen",
+    "PREVIOUSNEXT": "Vorheriger/Nächster Schritt",
+    "DELETE": "Löschen",
+    "FOR": "für",
+    "EXPAND_ALL": "Alle Abschnitte erweitern",
+    "COLLAPSE_ALL": "Alle Abschnitte einklappen",
+    "TRANSLATION_ABOUT": "Über diese Übersetzung",
+    "TRANSLATION_DRAFT": "Diese freiwillige Übersetzung ist ein <strong>Entwurf</strong>. Sie enthält englische Formulierungen, die bald übersetzt werden.",
+    "TRANSLATION_ACK": "Siehe <a href='https://www.w3.org/WAI/eval/report-tool/acknowledgements'>Danksagungen</a> für alle Übersetzer und Mitwirkende.",
+    "TRANSLATION_UNOFFICIAL": "Diese Übersetzung der WCAG 2 Richtlinien und Erfolgskriterien ist <strong>unoffiziell</strong> und spiegelt möglicherweise nicht genau die Absichten der <a href='https://www.w3.org/WAI/standards-guidelines/wcag/#versions'>englischen Originale</a> wider."
+}
