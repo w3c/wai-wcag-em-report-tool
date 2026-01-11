@@ -66,7 +66,7 @@
   import assertions from '@app/stores/earl/assertionStore/index.js';
   import evaluationStore from '@app/stores/evaluationStore.js';
 
-  import subjects, { TestSubjectTypes } from '@app/stores/earl/subjectStore/index.js';
+  import { TestSubjectTypes } from '@app/stores/earl/subjectStore/index.js';
   import { CriteriaSelected } from '@app/stores/selectedCriteriaStore.js';
   let criteriaCount = 0;
   $: criteriaCount = $CriteriaSelected.length;
@@ -173,11 +173,9 @@
       }
   }
 
-  $: isOverview = $location.pathname === $routes.OVERVIEW.path; 
-  $: isAuditSample = $location.pathname === $routes.AUDIT.path; 
+  $: isOverview = $location.pathname === $routes.OVERVIEW.path;
+  $: isAuditSample = $location.pathname === $routes.AUDIT.path;
   $: siteName = $scopeStore['SITE_NAME'];
-  $: totalToEvaluate = $assertions.filter(assertion => 
-    assertion.result.outcome.id == "earl:untested").length;
   $: totalEvaluated = $assertions.filter(assertion => 
     assertion.result.outcome.id !== "earl:untested" && assertion.subject.type.indexOf(TestSubjectTypes.WEBSITE) >= 0).length;
 </script>
