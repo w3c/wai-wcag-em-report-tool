@@ -9,7 +9,7 @@
       <li class="progress">
         <div class="progress__principle">
           {#if isAuditSample}
-          <a href={`/evaluation/audit-sample#principle-${TRANSLATED.PRINCIPLES[principle].TITLE.toLowerCase()}`} class="principle__name">
+          <a href={`#principle-${TRANSLATED.PRINCIPLES[principle].TITLE.toLowerCase()}`} class="principle__name">
             <span>{TRANSLATED.PRINCIPLES[principle].TITLE}</span>
           </a>
           {:else}
