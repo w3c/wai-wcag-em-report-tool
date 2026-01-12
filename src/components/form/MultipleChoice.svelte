@@ -61,8 +61,9 @@
     word-break: break-word;
   }
 
-  .MultipleChoice__option__input:focus,
-  .MultipleChoice__option__input:hover {
+  :global(.app-container) .MultipleChoice__option__input:focus,
+  :global(.app-container) .MultipleChoice__option__input:focus-visible,
+  :global(.app-container) .MultipleChoice__option__input:hover {
     outline: 2px solid currentColor;
     outline-offset: 2px;
   }
