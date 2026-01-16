@@ -8,7 +8,7 @@
     "LABEL_TECH_SPEC": "Specification Address (URL)",
     "BTN_ADD_TECH": "Add web technology",
     "HD_NOTE_TAKING": "Optional Exploration Notes",
-    "INF_NOTE_TAKING": "This section lets you record information during your website exploration. These notes are provided in the next step, to help you select a sample of web pages for evaluation. **These notes are not included in the final report.** They are saved when you save the file, and available when you later reload the file",
+    "INF_NOTE_TAKING": "This section lets you record information during your website exploration. These notes are provided in the next step, to help you select a sample of web pages for evaluation. **These notes are not included in the final report.** They are saved when you save the file, and available when you later reload the file.",
     "LABEL_ESSENT_FUNC": "Essential functionality of the website",
     "INF_ESSENT_FUNC": "You can use this field to take notes about essential functionality of the website. Examples of essential functionality include:<br> ‘selecting and purchasing a product from the shop area of the website’<br> ‘completing and submitting a form provided on the website’<br> ‘registering for an account on the website’<br> For more information, see [WCAG-EM Step 2.b: Identify Essential Functionality of the Website](https://www.w3.org/TR/WCAG-EM/#step2b).",
     "LABEL_VARIETY_PAGE_TYPES": "Variety of web page types",
