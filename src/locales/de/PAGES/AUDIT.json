@@ -1,0 +1,20 @@
+{
+    "ASSERTION_RESULT_DESCRIPTION_LABEL": "Beobachtungen",
+    "BTN_EXPAND_PAGES": "Webseiten anzeigen, um individuelle Ergebnisse einzugeben",
+    "HD_SAMPLE_SELECT": "Ergebnisse für Seiten hinzufügen",
+    "HOW_TO": "Erfüllungskriterien",
+    "INTRO": "Dokumentiere das Ergebnis der Bewertung der in dem vorherigen Schritt ausgewählten Webseiten. Vergleiche die Ergebnisse zwischen der strukturierten Seite und zufällig ausgewählten Seiten und passe die Stichprobe bei Bedarf im vorherigen Schritt an.",
+    "IMPORT_DATA_INTRO": "Daten aus anderen (automatisierten) Tests hinzufügen",
+    "RESOURCE_LINK_NAME": "Schritt 4: Die ausgewählte Stichprobe prüfen",
+    "LABEL_OUTCOME": "Ergebnis",
+    "NO_SAMPLE": "Keine Stichprobe verfügbar.",
+    "RESULTS_FOR": "Ergebnisse für",
+    "SAMPLE_FINDINGS": "Gesamte Stichprobe",
+    "SELECT_ALL": "Alle auswählen",
+    "TITLE": "Schritt 4: Die ausgewählte Stichprobe prüfen",
+    "UNDERSTAND": "Verstehen",
+    "VIEW_IN_REPORT": "Im Bericht anzeigen",
+    "LABEL_VERSION": "WCAG-Version",
+    "LABEL_LEVEL": "Konformitätsstufe",
+    "ADDED_IN": "Hinzugefügt in"
+}

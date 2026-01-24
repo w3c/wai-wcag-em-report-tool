@@ -1,0 +1,10 @@
+{
+    "PASSED": "Bestanden",
+    "FAILED": "Nicht bestanden",
+    "CANT_TELL": "Kann nicht beurteilt werden",
+    "INAPPLICABLE": "Nicht vorhanden",
+    "UNTESTED": "Nicht geprüft",
+    "LEVEL_A": "Stufe A",
+    "LEVEL_AA": "Stufe AA",
+    "LEVEL_AAA": "Stufe AAA"
+}
