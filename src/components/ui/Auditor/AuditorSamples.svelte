@@ -66,28 +66,46 @@
     padding: 0;
     margin: 0;
   }
+  
   .AuditorSamples__item {
     list-style: none;
     display: flex;
     flex-wrap: nowrap;
     align-items: start;
   }
-  .AuditorSamples__item label {
+
+  .AuditorSamples__item label,
+  .AuditorSamples__select-all label {
     margin-left: .5em;
     overflow-wrap: anywhere;
+    cursor: pointer;
   }
-  .AuditorSamples__item input {
+
+  .AuditorSamples__item input,
+  .AuditorSamples__select-all input {
     width: 1em;
     height: 1em;
     flex: none;
+    cursor: pointer;
   }
+
+  :global(.app-container) .AuditorSamples input[type="checkbox"]:focus,
+  :global(.app-container) .AuditorSamples input[type="checkbox"]:focus-visible,
+  :global(.app-container) .AuditorSamples input[type="checkbox"]:hover {
+    outline: 2px solid currentColor;
+    outline-offset: 2px;
+  }
+
   .AuditorSamples__select-all {
+    display: flex;
     margin-top: 1em;
   }
+
   .AuditorSamples__link {
     vertical-align: middle;
     margin-left: .25em;
   }
+
   legend {
     font-size: 1rem;
   }

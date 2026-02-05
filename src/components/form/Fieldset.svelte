@@ -29,8 +29,23 @@
     padding: 0;
   }
   .Fieldset legend /* override from original WAI style to make it work better in this application  */ {
+    width: 100%; /* Ensures legend spans full width so fieldset background color appears continuous */
     font-size: 1rem;
   }
+
+  /* Fixes .field:focus-within (external style) background styling and prevents flickering */
+  :global(.field:has(label:active)),
+  :global(.field:has(label:active)) legend,
+  :global(.field:focus-within) legend {
+    background-color: #edf4fa;
+  }
+
+  /* Prevents outline flickering when clicking labels */
+  :global(.field:has(label:active)) {
+    outline: 2px solid currentColor;
+    outline-offset: 2px;
+  }
+
   .Fieldset__helptext {
     font-size: 1rem; /* reset legend size */
     font-weight: normal; /* reset legend weight */
