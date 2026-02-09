@@ -21,6 +21,7 @@
   import { basepath as storedBasepath } from '@app/stores/appStore.js';
   import evaluationStore from '@app/stores/evaluationStore.js';
   import assertions from '@app/stores/earl/assertionStore/index.js';
+  import DEFAULT_REPORT_NAME from '@app/stores/defaultLocalStorageName.js';
 
   import BaseRoute from '@app/components/routes/BaseRoute.svelte';
 
@@ -78,10 +79,16 @@
     });
 
   onMount(() => {
+    window.addEventListener('change', setLocalStorage);
     window.addEventListener("input", setInteracted);
     storedBasepath.set(basepath);
     document.addEventListener("keydown", saveReportJSON);
   });
+
+  function setLocalStorage() {
+    updateEvaluation();
+    $evaluationStore.saveToLocalStorage(DEFAULT_REPORT_NAME);
+  }
 
   function setInteracted(){
       window.removeEventListener("input", setInteracted);

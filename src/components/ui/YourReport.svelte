@@ -38,6 +38,7 @@
       {TRANSLATED.BUTTON_NEW_EVALUATION}
     </Button>
     <OpenEvaluation />
+    <OpenEvaluationFromLocalStorage />
   {/if}
 </Panel>
 
@@ -59,6 +60,7 @@
   import ProgressBar from '@app/components/ui/ProgressBar.svelte';
   import ReportNumbers from '@app/components/ui/Report/ReportNumbers.svelte';
   import OpenEvaluation from '@app/components/form/OpenEvaluation.svelte';
+  import OpenEvaluationFromLocalStorage from '@app/components/form/OpenEvaluationFromLocalStorage.svelte';
   import Button from '@app/components/ui/Button.svelte';
 
   import { wcag, scopedWcagVersions } from '@app/stores/wcagStore.js';
