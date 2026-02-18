@@ -739,7 +739,14 @@
         "2.4.13": {
             "TITLE": "Focus Appearance",
             "DESCRIPTION": "When the keyboard focus indicator is visible, an area of the focus indicator meets all the following:",
-            "DETAILS": {}
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "is at least as large as the area of a 2 CSS pixel thick perimeter of the unfocused component or sub-component, and"
+                },
+                "2": {
+                    "DESCRIPTION": "has a contrast ratio of at least 3:1 between the same pixels in the focused and unfocused states."
+                }
+            }
         },
         "2.5.7": {
             "TITLE": "Dragging Movements",
@@ -749,27 +756,94 @@
         "2.5.8": {
             "TITLE": "Target Size (Minimum)",
             "DESCRIPTION": "The size of the target for pointer inputs is at least 24 by 24 CSS pixels, except where:",
-            "DETAILS": {}
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "Undersized targets (those less than 24 by 24 CSS pixels) are positioned so that if a 24 CSS pixel diameter circle is centered on the bounding box of each, the circles do not intersect another target or the circle for another undersized target;",
+                    "TITLE": "Spacing"
+                },
+                "2": {
+                    "DESCRIPTION": "The function can be achieved through a different control on the same page that meets this criterion;",
+                    "TITLE": "Equivalent"
+                },
+                "3": {
+                    "DESCRIPTION": "The target is in a sentence or its size is otherwise constrained by the line-height of non-target text;",
+                    "TITLE": "Inline"
+                },
+                "4": {
+                    "DESCRIPTION": "The size of the target is determined by the user agent and is not modified by the author;",
+                    "TITLE": "User Agent Control"
+                },
+                "5": {
+                    "DESCRIPTION": "A particular presentation of the target is essential or is legally required for the information being conveyed.",
+                    "TITLE": "Essential"
+                }
+            }
         },
         "3.2.6": {
             "TITLE": "Consistent Help",
             "DESCRIPTION": "If a Web page contains any of the following help mechanisms, and those mechanisms are repeated on multiple Web pages within a set of Web pages, they occur in the same order relative to other page content, unless a change is initiated by the user:",
-            "DETAILS": {}
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "Human contact details;"
+                },
+                "2": {
+                    "DESCRIPTION": "Human contact mechanism;"
+                },
+                "3": {
+                    "DESCRIPTION": "Self-help option;"
+                },
+                "4": {
+                    "DESCRIPTION": "A fully automated contact mechanism."
+                }
+            }
         },
         "3.3.7": {
             "TITLE": "Redundant Entry",
             "DESCRIPTION": "Information previously entered by or provided to the user that is required to be entered again in the same process is either:",
-            "DETAILS": {}
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "auto-populated, or"
+                },
+                "2": {
+                    "DESCRIPTION": "available for the user to select."
+                }
+            }
         },
         "3.3.8": {
             "TITLE": "Accessible Authentication (Minimum)",
             "DESCRIPTION": "A cognitive function test (such as remembering a password or solving a puzzle) is not required for any step in an authentication process unless that step provides at least one of the following:",
-            "DETAILS": {}
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "Another authentication method that does not rely on a cognitive function test.",
+                    "TITLE": "Alternative"
+                },
+                "2": {
+                    "DESCRIPTION": "A mechanism is available to assist the user in completing the cognitive function test.",
+                    "TITLE": "Mechanism"
+                },
+                "3": {
+                    "DESCRIPTION": "The cognitive function test is to recognize objects.",
+                    "TITLE": "Object Recognition"
+                },
+                "4": {
+                    "DESCRIPTION": "The cognitive function test is to identify non-text content the user provided to the website.",
+                    "TITLE": "Personal Content"
+                }
+            }
         },
         "3.3.9": {
             "TITLE": "Accessible Authentication (Enhanced)",
             "DESCRIPTION": "A cognitive function test (such as remembering a password or solving a puzzle) is not required for any step in an authentication process unless that step provides at least one of the following:",
-            "DETAILS": {}
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "Another authentication method that does not rely on a cognitive function test.",
+                    "TITLE": "Alternative"
+                },
+                "2": {
+                    "DESCRIPTION": "A mechanism is available to assist the user in completing the cognitive function test.",
+                    "TITLE": "Mechanism"
+                }
+            }
         }
     }
 }
