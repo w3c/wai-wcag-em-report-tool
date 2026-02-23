@@ -151,7 +151,7 @@
 
   function handleNewEvaluationClick() {
     $evaluationStore.reset();
-    navigate($routes.SCOPE.path, { replace: true });
+    navigate($routes.SCOPE.path);
   }
 
   function handleClearEvaluationClick() {
@@ -159,7 +159,7 @@
     if(clearResult){
       $evaluationStore.reset();
       $interacted = false;
-      navigate($routes.SCOPE.path, { replace: true });
+      navigate($routes.SCOPE.path);
     }
   }
 
