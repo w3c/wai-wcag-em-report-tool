@@ -107,11 +107,11 @@
       if (clearResult){
         $evaluationStore.reset();
         $interacted = false;
-        navigate($routes.SCOPE.path, { replace: true });
+        navigate($routes.SCOPE.path);
       }
      } else{
       $evaluationStore.reset();
-      navigate($routes.SCOPE.path, { replace: true });
+      navigate($routes.SCOPE.path);
     }
   }
 
