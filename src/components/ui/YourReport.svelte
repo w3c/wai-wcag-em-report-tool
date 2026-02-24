@@ -159,7 +159,7 @@
     if(clearResult){
       $evaluationStore.reset();
       $interacted = false;
-      navigate($routes.SCOPE.path);
+      navigate($routes.SCOPE.path, { replace: true });
     }
   }
 
