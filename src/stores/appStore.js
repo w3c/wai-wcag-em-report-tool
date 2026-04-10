@@ -38,8 +38,6 @@ export const routes = derived([translate], ([$translate]) => {
   };
 });
 
-export const previousVersionMsgDismissed = writable(localStorage.getItem('previousVersionMsgDismissed') === "true");
-
 export const yourReportPanelOpen = writable(true);
 
 export const basepath = writable(true);
