@@ -1,5 +1,7 @@
 {
-    "COMMON": { "CONFORMANCE_LEVEL": "Niveau" },
+    "COMMON": {
+        "CONFORMANCE_LEVEL": "Niveau"
+    },
     "PRINCIPLE": {
         "1": {
             "TITLE": "Waarneembaar",
@@ -527,6 +529,21 @@
             "DESCRIPTION": "Paragraaf koppen worden gebruikt om de content te structureren.",
             "DETAILS": {}
         },
+        "2.4.11": {
+            "TITLE": "Focus niet bedekt (minimum)",
+            "DESCRIPTION": "Wanneer een component van de gebruikersinterface de toetsenbordfocus krijgt, wordt die component niet volledig bedekt door de content die door de auteur is gecreëerd.",
+            "DETAILS": {}
+        },
+        "2.4.12": {
+            "TITLE": "Focus niet bedekt (uitgebreid)",
+            "DESCRIPTION": "Wanneer een component van de gebruikersinterface de toetsenbordfocus krijgt, wordt geen enkel deel van die component bedekt door de content die door de auteur is gecreëerd.",
+            "DETAILS": {}
+        },
+        "2.4.13": {
+            "TITLE": "Focusweergave",
+            "DESCRIPTION": "Wanneer de toetsenbordfocusindicator zichtbaar is, voldoet een gebied van de focusindicator aan alle volgende voorwaarden:",
+            "DETAILS": {}
+        },
         "2.5.1": {
             "TITLE": "Aanwijzergebaren",
             "DESCRIPTION": "Alle functionaliteit waarmee bij de bediening gebruik wordt gemaakt van meerpunts- of padgebaseerde gebaren, kan worden bediend met een enkele aanwijzer zonder een padgebaseerd gebaar, tenzij een meerpunts- of padgebaseerd gebaar essentieel is.",
@@ -574,8 +591,8 @@
             }
         },
         "2.5.5": {
-            "TITLE": "Grootte van het aanwijsgebied",
-            "DESCRIPTION": "De grootte van het doelgebied voor aanwijzerinvoer is ten minste 44 bij 44 CSS-pixels, behalve in de volgende gevallen:",
+            "TITLE": "Grootte van het aanwijsgebied (uitgebreid)",
+            "DESCRIPTION": "De grootte van het aanwijsgebied voor aanwijzerinvoer is ten minste 44 bij 44 CSS-pixels, behalve in de volgende gevallen:",
             "DETAILS": {
                 "1": {
                     "DESCRIPTION": "Het doel is beschikbaar via een gelijkwaardige link of een bedieningselement van ten minste 44 bij 44 CSS-pixels op dezelfde pagina;",
@@ -598,6 +615,16 @@
         "2.5.6": {
             "TITLE": "Input gelijktijdige invoermechanismen",
             "DESCRIPTION": "Webcontent beperkt niet het gebruik van de invoermanieren die op een platform beschikbaar zijn, behalve wanneer de beperking essentieel is, deze vereist is om de beveiliging van de content te garanderen of deze vereist is om gebruikersinstellingen te beschermen.",
+            "DETAILS": {}
+        },
+        "2.5.7": {
+            "TITLE": "Sleepbewegingen",
+            "DESCRIPTION": "Alle functionaliteit die voor de bediening gebruik maakt van een sleepbeweging kan worden bereikt door een enkele aanwijzer zonder slepen, tenzij slepen essentieel is of de functionaliteit wordt bepaald door de user agent en niet wordt aangepast door de auteur.",
+            "DETAILS": {}
+        },
+        "2.5.8": {
+            "TITLE": "Grootte van het aanwijsgebied (minimum)",
+            "DESCRIPTION": "De grootte van het aanwijsgebied voor aanwijzerinvoer is ten minste 24 bij 24 CSS pixels, behalve in de volgende gevallen:",
             "DETAILS": {}
         },
         "3.1.1": {
@@ -655,6 +682,11 @@
             "DESCRIPTION": "Contextwijzigingen worden alleen geïnitieerd op verzoek van de gebruiker of er is een mechanisme beschikbaar om zulke veranderingen uit te zetten.",
             "DETAILS": {}
         },
+        "3.2.6": {
+            "TITLE": "Consistente hulp",
+            "DESCRIPTION": "Als een webpagina een van de volgende hulpmechanismen bevat, en die mechanismes op meerdere webpagina's binnen een verzameling webpagina's worden herhaald, dan komen ze in dezelfde relatieve volgorde voor ten opzichte van andere paginacontent, tenzij een wijziging wordt geïnitieerd door de gebruiker:",
+            "DETAILS": {}
+        },
         "3.3.1": {
             "TITLE": "Foutidentificatie",
             "DESCRIPTION": "Als een invoerfout automatisch ontdekt wordt, dan wordt het onderdeel waar de fout zit geïdentificeerd en wordt de fout tekstueel aan de gebruiker meegedeeld.",
@@ -671,7 +703,7 @@
             "DETAILS": {}
         },
         "3.3.4": {
-            "TITLE": "Foutpreventie (wettelijk, financieel, gegevens",
+            "TITLE": "Foutpreventie (wettelijk, financieel, gegevens)",
             "DESCRIPTION": "Voor webpagina's die wettelijke verplichtingen of financiële transacties voor de gebruiker uitvoeren, die, door gebruikers bedienbaar gegevens in gegevensopslagplaatsen verwijderen of wijzigen, of die antwoorden van de gebruiker verzenden, geldt ten minste één van de volgende zaken:",
             "DETAILS": {
                 "1": {
@@ -711,9 +743,24 @@
                 }
             }
         },
+        "3.3.7": {
+            "TITLE": "Overbodige invoer",
+            "DESCRIPTION": "Informatie die eerder is ingevoerd door of aangeboden aan de gebruiker en opnieuw moet worden ingevoerd tijdens hetzelfde proces is:",
+            "DETAILS": {}
+        },
+        "3.3.8": {
+            "TITLE": "Toegankelijke authenticatie (minimum)",
+            "DESCRIPTION": "Een cognitieve functietest (zoals het onthouden van een wachtwoord of het oplossen van een puzzel) is bij geen enkele stap van een authenticatie proces verplicht, tenzij die stap ten minste een van de volgende opties biedt:",
+            "DETAILS": {}
+        },
+        "3.3.9": {
+            "TITLE": "Toegankelijke authenticatie (uitgebreid)",
+            "DESCRIPTION": "Een cognitieve functietest (zoals het onthouden van een wachtwoord of het oplossen van een puzzel) is bij geen enkele stap van een authenticatie proces verplicht, tenzij die stap ten minste een van de volgende opties biedt:",
+            "DETAILS": {}
+        },
         "4.1.1": {
-            "TITLE": "Parsen",
-            "DESCRIPTION": "In content die geïmplementeerd is met opmaaktalen hebben elementen volledige begin- en eindtags, zijn elementen genest volgens hun specificatie, bevatten elementen geen dubbele attributen en zijn alle ID's uniek, behalve waar de specificatie deze eigenschappen toelaat.",
+            "TITLE": "Parsen (verouderd en verwijderd)",
+            "DESCRIPTION": "Dit criterium werd oorspronkelijk aangenomen om problemen aan te pakken die hulptechnologie had bij het direct parsen van HTML Hulptechnologie hoeft HTML niet meer rechtstreeks te parsen. Als gevolg hiervan bestaan deze problemen niet meer of worden ze opgevangen door andere criteria. Dit criterium heeft geen nut meer en is verwijderd.",
             "DETAILS": {}
         },
         "4.1.2": {
@@ -724,51 +771,6 @@
         "4.1.3": {
             "TITLE": "Statusberichten",
             "DESCRIPTION": "In content die is geïmplementeerd met opmaaktalen kunnen statusberichten door software bepaald worden met behulp van rol (role) of eigenschappen (properties), zodat hulptechnologieën de berichten aan de gebruiker kunnen presenteren zonder dat ze de focus krijgen.",
-            "DETAILS": {}
-        },
-        "2.4.11": {
-            "TITLE": "Focus Not Obscured (Minimum)",
-            "DESCRIPTION": "When a user interface component receives keyboard focus, the component is not entirely hidden due to author-created content.",
-            "DETAILS": {}
-        },
-        "2.4.12": {
-            "TITLE": "Focus Not Obscured (Enhanced)",
-            "DESCRIPTION": "When a user interface component receives keyboard focus, no part of the component is hidden by author-created content.",
-            "DETAILS": {}
-        },
-        "2.4.13": {
-            "TITLE": "Focus Appearance",
-            "DESCRIPTION": "When the keyboard focus indicator is visible, an area of the focus indicator meets all the following:",
-            "DETAILS": {}
-        },
-        "2.5.7": {
-            "TITLE": "Dragging Movements",
-            "DESCRIPTION": "All functionality that uses a dragging movement for operation can be achieved by a single pointer without dragging, unless dragging is essential or the functionality is determined by the user agent and not modified by the author.",
-            "DETAILS": {}
-        },
-        "2.5.8": {
-            "TITLE": "Target Size (Minimum)",
-            "DESCRIPTION": "The size of the target for pointer inputs is at least 24 by 24 CSS pixels, except where:",
-            "DETAILS": {}
-        },
-        "3.2.6": {
-            "TITLE": "Consistent Help",
-            "DESCRIPTION": "If a Web page contains any of the following help mechanisms, and those mechanisms are repeated on multiple Web pages within a set of Web pages, they occur in the same order relative to other page content, unless a change is initiated by the user:",
-            "DETAILS": {}
-        },
-        "3.3.7": {
-            "TITLE": "Redundant Entry",
-            "DESCRIPTION": "Information previously entered by or provided to the user that is required to be entered again in the same process is either:",
-            "DETAILS": {}
-        },
-        "3.3.8": {
-            "TITLE": "Accessible Authentication (Minimum)",
-            "DESCRIPTION": "A cognitive function test (such as remembering a password or solving a puzzle) is not required for any step in an authentication process unless that step provides at least one of the following:",
-            "DETAILS": {}
-        },
-        "3.3.9": {
-            "TITLE": "Accessible Authentication (Enhanced)",
-            "DESCRIPTION": "A cognitive function test (such as remembering a password or solving a puzzle) is not required for any step in an authentication process unless that step provides at least one of the following:",
             "DETAILS": {}
         }
     }
