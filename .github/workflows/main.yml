@@ -11,6 +11,8 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
     - name: Checkout 🛎️
@@ -31,7 +33,7 @@ jobs:
         BRANCH: gh-pages
         FOLDER: build
     - name: Create zip file 🗂
-      uses: vimtor/action-zip@v1
+      uses: vimtor/action-zip@v1.3
       with:
         files: build/
         dest: result.zip 
