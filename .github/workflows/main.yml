@@ -11,14 +11,16 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
     - name: Checkout 🛎️
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
       with:
         persist-credentials: false
     - name: Use Node.js '12.x'
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v6
       with:
         node-version: '12.x'
     - run: npm install
@@ -26,12 +28,12 @@ jobs:
     - run: export BASEPATH='/WAI/eval/report-tool' && npm run clean:build && rollup -c
     - run: cd build && ln -s index.html 404.html # symlink for GH pages fallback
     - name: Deploy 🚀
-      uses: JamesIves/github-pages-deploy-action@4.1.4
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
         BRANCH: gh-pages
         FOLDER: build
     - name: Create zip file 🗂
-      uses: papeloto/action-zip@v1
+      uses: vimtor/action-zip@v1.3
       with:
         files: build/
         dest: result.zip 
