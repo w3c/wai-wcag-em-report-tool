@@ -603,6 +603,18 @@ class EvaluationModel {
       });
   }
 
+  saveToLocalStorage(reportName) {
+    jsonld
+      .compact(this, appJsonLdContext)
+      .then((compacted) => {
+        localStorage.setItem(reportName, JSON.stringify(compacted));
+        console.log('✔ Saved to local storage. \n');
+      })
+      .catch((error) => {
+        console.error(`An error occured: “${error.name}”\n${error.message}`);
+      });
+  }
+
 }
 
 const _evaluation = writable(new EvaluationModel());
