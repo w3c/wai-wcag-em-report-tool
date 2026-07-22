@@ -50,7 +50,7 @@
 
   $: versionFilterOptions = wcagVersions.reduce((result, version, index) => {
     const newFilter = {
-      title: `WCAG ${version}`,
+      title: `WCAG ${version}`,
       value: wcagVersions.filter((VERSION) => {
         return VERSION <= version;
       }).join()
@@ -64,7 +64,7 @@
     // Add a version added filter
     // Last index excluded, it is the first version.
     result.push({
-      title: TRANSLATED['ADDED_IN'] + " WCAG "  + version,
+      title: TRANSLATED['ADDED_IN'] + " WCAG "  + version,
       value: version
     });
 
