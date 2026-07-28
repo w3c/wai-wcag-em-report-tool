@@ -14,6 +14,6 @@
     "LABEL_SUMMARY": "Executive summary",
     "INF_SUMMARY": "Provide a brief summary of the evaluation findings to give an overview on the results. For example, describe the overall accessibility of the website and key observations you made during the evaluation, such as frequently occurring issues and patterns.",
     "LABEL_SPECIFICS": "Record of evaluation specifics (optional)",
-    "INF_SPECIFICS": "WCAG-EM suggests that you archive the web pages audited. For more information, see <a href={{link_em_5b}}>WCAG-EM Step 5.b: Record the Evaluation Specifics</a>. You can use this text field to record the evaluation tools, web browsers, assistive technologies, other software, and methods used for the evaluation. What you enter here will be included in the generated report. After you download the report, you could delete or edit this information in the HTML file before submitting the report.",
+    "INF_SPECIFICS": "WCAG-EM suggests that you archive the samples audited. For more information, see <a href={{link_em_5b}}>WCAG-EM Step 5.b: Record the Evaluation Specifics</a>. You can use this text field to record the evaluation tools, web browsers, assistive technologies, other software, and methods used for the evaluation. What you enter here will be included in the generated report. After you download the report, you could delete or edit this information in the HTML file before submitting the report.",
     "HD_CRITERIA_REPORT": "Detailed audit results"
 }
