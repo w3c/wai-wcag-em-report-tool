@@ -1,10 +1,10 @@
 {
     "TITLE": "Step 3: Select a Representative Sample Set",
-    "INTRO": "Select samples for evaluation. The notes that you took during exploration in the previous step are provided here, to help you select the samples. Ensure that the samples selected are representative of the target digital product.",
+    "INTRO": "Select samples for evaluation. The notes that you took during exploration in the previous step are provided here to help you select the samples. Ensure that the samples selected are representative of the target digital product.",
     "RESOURCE_LINK_NAME": "Step 3: Select a Representative Sample Set",
     "HD_STRUCT_SAMPLE": "Structured Sample Set",
-    "HD_ESSENT_FUNC": "Essential functionality (optional notes from previous step)",
-    "HD_VARIETY_PAGE_TYPES": "Variety of sample types (optional notes from previous step)",
+    "HD_ESSENT_FUNC": "Essential functionality (optional notes from the previous step)",
+    "HD_VARIETY_PAGE_TYPES": "Variety of sample types (optional notes from the previous step)",
     "HD_STRUCT_SAMPLE_SUB": "Structured Sample Set",
     "INF_STRUCT_SAMPLE": "Select samples that reflect all identified (1) common views, (2) essential functionality, (3) types of samples, (4)  technologies relied upon, and (5) other relevant samples. For more information, see [WCAG-EM Step 3.a: Include a Structured Sample](https://www.w3.org/TR/WCAG-EM/#step3a).<br> **Note**: ‘Samples’ includes all different states within a sample; see the principle of [product enclosure](https://www.w3.org/TR/wcag-em-2/#principle-of-product-enclosure).",
     "HD_RANDOM_SAMPLE": "Randomly Selected Sample Set",
