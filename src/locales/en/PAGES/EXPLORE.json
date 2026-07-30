@@ -2,7 +2,7 @@
     "TITLE": "Step 2: Explore the Digital Product",
     "INTRO": "Explore the digital product to understand its purpose, functionality, and use. This step helps you determine which views to use for the evaluation in the next steps. Identify the web technologies used to provide the website and, if you want, take notes on other aspects of the website. Usually it's best to get input from the website owners and developers for this step.",
     "RESOURCE_LINK_NAME": "Step 2: Explore the Target Digital Product",
-    "HD_RELIEDUP_TECH": "Technologies Relied Upon",
+    "HD_RELIEDUP_TECH": "Technologies relied upon",
     "INF_RELIEDUP_TECH": "Identify the technologies [relied upon according to WCAG 2](https://www.w3.org/TR/WCAG22/#dfn-relied-upon) to provide the website. For more information, see [WCAG-EM Step 2.d: Identify Technologies Relied Upon](https://www.w3.org/TR/WCAG-EM/#step2d).",
     "LABEL_TECH": "Technology",
     "LABEL_TECH_SPEC": "Specification Address (URL)",
