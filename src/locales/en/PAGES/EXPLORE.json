@@ -5,7 +5,7 @@
     "HD_RELIEDUP_TECH": "Technologies relied upon",
     "INF_RELIEDUP_TECH": "Identify the technologies [relied upon according to WCAG 2](https://www.w3.org/TR/WCAG22/#dfn-relied-upon) to provide the website. For more information, see [WCAG-EM Step 2.d: Identify Technologies Relied Upon](https://www.w3.org/TR/WCAG-EM/#step2d).",
     "LABEL_TECH": "Technology",
-    "LABEL_TECH_SPEC": "Specification Address (URL)",
+    "LABEL_TECH_SPEC": "Specification address (URL)",
     "BTN_ADD_TECH": "Add technology",
     "HD_NOTE_TAKING": "Optional Exploration Notes",
     "INF_NOTE_TAKING": "This section lets you record information during your exploration of the digital product. The notes in the next step help you select a sample of web pages for evaluation. **These notes are not included in the final report.** They are saved with the file and are available when you reopen it.",
