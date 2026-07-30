@@ -20,15 +20,6 @@
   <ExpandCollapseAll />
 
   <details>
-    <summary><h2>{TRANSLATED.TIPS_HEADING}</h2></summary>
-    <ul>
-      <li>{@html TRANSLATED.TIPS_1}</li>
-      <li>{@html TRANSLATED.TIPS_2}</li>
-      <li>{@html TRANSLATED.TIPS_3}</li>
-    </ul>
-  </details>
-
-  <details>
     <summary><h2>{TRANSLATED.ABOUT_HEADING}</h2></summary>
     {@html TRANSLATED.ABOUT_1}
     {@html TRANSLATED.ABOUT_2}
