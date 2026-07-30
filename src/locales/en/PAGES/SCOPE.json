@@ -1,7 +1,7 @@
 {
-    "TITLE": "Step 1: Define the Evaluation Scope",
+    "TITLE": "Step 1: Define the evaluation scope",
     "INTRO": "Define the overall parameters and scope of the evaluation. Ideally, this is done with the person who commissioned the evaluation (who may or may not be the website owner), to ensure common expectations about the scope of the evaluation. ",
-    "RESOURCE_LINK_NAME": "Step 1: Define the Evaluation Scope",
+    "RESOURCE_LINK_NAME": "Step 1: Define the evaluation scope",
     "LABEL_SITE_NAME": "Name of the digital product",
     "INF_SITE_NAME": "Provide a name for the digital product that you would like to evaluate. For example:<ul><li>'Webshop of Example Company'</li><li>'Public Website of Example Organization'</li><li>'Intranet of Example University'</li></ul>",
     "LABEL_SITE_SCOPE": "Scope of the digital product",

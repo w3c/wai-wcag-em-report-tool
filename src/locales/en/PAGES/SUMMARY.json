@@ -4,7 +4,7 @@
     "RESOURCE_LINK_NAME": "Step 5: Report the evaluation findings",
     "LABEL_TITLE": "Report title",
     "TITLE_PREFIX": "Report for",
-    "INF_TITLE": "Provide a title for the website accessibility evaluation report. For example:<br> 'Evaluation Report for Example Organization'<br> 'Webshop Accessibility Analysis and Repair Suggestions'",
+    "INF_TITLE": "Provide a title for the product accessibility evaluation report. For example:<br> 'Evaluation Report for Example Organization'<br> 'Webshop Accessibility Analysis and Repair Suggestions'",
     "LABEL_COMMISSIONER": "Evaluation commissioner",
     "INF_COMMISSIONER": "The person, team of people, organization, in-house department, or other entity that commissioned the evaluation.",
     "LABEL_CREATOR": "Evaluator",
