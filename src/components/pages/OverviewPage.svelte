@@ -3,7 +3,13 @@
  *   OverviewPage
  * -->
 <Page title="{TRANSLATED.PAGE_TITLE}" pageid="overview">
-
+  {#if !$welcomeMsgDismissed}
+  <div style="background: var(--footer-grey); border: 0; padding: 1em; display: flex; align-items: center" lang="en">
+    <p style="max-width: none; margin: 0;">
+      {@html TRANSLATED.WELCOME_MESSAGE}
+    </p>
+    <button on:click="{dismissWelcomeMessage}" style="margin-left: 1em;" type="button" class="button-secondary">Dismiss</button>  </div>
+  {/if}
   <div class="getting-started">
     <p class="getting-started__intro">
       {@html TRANSLATED.INTRODUCTION_P1}
@@ -55,7 +61,7 @@
   import OpenEvaluation from '@app/components/form/OpenEvaluation.svelte';
   import Button from '@app/components/ui/Button.svelte';
 
-  import { routes } from '@app/stores/appStore.js';
+  import { routes, welcomeMsgDismissed } from '@app/stores/appStore.js';
   import evaluationStore from '@app/stores/evaluationStore.js';
   import { interacted } from '@app/stores/interactedStore.js';
 
@@ -91,7 +97,8 @@
     CHOICES_DD4: $translate('PAGES.START.CHOICES_DD4'),
     CHOICES_DT5: $translate('PAGES.START.CHOICES_DT5'),
     CHOICES_DD5: $translate('PAGES.START.CHOICES_DD5'),
-    CLEAR_WARNING: $translate('UI.NAV.CLEARWARNING')
+    CLEAR_WARNING: $translate('UI.NAV.CLEARWARNING'),
+    WELCOME_MESSAGE: $translate('PAGES.START.WELCOME_MESSAGE')
   };
 
   function handleNewEvaluationClick() {
@@ -108,6 +115,10 @@
     }
   }
 
+ function dismissWelcomeMessage() {
+    welcomeMsgDismissed.update(() => true);
+    localStorage.setItem('welcomeMsgDismissed', 'true');
+  }
 </script>
 
 <style>
