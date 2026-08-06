@@ -3,7 +3,7 @@
     "BTN_EXPAND_PAGES": "Show samples to enter individual results",
     "HD_SAMPLE_SELECT": "Add results for samples",
     "HOW_TO": "How to meet",
-    "INTRO": "Record the outcome from evaluating the samples selected in the previous step. Compare the results between the structured samples and randomly selected samples, and if needed, adjust the selected sample in the previous step.",
+    "INTRO": "Record the outcome from evaluating the samples selected in the previous step. Compare the results between the structured sample set and randomly selected sample set, and if needed, adjust the selected sample set.",
     "IMPORT_DATA_INTRO": "Add data from other (automated) tests",
     "RESOURCE_LINK_NAME": "Step 4: Evaluate sample set",
     "LABEL_OUTCOME": "Outcome",
