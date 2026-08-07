@@ -26,5 +26,5 @@
     "CHOICES_DD4": "To kryterium sukcesu nie ma zastosowania - odnosi się do funkcji lub treści, jakiej nie ma na stronie. ",
     "CHOICES_DT5": "Nie można powiedzieć",
     "CHOICES_DD5": "Nie wiadomo, czy kryterium sukcesu jest spełnione",
-    "WELCOME_MESSAGE": "<span lang='en'><strong>Note:</strong> The Polish translation of the WCAG-EM Report Tool is currently based on WCAG-EM 1. The English version is based on WCAG-EM 2. For the list of changes, see the <a href='https://github.com/w3c/wai-wcag-em-report-tool/wiki/Changelog'>changelog</a>.</span>"
+    "WELCOME_MESSAGE": "<span lang='en'><strong>Note:</strong> The Polish translation of the WCAG-EM Report Tool is currently based on WCAG-EM 1. The English version is based on WCAG-EM 2. For the list of changes, see the <a href='https://github.com/w3c/wai-wcag-em-report-tool/releases/tag/4.1.0'>changelog</a>.</span>"
 }

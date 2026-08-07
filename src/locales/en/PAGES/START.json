@@ -26,5 +26,5 @@
     "CHOICES_DD4": "This success criterion relates to a feature the authoring tool does not have, it does not apply. ",
     "CHOICES_DT5": "Cannot tell",
     "CHOICES_DD5": "It is unclear whether the success criterion is met.",
-    "WELCOME_MESSAGE": "<strong>Note:</strong> The WCAG-EM Report Tool now uses the terminology defined in <a href='https://www.w3.org/WAI/test-evaluate/conformance/wcag-em/#versiondiff'>WCAG-EM 2</a>. The tool can be used to evaluate websites, apps, and other digital products. For the list of changes, see the <a href='https://github.com/w3c/wai-wcag-em-report-tool/wiki/Changelog'>changelog</a>."
+    "WELCOME_MESSAGE": "<strong>Note:</strong> The WCAG-EM Report Tool now uses the terminology defined in <a href='https://www.w3.org/WAI/test-evaluate/conformance/wcag-em/#versiondiff'>WCAG-EM 2</a>. The tool can be used to evaluate websites, apps, and other digital products. For the list of changes, see the <a href='https://github.com/w3c/wai-wcag-em-report-tool/releases/tag/4.1.0'>changelog</a>."
 }
