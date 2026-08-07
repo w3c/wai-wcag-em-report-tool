@@ -25,5 +25,6 @@
     "CHOICES_DT4": "Non applicable",
     "CHOICES_DD4": "Ce critère de réussite se rapporte à une fonctionnalité que l’outil de création ne possède pas, il n’est donc pas applicable. ",
     "CHOICES_DT5": "Je ne sais pas",
-    "CHOICES_DD5": "Il n’est pas certain que le critère de réussite soit rempli."
+    "CHOICES_DD5": "Il n’est pas certain que le critère de réussite soit rempli.",
+    "WELCOME_MESSAGE": "<span lang='en'><strong>Note:</strong> The French translation of the WCAG-EM Report Tool is currently based on WCAG-EM 1. The English version is based on WCAG-EM 2. For the list of changes, see the <a href='https://github.com/w3c/wai-wcag-em-report-tool/releases/tag/4.1.0'>changelog</a>.</span>"
 }

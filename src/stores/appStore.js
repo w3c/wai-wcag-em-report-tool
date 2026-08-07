@@ -38,6 +38,10 @@ export const routes = derived([translate], ([$translate]) => {
   };
 });
 
+export const welcomeMsgDismissed = writable(
+  localStorage.getItem('welcomeMsgDismissed') === 'true'
+);
+
 export const yourReportPanelOpen = writable(true);
 
 export const basepath = writable(true);
