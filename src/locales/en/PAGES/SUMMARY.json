@@ -1,6 +1,6 @@
 {
     "TITLE": "Step 5: Report the evaluation findings",
-    "INTRO": "Provide additional information about the evaluation that you want included in the report. The evaluation findings that you entered in the previous step are included below under “Detailed audit results” for review and to help you write the executive summary.",
+    "INTRO": "Provide any additional information about the evaluation that you want to include in the report. The evaluation findings that you entered in the previous step appear below under “Detailed audit results” to help you review the results and write the executive summary.",
     "RESOURCE_LINK_NAME": "Step 5: Report the evaluation findings",
     "LABEL_TITLE": "Report title",
     "TITLE_PREFIX": "Report for",
@@ -10,7 +10,7 @@
     "LABEL_CREATOR": "Evaluator",
     "INF_CREATOR": "The person, team of people, organization, in-house department, or other entity responsible for carrying out the evaluation.",
     "LABEL_DATE": "Evaluation date",
-    "INF_DATE": "Provide the completion date or duration dates of this evaluation. You can use any date format. Write out the month to make it clear internationally.<br> **Note:** The date format 01-02-2022 is ambiguous: it is 2 January in some places and 1 February in some places.",
+    "INF_DATE": "Provide the completion date or duration dates of this evaluation. You can use any date format. Write out the month to make it clear internationally.<br> **Note:** The date format 01-02-2022 is ambiguous: it is 2 January in some places and 1 February in other places.",
     "LABEL_SUMMARY": "Executive summary",
     "INF_SUMMARY": "Provide a brief summary of the evaluation findings to give an overview on the results. For example, describe the overall accessibility of the digital product and key observations you made during the evaluation, such as frequently occurring issues and patterns.",
     "LABEL_SPECIFICS": "Record of evaluation specifics (optional)",
