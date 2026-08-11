@@ -1,9 +1,6 @@
 name: Deploy on GH Pages
 
 on:
-  push:
-    branches:
-    - gh-pages
   release:
     types: [created]
 
