@@ -1,8 +1,8 @@
 {
     "TITLE": "Report",
-    "BTN_SAVE_HTML": "Download Report (HTML)",
-    "BTN_SAVE_JSON": "Download Report (JSON)",
-    "HEADER_SUCCESS_CRITERION": "Success Criterion",
+    "BTN_SAVE_HTML": "Download report (HTML)",
+    "BTN_SAVE_JSON": "Download report (JSON)",
+    "HEADER_SUCCESS_CRITERION": "Success criterion",
     "HEADER_RESULT": "Result",
     "HEADER_OBSERVATIONS": "Observations",
     "NO_OBSERVATIONS_FOUND": "No observations added"
