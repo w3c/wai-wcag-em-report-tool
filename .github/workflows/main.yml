@@ -13,10 +13,10 @@ jobs:
 
     steps:
     - name: Checkout 🛎️
-      uses: actions/checkout@v6
+      uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 #v7.0.1
       with:
         persist-credentials: false
-    - uses: actions/setup-node@v6
+    - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 #v7.0.0
       with:
         cache: npm
         node-version-file: .nvmrc
@@ -25,12 +25,12 @@ jobs:
     - run: export BASEPATH='/WAI/eval/report-tool' && npm run clean:build && rollup -c
     - run: cd build && ln -s index.html 404.html # symlink for GH pages fallback
     - name: Deploy 🚀
-      uses: JamesIves/github-pages-deploy-action@v4
+      uses: JamesIves/github-pages-deploy-action@fa24774553152dd7873cd16ebd8d959b010c5445 #v4.9.0
       with:
         BRANCH: gh-pages
         FOLDER: build
     - name: Create zip file 🗂
-      uses: vimtor/action-zip@v1.3
+      uses: vimtor/action-zip@5407800dfb2b1b37d48df912330cb22f4ab6f422 #v1.3
       with:
         files: build/
         dest: result.zip 
