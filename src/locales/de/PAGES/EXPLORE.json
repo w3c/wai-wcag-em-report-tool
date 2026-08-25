@@ -1,0 +1,17 @@
+{
+    "TITLE": "Schritt 2: Die Ziel-Website erkunden",
+    "INTRO": "Erkunde die Website, um deren Zweck, Funktionalität und Nutzung zu verstehen. Dieser Schritt hilft dir zu bestimmen, welche Webseiten für die Bewertung in den nächsten Schritten verwendet werden. Identifiziere die Webtechnologien, die zur Bereitstellung der Website genutzt werden, und mache gegebenenfalls Notizen zu weiteren Aspekten der Website. In der Regel ist es hilfreich, für diesen Schritt Input von den Website-Betreibern und Entwicklern einzuholen.",
+    "RESOURCE_LINK_NAME": "Schritt 2: Die Ziel-Website erkunden",
+    "HD_RELIEDUP_TECH": "Verwendete Webtechnologien",
+    "INF_RELIEDUP_TECH": "Identifiziere die Webtechnologien, die [gemäß WCAG 2 verwendet werden](https://www.w3.org/TR/WCAG21/#dfn-relied-upon), um die Website bereitzustellen. Weitere Informationen findest du unter [WCAG-EM Schritt 2.d: Identifizierung der verwendeten Webtechnologien](https://www.w3.org/TR/WCAG-EM/#step2d).",
+    "LABEL_TECH": "Webtechnologie",
+    "LABEL_TECH_SPEC": "Spezifikationsadresse (URL)",
+    "BTN_ADD_TECH": "Webtechnologie hinzufügen",
+    "HD_NOTE_TAKING": "Optionale Erkundungsnotizen",
+    "INF_NOTE_TAKING": "In diesem Abschnitt kannst du während der Erkundung der Website Informationen festhalten. Diese Notizen helfen dir im nächsten Schritt bei der Auswahl einer Stichprobe von Webseiten für die Bewertung. **Diese Notizen sind nicht im Abschlussbericht enthalten.** Sie werden gespeichert, wenn du die Datei speicherst, und sind verfügbar, wenn du die Datei später erneut lädst.",
+    "LABEL_ESSENT_FUNC": "Wesentliche Funktionalität der Website",
+    "INF_ESSENT_FUNC": "In diesem Feld kannst du Notizen zur wesentlichen Funktionalität der Website machen. Beispiele für wesentliche Funktionalitäten sind:<br> „Auswahl und Kauf eines Produkts im Shop-Bereich der Website“<br> „Ausfüllen und Absenden eines auf der Website bereitgestellten Formulars“<br> „Registrierung für ein Benutzerkonto auf der Website“<br> Weitere Informationen findest du unter [WCAG-EM Schritt 2.b: Identifizierung der wesentlichen Funktionalität der Website](https://www.w3.org/TR/WCAG-EM/#step2b).",
+    "LABEL_VARIETY_PAGE_TYPES": "Vielfalt der Webseitentypen",
+    "INF_VARIETY_PAGE_TYPES": "In diesem Feld kannst du Notizen zu den Arten (im Gegensatz zu Instanzen) von Webseiten festhalten, die du auf der Website findest. Dazu gehören Notizen zu verschiedenen Stilen, Layouts, Strukturen und Funktionalitäten der Website. Weitere Informationen findest du unter [WCAG-EM Schritt 2.c: Identifizierung der Vielfalt von Webseitentypen](https://www.w3.org/TR/WCAG-EM/#step2c).<br> **Hinweis**: ‚Webseiten‘ schließen verschiedene ‚Webseiten-Zustände‘ ein; siehe die Definition von [Webseiten-Zuständen](https://www.w3.org/TR/WCAG-EM/#states).",
+    "ADD_TECH": "Hinzufügen"
+}

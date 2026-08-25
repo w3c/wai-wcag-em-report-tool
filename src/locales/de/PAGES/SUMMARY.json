@@ -1,0 +1,19 @@
+{
+    "TITLE": "Schritt 5: Bericht der Bewertungsergebnisse",
+    "INTRO": "Gib zusätzliche Informationen zur Bewertung an, die im Bericht enthalten sein sollen. Die Bewertungsergebnisse aus dem vorherigen Schritt sind unten unter „Detaillierte Prüfergebnisse“ aufgeführt, um die Erstellung der Zusammenfassung zu erleichtern.",
+    "RESOURCE_LINK_NAME": "Schritt 5: Bericht der Bewertungsergebnisse",
+    "LABEL_TITLE": "Berichtstitel",
+    "TITLE_PREFIX": "Bericht für",
+    "INF_TITLE": "Gib einen Titel für den Barrierefreiheitsbewertungsbericht der Website an. Zum Beispiel:<br> „Bewertungsbericht für Beispielunternehmen“<br> „Analyse der Barrierefreiheit des Webshops mit Verbesserungsvorschlägen“",
+    "LABEL_COMMISSIONER": "Auftraggeber der Bewertung",
+    "INF_COMMISSIONER": "Die Person, das Team, die Organisation, die interne Abteilung oder eine andere Einheit, die die Bewertung in Auftrag gegeben hat.",
+    "LABEL_CREATOR": "Prüfer",
+    "INF_CREATOR": "Die Person, das Team, die Organisation, die interne Abteilung oder eine andere Einheit, die für die Durchführung der Bewertung verantwortlich ist.",
+    "LABEL_DATE": "Datum der Bewertung",
+    "INF_DATE": "Gib das Abschlussdatum oder den Bewertungszeitraum an. Verwende ein klares Datumsformat und schreibe den Monatsnamen aus, um Missverständnisse zu vermeiden. (Das Format 01-02-2022 ist uneindeutig – in manchen Ländern steht es für den 2. Januar, in anderen für den 1. Februar.)",
+    "LABEL_SUMMARY": "Zusammenfassung der Ergebnisse",
+    "INF_SUMMARY": "Gib eine kurze Zusammenfassung der Bewertungsergebnisse, um einen Überblick über die Resultate zu bieten. Beschreibe beispielsweise die allgemeine Barrierefreiheit der Website sowie zentrale Beobachtungen, wie häufig auftretende Probleme und Muster.",
+    "LABEL_SPECIFICS": "Dokumentation der Bewertungsspezifikationen (optional)",
+    "INF_SPECIFICS": "WCAG-EM empfiehlt, die geprüften Webseiten zu archivieren. Weitere Informationen findest du unter <a href={{link_em_5b}}>WCAG-EM Schritt 5.b: Dokumentation der Bewertungsspezifikationen</a>. In diesem Feld kannst du die verwendeten Bewertungswerkzeuge, Webbrowser, unterstützenden Technologien, weitere Software und Methoden dokumentieren. Diese Informationen werden im Bericht gespeichert. Nach dem Herunterladen kannst du sie vor der Weitergabe des Berichts in der HTML-Datei bearbeiten oder entfernen.",
+    "HD_CRITERIA_REPORT": "Detaillierte Prüfergebnisse"
+}
