@@ -119,6 +119,7 @@
   .Auditor__ResultsTableHeader {
     position: sticky;
     top: 0;
+    z-index: 1;
   }
   .Auditor__Assertion {
     margin-bottom: 1em;
