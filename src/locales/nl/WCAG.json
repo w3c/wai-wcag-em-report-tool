@@ -416,15 +416,15 @@
                 },
                 "4": {
                     "DESCRIPTION": "De tijdslimiet is onderdeel van een realtime gebeurtenis (een veiling bijvoorbeeld) en er is geen alternatief voor de tijdslimiet mogelijk; of",
-                    "TITLE": "Real-time uitzondering:"
+                    "TITLE": "Real-time uitzondering"
                 },
                 "5": {
                     "DESCRIPTION": "De tijdslimiet is essentieel en verlenging zou de activiteit ongeldig maken; of",
-                    "TITLE": "Essentiële uitzondering:"
+                    "TITLE": "Essentiële uitzondering"
                 },
                 "6": {
                     "DESCRIPTION": "De tijdslimiet is langer dan 20 uur.",
-                    "TITLE": "20 uur uitzondering:"
+                    "TITLE": "20 uur uitzondering"
                 }
             }
         },
@@ -434,11 +434,11 @@
             "DETAILS": {
                 "1": {
                     "DESCRIPTION": "Voor bewegende, knipperende of scrollende informatie die (1) automatisch start, (2) langer dan vijf seconden duurt, en (3) parallel met andere content wordt getoond, is er een mechanisme voor de gebruiker om dit te pauzeren, te stoppen of te verbergen, tenzij de beweging, knippering of scrolling, onderdeel is van een activiteit waar ze essentieel is en",
-                    "TITLE": "Bewegen, knipperen, scrollen:"
+                    "TITLE": "Bewegen, knipperen, scrollen"
                 },
                 "2": {
                     "DESCRIPTION": "Voor elke soort automatisch actualiserende informatie die (1) automatisch start en (2) parallel met andere content wordt gepresenteerd, is er een mechanisme voor de gebruiker om dit te pauzeren, te stoppen of te verbergen of de frequentie van de actualisering in te stellen, tenzij de automatische actualisering onderdeel is van een activiteit waar ze essentieel is.",
-                    "TITLE": "Automatisch actualiserend:"
+                    "TITLE": "Automatisch actualiserend"
                 }
             }
         },
@@ -727,48 +727,106 @@
             "DETAILS": {}
         },
         "2.4.11": {
-            "TITLE": "Focus Not Obscured (Minimum)",
-            "DESCRIPTION": "When a user interface component receives keyboard focus, the component is not entirely hidden due to author-created content.",
+            "TITLE": "Focus niet bedekt (minimum)",
+            "DESCRIPTION": "Wanneer een component van de gebruikersinterface de toetsenbordfocus krijgt, wordt die component niet volledig bedekt door de content die door de auteur is gecreëerd.",
             "DETAILS": {}
         },
         "2.4.12": {
-            "TITLE": "Focus Not Obscured (Enhanced)",
-            "DESCRIPTION": "When a user interface component receives keyboard focus, no part of the component is hidden by author-created content.",
+            "TITLE": "Focus niet bedekt (uitgebreid)",
+            "DESCRIPTION": "Wanneer een component van de gebruikersinterface de toetsenbordfocus krijgt, wordt geen enkel deel van die component bedekt door de content die door de auteur is gecreëerd.",
             "DETAILS": {}
         },
         "2.4.13": {
-            "TITLE": "Focus Appearance",
-            "DESCRIPTION": "When the keyboard focus indicator is visible, an area of the focus indicator meets all the following:",
+            "TITLE": "Focusweergave",
+            "DESCRIPTION": "Wanneer de toetsenbordfocusindicator zichtbaar is, voldoet een gebied van de focusindicator aan alle volgende voorwaarden:",
             "DETAILS": {}
         },
         "2.5.7": {
-            "TITLE": "Dragging Movements",
-            "DESCRIPTION": "All functionality that uses a dragging movement for operation can be achieved by a single pointer without dragging, unless dragging is essential or the functionality is determined by the user agent and not modified by the author.",
+            "TITLE": "Sleepbewegingen",
+            "DESCRIPTION": "Alle functionaliteit die voor de bediening gebruik maakt van een sleepbeweging kan worden bereikt door een enkele aanwijzer zonder slepen, tenzij slepen essentieel is of de functionaliteit wordt bepaald door de user agent en niet wordt aangepast door de auteur.",
             "DETAILS": {}
         },
         "2.5.8": {
-            "TITLE": "Target Size (Minimum)",
-            "DESCRIPTION": "The size of the target for pointer inputs is at least 24 by 24 CSS pixels, except where:",
-            "DETAILS": {}
+            "TITLE": "Grootte van het aanwijsgebied (minimum)",
+            "DESCRIPTION": "De grootte van het aanwijsgebied voor aanwijzerinvoer is ten minste 24 bij 24 CSS pixels, behalve in de volgende gevallen:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "Te kleine aanwijsgebieden (minder dan 24 bij 24 CSS-pixels) zijn gepositioneerd zodat als een cirkel met een diameter van 24 CSS-pixels wordt gecentreerd op het begrenzingskader van elk aanwijsgebied, de cirkels geen ander aanwijsgebied of de cirkel voor een ander te klein aanwijsgebied overlappen;",
+                    "TITLE": "Afstand"
+                },
+                "2": {
+                    "DESCRIPTION": "De functie kan worden bereikt via een ander bedieningselement op dezelfde pagina dat aan dit criterium voldoet;",
+                    "TITLE": "Gelijkwaardig"
+                },
+                "3": {
+                    "DESCRIPTION": "Het aanwijsgebied bevindt zich in een zin of de grootte ervan wordt op een andere manier beperkt door de regelhoogte van tekst die geen deel uitmaakt van het aanwijsgebied;",
+                    "TITLE": "Inline"
+                },
+                "4": {
+                    "DESCRIPTION": "De grootte van het aanwijsgebied wordt bepaald door de user agent en is niet aangepast door de auteur;",
+                    "TITLE": "Bepaald door user agent"
+                },
+                "5": {
+                    "DESCRIPTION": "Een specifieke weergave van het aanwijsgebied is essentieel of is wettelijk vereist voor de betreffende informatie.",
+                    "TITLE": "Essentieel"
+                }
+            }
         },
         "3.2.6": {
-            "TITLE": "Consistent Help",
-            "DESCRIPTION": "If a Web page contains any of the following help mechanisms, and those mechanisms are repeated on multiple Web pages within a set of Web pages, they occur in the same order relative to other page content, unless a change is initiated by the user:",
-            "DETAILS": {}
+            "TITLE": "Consistente hulp",
+            "DESCRIPTION": "Als een webpagina een van de volgende hulpmechanismen bevat, en die mechanismes op meerdere webpagina's binnen een verzameling webpagina's worden herhaald, dan komen ze in dezelfde relatieve volgorde voor ten opzichte van andere paginacontent, tenzij een wijziging wordt geïnitieerd door de gebruiker:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "Menselijke contactgegevens;"
+                },
+                "2": {
+                    "DESCRIPTION": "Menselijk contactmechanisme;"
+                },
+                "3": {
+                    "DESCRIPTION": "Zelfhulpoptie;"
+                },
+                "5": {
+                    "DESCRIPTION": "Een volledig geautomatiseerd contactmechanisme."
+                }
+            }
         },
         "3.3.7": {
-            "TITLE": "Redundant Entry",
-            "DESCRIPTION": "Information previously entered by or provided to the user that is required to be entered again in the same process is either:",
-            "DETAILS": {}
+            "TITLE": "Overbodige invoer",
+            "DESCRIPTION": "Informatie die eerder is ingevoerd door of aangeboden aan de gebruiker en opnieuw moet worden ingevoerd tijdens hetzelfde proces is:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "automatisch ingevuld, of"
+                },
+                "2": {
+                    "DESCRIPTION": "beschikbaar voor de gebruiker om te selecteren."
+                }
+            }
         },
         "3.3.8": {
-            "TITLE": "Accessible Authentication (Minimum)",
-            "DESCRIPTION": "A cognitive function test (such as remembering a password or solving a puzzle) is not required for any step in an authentication process unless that step provides at least one of the following:",
-            "DETAILS": {}
+            "TITLE": "Toegankelijke authenticatie (minimum)",
+            "DESCRIPTION": "Een cognitieve functietest (zoals het onthouden van een wachtwoord of het oplossen van een puzzel) is bij geen enkele stap van een authenticatie proces verplicht, tenzij die stap ten minste een van de volgende opties biedt:",
+            "DETAILS": {
+                "1": {
+                    "DESCRIPTION": "Een andere authenticatiemethode die niet afhankelijk is van een cognitieve functietest.",
+                    "TITLE": "Alternatief"
+                },
+                "2": {
+                    "DESCRIPTION": "Er is een mechanisme beschikbaar om de gebruiker te helpen bij het voltooien van de cognitieve functietest.",
+                    "TITLE": "Mechanisme"
+                },
+                "3": {
+                    "DESCRIPTION": "De cognitieve functietest is gericht op het herkennen van objecten.",
+                    "TITLE": "Objectherkenning"
+                },
+                "4": {
+                    "DESCRIPTION": "De cognitieve functietest is gericht op het identificeren van niet-tekstuele content die de gebruiker aan de website heeft verstrekt.",
+                    "TITLE": "Persoonlijke content"
+                }
+            }
         },
         "3.3.9": {
-            "TITLE": "Accessible Authentication (Enhanced)",
-            "DESCRIPTION": "A cognitive function test (such as remembering a password or solving a puzzle) is not required for any step in an authentication process unless that step provides at least one of the following:",
+            "TITLE": "Toegankelijke authenticatie (uitgebreid)",
+            "DESCRIPTION": "Een cognitieve functietest (zoals het onthouden van een wachtwoord of het oplossen van een puzzel) is bij geen enkele stap van een authenticatie proces verplicht, tenzij die stap ten minste een van de volgende opties biedt:",
             "DETAILS": {}
         }
     }
