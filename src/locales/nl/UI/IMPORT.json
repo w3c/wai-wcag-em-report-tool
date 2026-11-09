@@ -6,7 +6,7 @@
     "ERROR": {
         "JSONLD_SYNTAX": "Bestandstype wordt niet herkend.",
         "NO_ASSERTIONS": "Het bestand bevat geen herkenbare criteria.",
-        "NO_COMPATIBLE_ASSERTIONS": "Geen van de criteria in dit bestand komt overeen met het geselecteerde sample.",
+        "NO_COMPATIBLE_ASSERTIONS": "Geen van de criteria in dit bestand komt overeen met de geselecteerde steekproef.",
         "FILE_ERROR": "Incorrect bestandstype of beschadigd bestand."
     },
     "SUCCESSFUL": "De criteria zijn toegevoegd aan de bevindingen op deze pagina.",

@@ -2,7 +2,7 @@
     "TITLE": "Rapport",
     "BTN_SAVE_HTML": "Download het evaluatierapport (HTML)",
     "BTN_SAVE_JSON": "Bewaar de evaluatiedata (JSON)",
-    "HEADER_SUCCESS_CRITERION": "Success Criterium",
+    "HEADER_SUCCESS_CRITERION": "Succescriterium",
     "HEADER_RESULT": "Uitkomst",
     "HEADER_OBSERVATIONS": "Bevindingen",
     "NO_OBSERVATIONS_FOUND": "Geen bevindingen beschreven"
