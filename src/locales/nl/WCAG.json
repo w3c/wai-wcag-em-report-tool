@@ -574,8 +574,8 @@
             }
         },
         "2.5.5": {
-            "TITLE": "Grootte van het aanwijsgebied",
-            "DESCRIPTION": "De grootte van het doelgebied voor aanwijzerinvoer is ten minste 44 bij 44 CSS-pixels, behalve in de volgende gevallen:",
+            "TITLE": "Grootte van het aanwijsgebied (uitgebreid)",
+            "DESCRIPTION": "De grootte van het aanwijsgebied voor aanwijzerinvoer is ten minste 44 bij 44 CSS-pixels, behalve in de volgende gevallen:",
             "DETAILS": {
                 "1": {
                     "DESCRIPTION": "Het doel is beschikbaar via een gelijkwaardige link of een bedieningselement van ten minste 44 bij 44 CSS-pixels op dezelfde pagina;",
@@ -671,7 +671,7 @@
             "DETAILS": {}
         },
         "3.3.4": {
-            "TITLE": "Foutpreventie (wettelijk, financieel, gegevens",
+            "TITLE": "Foutpreventie (wettelijk, financieel, gegevens)",
             "DESCRIPTION": "Voor webpagina's die wettelijke verplichtingen of financiële transacties voor de gebruiker uitvoeren, die, door gebruikers bedienbaar gegevens in gegevensopslagplaatsen verwijderen of wijzigen, of die antwoorden van de gebruiker verzenden, geldt ten minste één van de volgende zaken:",
             "DETAILS": {
                 "1": {

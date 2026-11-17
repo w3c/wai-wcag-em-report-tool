@@ -2,7 +2,9 @@
 
 <a href="https://wcag-em-report-tool-2021-redesign.netlify.app/"><img width="400"  alt="" src="https://user-images.githubusercontent.com/178782/114709430-d86bd700-9d2c-11eb-8508-c628ef6614d4.png"></a>
 
-[Preview](https://wcag-em-report-tool-2021-redesign.netlify.app/) 
+[Preview](https://wcag-em-report-tool.netlify.app/) 
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e893c45b-bf9e-4550-a164-7feb2a4b5373/deploy-status)](https://app.netlify.com/projects/wcag-em-report-tool/deploys)
 
 ## About this tool
 
