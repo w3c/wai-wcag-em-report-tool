@@ -11,7 +11,7 @@
     "LABEL_SUPPORT_BASE": "Podstawowe wsparcie dostępności",
     "LABEL_RELIEDUP_TECH": "Oparte na technologiach",
     "LABEL_NOT_PROVIDED": "Nie podano.",
-    "HD_SCORE": "Przegląd wyników audytu",	
+    "HD_SCORE": "Przegląd wyników audytu",
     "TOTAL_SCORE": "Ogółem",
     "HD_CRITERIA_REPORT": "Szczegółowe wyniki audytu",
     "LABEL_DESCR": "Ustalenia",
@@ -24,5 +24,8 @@
     "SAVE": "Zapisz",
     "EDIT": "Edytuj",
     "SUMMARY": "Podsumowanie",
-    "ALL_RESULTS": "Wszystkie wyniki"	
+    "ALL_RESULTS": "Wszystkie wyniki",
+    "WCAG_OVERVIEW": "<span lang='en'>Web Content Accessibility Guidelines (WCAG) Overview</span>",
+    "HOW_TO_MEET": "<span lang='en'>How to Meet WCAG Quick Reference</span>",
+    "WCAG_EM_OVERVIEW": "<span lang='en'>WCAG Evaluation Methodology (WCAG-EM)</span>"
 }

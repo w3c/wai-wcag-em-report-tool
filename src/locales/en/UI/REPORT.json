@@ -25,5 +25,8 @@
     "SAVE": "Save",
     "EDIT": "Edit",
     "SUMMARY": "Summary",
-    "ALL_RESULTS": "All results"
+    "ALL_RESULTS": "All results",
+    "WCAG_OVERVIEW": "Web Content Accessibility Guidelines (WCAG) Overview",
+    "HOW_TO_MEET": "How to Meet WCAG Quick Reference",
+    "WCAG_EM_OVERVIEW": "WCAG Evaluation Methodology (WCAG-EM)"
 }

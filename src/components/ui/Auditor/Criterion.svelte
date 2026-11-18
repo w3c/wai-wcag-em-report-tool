@@ -5,7 +5,7 @@
 <div class="criterion" id={`criterion-${normaliseId(test)}`} data-version={version}>
   <header class="criterion-header">
     <h3>{num}: {TRANSLATED.CRITERION.TITLE}</h3>
-    <em class="criterion-header__level">Level {conformanceLevel}</em>
+    <em class="criterion-header__level">{TRANSLATED.CONFORMANCE_LEVEL} {conformanceLevel}</em>
     <div class="criterion__resource-links">
 			{#if wcagVersion == '20'}
 	      <ResourceLink
@@ -153,7 +153,8 @@ import Acknowledgements from '../../pages/Acknowledgements.svelte';
     SAMPLE_RESULTS_DETAILS_BUTTON: $translate('PAGES.AUDIT.BTN_EXPAND_PAGES'),
     RESULT_FOR_LABEL: $translate('PAGES.AUDIT.RESULTS_FOR'),
     CRITERION: $translateToObject('WCAG.SUCCESS_CRITERION')[num],
-    SHOW_FULL_DESCRIPTION: $translate('UI.COMMON.SHOW_FULL_DESCRIPTION')
+    SHOW_FULL_DESCRIPTION: $translate('UI.COMMON.SHOW_FULL_DESCRIPTION'),
+    CONFORMANCE_LEVEL: $translate('WCAG.CONFORMANCE_LEVEL')
   };
 
   $: test = $tests.find(($test) => {

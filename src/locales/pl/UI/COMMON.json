@@ -25,5 +25,6 @@
     "DELETE": "Usuń",
     "FOR": "dla",
     "EXPAND_ALL": "Rozwiń wszystkie części",
-    "COLLAPSE_ALL": "Zwiń wszystkie części"
+    "COLLAPSE_ALL": "Zwiń wszystkie części",
+    "DISMISS": "<span lang='en'>Dismiss</span>"
 }

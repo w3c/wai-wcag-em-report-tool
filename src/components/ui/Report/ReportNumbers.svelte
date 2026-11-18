@@ -4,7 +4,7 @@
   {TRANSLATED.REPORTED_ON_OF} 
   {criteria} WCAG {wcagVersion}
   {conformanceTarget} 
-  success criteria.
+  <span lang="en">success criteria</span>.
 </p>
 
 <script>

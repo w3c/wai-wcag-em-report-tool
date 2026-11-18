@@ -24,5 +24,6 @@
     "DELETE": "Verwijder",
     "FOR": "voor",
     "EXPAND_ALL": "Klap alle secties uit",
-    "COLLAPSE_ALL": "Sluit alle secties"
+    "COLLAPSE_ALL": "Sluit alle secties",
+    "DISMISS": "<span lang='en'>Dismiss</span>"
 }

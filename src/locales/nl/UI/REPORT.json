@@ -25,5 +25,8 @@
     "SAVE": "Opslaan",
     "EDIT": "Wijzig",
     "SUMMARY": "Samenvatting",
-    "ALL_RESULTS": "Alle resultaten"
+    "ALL_RESULTS": "Alle resultaten",
+    "WCAG_OVERVIEW": "<span lang='en'>Web Content Accessibility Guidelines (WCAG) Overview</span>",
+    "HOW_TO_MEET": "<span lang='en'>How to Meet WCAG Quick Reference</span>",
+    "WCAG_EM_OVERVIEW": "<span lang='en'>WCAG Evaluation Methodology (WCAG-EM)</span>"
 }
