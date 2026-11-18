@@ -181,11 +181,9 @@
 
 <h2 class='strip'>{TRANSLATED.HEADING_RESOURCES}</h2>
 <ul class='strip'>
-  <li><a href="https://www.w3.org/WAI/intro/wcag">Web Content Accessibility Guidelines (WCAG)
-    Overview</a></li>
-  <li><a href="https://www.w3.org/WAI/WCAG22/quickref/">How to Meet WCAG Quick Reference</a></li>
-  <li><a href="https://www.w3.org/WAI/eval/conformance/">WCAG Evaluation Methodology (WCAG-EM)
-    Overview</a></li>
+  <li><a href="https://www.w3.org/WAI/intro/wcag">{@html TRANSLATED.LINK_WCAG_OVERVIEW}</a></li>
+  <li><a href="https://www.w3.org/WAI/WCAG22/quickref/">{@html TRANSLATED.LINK_HOW_TO_MEET}</a></li>
+  <li><a href="https://www.w3.org/WAI/eval/conformance/">{@html TRANSLATED.LINK_WCAG_EM_OVERVIEW}</a></li>
 </ul>
 <!-- /component -->
 
@@ -265,6 +263,9 @@
     HEADING_SAMPLE: $translate('UI.REPORT.HD_SAMPLE'),
     HEADING_SPECIFICS: $translate('UI.REPORT.HD_SPECIFICS'),
     HEADING_RESOURCES: $translate('UI.REPORT.HD_DOCS'),
+    LINK_WCAG_OVERVIEW: $translate('UI.REPORT.WCAG_OVERVIEW'),
+    LINK_HOW_TO_MEET: $translate('UI.REPORT.HOW_TO_MEET'),
+    LINK_WCAG_EM_OVERVIEW: $translate('UI.REPORT.WCAG_EM_OVERVIEW'),
     CONFORMANCE_LEVEL: $translate('WCAG.COMMON.CONFORMANCE_LEVEL'),
     TEXT_NO_SAMPLE: $translate('PAGES.AUDIT.NO_SAMPLE'),
     SUMMARY: $translate('UI.REPORT.SUMMARY'),

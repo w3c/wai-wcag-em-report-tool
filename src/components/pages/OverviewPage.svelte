@@ -8,7 +8,7 @@
     <p style="max-width: none; margin: 0;">
       {@html TRANSLATED.WELCOME_MESSAGE}
     </p>
-    <button on:click="{dismissWelcomeMessage}" style="margin-left: 1em;" type="button" class="button-secondary">Dismiss</button>  </div>
+    <button on:click="{dismissWelcomeMessage}" style="margin-left: 1em;" type="button" class="button-secondary">{@html TRANSLATED.BUTTON_DISMISS}</button>  </div>
   {/if}
   <div class="getting-started">
     <p class="getting-started__intro">
@@ -98,7 +98,8 @@
     CHOICES_DT5: $translate('PAGES.START.CHOICES_DT5'),
     CHOICES_DD5: $translate('PAGES.START.CHOICES_DD5'),
     CLEAR_WARNING: $translate('UI.NAV.CLEARWARNING'),
-    WELCOME_MESSAGE: $translate('PAGES.START.WELCOME_MESSAGE')
+    WELCOME_MESSAGE: $translate('PAGES.START.WELCOME_MESSAGE'),
+    BUTTON_DISMISS: $translate('UI.COMMON.DISMISS')
   };
 
   function handleNewEvaluationClick() {
